@@ -1,0 +1,1129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CoinName Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CoinName
+  m_TableCollectionNameGuidString: 8e51ee8783a929b45889605b1ff96528
+  m_Entries:
+  - m_Id: 2837895917568
+    m_Key: v1.ChangeAreaType.Null
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3109837811712
+    m_Key: v1.ChangeAreaType.A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3198392152064
+    m_Key: v1.ChangeAreaType.B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223901908992
+    m_Key: v1.ChangeAreaType.C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3277484142592
+    m_Key: v1.ChangeAreaType.D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505939492864
+    m_Key: v1.ClearMyCurse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3741609046016
+    m_Key: v1.ClearMyGravity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3819912507392
+    m_Key: v1.ClearMyHeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3879375155200
+    m_Key: v1.ClearMyInebriety
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3939680858112
+    m_Key: v1.ClearMyPoison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4001110634496
+    m_Key: v1.ClearMyShock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072631906304
+    m_Key: v1.ClearMyVirus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4121084506112
+    m_Key: v1.ClearMyStatusALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4225140994048
+    m_Key: v1.ClearSetStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4300651048960
+    m_Key: v1.ClearSetStatusALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355017617408
+    m_Key: v1.ClearAreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4429592342528
+    m_Key: v1.ClearALLAreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4503672139776
+    m_Key: v1.AfterShot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4557946433536
+    m_Key: v1.ExpandArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4611126013952
+    m_Key: v1.NoNeedCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4672404795392
+    m_Key: v1.NoAppendValue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4740100861952
+    m_Key: v1.ExpandTurnResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4805389398016
+    m_Key: v1.ExpandPack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4895369801728
+    m_Key: v1.ProgressTurnALLSetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4948008316928
+    m_Key: v1.ProgressTurnAreaSetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5016312557568
+    m_Key: v1.ProgressTurnMyHand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5092007161856
+    m_Key: v1.ProgressTurnSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5154334519296
+    m_Key: v1.FixDice.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5163784286208
+    m_Key: v1.FixDice.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5179701669888
+    m_Key: v1.FixDice.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5193710645248
+    m_Key: v1.FixDice.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5207027560448
+    m_Key: v1.FixDice.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5220776488960
+    m_Key: v1.FixDice.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5459650490368
+    m_Key: v1.DecrementDice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5503644545024
+    m_Key: v1.IncrementDice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5576403136512
+    m_Key: v1.ReverseSet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637195378688
+    m_Key: v1.MakeCopyOfSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5701607305216
+    m_Key: v1.AppendConditionDamage.Fire.20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5762345021440
+    m_Key: v1.AppendConditionDamage.Poison.20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5826907942912
+    m_Key: v1.TurnAdd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5879798116352
+    m_Key: v1.MustUse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5932642152448
+    m_Key: v1.ReturnSetToHand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5982696976384
+    m_Key: v1.ReturnTrashToHand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6024447078400
+    m_Key: v1.ConditionCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6092579352576
+    m_Key: v1.MyTrashToExclusion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6146056728576
+    m_Key: v1.InvalidEffectSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6196463874048
+    m_Key: v1.DestroyALLCopySetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6257646186496
+    m_Key: v1.SetBooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6315032653824
+    m_Key: v1.ShotBooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6369717989376
+    m_Key: v1.GuardBooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6431755939840
+    m_Key: v1.SmallPhysicalShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473023696896
+    m_Key: v1.PhysicalShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6634852528128
+    m_Key: v1.LargePhysicalShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6688237629440
+    m_Key: v1.SmallMagicShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6764263583744
+    m_Key: v1.MagicShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6819020222464
+    m_Key: v1.LargeMagicShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6972183621632
+    m_Key: v1.SpikeShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7041213476864
+    m_Key: v1.ProtoFullProtectionShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7096548929536
+    m_Key: v1.MassProFullProtectionShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7148738654208
+    m_Key: v1.ProtoFullReflectionShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205462421504
+    m_Key: v1.MassProFullReflectionShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267634589696
+    m_Key: v1.LastHopeShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7322793881600
+    m_Key: v1.BlessedShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7371997261824
+    m_Key: v1.ConcurrentShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7440976785408
+    m_Key: v1.GrowUpShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7498560385024
+    m_Key: v1.ShieldSpirit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7551408615424
+    m_Key: v1.GuardFaintness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7615132676096
+    m_Key: v1.ImpactAbsorbeShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7669516021760
+    m_Key: v1.ImpactAbsorbeWall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7721596694528
+    m_Key: v1.CuttingRegistShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7783403958272
+    m_Key: v1.ScaleArmor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7837523062784
+    m_Key: v1.Manifer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7887380754432
+    m_Key: v1.Buckler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7936185675776
+    m_Key: v1.Camouflage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7988614475776
+    m_Key: v1.Invisible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8057149403136
+    m_Key: v1.MystBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8161440772096
+    m_Key: v1.BricksWall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8215304024064
+    m_Key: v1.Dodge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8265514037248
+    m_Key: v1.SmallShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8315401089024
+    m_Key: v1.Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8356551405568
+    m_Key: v1.LargeShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8426394955776
+    m_Key: v1.Decoy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8475451535360
+    m_Key: v1.NeedleArmor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8532120776704
+    m_Key: v1.BlessedArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8580321718272
+    m_Key: v1.ConcurrentArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8626123517952
+    m_Key: v1.InfinityArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8681236672512
+    m_Key: v1.BloodDagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8731660595200
+    m_Key: v1.SlingShot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8787511947264
+    m_Key: v1.DuplicateArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8834035167232
+    m_Key: v1.HeavyAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8879371399168
+    m_Key: v1.ShotSpirit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932475482112
+    m_Key: v1.IronDagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8984493240320
+    m_Key: v1.IronSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9031918235648
+    m_Key: v1.IronLongSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9082623176704
+    m_Key: v1.StoneMissile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9134481551360
+    m_Key: v1.Meteor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9181021548544
+    m_Key: v1.FairySting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9228572372992
+    m_Key: v1.CrowdStones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9278501367808
+    m_Key: v1.ToyGun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9325645344768
+    m_Key: v1.EarthQuake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9376937488384
+    m_Key: v1.ColdRain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9423800446976
+    m_Key: v1.CurseSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9470466273280
+    m_Key: v1.GoldenArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9520680480768
+    m_Key: v1.RisingStar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9573306413056
+    m_Key: v1.RisingStarFan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9624640499712
+    m_Key: v1.BlessedTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9668768772096
+    m_Key: v1.ConcurrentTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9713052233728
+    m_Key: v1.IncertitudeTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9759575453696
+    m_Key: v1.BlastTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9803309461504
+    m_Key: v1.Diabrosis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9853905350656
+    m_Key: v1.Scapegoat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9911107268608
+    m_Key: v1.FusionBomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9958272217088
+    m_Key: v1.CowardiceBeetle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10009950236672
+    m_Key: v1.MagicCollector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10058675466240
+    m_Key: v1.ManEater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10106800910336
+    m_Key: v1.GraveKeeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10152091004928
+    m_Key: v1.PropagateVirus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10199763464192
+    m_Key: v1.CorpseShoulder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10248891346944
+    m_Key: v1.BeastTamer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10325391257600
+    m_Key: v1.MachineRider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10388628779008
+    m_Key: v1.GoldenTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10431595229184
+    m_Key: v1.CoinCollector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10484858695680
+    m_Key: v1.Fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10539619528704
+    m_Key: v1.Sorcerer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10595177279488
+    m_Key: v1.VeteranFighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10654224691200
+    m_Key: v1.MoanBeast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10712064143360
+    m_Key: v1.BeastPackHead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10760869064704
+    m_Key: v1.TrashWatcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10808742850560
+    m_Key: v1.SmallPoisonShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10857015095296
+    m_Key: v1.PoisonShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10908105912320
+    m_Key: v1.CurseSign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11006659473408
+    m_Key: v1.AnesthetizeShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11056018042880
+    m_Key: v1.FireWall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11103539507200
+    m_Key: v1.ElectricShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11154680655872
+    m_Key: v1.ElectricBarrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11211349897216
+    m_Key: v1.HeavyLargeShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11258296741888
+    m_Key: v1.SkyAbsolver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11309282701312
+    m_Key: v1.Confusion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11408222138368
+    m_Key: v1.BioShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11464941711360
+    m_Key: v1.BioWall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11510785454080
+    m_Key: v1.CurseBook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11556272680960
+    m_Key: v1.CurseGhost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11603609595904
+    m_Key: v1.CurseMusicBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11652146081792
+    m_Key: v1.CurseSong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11704499384320
+    m_Key: v1.FlameProjector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11750154383360
+    m_Key: v1.BottleGrenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11798267244544
+    m_Key: v1.Cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11846153613312
+    m_Key: v1.GravityGun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11890734870528
+    m_Key: v1.BlockLook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11936360509440
+    m_Key: v1.Qualm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11986222395392
+    m_Key: v1.DimensionSlash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12035882954752
+    m_Key: v1.BioBlaster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12083110817792
+    m_Key: v1.VirusScatter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12132087705600
+    m_Key: v1.VirusGun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12178845806592
+    m_Key: v1.DeepSleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12231647899648
+    m_Key: v1.Slump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12280251494400
+    m_Key: v1.Fireball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12330830606336
+    m_Key: v1.PoisonArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12377710342144
+    m_Key: v1.PoisonKnife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12422643920896
+    m_Key: v1.OilBottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12464578572288
+    m_Key: v1.SickRat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12509499568128
+    m_Key: v1.Fairy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12556282834944
+    m_Key: v1.BurningFairy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12602189492224
+    m_Key: v1.GravityMaker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12661589225472
+    m_Key: v1.DozeFog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12712013148160
+    m_Key: v1.SmallPoisonTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12759559778304
+    m_Key: v1.PoisonTrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12806238187520
+    m_Key: v1.PoisonEater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12855437373440
+    m_Key: v1.GermHole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12904372318208
+    m_Key: v1.NoTrespassing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12949863739392
+    m_Key: v1.PushBlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13002711969792
+    m_Key: v1.HardPushBlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13056147402752
+    m_Key: v1.ReflectionWave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13107397603328
+    m_Key: v1.Redraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13158576500736
+    m_Key: v1.MyStockToTrash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13207758909440
+    m_Key: v1.MyTrashToStock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13255028715520
+    m_Key: v1.SwapSetBySideArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13301493215232
+    m_Key: v1.RevolutionByCrowd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13349161480192
+    m_Key: v1.WinFlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13396011855872
+    m_Key: v1.Seizure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13454065217536
+    m_Key: v1.BattleDoll1th
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13503008550912
+    m_Key: v1.BattleDoll2th
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13529013235712
+    m_Key: v1.BattleDoll3th
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13802557353984
+    m_Key: v1.ElectricGiant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13877371154432
+    m_Key: v1.ElectricAutomaton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13925161054208
+    m_Key: v1.ElectricKing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13971470364672
+    m_Key: v1.ToyPorn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14020183011328
+    m_Key: v1.ToyFighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14068958572544
+    m_Key: v1.ToyGiant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14121127325696
+    m_Key: v1.CurseDoll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14176836071424
+    m_Key: v1.ThunderPunch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14238144212992
+    m_Key: v1.GreatThunder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14283593691136
+    m_Key: v1.Thunder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14338480353280
+    m_Key: v1.ElectricBurst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14391148228608
+    m_Key: v1.SelfDynamo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14442201296896
+    m_Key: v1.ThunderFairy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14489890533376
+    m_Key: v1.UndeadCurse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14540608057344
+    m_Key: v1.VirusCarrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14591686291456
+    m_Key: v1.UndeadSoldier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14639497162752
+    m_Key: v1.UndeadLeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14695986049024
+    m_Key: v1.UndeadCommander
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14745390755840
+    m_Key: v1.UndeadShoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14794673827840
+    m_Key: v1.UndeadGuard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14846049857536
+    m_Key: v1.KingSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14889813225472
+    m_Key: v1.KingArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14936621658112
+    m_Key: v1.KingPressure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14991143415808
+    m_Key: v1.KingShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15041638641664
+    m_Key: v1.BottleRocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15085674639360
+    m_Key: v1.ClubOfPoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15136421523456
+    m_Key: v1.StoneOfPoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15198455279616
+    m_Key: v1.ChopperOfPoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15254667341824
+    m_Key: v1.Dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15303015084032
+    m_Key: v1.DragonEgg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15352587563008
+    m_Key: v1.PhantomSoldier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15416697499648
+    m_Key: v1.DragonUndead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15488365572096
+    m_Key: v1.FireLizard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15541276717056
+    m_Key: v1.Manure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15590266187776
+    m_Key: v1.SpikeFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15640425869312
+    m_Key: v1.PoisonFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15689977376768
+    m_Key: v1.GravityFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15737716944896
+    m_Key: v1.HardTree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15782658912256
+    m_Key: v1.Planter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15828532015104
+    m_Key: v1.GiantTree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15876737150976
+    m_Key: v1.PlantNeedle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15926955552768
+    m_Key: v1.PlantSpike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15975995355136
+    m_Key: v1.PlantParty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16024838025216
+    m_Key: v1.BigWorm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16082698448896
+    m_Key: v1.ArtfulMagician
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16132774244352
+    m_Key: v1.MagiciansStrawN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16168065118208
+    m_Key: v1.MagiciansStrawP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16231126478848
+    m_Key: v1.MagiciansStrawA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16310101028864
+    m_Key: v1.QueenAnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16364073332736
+    m_Key: v1.KnightAnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16430200729600
+    m_Key: v1.SoldierAnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16491940884480
+    m_Key: v1.ChildcareAnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16541429477376
+    m_Key: v1.ExplorerAnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16593778585600
+    m_Key: v1.FlameAnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16646329020416
+    m_Key: v1.DaemonHead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16696039911424
+    m_Key: v1.DaemonBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16743645261824
+    m_Key: v1.DaemonRightArm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16792328548352
+    m_Key: v1.DaemonLeftArm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16841045389312
+    m_Key: v1.DaemonRightLeg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16891167322112
+    m_Key: v1.DaemonLeftLeg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16941268283392
+    m_Key: v1.DimensionBeacon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16995186061312
+    m_Key: v1.AlianHuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17115143155712
+    m_Key: v1.AlianMachine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17196600733696
+    m_Key: v1.AlianDragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17242809380864
+    m_Key: v1.AlianBeast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17307070312448
+    m_Key: v1.AlianBoundary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17357557149696
+    m_Key: v1.AlienFlame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17407066714112
+    m_Key: v1.ShadowDagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17458816036864
+    m_Key: v1.ShadowSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17511987228672
+    m_Key: v1.ShadowLongSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17569914761216
+    m_Key: v1.ShadowClaymore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17627393503232
+    m_Key: v1.PrototRailgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17676873707520
+    m_Key: v1.MassProRailgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17727247298560
+    m_Key: v1.PortableRailgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17785741062144
+    m_Key: v1.IcicleSpear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17839440736256
+    m_Key: v1.IciclePic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17890045014016
+    m_Key: v1.IcicleClub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17941785948160
+    m_Key: v1.IceGolem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18004192997376
+    m_Key: v1.IceArmor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18056827318272
+    m_Key: v1.HeresyIdol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18108408868864
+    m_Key: v1.HeresyBlowgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18163157118976
+    m_Key: v1.HeresyClaw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18217834065920
+    m_Key: v1.HeresyTrident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18265741406208
+    m_Key: v1.FirstArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315389382656
+    m_Key: v1.SecondArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18369076473856
+    m_Key: v1.ThirdArrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18415280926720
+    m_Key: v1.NinjaSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18470079508480
+    m_Key: v1.Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18523678519296
+    m_Key: v1.ChiefNinjaSword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18574404431872
+    m_Key: v1.ChiefNinja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18623515537408
+    m_Key: Dust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83706537503567872
+    m_Key: v1.HeresyBishop
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1642936537733

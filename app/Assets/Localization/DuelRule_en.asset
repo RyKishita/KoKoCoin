@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DuelRule_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9d37370ac078e9c4a900a1dac37ae4c1, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 72201220096
+    m_Localized: '{value} This first takes'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 103192932352
+    m_Localized: Initial life {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 135291940864
+    m_Localized: If you fail to draw from the stock, you lose.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200475619328
+    m_Localized: When the stock is empty, all discarded coins are moved to the stock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258449289216
+    m_Localized: The first player's first turn is not a draw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288346288128
+    m_Localized: Restores {value} of action power per turn
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 321418375168
+    m_Localized: Carry over unused resources to the next turn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353978757120
+    m_Localized: Maximum resource {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 379815669760
+    m_Localized: Each turn, the amount of action power restored is increased by 1.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 406789238784
+    m_Localized: Resources are restored for the number of steps traveled.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439483838464
+    m_Localized: Resources consumed during draw[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 469183705088
+    m_Localized: No limit on the number of coins in hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495800758272
+    m_Localized: No limit on total number of coin sizes on hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522874990592
+    m_Localized: Can act multiple times (except for movement)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 552172204032
+    m_Localized: Some conditions require a {value} count or more to take effect.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 579514871808
+    m_Localized: Base value for damage caused by abnormal conditions {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 610028433408
+    m_Localized: Installation Attack Coin Damage Correction[{value}]]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 639103348736
+    m_Localized: Direct Attack Coin Damage Correction[{value}]]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 669830819840
+    m_Localized: Defensive coin effect correction[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 698528247808
+    m_Localized: Resources required to use the installation coin[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 732091068416
+    m_Localized: Resources required to use direct attack coins[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 761736409088
+    m_Localized: Resources required to use defense coins[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 790748409856
+    m_Localized: Resources required to use auxiliary coins[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 821249388544
+    m_Localized: Resources required to use other type coins[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 851242856448
+    m_Localized: Lower dice limit {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 877876686848
+    m_Localized: Dice limit {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 906964185088
+    m_Localized: Area configuration[{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 934306852864
+    m_Localized: Player starting position {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 958671564800
+    m_Localized: Team starting position {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 989604556800
+    m_Localized: invalid usage conditions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1019761602560
+    m_Localized: Installed coins are placed face down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1047116853248
+    m_Localized: Disclose details of coins on hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1075319353344
+    m_Localized: Reveal the number of coins you have.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1129111302144
+    m_Localized: Reveal the status of the coins in your possession.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1155556388864
+    m_Localized: Publish the number of stock coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1184283176960
+    m_Localized: When an opponent uses a direct attack coin, show the details.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1211218997248
+    m_Localized: Time limit per operation {value} seconds
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1240637845504
+    m_Localized: Time limit per match {value} seconds
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1265694617600
+    m_Localized: Time limit to be extended for each completed operation {value} seconds
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1297965592576
+    m_Localized: Number of turns elapsed per turn {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1330622443520
+    m_Localized: When the effect of a defensive coin exceeds the damage of a direct
+      attack coin, the user of the direct attack coin takes no damage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1358753640448
+    m_Localized: When the damage of a direct attack coin exceeds the effect of a
+      defensive coin, the user of the defensive coin takes no damage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1386477989888
+    m_Localized: Do not use side decks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1642917736448
+    m_Localized: unlimited number of turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660730945536
+    m_Localized: One round is {value} turn{value:choose(0|1):||s}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2869709713408
+    m_Localized: The first player's first turn is a draw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3788388118528
+    m_Localized: Unused resources are not carried over to the next turn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244524638208
+    m_Localized: Resources are not recovered for the number of steps traveled.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6051450007552
+    m_Localized: Maximum number of coins in hand {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6664351068160
+    m_Localized: Maximum total number of coins size in hand {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 7022813065216
+    m_Localized: Cannot act more than once
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10905627078656
+    m_Localized: Conditions of use are effective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11220648669184
+    m_Localized: Installed coins are placed face up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11390719307776
+    m_Localized: No details of coins on hand are disclosed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11660756987904
+    m_Localized: Do not disclose the number of coins you have in your possession.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12073094819840
+    m_Localized: Do not disclose the status of the coins in your possession.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12100487819264
+    m_Localized: Do not disclose the number of stock coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12541950898176
+    m_Localized: When an opponent uses a direct attack coin, do not show the details.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13863089549312
+    m_Localized: When the effect of a defensive coin exceeds the damage of a direct
+      attack coin, the user of the direct attack coin takes the difference.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14649882259456
+    m_Localized: When the damage of a direct attack coin exceeds the effect of a
+      defensive coin, the user of the defensive coin takes the difference.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15121816956928
+    m_Localized: Add a second round of side decks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15151265165312
+    m_Localized: Add side decks when the number of rounds obtained is losing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15162585591808
+    m_Localized: When the opponent wins by getting one more round, add a side deck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174472249344
+    m_Localized: Add a side deck to the final round.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13061906340720640
+    m_Localized: Disable additional effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13072749379923968
+    m_Localized: When there are coins available, you must use them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51139471915560960
+    m_Localized: No resource limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53367722469699584
+    m_Localized: Enable additional effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53368673926590464
+    m_Localized: You may or may not have coins available for use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70627949577449472
+    m_Localized: The first player to attack will be determined at random.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70628061888327680
+    m_Localized: The first player to attack is the guest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70628045845114880
+    m_Localized: The first player to attack is the host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91361335665176576
+    m_Localized: No coin-specific effect correction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91361670878146560
+    m_Localized: Correction by coin [{str}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 91737045915348992
+    m_Localized: Disclose the size of coins on hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91737097199104000
+    m_Localized: Do not disclose the size of coins on hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101490188022657024
+    m_Localized: Additional draws can be made.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101490231865716736
+    m_Localized: Resources consumed for additional draws are {num}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 101490491790929920
+    m_Localized: No additional draws are allowed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101512092955652096
+    m_Localized: Resources consumed for additional actions are {num}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 003087cf100000000030c706180000000030c722430000000030c76a520000000030c76e58000000003047536600000000300790800000000030c7ed86000000003087088e000000003087cd94000000003007f59b000000003087a3a200000000300774aa0000000030075bb10000000030471cb800000000304736bf00000000300732c600000000308765cc0000000030472bd300000000300789d900000000304735df000000003047021a0100000030c7db20010000003047b1260100000030c7342e010000003047ab82010000003087f680050000003047aa0f0600000030c7a2f494440100308702d4906801003007f1b5a46801

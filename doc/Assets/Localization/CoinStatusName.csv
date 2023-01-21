@@ -1,0 +1,7 @@
+﻿Key,Id,Japanese(ja),English(en)
+"CoinStatusAppendTag",10175852544,"+タグ[{value}]","+tag[{value}]]"
+"CoinStatusAppendValue0",348827282780160,"+{value}","+{value}"
+"CoinStatusInvalidEffectByTurn",348908971044864,"{tvalue}ターン無効","{tvalue} turn disable"
+"CoinStatusTurnToTrash",348951547424768,"{tvalue}ターン後{trashcoin}","After {tvalue} turns {trashcoin}"
+"CoinStatusAppendValue1",353800359981056,"-{value}","-{value}"
+"CoinStatusAppendValue",3904443548905472,"+-値","+-value"

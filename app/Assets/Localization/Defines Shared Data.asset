@@ -1,0 +1,373 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Defines Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Defines
+  m_TableCollectionNameGuidString: cf7e542d9e5f0a84289343aac165a2cf
+  m_Entries:
+  - m_Id: 57428881408
+    m_Key: Stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141394653184
+    m_Key: Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219500982272
+    m_Key: Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287826194432
+    m_Key: Trash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4150926979072
+    m_Key: You
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4262080229376
+    m_Key: Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4341490987008
+    m_Key: Opponent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5716052488192
+    m_Key: HiddenSide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6041576615936
+    m_Key: VisibleSide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16398777004032
+    m_Key: "\u4EBA\u9593"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16431010230272
+    m_Key: "\u7363"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16459019792384
+    m_Key: "\u690D\u7269"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16484454051840
+    m_Key: "\u6B7B\u970A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16510710394880
+    m_Key: "\u6A5F\u68B0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16537948205056
+    m_Key: "\u7570\u6B21\u5143"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16563638317056
+    m_Key: "\u7269\u7406"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16588908998656
+    m_Key: "\u9B54\u6CD5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16617413488640
+    m_Key: "\u63A5\u89E6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16643715969024
+    m_Key: "\u96A3\u63A5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16669393498112
+    m_Key: "\u9577\u5C04\u7A0B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16695314296832
+    m_Key: "\u5207\u65AD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16721709051904
+    m_Key: "\u6BB4\u6253"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16746702909440
+    m_Key: "\u523A\u7A81"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16772413992960
+    m_Key: "\u7206\u767A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23533871116288
+    m_Key: AbnormalState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49611390005248
+    m_Key: Resource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438210522460160
+    m_Key: SettedAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 804199323873280
+    m_Key: Copy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821364739485696
+    m_Key: DirectAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821445446283264
+    m_Key: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821591408062464
+    m_Key: Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2247386332606464
+    m_Key: SettedAttackCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2247421879332864
+    m_Key: DirectAttackCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2247442850852864
+    m_Key: SupportCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2247464778674176
+    m_Key: GuardCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2247487100760064
+    m_Key: Other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2247501441085440
+    m_Key: OtherCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2251055383916544
+    m_Key: ElapsedTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2251187227668480
+    m_Key: LotCoinTicketV1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2251208727670784
+    m_Key: ExchangeCoinTicketV1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252734820986880
+    m_Key: Range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253064375840768
+    m_Key: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2254361745371136
+    m_Key: Protection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2254859282100224
+    m_Key: Special
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2269402695675904
+    m_Key: Or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2904731358277632
+    m_Key: Setted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3335747860377600
+    m_Key: Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3336498326220800
+    m_Key: Stackable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3339545194475520
+    m_Key: Count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3713201045188608
+    m_Key: "\u30BF\u30FC\u30F3\u958B\u59CB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3713238366105600
+    m_Key: "\u30B3\u30A4\u30F3\u53D6\u5F97"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3713267722039296
+    m_Key: "\u30B3\u30A4\u30F3\u4F7F\u7528"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3713323862798336
+    m_Key: "\u624B\u6301\u3061\u30B3\u30A4\u30F3\u306E\u8ABF\u6574"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3713353730437120
+    m_Key: "\u30BF\u30FC\u30F3\u7D42\u4E86"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3714927332634624
+    m_Key: "\u6E96\u5099\u4E2D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3714975609073664
+    m_Key: "\u30B3\u30A4\u30F3\u9078\u629E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3715000108003328
+    m_Key: "\u8FFD\u52A0\u30B3\u30B9\u30C8\u306E\u9078\u629E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3715025399656448
+    m_Key: "\u5BFE\u8C61\u30A8\u30EA\u30A2\u306E\u9078\u629E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3715048623517696
+    m_Key: "\u96A3\u63A5\u30A8\u30EA\u30A2\u306E\u9078\u629E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4437209210368000
+    m_Key: Types
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4438267408101376
+    m_Key: Import
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4438726533394432
+    m_Key: InInventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4439077470810112
+    m_Key: DuelOnly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5056334483894272
+    m_Key: Termination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5056947322040320
+    m_Key: ChangeTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5057093338345472
+    m_Key: Ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6233383948988416
+    m_Key: "\u79FB\u52D5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7930538560532480
+    m_Key: "\u30C0\u30A4\u30B9\u3092\u3075\u308B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7930574417637376
+    m_Key: "\u79FB\u52D5\u5148\u306E\u9078\u629E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7930605551955968
+    m_Key: "\u79FB\u52D5\u4E2D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7963585339142144
+    m_Key: ConditionCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7964202958794752
+    m_Key: ConditionBaseDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7992498492747776
+    m_Key: CoinStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7992550032355328
+    m_Key: AreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10145080912850944
+    m_Key: "\u30B3\u30A4\u30F3\u5B9F\u884C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10473682091061248
+    m_Key: Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10474005434150912
+    m_Key: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10474068780724224
+    m_Key: Earnest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10474129455525888
+    m_Key: Custom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10474199231967232
+    m_Key: Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22090829628125184
+    m_Key: SettedCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22092933755252736
+    m_Key: SettedCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31976513369223168
+    m_Key: "\u4E2D\u5C04\u7A0B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31976753262440448
+    m_Key: "\u7279\u6B8A\u5C04\u7A0B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63419088122621952
+    m_Key: TieGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63705024714715136
+    m_Key: Attacker
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1642226057243

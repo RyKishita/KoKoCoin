@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CoinStatusName Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CoinStatusName
+  m_TableCollectionNameGuidString: 0d3223b589d2e2b4c9083eb5d8a3659a
+  m_Entries:
+  - m_Id: 10175852544
+    m_Key: CoinStatusAppendTag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348827282780160
+    m_Key: CoinStatusAppendValue0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348908971044864
+    m_Key: CoinStatusInvalidEffectByTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348951547424768
+    m_Key: CoinStatusTurnToTrash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353800359981056
+    m_Key: CoinStatusAppendValue1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3904443548905472
+    m_Key: CoinStatusAppendValue
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1643198990169

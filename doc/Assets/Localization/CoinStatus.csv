@@ -1,0 +1,7 @@
+﻿Key,Id,Japanese(ja),English(en)
+"CoinStatusAppendTag",10175852544,"タグ[{value}]を付与する。","Give the tag [{value}]."
+"CoinStatusAppendValue0",348827282780160,"効果量を{value}増加する。","Increase the effect amount by {value}."
+"CoinStatusInvalidEffectByTurn",348908971044864,"{tvalue}ターンの間、効果を無効にする。","Disables the effect for {tvalue} turns."
+"CoinStatusTurnToTrash",348951547424768,"{tvalue}ターン後、{trashcoin}に移動する。","After {tvalue} turns, move to {trashcoin}."
+"CoinStatusAppendValue1",353800359981056,"効果量を{value}減少する。","Reduces the effect amount by {value}."
+"CoinStatusAppendValue",3904281824931840,"効果量が増加または減少する。","Increases or decreases the amount of effect."

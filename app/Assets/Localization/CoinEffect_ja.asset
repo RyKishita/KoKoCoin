@@ -1,0 +1,2305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CoinEffect_ja
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 69e8ed76e0e7f5843ac35be527db2299, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 1854763218448384
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B{settedcoin}\u304C\u88CF\u5411\u304D\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112706074955952128
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u5BFE\u6226\u76F8\u624B\u306E[{coinname}]\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1866678124621824
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306E[{coinname}]\u304C{src}\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1866691806441472
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B[{coinname}]\u304C{src}\u304B\u3089{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1870068938387456
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1870083614257152
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{src}\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1870094980820992
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{src}\u304B\u3089{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1871181108424704
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u304C\u8A2D\u7F6E\u3057\u305F\u30B3\u30A4\u30F3\u304C\u30D5\u30A3\u30FC\u30EB\u30C9\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1872935589982208
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30B3\u30A4\u30F3\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1872946830716928
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B{src}\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1874231323734016
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3092\u8A2D\u7F6E\u3057\u305F\u6642\u3001{field}\u306B\u3042\u308B\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u3053\u306E\u30B3\u30A4\u30F3\u306E\u307F\u3060\u3063\u305F\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1875901378146304
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3044\u305A\u308C\u304B\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u304C[{conditionName}]\u3092\u5F97\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1899372661387264
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{turn}\u30BF\u30FC\u30F3\u304C\u7D4C\u904E\u3059\u308B\u3054\u3068\u306B\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1900197018284032
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30A8\u30EA\u30A2{areaType}\u306B\u6B62\u307E\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1900699667869696
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{resource}\u304C{num}\u4EE5\u4E0A\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1900713588764672
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{resource}\u304C{num}\u4EE5\u4E0B\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1900725106323456
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{resource}\u304C{num}\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1903622544109568
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30B3\u30A4\u30F3\u304C\u4F7F\u7528\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1904102779334656
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306E[{coinname}]\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1904593491931136
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u4F7F\u7528\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1905384474750976
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C\u3053\u306E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u30A8\u30EA\u30A2\u306B\u6B62\u307E\u3063\u305F\u6642\u3001\u96A3\u306E\u30A8\u30EA\u30A2\u306B\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u306A\u3044\u306A\u3089\u3001[{coinname}]\u306E\u8907\u88FD\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1907469438103552
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{cointype}\u306B\u5BFE\u3057\u3066\u4F7F\u7528\u3057\u305F\u5834\u5408\u3001\u8EFD\u6E1B\u91CF\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1914144492564480
+    m_Localized: "{player}\u306E{coinposition}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1915465585078272
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1915475840151552
+    m_Localized: "{player}\u306E{coinposition}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1916089240334336
+    m_Localized: "{player}\u306E{coinposition}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1917512367681536
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1917533687328768
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1917544059842560
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1917553127927808
+    m_Localized: "\u3042\u306A\u305F\u306E[{coinname}]\u304C{coinposition}\u306B\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2131402674352128
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A\u591A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2131417039843328
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A{num}\u679A\u4EE5\u4E0A\u591A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2131431610855424
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A\u5C11\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2131442272776192
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A{num}\u679A\u4EE5\u4E0A\u5C11\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2131452884365312
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3068\u540C\u3058\u679A\u6570\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2133458432765952
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}{valueext}\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2133539496079360
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}{valueext}\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2133553739935744
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}{valueext}\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2133564372496384
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}{valueext}\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2134856817913856
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2134878775095296
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2135443148058624
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2136082443874304
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C\u3042\u308B\u6642\u3001{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2136100487770112
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2136110692511744
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B{cointype}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2136120377159680
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C\u306A\u3044\u6642\u3001{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2137130407505920
+    m_Localized: "\u3042\u306A\u305F\u304C\u30A8\u30EA\u30A2{areatype}\u306B\u3044\u308B\u5834\u5408\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2138370256351232
+    m_Localized: "\u6700\u5F8C\u306E\u4E00\u679A\u3068\u3057\u3066\u4F7F\u7528\u3057\u305F\u5834\u5408\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2139112207757312
+    m_Localized: "{player}\u306E\u30E9\u30A4\u30D5\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2141177583710208
+    m_Localized: "\u3042\u306A\u305F\u306E\u30E9\u30A4\u30D5\u306E{digit}\u306E\u4F4D\u304C{number}\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2141737321967616
+    m_Localized: "{player}\u304C[{conditionname}{num}]\u3092\u6301\u3064\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2141753721696256
+    m_Localized: "{player}\u304C\u6301\u3064[{name}]\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2141762781392896
+    m_Localized: "{player}\u304C[{conditionname}]\u3092\u6301\u305F\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2143050625658880
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u4ED6\u306B\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2143065435746304
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2143084863762432
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2143095685066752
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2144620054523904
+    m_Localized: "{player}\u306E{resource}\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2144634797502464
+    m_Localized: "{player}\u306E{resource}\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2144644503121920
+    m_Localized: "{player}\u306E{resource}\u304C0\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2145678248062976
+    m_Localized: "{player}\u304C\u6240\u6709\u3059\u308B{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2145698892427264
+    m_Localized: "{player}\u304C\u6240\u6709\u3059\u308B{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2145709361410048
+    m_Localized: "{player}\u304C\u6240\u6709\u3059\u308B{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2145719381602304
+    m_Localized: "{player}\u304C\u6240\u6709\u3059\u308B{setedcoin}\u304C\u5168\u3066\u8868\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2146379665715200
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u540C\u3058\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2146394362556416
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u540C\u3058\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2146412452589568
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3042\u308B\u3001\u3042\u306A\u305F\u306E{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2146422204346368
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u540C\u3058\u6240\u6709\u8005\u306E{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2152368754339840
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2152388220104704
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C{num}\u7B87\u6240\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2152398399680512
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C{num}\u7B87\u6240\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2152408956743680
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2153454567370752
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2153468752506880
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2153478504263680
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2153489325568000
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2170302608388096
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u30B3\u30A4\u30F3\u304C{handcoin}\u306B\u3042\u308B\u5834\u5408\u3001\u305D\u306E\u679A\u6570\u5206\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2170885054607360
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3092\u8A2D\u7F6E\u3057\u305F\u6642\u3001{handcoin}\u306B[{name}]\u304C\u3042\u308B\u306A\u3089\u3001\u305D\u308C\u3089\u3082\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2174931995930624
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2174946432724992
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u6570\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2176174243917824
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u307E\u3060\u30BF\u30FC\u30F3\u304C\u7D4C\u904E\u3057\u3066\u3044\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2177312183758848
+    m_Localized: "{player}\u306E{coinposition}\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2177696700772352
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B[{coinname}]\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2178415977771008
+    m_Localized: "{player1}\u306E{coinposition}\u679A\u6570\u304C{player2}\u306E{coinposition}\u679A\u6570\u3088\u308A\u591A\u3044\u5834\u5408\u3001\u305D\u306E\u5DEE\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2179914912968704
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2180552711417856
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u306E\u30B5\u30A4\u30BA\u5408\u8A08\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2181216346779648
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B{cointype}\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2181915012968448
+    m_Localized: "\u3042\u306A\u305F\u304C\u6301\u3064[{conditionname}]\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2182400180695040
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u3068\u304D\u3001\u91CD\u306D\u3089\u308C\u305F\u679A\u6570\u306E\u6700\u5927\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2183540142190592
+    m_Localized: "{player}\u306E{resource}\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2183992736952320
+    m_Localized: "\u3042\u306A\u305F\u306E{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2184610104946688
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u3001\u540C\u3058\u30A8\u30EA\u30A2\u306B\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2185302118969344
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u6240\u6709\u8005\u3067\u3042\u308A\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2185691803365376
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u6570(\u6700\u5927{maxCount})\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2186665284546560
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u306A\u3089\u3001\u3042\u306A\u305F\u306F\u52DD\u5229\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2187981834629120
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C{coinposition}\u306B\u3042\u308B\u6642\u3001\u3042\u306A\u305F\u306E{setcoin}\u304C{field}\u304B\u3089\u96E2\u308C\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2187996170760192
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C{coinposition}\u306B\u3042\u308B\u6642\u3001\u3042\u306A\u305F\u306E[{coinname}]\u304C{field}\u304B\u3089\u96E2\u308C\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2188461528788992
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C{coinposition}\u306B\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{field}\u304B\u3089\u96E2\u308C\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2188475516792832
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C{coinposition}\u306B\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B[{coinname}]\u304C{field}\u304B\u3089\u96E2\u308C\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2190540972437504
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u3042\u306A\u305F\u306E{targetcoinposition}\u306B[{coinname}]\u304C\u3042\u308B\u306A\u3089\u3001\u5168\u3066\u3053\u306E\u30B3\u30A4\u30F3\u306B\u91CD\u306D\u3066\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2191671123456000
+    m_Localized: "\u30A8\u30EA\u30A2{areatype}\u306B\u3044\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2193109178331136
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2193125750026240
+    m_Localized: "{player}\u306E{coinposition}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2193135673749504
+    m_Localized: "{player}\u306E{coinposition}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2193147069673472
+    m_Localized: "{player}\u306E{coinposition}\u304C1\u679A\u3082\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2194034676674560
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2194057187504128
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2194068038168576
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B{cointype}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2194081598353408
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195031931170816
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195047039053824
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195057482870784
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B\u3042\u308B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u306E\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195067771498496
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195885136490496
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A\u591A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195900667998208
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A{num}\u679A\u4EE5\u4E0A\u591A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195910411366400
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A\u5C11\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195919957602304
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A{num}\u679A\u4EE5\u4E0A\u5C11\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2195929491255296
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3068\u540C\u3058\u679A\u6570\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2196737016410112
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u3042\u306A\u305F\u306E{coinposition}\u306B\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2196752388534272
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u3042\u306A\u305F\u306E{coinposition}\u306B{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2196762668773376
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2196773137756160
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u3042\u306A\u305F\u306E{coinposition}\u306B\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2197904765169664
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2197921869541376
+    m_Localized: "{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2199514794897408
+    m_Localized: "\u3042\u306A\u305F\u304C[{conditionname}{num}]\u3092\u6301\u3064\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2205615246487552
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B{setcoin}\u304C\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2205630673137664
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2205640156459008
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u306E\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2205649878855680
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B{setcoin}\u304C\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2206362205892608
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B[{coinname}]\u304C\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2206376000958464
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2206386386055168
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3042\u308B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u306E\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2206396402053120
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B[{coinname}]\u304C\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2207209111367680
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2207224428965888
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2207234977640448
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u306E\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2207246461644800
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2207956163047424
+    m_Localized: "{player}\u306E\u30E9\u30A4\u30D5\u304C{value}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2209730978590720
+    m_Localized: "{handcoin}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u304C{value}\u306E\u500D\u6570\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2210167815352320
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2211187438071808
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2211203883937792
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2211214118039552
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2211224264060928
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C{reverse}\u3067\u306F\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2212119412420608
+    m_Localized: "\u3042\u306A\u305F\u306E\u3044\u305A\u308C\u304B\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2212137942855680
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0A\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2212152606142464
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0A\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2212163930763264
+    m_Localized: "\u3042\u306A\u305F\u306E\u5168\u3066\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u672A\u6E80\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2213752296910848
+    m_Localized: "{handcoin}\u306B\u306A\u3063\u3066\u304B\u3089{value}\u30BF\u30FC\u30F3\u7D4C\u904E\u3059\u308B\u3068\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2214189041397760
+    m_Localized: "\u540C\u3058\u30A8\u30EA\u30A2\u306B{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u305D\u308C\u3089\u3092\u5168\u3066{trashcoin}\u306B\u79FB\u52D5\u3059\u308B\u3002\u305D\u306E\u5F8C[{coinname}]\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2215380886433792
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\u30D7\u30EC\u30A4\u30E4\u30FC\u306F[{conditionname}]\u3092\u3053\u306E\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u5206\u5F97\u308B\u3002(\u6700\u5927{maxCount})"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2216668982358016
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u3042\u306A\u305F\u306F[{conditionname}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2219915948273664
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u3042\u306A\u305F\u306F\u30B9\u30C8\u30C3\u30AF\u304B\u3089{num}\u679A\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2220642124902400
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u3042\u306A\u305F\u306F[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2220997764132864
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001{player}\u306E[{conditionname}]\u306E\u30AB\u30A6\u30F3\u30C8\u3092{value}\u500D\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2222286812164096
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\u30D7\u30EC\u30A4\u30E4\u30FC\u3092{value}\u30A8\u30EA\u30A2\u9060\u3056\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2222694850834432
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u30A8\u30EA\u30A2\u306B\u306F\u6B62\u307E\u308C\u306A\u3044\u3002\u79FB\u52D5\u5148\u304C\u3053\u306E\u30A8\u30EA\u30A2\u3057\u304B\u306A\u3044\u5834\u5408\u306F\u3001\u79FB\u52D5\u305B\u305A\u5143\u306E\u30A8\u30EA\u30A2\u306B\u3068\u3069\u307E\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2223195281633280
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3092\u30C9\u30ED\u30FC\u3057\u305F\u6642\u3001\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u53EF\u80FD\u306A\u3089\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2223929712652288
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001\u4F7F\u7528\u3055\u308C\u305F{directattack}\u306E\u30C0\u30E1\u30FC\u30B8\u3092{player}\u306B\u4E0E\u3048\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2225017119518720
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u306F[{name}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2227425522429952
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u306F{damage}\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6812085732716544
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306F[{conditionname}]\u3092\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u5206\u5F97\u308B\u3002(\u6700\u5927
+      {maxCount})"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2229410954948608
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001\u3042\u306A\u305F\u306F\u30B9\u30C8\u30C3\u30AF\u304B\u3089{num}\u679A\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2276821647699968
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u306E{resource}\u30920\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2277278235439104
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u3092{value}\u30A8\u30EA\u30A2\u9060\u3056\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2277811130150912
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u7D4C\u904E\u3057\u305F\u30BF\u30FC\u30F3\u304C{value}\u306E\u500D\u6570\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u3092100%\u8EFD\u6E1B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2278874491072512
+    m_Localized: "{coinposition}\u306B\u3042\u308B\u6642\u3001\u3042\u306A\u305F\u306F\u30BF\u30FC\u30F3\u7D42\u4E86\u6BCE\u306B[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2278894195912704
+    m_Localized: "{coinposition}\u306B\u3042\u308B\u6642\u3001\u3042\u306A\u305F\u306F{loopturn}\u30BF\u30FC\u30F3\u6BCE\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u306B[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2280368154030080
+    m_Localized: "\u30BF\u30FC\u30F3\u7D42\u4E86\u6BCE\u306B\u5185\u5074\u306E\u30A8\u30EA\u30A2\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2280654373335040
+    m_Localized: "\u30BF\u30FC\u30F3\u7D42\u4E86\u6BCE\u306B\u5916\u5074\u306E\u30A8\u30EA\u30A2\u306B\u79FB\u52D5\u3059\u308B\u3002\u5916\u5074\u306E\u30A8\u30EA\u30A2\u304C\u306A\u3044\u3001\u307E\u305F\u306F\u305D\u306E\u30A8\u30EA\u30A2\u304C{safe}\u306A\u3089{trashcoin}\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2281472703016960
+    m_Localized: "{handcoin}\u304B\u3089\u5408\u8A08{totalsize}\u30B5\u30A4\u30BA\u4EE5\u4E0A\u306E\u30B3\u30A4\u30F3\u3092{trashcoin}\u306B\u79FB\u52D5\u3059\u308B\u3053\u3068\u3067\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2282123935821824
+    m_Localized: "\u3042\u306A\u305F\u304C\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u6B62\u307E\u3063\u305F\u6642\u3001\u3042\u306A\u305F\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u3002\u305D\u306E\u5F8C{trashcoin}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2282168038928384
+    m_Localized: "\u3042\u306A\u305F\u304C\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u6B62\u307E\u3063\u305F\u6642\u3001\u8A2D\u7F6E\u3055\u308C\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u304C{turn}\u306E\u500D\u6570\u3067\u3042\u308B\u306A\u3089\u3042\u306A\u305F\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u3002\u305D\u306E\u5F8C{trashcoin}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2283902102614016
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u30A8\u30EA\u30A2A,B,C,D\u306B\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u3042\u306A\u305F\u306F\u52DD\u5229\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2285256548233216
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306B\u8E0F\u307E\u308C\u305F\u3053\u3068\u3067{trash}\u306B\u79FB\u52D5\u3059\u308B\u6642\u3001\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u305F\u30A8\u30EA\u30A2\u306B[{coinname}]\u306E\u8907\u88FD\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2286213159923712
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C{field}\u304B\u3089{trash}\u306B\u79FB\u52D5\u3059\u308B\u6642\u3001\u96A3\u63A5\u3059\u308B\u30A8\u30EA\u30A2\u306B\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u7121\u3044\u306A\u3089[{coinname}]\u306E\u8907\u88FD\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2287331986321408
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4E00\u3064\u3057\u304B\u8A2D\u7F6E\u3067\u304D\u306A\u3044\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2289074480558080
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u304A\u3088\u3073\u96A3\u63A5\u3059\u308B\u30A8\u30EA\u30A2\u306B\u3042\u308B\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u3092{trashcoin}\u306B\u79FB\u52D5\u3059\u308B\u3002\u305D\u306E\u5F8C\u3001\u305D\u308C\u3089\u304C\u6301\u3064\u30C0\u30E1\u30FC\u30B8\u306E{rate}%\u5206\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306E\u30C0\u30E1\u30FC\u30B8\u3092\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2290890211536896
+    m_Localized: "\u4F7F\u7528\u6642\u3001{stockcoin}\u304B\u3089[{coinname}]\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2291545231798272
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u96A3\u63A5\u3059\u308B\u30A8\u30EA\u30A2\u306B\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u306A\u3044\u306A\u3089\u3001[{coinname}]\u306E\u8907\u88FD\u3092\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2292583242346496
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u5F8C\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3001\u5BFE\u6226\u76F8\u624B\u304C\u8A2D\u7F6E\u30A8\u30EA\u30A2\u306E{range}\u30DE\u30B9\u4EE5\u5185\u306B\u3044\u308B\u306A\u3089\u3001{damage}\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3001\u305D\u306E\u5F8C\u3053\u306E\u30B3\u30A4\u30F3\u3092{trash}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2293693613027328
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C{srccoinposition}\u304B\u3089{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u306A\u3089\u3001\u4EE3\u308F\u308A\u306B\u3053\u306E\u30B3\u30A4\u30F3\u304C\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2293704161701888
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306E[{coinname}]\u304C{srccoinposition}\u304B\u3089{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u306A\u3089\u3001\u4EE3\u308F\u308A\u306B\u3053\u306E\u30B3\u30A4\u30F3\u304C\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2296347911204864
+    m_Localized: "{coinposition}\u306B\u79FB\u52D5\u3057\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u9664\u5916\u3059\u308B\u3002\u305D\u306E\u5F8C[{coinname}]\u306E\u8907\u88FD\u3092{stockcoin}\u306B\u5165\u308C\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2296360192126976
+    m_Localized: "{coinposition}\u306B\u79FB\u52D5\u3057\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u9664\u5916\u3059\u308B\u3002\u305D\u306E\u5F8C[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113725930199265280
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3092\u9664\u5916\u3059\u308B\u3002\u305D\u306E\u5F8C[{coinname}]\u306E\u8907\u88FD\u3092\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2643792868356096
+    m_Localized: "\u624B\u6301\u3061\u306B\u79FB\u52D5\u3057\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u5F8C\u306B\u4F7F\u7528\u3057\u305F\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u3092100%\u8EFD\u6E1B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2644254875136000
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u5834\u5408\u3001{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2644662842503168
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u4F7F\u7528\u53EF\u80FD\u3067\u3042\u308B\u6642\u3001\u5FC5\u305A\u4F7F\u7528\u3057\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\u8907\u6570\u3042\u308B\u5834\u5408\u306F\u3044\u305A\u308C\u304B\u304B\u3089\u9078\u3076\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2645390109650944
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u3042\u306A\u305F\u306F{damage}\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2645809783320576
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306F[{conditionname}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2646932502032384
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306F[{conditionname}]\u3092\u5168\u3066\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2647607503958016
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306E{srccoinposition}\u306B\u3042\u308B[{coinname}]\u3092\u5168\u3066{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2649392293556224
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3042\u308B{player}\u306E[{coinname}]\u3092\u5168\u3066{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2649679506911232
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3042\u308B\u6642\u3001\u305D\u306E\u5168\u3066\u3092{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2651501546123264
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u3042\u306A\u305F\u306E{setedcoin}\u3092\u5168\u3066{coinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2651523008376832
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u5168\u3066\u3092{coinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2651533087289344
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u3042\u306A\u305F\u306E{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u306A\u3089\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u5168\u3066\u306E\u30B3\u30A4\u30F3\u3092{coinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2652885049880576
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u3042\u306A\u305F\u306E{srccoinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u3092\u5168\u3066{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4319986097532928
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{coinposition}\u304C\u88CF\u5411\u304D\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4331430566375424
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B{src}\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4333034015240192
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u304C\u8A2D\u7F6E\u3057\u305F\u30B3\u30A4\u30F3\u304C\u30D5\u30A3\u30FC\u30EB\u30C9\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4333082841133056
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30B3\u30A4\u30F3\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112706099631042560
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u5BFE\u6226\u76F8\u624B\u306E[{coinname}]\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4337914733867008
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306E[{coinname}]\u304C{src}\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4337946790932480
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B[{coinname}]\u304C{src}\u304B\u3089{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4340493039644672
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4340533107830784
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{src}\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4340555329253376
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{src}\u304B\u3089{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4343023337418752
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3092\u8A2D\u7F6E\u3057\u305F\u6642\u3001{field}\u306B\u3042\u308B\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u3053\u306E\u30B3\u30A4\u30F3\u306E\u307F\u3060\u3063\u305F\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4343461029818368
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3044\u305A\u308C\u304B\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u304C[{conditionName}]\u3092\u5F97\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4343888471339008
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{turn}\u30BF\u30FC\u30F3\u304C\u7D4C\u904E\u3059\u308B\u3054\u3068\u306B\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4344339006697472
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30A8\u30EA\u30A2{areaType}\u306B\u6B62\u307E\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4355202249863168
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{resource}\u304C{num}\u4EE5\u4E0A\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4355204196020224
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{resource}\u304C{num}\u4EE5\u4E0B\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4355259170762752
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{resource}\u304C{num}\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4355854342500352
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30B3\u30A4\u30F3\u304C\u4F7F\u7528\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4355942183809024
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306E[{coinname}]\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4355982180691968
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u4F7F\u7528\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4356706780262400
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{cointype}\u306B\u5BFE\u3057\u3066\u4F7F\u7528\u3057\u305F\u5834\u5408\u3001\u8EFD\u6E1B\u91CF\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4361197860630528
+    m_Localized: "{player}\u306E{coinposition}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4361237463248896
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4361278529679360
+    m_Localized: "{player}\u306E{coinposition}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4361304077185024
+    m_Localized: "{player}\u306E{coinposition}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4362112009187328
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4362149481099264
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4362176798601216
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4362198931943424
+    m_Localized: "\u3042\u306A\u305F\u306E[{coinname}]\u304C{coinposition}\u306B\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4363412570583040
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4363444636037120
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4363468413546496
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4363493365460992
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4373680696537088
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A\u591A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4373710220242944
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A{num}\u679A\u4EE5\u4E0A\u591A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4373741597831168
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A\u5C11\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4373767749316608
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3088\u308A{num}\u679A\u4EE5\u4E0A\u5C11\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4373816491323392
+    m_Localized: "{player1}\u306E{coinposition}\u304C{player2}\u306E{coinposition}\u3068\u540C\u3058\u679A\u6570\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4376832971845632
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4376862558466048
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4376889158742016
+    m_Localized: "{player}\u306E{coinposition}\u306B\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4379545889615872
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4379582354894848
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4379606845435904
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B{cointype}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4379631369531392
+    m_Localized: "{player}\u306E{coinposition}\u306B{cointype}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4380493202534400
+    m_Localized: "\u3042\u306A\u305F\u304C\u30A8\u30EA\u30A2{areatype}\u306B\u3044\u308B\u5834\u5408\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4387100321853440
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4387145024745472
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C{num}\u7B87\u6240\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4387172308692992
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C{num}\u7B87\u6240\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4387195293478912
+    m_Localized: "\u6240\u6709\u8005\u306E\u7570\u306A\u308B{setcoin}\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4388760259604480
+    m_Localized: "\u6700\u5F8C\u306E\u4E00\u679A\u3068\u3057\u3066\u4F7F\u7528\u3057\u305F\u5834\u5408\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4389895368290304
+    m_Localized: "\u3042\u306A\u305F\u306E\u30E9\u30A4\u30D5\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4389924296404992
+    m_Localized: "{player}\u306E\u30E9\u30A4\u30D5\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4389948363321344
+    m_Localized: "\u3042\u306A\u305F\u306E\u30E9\u30A4\u30D5\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4390540326416384
+    m_Localized: "\u3042\u306A\u305F\u306E\u30E9\u30A4\u30D5\u306E{digit}\u306E\u4F4D\u304C{number}\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4390936679755776
+    m_Localized: "{player}\u304C[{conditionname}{num}]\u3092\u6301\u3064\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4390966329290752
+    m_Localized: "{player}\u304C\u6301\u3064[{name}]\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4390991767744512
+    m_Localized: "{player}\u304C[{conditionname}]\u3092\u6301\u305F\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4395537122406400
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u4ED6\u306B\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4395569678594048
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4395592281698304
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4395616080179200
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4397686699012096
+    m_Localized: "{player}\u306E{resource}\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4397747008909312
+    m_Localized: "{player}\u306E{resource}\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4397773714042880
+    m_Localized: "{player}\u306E{resource}\u304C0\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4398907698655232
+    m_Localized: "{player}\u306E{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B{setedcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4398940330340352
+    m_Localized: "{player}\u306E{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B{setedcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4398962425933824
+    m_Localized: "{player}\u306E{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B{setedcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4398992675254272
+    m_Localized: "{player}\u306E{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B{setedcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4726736550309888
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u540C\u3058\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4726765847523328
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u540C\u3058\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4726787200724992
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3042\u308B\u3001\u3042\u306A\u305F\u306E{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4726808180633600
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u540C\u3058\u6240\u6709\u8005\u306E{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4729088980234240
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4729137650937856
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4729158928642048
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4729181246533632
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3042\u306A\u305F\u306E\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4732845038186496
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4732869193183232
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u6570\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4732893004247040
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u307E\u3060\u30BF\u30FC\u30F3\u304C\u7D4C\u904E\u3057\u3066\u3044\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4735609789165568
+    m_Localized: "{player}\u306E{coinposition}\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4735630571941888
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B[{coinname}]\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4735655892955136
+    m_Localized: "{player1}\u306E{coinposition}\u679A\u6570\u304C{player2}\u306E{coinposition}\u679A\u6570\u3088\u308A\u591A\u3044\u5834\u5408\u3001\u305D\u306E\u5DEE\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4735751846047744
+    m_Localized: "\u3042\u306A\u305F\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4735788500070400
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u306E\u30B5\u30A4\u30BA\u5408\u8A08\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4735829956571136
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B{cointype}\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4736637066489856
+    m_Localized: "\u3042\u306A\u305F\u304C\u6301\u3064[{conditionname}]\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4737649248514048
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u3068\u304D\u3001\u91CD\u306D\u3089\u308C\u305F\u679A\u6570\u306E\u6700\u5927\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4738054401503232
+    m_Localized: "{player}\u306E{resource}\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4738370048045056
+    m_Localized: "\u3042\u306A\u305F\u306E{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4738754254680064
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u304C\u3001\u540C\u3058\u30A8\u30EA\u30A2\u306B\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4738775888900096
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u6240\u6709\u8005\u3067\u3042\u308A\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4739214403383296
+    m_Localized: "{coinposition}\u306B\u306A\u3063\u3066\u304B\u3089\u306E\u30BF\u30FC\u30F3\u6570(\u6700\u5927{maxCount})\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4739664913575936
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u3042\u306A\u305F\u306F[{conditionname}{value}]\u3092\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4739981017296896
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u306F[{name}{value}]\u3092\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4740261284884480
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306F[{conditionname}{value}]\u3092\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4748658617036800
+    m_Localized: "{player}\u306E{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4748686702096384
+    m_Localized: "{coinposition}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u30B5\u30A4\u30BA\u5408\u8A08\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4750656372420608
+    m_Localized: "{player}\u306E\u30E9\u30A4\u30D5\u304C{value}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4752037745471488
+    m_Localized: "\u3042\u306A\u305F\u306E\u3044\u305A\u308C\u304B\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0B\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4752065528541184
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0B\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4752096864186368
+    m_Localized: "\u3042\u306A\u305F\u306E{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0B\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4752114799030272
+    m_Localized: "\u3042\u306A\u305F\u306E\u5168\u3066\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u3092\u8D85\u3048\u3066\u3044\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2425401662451712
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u306E{coinposition}\u304C\u8868\u5411\u304D\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2425450903580672
+    m_Localized: "{coinposition}\u306B\u3042\u308B\u6642\u3001{player}\u306E{coinposition}\u304C\u8868\u5411\u304D\u306B\u306A\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6809327214473216
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u306F[{conditionname}]\u3092\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u5206\u5F97\u308B\u3002(\u6700\u5927
+      {maxCount})"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6818623310475264
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6819123879686144
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306F[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6820342920589312
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u304C\u6301\u3064[{conditionname}]\u306E\u30AB\u30A6\u30F3\u30C8\u3092{value}\u500D\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6820983420170240
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u304C\u6301\u3064[{conditionname}]\u306E\u30AB\u30A6\u30F3\u30C8\u3092{value}\u500D\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6822057606590464
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u306E{resource}\u30920\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6822615017009152
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u3092{value}\u30A8\u30EA\u30A2\u9060\u3056\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6829380915900416
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u4F7F\u7528\u3055\u308C\u305F\u6642\u3001{stockcoin}\u304B\u3089{num}\u679A\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 11128041585979392
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u3053\u3068\u3067\u6368\u3066\u30B3\u30A4\u30F3\u306B\u306A\u3063\u305F[{coinname}]\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 11128060938498048
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u3053\u3068\u3067\u6368\u3066\u30B3\u30A4\u30F3\u306B\u306A\u3063\u305F[{coinname}]\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 11147986831093760
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u3053\u3068\u3067\u6368\u3066\u5834\u306B\u79FB\u52D5\u3057\u305F\u30B3\u30A4\u30F3\u304C\u30BF\u30B0[{tag}]\u3092\u6301\u3064\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 11148023422201856
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u3053\u3068\u3067\u6368\u3066\u5834\u306B\u79FB\u52D5\u3057\u305F\u30B3\u30A4\u30F3\u304C\u30BF\u30B0[{tag}]\u3092\u6301\u3064\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 12566906582544384
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u305D\u306E\u30A8\u30EA\u30A2\u306B[{conditionname}{value}]\u3092\u4E0E\u3048\u308B\u3002\u3053\u306E\u30A8\u30EA\u30A2\u306B\u6B62\u307E\u3063\u305F\u5168\u3066\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306F[{conditionname}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 12607528198680576
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u305D\u306E\u30A8\u30EA\u30A2\u306B\u884C\u52D5\u529B\u8FFD\u52A0[{value}]\u3092\u4E0E\u3048\u308B\u3002\u3053\u306E\u30A8\u30EA\u30A2\u306B\u6B62\u307E\u3063\u305F\u5168\u3066\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306F[\u884C\u52D5\u529B{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 18701278197002240
+    m_Localized: "\u4F7F\u7528\u6642\u3001{player}\u304C\u6301\u3064[{conditionname}]\u306E\u30AB\u30A6\u30F3\u30C8\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 18701306328199168
+    m_Localized: "\u4F7F\u7528\u6642\u3001{player}\u304C\u6301\u3064[{conditionname}]\u306E\u30AB\u30A6\u30F3\u30C8\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 18799064531808256
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u3042\u306A\u305F\u306E{targetcoinposition}\u306B[{coinname}]\u304C\u3042\u308B\u306A\u3089\u30011\u679A\u3092\u3053\u306E\u30B3\u30A4\u30F3\u306B\u91CD\u306D\u3066\u8A2D\u7F6E\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 18809891401969664
+    m_Localized: "\u4F7F\u7528\u3057\u305F\u7D50\u679C\u30C0\u30E1\u30FC\u30B8\u304C0\u3060\u3063\u305F\u6642\u3001{player}\u3092{value}\u30A8\u30EA\u30A2\u8FD1\u3065\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 18809962000494592
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001{player}\u3092{value}\u30A8\u30EA\u30A2\u8FD1\u3065\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19206341755613184
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30B3\u30A4\u30F3\u304C{field}\u5185\u3092\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19206364299997184
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30B3\u30A4\u30F3\u304C{field}\u5185\u3092\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19206418440073216
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B[{coinname}]\u304C{field}\u5185\u3092\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19206435905155072
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B[{coinname}]\u304C{field}\u5185\u3092\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19206484743630848
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{field}\u5185\u3067\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19206500405161984
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001{player}\u304C\u6240\u6709\u3059\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{field}\u5185\u3067\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 57879915869450240
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u6642\u3001\u3042\u306A\u305F\u306F[{conditionname}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58704303393026048
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58704334724476928
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58705227427557376
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u4ED6\u306E\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58705259656589312
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u4ED6\u306E\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58705645880684544
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u4ED6\u306E\u6240\u6709\u8005\u306E{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58705669398147072
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u4ED6\u306E\u6240\u6709\u8005\u306E{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58706525141020672
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u4ED6\u306E\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58706544975884288
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u4ED6\u306E\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58707074045390848
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58707093112696832
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58708161842327552
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58708185913438208
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58708793252851712
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58708816699011072
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58709427750383616
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58709506502635520
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58711593315676160
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 58711616560508928
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59430685769150464
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59430708347088896
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59431166054707200
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59431188292907008
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59432117691953152
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3042\u308B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59432138118213632
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u305F\u30A8\u30EA\u30A2\u306B\u3042\u308B\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59433856566505472
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u3068\u304D\u3001\u91CD\u306D\u3089\u308C\u305F\u679A\u6570\u306E\u6700\u5927\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59433888434827264
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u3068\u304D\u3001\u91CD\u306D\u3089\u308C\u305F\u679A\u6570\u306E\u6700\u5927\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59435487966212096
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59435509034201088
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setedcoin}\u304C\u88CF\u5411\u304D\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59436315485614080
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3001\u540C\u3058\u30A8\u30EA\u30A2\u306B\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59436343117688832
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u3001\u540C\u3058\u30A8\u30EA\u30A2\u306B\u91CD\u306D\u3066\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59437908490661888
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308A\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59437929265049600
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308A\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064{setcoin}\u304C\u3001\u3053\u306E\u30B3\u30A4\u30F3\u3068\u540C\u3058\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59794799683121152
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C\u91CD\u306D\u3089\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59795253288710144
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59795272901275648
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59795289145815040
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{reverse}\u3067\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u305D\u306E\u679A\u6570\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u306A\u3089\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59795304085925888
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u304C{reverse}\u3067\u306F\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u306A\u3044\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59797538706239488
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u3044\u305A\u308C\u304B\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59797565365235712
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0A\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59797581043544064
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0A\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 59797596646354944
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u5168\u3066\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u672A\u6E80\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60161525243392000
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u3044\u305A\u308C\u304B\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0B\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60161571938578432
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0B\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60161588946481152
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B{setcoin}\u306E\u3046\u3061\u3001\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u4EE5\u4E0B\u3067\u3042\u308B\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60161607594356736
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B\u5168\u3066\u306E{setcoin}\u306E\u30C0\u30E1\u30FC\u30B8\u304C{damage}\u3092\u8D85\u3048\u3066\u3044\u308B\u6642\u306B\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60501344372862976
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60501360856477696
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60502154817253376
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B[{coinname}]\u304C{coinposition}\u306B\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60502171103735808
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3068\u306F\u7570\u306A\u308B\u6240\u6709\u8005\u3067\u3042\u308B[{coinname}]\u304C{coinposition}\u306B\u306A\u3044\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60524549770784768
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\u30D7\u30EC\u30A4\u30E4\u30FC\u306F[{conditionname}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60524569341407232
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u3067\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\u30D7\u30EC\u30A4\u30E4\u30FC\u306F[{conditionname}{value}]\u3092\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60713822314770432
+    m_Localized: "{handcoin}\u304B\u3089{num}\u679A\u306E\u30B3\u30A4\u30F3\u3092{trashcoin}\u306B\u79FB\u52D5\u3059\u308B\u3053\u3068\u3067\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 63272649228759040
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 63272672817524736
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 63272687325622272
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 63272700948721664
+    m_Localized: "\u73FE\u5728\u306E\u30A8\u30EA\u30A2\u306B\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u305D\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112348635828006912
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u5BFE\u6226\u76F8\u624B\u306E{srccoinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u3092\u5168\u3066{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112696558503800832
+    m_Localized: "\u30B9\u30C8\u30C3\u30AF\u306B\u79FB\u52D5\u3057\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u5834\u5408\u3001{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112696580830081024
+    m_Localized: "\u624B\u6301\u3061\u306B\u306A\u3063\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u5834\u5408\u3001{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112696595203960832
+    m_Localized: "\u6368\u3066\u5834\u306B\u79FB\u52D5\u3057\u3066\u304B\u3089{turn}\u30BF\u30FC\u30F3\u7D4C\u904E\u3057\u305F\u5834\u5408\u3001{dstcoinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112699450400911360
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112699474010648576
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112707854016131072
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u653B\u6483\u8005\u306F{damage}\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112711892396879872
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u30B3\u30A4\u30F3\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112711915117424640
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u30B3\u30A4\u30F3\u304C{dst}\u306B\u79FB\u52D5\u3059\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113666374400159744
+    m_Localized: "[{conditionname}{num}]\u3092\u6301\u3064\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u5BFE\u3057\u3066\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113673212751458304
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113673236726099968
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113674313739481088
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113674337974169600
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113674358316544000
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B\u3042\u308B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u306E\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113674376003923968
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113676331317145600
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113676350757744640
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113676367727898624
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113676386480631808
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u304C\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679098685370368
+    m_Localized: "\u3042\u306A\u305F\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679144386506752
+    m_Localized: "\u3042\u306A\u305F\u304C[{coinname}]\u3092{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679160442302464
+    m_Localized: "\u3042\u306A\u305F\u304C\u8A2D\u7F6E\u3057\u305F[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679178964348928
+    m_Localized: "\u3042\u306A\u305F\u304C\u8A2D\u7F6E\u3057\u305F[{coinname}]\u304C\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679198841155584
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679218860568576
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C[{coinname}]\u3092{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679236908658688
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C\u8A2D\u7F6E\u3057\u305F[{coinname}]\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113679264662368256
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681694741442560
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681733186433024
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681749183508480
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681764241059840
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681779269251072
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681795031445504
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681810063831040
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113681824886501376
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C\u306A\u3044\u6642\u3001\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113698381385641984
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u5BFE\u6226\u76F8\u624B\u304C\u8A2D\u7F6E\u3057\u305F\u30B3\u30A4\u30F3\u304C\u30D5\u30A3\u30FC\u30EB\u30C9\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113698398376767488
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u5BFE\u6226\u76F8\u624B\u304C\u8A2D\u7F6E\u3057\u305F\u30B3\u30A4\u30F3\u304C\u30D5\u30A3\u30FC\u30EB\u30C9\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113700656078336000
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113700717290008576
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113700731819077632
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113700745899356160
+    m_Localized: "\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u306E\u679A\u6570\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113703246946054144
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306F\u30BF\u30FC\u30F3\u7D42\u4E86\u6BCE\u306B[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113703289199472640
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u3042\u306A\u305F\u306F{loopturn}\u30BF\u30FC\u30F3\u6BCE\u306E\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u306B[{coinname}]\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113705064954540032
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u5BFE\u6226\u76F8\u624B\u306E[{coinname}]\u304C{src}\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113705090132946944
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u5BFE\u6226\u76F8\u624B\u306E[{coinname}]\u304C{src}\u304B\u3089\u96E2\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113708152436240384
+    m_Localized: "\u3042\u306A\u305F\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113708180353527808
+    m_Localized: "\u3042\u306A\u305F\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113708195054563328
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113708210867089408
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C[{coinname}]\u3092\u8A2D\u7F6E\u3057\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113709272604815360
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113709338140815360
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E{coinposition}\u306B[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113709360555175936
+    m_Localized: "\u3042\u306A\u305F\u306E[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113709402615656448
+    m_Localized: "\u3042\u306A\u305F\u306E[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113709417174085632
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113709430973345792
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E[{coinname}]\u304C{num}\u679A\u4EE5\u4E0A\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113722879342227456
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E\u30E9\u30A4\u30D5\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113722900984836096
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u306E\u30E9\u30A4\u30D5\u304C{num}\u4EE5\u4E0B\u3067\u3042\u308B\u6642\u3001\u30C0\u30E1\u30FC\u30B8\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113732539730309120
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113732594902183936
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u3042\u306A\u305F\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113732610584686592
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113732625147310080
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u6642\u3001\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u5BFE\u6226\u76F8\u624B\u306E\u30B3\u30A4\u30F3\u304C\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3073\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113733878942216192
+    m_Localized: "\u653B\u6483\u5BFE\u8C61\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u30E9\u30A4\u30D5\u306E{digit}\u306E\u4F4D\u304C{number}\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 113733897799806976
+    m_Localized: "\u653B\u6483\u5BFE\u8C61\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u30E9\u30A4\u30D5\u306E{digit}\u306E\u4F4D\u304C{number}\u3067\u3042\u308B\u6642\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 114066670746021888
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C\u6301\u3064[{conditionname}]\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 114066691319083008
+    m_Localized: "\u5BFE\u6226\u76F8\u624B\u304C\u6301\u3064[{conditionname}]\xD7{value}\u3060\u3051\u52B9\u679C\u304C\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 114070900928098304
+    m_Localized: "\u653B\u6483\u5BFE\u8C61\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u30A8\u30EA\u30A2{areatype}\u306B\u3044\u308B\u5834\u5408\u3001\u52B9\u679C\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 114070923849969664
+    m_Localized: "\u653B\u6483\u5BFE\u8C61\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u30A8\u30EA\u30A2{areatype}\u306B\u3044\u308B\u5834\u5408\u3001\u52B9\u679C\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 116981095471722496
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u3042\u306A\u305F\u306E{srccoinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u3092\u5168\u3066\u30B9\u30C8\u30C3\u30AF\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 116981213625266176
+    m_Localized: "\u4F7F\u7528\u5F8C\u3001\u5BFE\u6226\u76F8\u624B\u306E{srccoinposition}\u306B\u3042\u308B\u30BF\u30B0[{tagname}]\u3092\u6301\u3064\u30B3\u30A4\u30F3\u3092\u5168\u3066\u30B9\u30C8\u30C3\u30AF\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030c7b6e5960600003047d85c9c06000030c74c159d06000030c7ee189d060000300722b6a10600003087debba106000030070ebfa106000030c75ad1a40600003087c5d4a406000030076bd7a406000030474dd4a50600003087cc6ca706000030876a6fa706000030477c9aa80600003047531faa06000030c72878bf06000030471838c0060000308720adc006000030475eb0c006000030c70cb3c00600003087a955c306000030c779c5c30600003087ba37c406000030c7e4efc4060000304756d5c606000030877ee7cc06000030c7151bce0600003007791dce06000030874aacce0600003087a3f7cf06000030479afccf060000308704ffcf06000030072101d00600003047db7f9207000030873383920700003007988692070000308713899207000030078c8b920700003007805e9407000030c75f719407000030c7b0749407000030872a7794070000304716a495070000300733a99507000030479a2c96070000304773c19607000030c7a6c596070000300707c896070000304748ca9607000030c772b59707000030871fd6980700003047df82990700003047c1639b070000304714e69b07000030c7e5e99b07000030c701ec9b0700003047db179d07000030074e1b9d0700003007d41f9d070000300759229d070000308744859e0700003047b3889e07000030c7f58a9e07000030c7a57b9f070000304774809f0700003047e4829f070000308739859f0700003087f51ea007000030876122a007000030c79726a00700003007dd28a007000030076791a50700003047ef95a50700003047c39aa507000030074e98a50700003087368ea607000030078491a60700003047c993a607000030474e96a60700003007f4e0b507000030879068b60700003007d116ba07000030872d1aba07000030c70c38bb0700003047ff40bc0700003047869abc0700003087fe41bd0700003007fe9ebe07000030c77d33bf070000308701cebf0700003047ad70c00700003087a3e1c007000030870eebc107000030476f54c207000030472de4c207000030874c85c3070000308707e0c30700003087afc2c4070000300738f5c507000030878ef8c50700003007e864c607000030c72968c607000030871049c807000030c73250c90700003087059fca0700003047e1a2ca07000030c730a5ca0700003007d8a7ca07000030878176cb0700003047bf7bcb0700003007467ecb07000030476e81cb0700003087b25ecc07000030073762cc0700003087a564cc07000030c70a67cc07000030875925cd0700003047f728cd07000030073c2bcd0700003007752dcd0700003047ad2fcd0700003087b1ebcd07000030c745efcd0700003087aaf1cd07000030871af4cd07000030c794fbce070000304790ffce07000030077272d00700003047d1fed507000030c76802d607000030079e04d60700003087e106d60700003087bbacd607000030c7f1afd607000030c75cb2d607000030c7b1b4d60700003007eb71d707000030077c75d707000030c7f077d707000030479d7ad707000030c7da1fd8070000300716bdd90700003087cb22da07000030c73110db07000030070614db07000030076816db07000030c7c418db07000030c72fe9db070000304780eddb0700003047eaf0db07000030478df3db07000030475f65dd07000030470fcbdd07000030c78ee0de0700003047770ce007000030877500e3070000300789a9e307000030c756fce307000030077828e50700003007fdfbe50700003087fca6e607000030072ba4e70700003007ebd4e90700003007d9eaea070000300730a3eb0700003087d9c1160800003047282c1708000030473ba8170800003087d09f18080000300767a41808000030c7393e1a0800003007c2fc1a080000308762941b0800003047a79e1b08000030078caa1d08000030c7c06d1e08000030477b4c1f0800003047afe6210800003047718d230800003087f3252408000030c7a117250800003087d713260800003087a817260800003007291a2608000030c79d1c2608000030872984280800003087058728080000308786892808000030c7fe8364090000308790ef6409000030478d4e6509000030c7e1f76509000030479859660900003087ff5e6709000030c728fc670900003087b69b6909000030c795de6909000030c7cf866b0900003007cf8b6b09000030c7278e6b0900003007efc86c09000030c72401590f00003047c469630f0000304719df640f0000308777ea640f000030c7a34b690f000030c77a4f690f00003087f156690f000030c7c9a76b0f000030071eb16b0f000030874ab66b0f00003047ebf46d0f000030c7d35a6e0f0000304759be6e0f000030473f276f0f00003047b47c750f000030471885750f00003047a78b750f000030078b08790f00003007ff08790f000030c7cb15790f000030c75ea0790f00003087d2b4790f0000308722be790f00003007d8667a0f00003047817c7e0f000030c7b9857e0f00003087498f7e0f000030473c957e0f000030c758517f0f00003047125a7f0f000030876e607f0f000030c795657f0f000030472880800f000030879f87800f000030c7288d800f00003007f892800f00003047e4d6890f00003007c4dd890f0000304712e5890f0000300729eb890f0000304782f6890f00003087d6b48c0f00003007babb8c0f00003087ebc18c0f000030077d2c8f0f00003087fa348f0f00003047ae3a8f0f0000300764408f0f000030470d09900f00003047640b960f000030c7cc15960f00003007271c960f000030078121960f00003047e08d970f000030072a96980f00003047e69c980f000030c780a2980f00003087542c990f000030079d88990f00003047848f990f000030c7bcb79d0f000030877095990f0000304751bf9d0f0000308794c49d0f000030071fca9d0f0000308739ac9f0f0000304744ba9f0f000030077cc09f0f000030c782c8a00f000030c71bd0a00f000030c740d5a00f000030c74bdca00f000030071df1ca1000003047eff7ca1000003007e8fcca1000003087ca01cb10000030c7d414cd10000030c72920cd10000030071e25cd1000003047502acd10000030475b7fd01000003007fb84d01000003047868ad010000030471303d31000003007ea07d31000003047cf0dd310000030872624d31000003047af2cd310000030475636d310000030c741f2d31000003087ecddd41000003087413cd51000003087bf85d5100000300734dfd510000030873de4d51000003007574ad610000030873bb3d610000030c7d4fcd61000003007163ed710000030073ee1de1000003007c8e7de10000030c701f4e1100000308761b2e010000030c779fae11000003087f205e21000003087c501e21000003087d4e39d08000030874bef9d08000030c7090c3118000030474e8e3318000030c787643418000030076184341800003047748039180000308700f5391800003007d5103b18000030c7f5a53b180000304710a03c18000030472174431800003087274943180000304797e98827000030c715e588270000300778119b2700003007f3089b27000030c7f288a52c000030c7e77aca2c000030c7a3b670420000308730bd7042000030874ba6c94200003087d8213d18000030471f7fd342000030478f8fd34200003007da353c440000308734323c4400003087d5263c4400003087c4223c44000030c7e9103c440000308729163c4400003007117aa1cd00003087be408fd0000030070a488fd000003047e31790d000003047641f90d0000030c7ca7e90d000003007517990d000003047a74a91d000003007094691d000003047d6c591d0000030c746ca91d0000030071cc392d0000030c7b6c892d0000030071f5693d000003087945b93d000003007dae993d00000300730fc93d0000030c70fe295d000003007d2e423d3000030c713ea23d300003047a55424d3000030c7d25924d3000030c7f83625d300003047373225d30000304714c726d3000030c77fce26d300003047eb4228d300003007d34728d300003047970329d300003047060a29d3000030c77d762ad300003007547b2ad300003087b20d6fd4000030874f776fd400003087e07b6fd4000030c7a87f6fd40000304723836fd4000030076d8b71d400003007a29171d400003087489571d400003087ea9871d400003047a596bcd50000308784a1bcd5000030477aa5bcd5000030c7d1a9bcd500003007cfbfc0d5000030474bbcc0d5000030c784adc0d5000030c7f3a6f1d600003047caaaf1d600003007a663f2d6000030c77067f2d6000030c76fc606d700003047e1c106d70000300754e6b2d700003047a523cae0000030472329cae000003007842ccae000003007b02fcae000003087317d248f01003087ccf46090010030c773f160900100300741ec609001003087938d6390010030c71293639001003007c8b6669001003047f9ba6690010030c7f993699001003087b89969900100300732326b900100304774de6e9001003087bee36e90010030071df7d293010030c7af37d893010030874a2fd99301003087df34d99301003087a22fda93010030074735da9301003087033ada93010030c7213eda9301003087b789de93010030875b94de93010030871898de9301003087689cde930100304709a1de9301003087b2a5de9301003047e6a9de93010030875cb0de93010030873b12dc93010030c7dd0ddc9301003047ea09dc93010030876305dc930100308728e6e093010030071cefe09301003087d5f2e0930100300757f6e093010030c7d6f9e0930100304782fde093010030470201e193010030c77504e193010030c74617f093010030075213f09301003007da39f293010030c79236f293010030c73033f29301003047f024f29301003087028af493010030072c80f493010030c77527f69301003087522df693010030c7ec03f993010030473e00f99301003007d2fcf8930100300752f6f8930100304721fbf99301003087630afa93010030879b0ffa9301003047ca1cfa93010030876619fa93010030c70020fa93010030073c60069401003007325b06940100304787210994010030076e240f940100304751380f9401003047ed340f940100308746310f94010030473d5c109401003047a1601094010030875e083f95010030c7280d3f950100300749e14295010030479fe6429501003007c1af999f0100308743cb999f01

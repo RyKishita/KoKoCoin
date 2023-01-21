@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PlayerCondition_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f1a2634075077de46847bab4d9975cf6, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 165176356864
+    m_Localized: In the next movement phase after the count is greater than or equal
+      to {count}, if it advances in more than one direction, it will be selected
+      at random. The count then becomes zero.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 283359260672
+    m_Localized: When the count reaches {count} or more, you are defeated.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 304209145856
+    m_Localized: At the end of the turn after the count becomes {count} or more,
+      it takes {value} damage. The count then becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 334689153024
+    m_Localized: At the end of each turn, you take {count} times {value} damage.
+      The count is then halved. (Round down to the nearest whole number).
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 361314594816
+    m_Localized: The next time you move phase, the amount of movement is fixed to
+      {value}. (Ignore the correction for die rolls).
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 384790114304
+    m_Localized: The next turn of yours after the count reaches {count} or more is
+      skipped. The count then becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 409268072448
+    m_Localized: You take {value} damage at the end of each turn. The count is then
+      reduced by 1. If the count is greater than or equal to {count}, you take {value}
+      times {count} damage instead. The count then becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 432080891904
+    m_Localized: When the count is greater than or equal to {count}, all {handcoin}
+      will be moved to {trashcoin}. The count then becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 455304753152
+    m_Localized: When the {settedattackcoin} you own deals damage, the damage is
+      increased only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 476355964928
+    m_Localized: When dealing damage with {directattackcoin}, the damage is increased
+      only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 497432342528
+    m_Localized: When using {guardcoin}, defense is increased only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 519167225856
+    m_Localized: In the next {supportcoin} use phase, if the count is more than {count},
+      {supportcoin} cannot be used. After that, the count becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 540881137664
+    m_Localized: In the next {directattackcoin} use phase, if the count is more than
+      {count}, {directattackcoin} cannot be used. After that, the count becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 561764577280
+    m_Localized: In the next {guardcoin} use phase, if the count is more than {count},
+      {guardcoin} cannot be used. After that, the count becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 583306522624
+    m_Localized: In the next Movement Phase, if the count is {count} or more, it
+      does not move and stays in the current area. After that, the count becomes
+      0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 604554866688
+    m_Localized: In the next {settedcoin} use phase, if the count is more than {count},
+      {settedcoin} cannot be used. After that, the count becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 30412859721068544
+    m_Localized: When dealing damage with {directattackcoin}, the damage is increased
+      by {value} only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 30412884467462144
+    m_Localized: When dealing damage with {directattackcoin}, the damage is reduced
+      by {value} only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 30414065877069824
+    m_Localized: When using {guardcoin}, the defense is increased by {value} only
+      once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 30414097271435264
+    m_Localized: When using {guardcoin}, defense is reduced by {value} only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 30415556734038016
+    m_Localized: When the {settedattackcoin} you own deals damage, the damage is
+      increased by {value} only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 30415584278032384
+    m_Localized: When the {settedattackcoin} you own deals damage, the damage is
+      reduced by {value} only once.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 118022203609919488
+    m_Localized: In the next draw phase, if the count is {count} or more, you cannot
+      draw. After that, the count becomes 0.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030477526000000003087f941000000003047d446000000003007ed4d000000003007205400000000304797590000000030474a5f0000000030079a64000000003047026a000000003007e96e000000003047d1730000000030c7e078000000003007ef7d0000000030c7cb82000000003047c28c000000003047775b0c6c00003047b4550c6c000030c7886e0d6c00003007d8750d6c000030c7a6c90e6c0000308710d00e6c000030c7a1914ca3010030c7cf87000000

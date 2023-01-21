@@ -1,0 +1,1123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CoinNameYomigana_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c8c1950cd89993048a2e2f59b70cb960, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2837895917568
+    m_Localized: Reset area type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3109837811712
+    m_Localized: Change area type A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3198392152064
+    m_Localized: Change area type B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3223901908992
+    m_Localized: Change area type C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3277484142592
+    m_Localized: Change area type D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505939492864
+    m_Localized: Lifting a spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3741609046016
+    m_Localized: Gravity compensator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3819912507392
+    m_Localized: Fire extinguisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3879375155200
+    m_Localized: Restorative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3939680858112
+    m_Localized: Antidote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4001110634496
+    m_Localized: Discharge plate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4072631906304
+    m_Localized: Antibiotics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4121084506112
+    m_Localized: Cure-all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4225140994048
+    m_Localized: Erase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4300651048960
+    m_Localized: Erase all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355017617408
+    m_Localized: Clear area status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4429592342528
+    m_Localized: Reset field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4503672139776
+    m_Localized: After shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4557946433536
+    m_Localized: Expand area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4611126013952
+    m_Localized: No need
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4672404795392
+    m_Localized: Reinforcement prohibition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4740100861952
+    m_Localized: Expansion of activity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4805389398016
+    m_Localized: expansion of pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4895369801728
+    m_Localized: Set full acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4948008316928
+    m_Localized: Fast area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5016312557568
+    m_Localized: Fast hand coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5092007161856
+    m_Localized: Installation acceleration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5154334519296
+    m_Localized: Dice 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5163784286208
+    m_Localized: Dice 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5179701669888
+    m_Localized: Dice 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5193710645248
+    m_Localized: Dice 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5207027560448
+    m_Localized: Dice 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5220776488960
+    m_Localized: Dice 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5459650490368
+    m_Localized: Deceleration move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5503644545024
+    m_Localized: Acceleration move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5576403136512
+    m_Localized: Concealment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5637195378688
+    m_Localized: Copy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5701607305216
+    m_Localized: Spread of fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5762345021440
+    m_Localized: Spread of poison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5826907942912
+    m_Localized: Acceleration turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5879798116352
+    m_Localized: Forced use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5932642152448
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5982696976384
+    m_Localized: Reuse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6024447078400
+    m_Localized: Change promotion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6092579352576
+    m_Localized: Erasure of a grave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6146056728576
+    m_Localized: Disablement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6196463874048
+    m_Localized: Destroy the duplicate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6257646186496
+    m_Localized: Mine booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6315032653824
+    m_Localized: Shot booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6369717989376
+    m_Localized: Guard booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6431755939840
+    m_Localized: Small shield made of iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473023696896
+    m_Localized: Shield made of iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6634852528128
+    m_Localized: Large shield made of iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6688237629440
+    m_Localized: Small magic shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6764263583744
+    m_Localized: Magic shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6819020222464
+    m_Localized: Large magic shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6972183621632
+    m_Localized: Spike shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7041213476864
+    m_Localized: Complete protection shield [prototype]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7096548929536
+    m_Localized: Complete protection shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7148738654208
+    m_Localized: Complete reflection shield [prototype]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205462421504
+    m_Localized: Complete reflection shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267634589696
+    m_Localized: Last hope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7322793881600
+    m_Localized: Blessed shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7371997261824
+    m_Localized: Concurrent shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7440976785408
+    m_Localized: Growing shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7498560385024
+    m_Localized: Shield spirit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7551408615424
+    m_Localized: Shield of deactivation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7615132676096
+    m_Localized: Shock absorption shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7669516021760
+    m_Localized: Shock absorption wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7721596694528
+    m_Localized: Cutting resistance shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7783403958272
+    m_Localized: Scale armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7837523062784
+    m_Localized: Manifer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7887380754432
+    m_Localized: Buckler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7936185675776
+    m_Localized: Camouflage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7988614475776
+    m_Localized: Invisible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8057149403136
+    m_Localized: Myst body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8161440772096
+    m_Localized: Bricks wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8215304024064
+    m_Localized: Dodge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8265514037248
+    m_Localized: Small shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8315401089024
+    m_Localized: Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8356551405568
+    m_Localized: Large shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8426394955776
+    m_Localized: Decoy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8475451535360
+    m_Localized: Needle armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8532120776704
+    m_Localized: Blessed arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8580321718272
+    m_Localized: Concurrent arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8626123517952
+    m_Localized: Infinity arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8681236672512
+    m_Localized: Blood dagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8731660595200
+    m_Localized: Sling shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8787511947264
+    m_Localized: Duplicate arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8834035167232
+    m_Localized: Heavy attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8879371399168
+    m_Localized: Shot spirit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932475482112
+    m_Localized: Iron dagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8984493240320
+    m_Localized: Iron sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9031918235648
+    m_Localized: Iron long sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9082623176704
+    m_Localized: Stone missile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9134481551360
+    m_Localized: Meteor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9181021548544
+    m_Localized: Fairy needle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9228572372992
+    m_Localized: Crowd stones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9278501367808
+    m_Localized: Toy gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9325645344768
+    m_Localized: Earth quake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9376937488384
+    m_Localized: Cold rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9423800446976
+    m_Localized: Curse sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9470466273280
+    m_Localized: Golden arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9520680480768
+    m_Localized: The new brave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9573306413056
+    m_Localized: Chasing the Brave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9624640499712
+    m_Localized: Blessed trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9668768772096
+    m_Localized: Concurrent trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9713052233728
+    m_Localized: Incertitude trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9759575453696
+    m_Localized: Blast trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9803309461504
+    m_Localized: Diabrosis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9853905350656
+    m_Localized: Scapegoat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9911107268608
+    m_Localized: Fusion bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9958272217088
+    m_Localized: Cowardice beetle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10009950236672
+    m_Localized: Magic collector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10058675466240
+    m_Localized: ManEater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10106800910336
+    m_Localized: Grave keeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10152091004928
+    m_Localized: Propagate virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10199763464192
+    m_Localized: Corpse shoulder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10248891346944
+    m_Localized: Beast tamer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10325391257600
+    m_Localized: Machine rider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10388628779008
+    m_Localized: Golden trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10431595229184
+    m_Localized: Coin collector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10484858695680
+    m_Localized: Fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10539619528704
+    m_Localized: Sorcerer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10595177279488
+    m_Localized: Veteran fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10654224691200
+    m_Localized: Moan beast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10712064143360
+    m_Localized: Chief of the Beasts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10760869064704
+    m_Localized: Trash watcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10808742850560
+    m_Localized: Small poison shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10857015095296
+    m_Localized: Poison shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10908105912320
+    m_Localized: Curse sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11006659473408
+    m_Localized: Anesthetize shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11056018042880
+    m_Localized: Fire wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11103539507200
+    m_Localized: Electric shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11154680655872
+    m_Localized: Electric barrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11211349897216
+    m_Localized: Heavy large shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11258296741888
+    m_Localized: Ties to the Earth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11309282701312
+    m_Localized: Mistake in vision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11408222138368
+    m_Localized: Bio shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11464941711360
+    m_Localized: Bio wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11510785454080
+    m_Localized: Curse book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11556272680960
+    m_Localized: Curse ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11603609595904
+    m_Localized: Curse music box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11652146081792
+    m_Localized: Curse song
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11704499384320
+    m_Localized: Flame projector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11750154383360
+    m_Localized: Bottle grenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11798267244544
+    m_Localized: Cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11846153613312
+    m_Localized: Gravity gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11890734870528
+    m_Localized: Block look
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11936360509440
+    m_Localized: Qualm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11986222395392
+    m_Localized: Dimension slash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12035882954752
+    m_Localized: Bio blaster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12083110817792
+    m_Localized: Virus scatter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12132087705600
+    m_Localized: Virus gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12178845806592
+    m_Localized: Deep sleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12231647899648
+    m_Localized: Slump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12280251494400
+    m_Localized: Fire ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12330830606336
+    m_Localized: Poison arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12377710342144
+    m_Localized: Poison knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12422643920896
+    m_Localized: Oil bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12464578572288
+    m_Localized: Paralysis rat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12509499568128
+    m_Localized: Fairy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12556282834944
+    m_Localized: Burning fairy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12602189492224
+    m_Localized: Gravity maker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12661589225472
+    m_Localized: Doze fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12712013148160
+    m_Localized: Small poison trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12759559778304
+    m_Localized: Poison trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12806238187520
+    m_Localized: Poison eater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12855437373440
+    m_Localized: Germ hole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12904372318208
+    m_Localized: No entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12949863739392
+    m_Localized: Head wind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13002711969792
+    m_Localized: High wind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13056147402752
+    m_Localized: Reflection wave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13107397603328
+    m_Localized: Redraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13158576500736
+    m_Localized: Disposal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13207758909440
+    m_Localized: Resource recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13255028715520
+    m_Localized: Swap area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13301493215232
+    m_Localized: popular revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13349161480192
+    m_Localized: Win flag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13396011855872
+    m_Localized: Seizure of territory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13454065217536
+    m_Localized: Battle doll [sleep]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13503008550912
+    m_Localized: Battle doll [starting]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13529013235712
+    m_Localized: Battle doll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13802557353984
+    m_Localized: Electric giant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13877371154432
+    m_Localized: Electric automaton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13925161054208
+    m_Localized: Electric king
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13971470364672
+    m_Localized: Toy porn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14020183011328
+    m_Localized: Toy fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14068958572544
+    m_Localized: Toy giant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14121127325696
+    m_Localized: Curse doll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14176836071424
+    m_Localized: Thunder punch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14238144212992
+    m_Localized: Great thunder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14283593691136
+    m_Localized: Thunder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14338480353280
+    m_Localized: Electric burst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14391148228608
+    m_Localized: Private generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14442201296896
+    m_Localized: Thunder fairy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14489890533376
+    m_Localized: Undead curse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14540608057344
+    m_Localized: Undead virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14591686291456
+    m_Localized: Undead soldier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14639497162752
+    m_Localized: Undead leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14695986049024
+    m_Localized: Undead commander
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14745390755840
+    m_Localized: Undead shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14794673827840
+    m_Localized: Undead guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14846049857536
+    m_Localized: Sword of the Ruler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14889813225472
+    m_Localized: Arrow of the Ruler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14936621658112
+    m_Localized: Pressure from rulers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14991143415808
+    m_Localized: Shield of the Ruler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15041638641664
+    m_Localized: Bottle rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15085674639360
+    m_Localized: Club of poor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15136421523456
+    m_Localized: Stone of poor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15198455279616
+    m_Localized: Chopper of poor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15254667341824
+    m_Localized: Dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15303015084032
+    m_Localized: Dragon egg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15352587563008
+    m_Localized: Phantom soldier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15416697499648
+    m_Localized: Dragon undead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15488365572096
+    m_Localized: Fire lizard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15541276717056
+    m_Localized: Manure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15590266187776
+    m_Localized: Spike flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15640425869312
+    m_Localized: Poison flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15689977376768
+    m_Localized: Gravity flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15737716944896
+    m_Localized: Hard tree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15782658912256
+    m_Localized: Planter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15828532015104
+    m_Localized: Giant tree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15876737150976
+    m_Localized: Plant needle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15926955552768
+    m_Localized: Plant spike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15975995355136
+    m_Localized: Plant party
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16024838025216
+    m_Localized: Big worm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16082698448896
+    m_Localized: Artful magician
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16132774244352
+    m_Localized: Magician's Phantom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16168065118208
+    m_Localized: Magician's Phantom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16231126478848
+    m_Localized: Magician's Phantom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16310101028864
+    m_Localized: Queen ant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16364073332736
+    m_Localized: Knight ant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16430200729600
+    m_Localized: Soldier ant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16491940884480
+    m_Localized: Childcare ant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16541429477376
+    m_Localized: Explorer ant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16593778585600
+    m_Localized: Flame ant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16646329020416
+    m_Localized: Daemon head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16696039911424
+    m_Localized: Daemon body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16743645261824
+    m_Localized: Daemon right arm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16792328548352
+    m_Localized: Daemon left arm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16841045389312
+    m_Localized: Daemon right leg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16891167322112
+    m_Localized: Daemon left leg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16941268283392
+    m_Localized: Dimension beacon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16995186061312
+    m_Localized: Alian human
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17115143155712
+    m_Localized: Alian machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17196600733696
+    m_Localized: Alian doragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17242809380864
+    m_Localized: Alian beast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17307070312448
+    m_Localized: Alian boundary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17357557149696
+    m_Localized: Alien flame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17407066714112
+    m_Localized: Shadow dagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17458816036864
+    m_Localized: Shadow sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17511987228672
+    m_Localized: Shadow long sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17569914761216
+    m_Localized: Shadow claymore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17627393503232
+    m_Localized: Railgun [prototype]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17676873707520
+    m_Localized: Railgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17727247298560
+    m_Localized: Railgun [portable]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17785741062144
+    m_Localized: Icicle spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17839440736256
+    m_Localized: Icicle pic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17890045014016
+    m_Localized: Icicle club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17941785948160
+    m_Localized: Ice golem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18004192997376
+    m_Localized: Ice armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18056827318272
+    m_Localized: Heresy idol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18108408868864
+    m_Localized: Heresy blowgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18163157118976
+    m_Localized: Heresy claw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18217834065920
+    m_Localized: Heresy trident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18265741406208
+    m_Localized: First arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18315389382656
+    m_Localized: Second arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18369076473856
+    m_Localized: Third arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18415280926720
+    m_Localized: Ninja sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18470079508480
+    m_Localized: Ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18523678519296
+    m_Localized: Chief ninja sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18574404431872
+    m_Localized: Chief ninja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18623515537408
+    m_Localized: Dust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82256467964932096
+    m_Localized: Heresy bishop
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

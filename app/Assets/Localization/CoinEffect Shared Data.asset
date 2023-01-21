@@ -1,0 +1,1853 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CoinEffect Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CoinEffect
+  m_TableCollectionNameGuidString: 69e8ed76e0e7f5843ac35be527db2299
+  m_Entries:
+  - m_Id: 1854763218448384
+    m_Key: AddValueStatusByChangeHiddenSide0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866678124621824
+    m_Key: AddValueStatusByMoveCoinNameFrom0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866691806441472
+    m_Key: AddValueStatusByMoveCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870068938387456
+    m_Key: AddValueStatusByMoveCoinTagTo0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870083614257152
+    m_Key: AddValueStatusByMoveCoinTagFrom0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870094980820992
+    m_Key: AddValueStatusByMoveCoinTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871181108424704
+    m_Key: AddValueStatusByMoveCoinAnyFrom0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1872935589982208
+    m_Key: AddValueStatusByMoveCoinAnyTo0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1872946830716928
+    m_Key: AddValueStatusByMoveCoinAny0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1874231323734016
+    m_Key: AddValueStatusByFirstSet0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1875901378146304
+    m_Key: AddValueStatusByGetPlayerCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1899372661387264
+    m_Key: AddValueStatusByLoopTurn0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1900197018284032
+    m_Key: AddValueStatusByMovePlayer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1900699667869696
+    m_Key: AddValueStatusByResourceOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1900713588764672
+    m_Key: AddValueStatusByResourceUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1900725106323456
+    m_Key: AddValueStatusByResourceEqual0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1903622544109568
+    m_Key: AddValueStatusByUseCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1904102779334656
+    m_Key: AddValueStatusBySetCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1904593491931136
+    m_Key: AddValueStatusByUseCoinTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905384474750976
+    m_Key: AfterStopSideCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1907469438103552
+    m_Key: AppendProtectionByTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1914144492564480
+    m_Key: AppendValueByCoinExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1915465585078272
+    m_Key: AppendValueByCoinOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1915475840151552
+    m_Key: AppendValueByCoinUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1916089240334336
+    m_Key: AppendValueByCoinNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1917512367681536
+    m_Key: AppendValueByCoinNameExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1917533687328768
+    m_Key: AppendValueByCoinNameOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1917544059842560
+    m_Key: AppendValueByCoinNameUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1917553127927808
+    m_Key: AppendValueByCoinNameNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2131402674352128
+    m_Key: AppendValueByCoinNumCompareOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2131417039843328
+    m_Key: AppendValueByCoinNumCompareMoreThan0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2131431610855424
+    m_Key: AppendValueByCoinNumCompareUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2131442272776192
+    m_Key: AppendValueByCoinNumCompareLessThan0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2131452884365312
+    m_Key: AppendValueByCoinNumCompareEqual0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2133458432765952
+    m_Key: AppendValueByCoinTagExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2133539496079360
+    m_Key: AppendValueByCoinTagOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2133553739935744
+    m_Key: AppendValueByCoinTagUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2133564372496384
+    m_Key: AppendValueByCoinTagNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2134856817913856
+    m_Key: AppendValueByCoinTotalSizeOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2134878775095296
+    m_Key: AppendValueByCoinTotalSizeUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2135443148058624
+    m_Key: AppendValueByCoinTotalSizeZero0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2136082443874304
+    m_Key: AppendValueByCoinTypeExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2136100487770112
+    m_Key: AppendValueByCoinTypeOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2136110692511744
+    m_Key: AppendValueByCoinTypeUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2136120377159680
+    m_Key: AppendValueByCoinTypeNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137130407505920
+    m_Key: AppendValueByCurrentArea0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2138370256351232
+    m_Key: AppendValueByLastUse0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2139112207757312
+    m_Key: AppendValueByLifeOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141177583710208
+    m_Key: AppendValueByLifeDigit0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141737321967616
+    m_Key: AppendValueByPlayerConditionOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141753721696256
+    m_Key: AppendValueByPlayerConditionUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141762781392896
+    m_Key: AppendValueByPlayerConditionNotHas0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143050625658880
+    m_Key: AppendValueByPutCoinsExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143065435746304
+    m_Key: AppendValueByPutCoinsOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143084863762432
+    m_Key: AppendValueByPutCoinsUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2143095685066752
+    m_Key: AppendValueByPutCoinsNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2144620054523904
+    m_Key: AppendValueByResourceOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2144634797502464
+    m_Key: AppendValueByResourceUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2144644503121920
+    m_Key: AppendValueByResourceZero0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2145678248062976
+    m_Key: AppendValueByReverseSetCoinExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2145698892427264
+    m_Key: AppendValueByReverseSetCoinOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2145709361410048
+    m_Key: AppendValueByReverseSetCoinUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2145719381602304
+    m_Key: AppendValueByReverseSetCoinNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146379665715200
+    m_Key: AppendValueBySameAreaExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146394362556416
+    m_Key: AppendValueBySameAreaOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146412452589568
+    m_Key: AppendValueBySameAreaUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146422204346368
+    m_Key: AppendValueBySameAreaNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152368754339840
+    m_Key: AppendValueByDiffOwnerSetCoinExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152388220104704
+    m_Key: AppendValueByDiffOwnerSetCoinOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152398399680512
+    m_Key: AppendValueByDiffOwnerSetCoinUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152408956743680
+    m_Key: AppendValueByDiffOwnerSetCoinNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2153454567370752
+    m_Key: AppendValueBySameAreaTagExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2153468752506880
+    m_Key: AppendValueBySameAreaTagOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2153478504263680
+    m_Key: AppendValueBySameAreaTagUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2153489325568000
+    m_Key: AppendValueBySameAreaTagNotExist0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170302608388096
+    m_Key: AppendValueBySameName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170885054607360
+    m_Key: SetSameName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2174931995930624
+    m_Key: AppendValueByTurnOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2174946432724992
+    m_Key: AppendValueByTurnUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2176174243917824
+    m_Key: AppendValueByTurnZero0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2177312183758848
+    m_Key: AppendValuesByCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2177696700772352
+    m_Key: AppendValuesByCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178415977771008
+    m_Key: AppendValuesByCoinNumCompare0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2179914912968704
+    m_Key: AppendValuesByCoinTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2180552711417856
+    m_Key: AppendValuesByCoinTotalSize0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2181216346779648
+    m_Key: AppendValuesByCoinType0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2181915012968448
+    m_Key: AppendValuesByPlayerCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2182400180695040
+    m_Key: AppendValuesByPutCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183540142190592
+    m_Key: AppendValuesByResource0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183992736952320
+    m_Key: AppendValuesByReverseSetCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184610104946688
+    m_Key: AppendValuesBySameArea0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185302118969344
+    m_Key: AppendValuesBySameAreaTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185691803365376
+    m_Key: AppendValuesByTurn0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2186665284546560
+    m_Key: AreaCoinNumToWin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187981834629120
+    m_Key: AutoSetByMoveCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187996170760192
+    m_Key: AutoSetByMoveCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188461528788992
+    m_Key: AutoSetByMoveCoinName2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2188475516792832
+    m_Key: AutoSetByMoveCoinName3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2190540972437504
+    m_Key: CallCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191671123456000
+    m_Key: CheckUsableArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193109178331136
+    m_Key: CheckUsableCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193125750026240
+    m_Key: CheckUsableCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193135673749504
+    m_Key: CheckUsableCoin2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193147069673472
+    m_Key: CheckUsableCoin3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194034676674560
+    m_Key: CheckUsableCoin4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194057187504128
+    m_Key: CheckUsableCoin5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194068038168576
+    m_Key: CheckUsableCoin6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194081598353408
+    m_Key: CheckUsableCoin7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195031931170816
+    m_Key: CheckUsableCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195047039053824
+    m_Key: CheckUsableCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195057482870784
+    m_Key: CheckUsableCoinName2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195067771498496
+    m_Key: CheckUsableCoinName3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195885136490496
+    m_Key: CheckUsableCoinNumCompare0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195900667998208
+    m_Key: CheckUsableCoinNumCompare1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195910411366400
+    m_Key: CheckUsableCoinNumCompare2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195919957602304
+    m_Key: CheckUsableCoinNumCompare3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195929491255296
+    m_Key: CheckUsableCoinNumCompare4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196737016410112
+    m_Key: CheckUsableCoinTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196752388534272
+    m_Key: CheckUsableCoinTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196762668773376
+    m_Key: CheckUsableCoinTag2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196773137756160
+    m_Key: CheckUsableCoinTag3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2197904765169664
+    m_Key: CheckUsableCoinTotalSizeOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2197921869541376
+    m_Key: CheckUsableCoinTotalSizeOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2199514794897408
+    m_Key: CheckUsableCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2205615246487552
+    m_Key: CheckUsableCurrentAreaCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2205630673137664
+    m_Key: CheckUsableCurrentAreaCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2205640156459008
+    m_Key: CheckUsableCurrentAreaCoin2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2205649878855680
+    m_Key: CheckUsableCurrentAreaCoin3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206362205892608
+    m_Key: CheckUsableCurrentAreaCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206376000958464
+    m_Key: CheckUsableCurrentAreaCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206386386055168
+    m_Key: CheckUsableCurrentAreaCoinName2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2206396402053120
+    m_Key: CheckUsableCurrentAreaCoinName3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207209111367680
+    m_Key: CheckUsableCurrentAreaCoinTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207224428965888
+    m_Key: CheckUsableCurrentAreaCoinTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207234977640448
+    m_Key: CheckUsableCurrentAreaCoinTag2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207246461644800
+    m_Key: CheckUsableCurrentAreaCoinTag3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207956163047424
+    m_Key: CheckUsableLifeOver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2209730978590720
+    m_Key: CheckUsableLoopTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2210167815352320
+    m_Key: CheckUsablePutCoins0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2211187438071808
+    m_Key: CheckUsableReverseSetCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2211203883937792
+    m_Key: CheckUsableReverseSetCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2211214118039552
+    m_Key: CheckUsableReverseSetCoin2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2211224264060928
+    m_Key: CheckUsableReverseSetCoin3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212119412420608
+    m_Key: CheckUsableSetAttackDamageOver0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212137942855680
+    m_Key: CheckUsableSetAttackDamageOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212152606142464
+    m_Key: CheckUsableSetAttackDamageOver2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212163930763264
+    m_Key: CheckUsableSetAttackDamageOver3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2213752296910848
+    m_Key: CheckUsableTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2214189041397760
+    m_Key: ConflateSetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215380886433792
+    m_Key: DamageToAddConditionTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2216668982358016
+    m_Key: DamageToChangeCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2219915948273664
+    m_Key: DamageToDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2220642124902400
+    m_Key: DamageToGetCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2220997764132864
+    m_Key: DamageToMultipleCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2222286812164096
+    m_Key: DamageToPushEnemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2222694850834432
+    m_Key: DontStop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2223195281633280
+    m_Key: DrawToSet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2223929712652288
+    m_Key: GuardToAllReflection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2225017119518720
+    m_Key: GuardToChangeCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2227425522429952
+    m_Key: GuardToDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2229410954948608
+    m_Key: GuardToDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2276821647699968
+    m_Key: GuardToEmptyResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2277278235439104
+    m_Key: GuardToPushEnemy0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2277811130150912
+    m_Key: LoopTurnToFullProtection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2278874491072512
+    m_Key: LoopTurnToGetCopy0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2278894195912704
+    m_Key: LoopTurnToGetCopy1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2280368154030080
+    m_Key: MoveToInnerArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2280654373335040
+    m_Key: MoveToOuterArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281472703016960
+    m_Key: CheckUsableNeedExtraCostBySize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2282123935821824
+    m_Key: OwnerSetDamage0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2282168038928384
+    m_Key: OwnerSetDamage1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2283902102614016
+    m_Key: SetAllAreaTypeToWin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2285256548233216
+    m_Key: SetMoveToCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2286213159923712
+    m_Key: SetMoveToSideCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2287331986321408
+    m_Key: CheckUsableSetOnlyOne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2289074480558080
+    m_Key: UseSetToFusion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2290890211536896
+    m_Key: UseToGetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2291545231798272
+    m_Key: SetToSideCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2292583242346496
+    m_Key: SetTurnToBlast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2293693613027328
+    m_Key: SubstitutionMoveCoinName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2293704161701888
+    m_Key: SubstitutionMoveCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2296347911204864
+    m_Key: TurnToEvolution0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2296360192126976
+    m_Key: TurnToEvolution1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2643792868356096
+    m_Key: TurnToFullProtection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644254875136000
+    m_Key: TurnToMove2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2644662842503168
+    m_Key: UseForce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2645390109650944
+    m_Key: UseToDamage0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2645809783320576
+    m_Key: UseToChangeCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2646932502032384
+    m_Key: UseToAllLostCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2647607503958016
+    m_Key: UseToMoveCoinNameAll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2649392293556224
+    m_Key: UseToMoveCurrentAreaCoinNameALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2649679506911232
+    m_Key: UseToMoveCurrentAreaTagALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2651501546123264
+    m_Key: UseToMovePutCoins0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2651523008376832
+    m_Key: UseToMovePutCoins1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2651533087289344
+    m_Key: UseToMovePutCoins2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2652885049880576
+    m_Key: UseToMoveTagALL0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4319986097532928
+    m_Key: AddValueStatusByChangeHiddenSide1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4331430566375424
+    m_Key: AddValueStatusByMoveCoinAny1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4333034015240192
+    m_Key: AddValueStatusByMoveCoinAnyFrom1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4333082841133056
+    m_Key: AddValueStatusByMoveCoinAnyTo1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4337914733867008
+    m_Key: AddValueStatusByMoveCoinNameFrom1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4337946790932480
+    m_Key: AddValueStatusByMoveCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4340493039644672
+    m_Key: AddValueStatusByMoveCoinTagTo1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4340533107830784
+    m_Key: AddValueStatusByMoveCoinTagFrom1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4340555329253376
+    m_Key: AddValueStatusByMoveCoinTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4343023337418752
+    m_Key: AddValueStatusByFirstSet1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4343461029818368
+    m_Key: AddValueStatusByGetPlayerCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4343888471339008
+    m_Key: AddValueStatusByLoopTurn1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4344339006697472
+    m_Key: AddValueStatusByMovePlayer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355202249863168
+    m_Key: AddValueStatusByResourceOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355204196020224
+    m_Key: AddValueStatusByResourceUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355259170762752
+    m_Key: AddValueStatusByResourceEqual1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355854342500352
+    m_Key: AddValueStatusByUseCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355942183809024
+    m_Key: AddValueStatusBySetCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355982180691968
+    m_Key: AddValueStatusByUseCoinTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356706780262400
+    m_Key: AppendProtectionByTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4361197860630528
+    m_Key: AppendValueByCoinExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4361237463248896
+    m_Key: AppendValueByCoinOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4361278529679360
+    m_Key: AppendValueByCoinUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4361304077185024
+    m_Key: AppendValueByCoinNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4362112009187328
+    m_Key: AppendValueByCoinNameExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4362149481099264
+    m_Key: AppendValueByCoinNameOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4362176798601216
+    m_Key: AppendValueByCoinNameUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4362198931943424
+    m_Key: AppendValueByCoinNameNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4363412570583040
+    m_Key: AppendValueByCoinTagExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4363444636037120
+    m_Key: AppendValueByCoinTagOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4363468413546496
+    m_Key: AppendValueByCoinTagUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4363493365460992
+    m_Key: AppendValueByCoinTagNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4373680696537088
+    m_Key: AppendValueByCoinNumCompareOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4373710220242944
+    m_Key: AppendValueByCoinNumCompareMoreThan1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4373741597831168
+    m_Key: AppendValueByCoinNumCompareUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4373767749316608
+    m_Key: AppendValueByCoinNumCompareLessThan1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4373816491323392
+    m_Key: AppendValueByCoinNumCompareEqual1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376832971845632
+    m_Key: AppendValueByCoinTotalSizeOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376862558466048
+    m_Key: AppendValueByCoinTotalSizeUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376889158742016
+    m_Key: AppendValueByCoinTotalSizeZero1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379545889615872
+    m_Key: AppendValueByCoinTypeExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379582354894848
+    m_Key: AppendValueByCoinTypeOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379606845435904
+    m_Key: AppendValueByCoinTypeUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379631369531392
+    m_Key: AppendValueByCoinTypeNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4380493202534400
+    m_Key: AppendValueByCurrentArea1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4387100321853440
+    m_Key: AppendValueByDiffOwnerSetCoinExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4387145024745472
+    m_Key: AppendValueByDiffOwnerSetCoinOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4387172308692992
+    m_Key: AppendValueByDiffOwnerSetCoinUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4387195293478912
+    m_Key: AppendValueByDiffOwnerSetCoinNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4388760259604480
+    m_Key: AppendValueByLastUse1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4389895368290304
+    m_Key: AppendValueByLifeUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4389924296404992
+    m_Key: AppendValueByLifeOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4389948363321344
+    m_Key: AppendValueByLifeUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4390540326416384
+    m_Key: AppendValueByLifeDigit1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4390936679755776
+    m_Key: AppendValueByPlayerConditionOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4390966329290752
+    m_Key: AppendValueByPlayerConditionUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4390991767744512
+    m_Key: AppendValueByPlayerConditionNotHas1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395537122406400
+    m_Key: AppendValueByPutCoinsExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395569678594048
+    m_Key: AppendValueByPutCoinsOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395592281698304
+    m_Key: AppendValueByPutCoinsUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4395616080179200
+    m_Key: AppendValueByPutCoinsNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397686699012096
+    m_Key: AppendValueByResourceOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397747008909312
+    m_Key: AppendValueByResourceUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397773714042880
+    m_Key: AppendValueByResourceZero1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4398907698655232
+    m_Key: AppendValueByReverseSetCoinExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4398940330340352
+    m_Key: AppendValueByReverseSetCoinOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4398962425933824
+    m_Key: AppendValueByReverseSetCoinUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4398992675254272
+    m_Key: AppendValueByReverseSetCoinNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726736550309888
+    m_Key: AppendValueBySameAreaExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726765847523328
+    m_Key: AppendValueBySameAreaOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726787200724992
+    m_Key: AppendValueBySameAreaUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4726808180633600
+    m_Key: AppendValueBySameAreaNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729088980234240
+    m_Key: AppendValueBySameAreaTagExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729137650937856
+    m_Key: AppendValueBySameAreaTagOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729158928642048
+    m_Key: AppendValueBySameAreaTagUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4729181246533632
+    m_Key: AppendValueBySameAreaTagNotExist1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732845038186496
+    m_Key: AppendValueByTurnOver1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732869193183232
+    m_Key: AppendValueByTurnUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4732893004247040
+    m_Key: AppendValueByTurnZero1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735609789165568
+    m_Key: AppendValuesByCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735630571941888
+    m_Key: AppendValuesByCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735655892955136
+    m_Key: AppendValuesByCoinNumCompare1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735751846047744
+    m_Key: AppendValuesByCoinTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735788500070400
+    m_Key: AppendValuesByCoinTotalSize1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4735829956571136
+    m_Key: AppendValuesByCoinType1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4736637066489856
+    m_Key: AppendValuesByPlayerCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737649248514048
+    m_Key: AppendValuesByPutCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4738054401503232
+    m_Key: AppendValuesByResource1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4738370048045056
+    m_Key: AppendValuesByReverseSetCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4738754254680064
+    m_Key: AppendValuesBySameArea1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4738775888900096
+    m_Key: AppendValuesBySameAreaTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4739214403383296
+    m_Key: AppendValuesByTurn1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4739664913575936
+    m_Key: DamageToChangeCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4739981017296896
+    m_Key: GuardToChangeCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4740261284884480
+    m_Key: UseToChangeCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4748658617036800
+    m_Key: CheckUsableCoinTotalSizeUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4748686702096384
+    m_Key: CheckUsableCoinTotalSizeUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4750656372420608
+    m_Key: CheckUsableLifeUnder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4752037745471488
+    m_Key: CheckUsableSetAttackDamageUnder0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4752065528541184
+    m_Key: CheckUsableSetAttackDamageUnder1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4752096864186368
+    m_Key: CheckUsableSetAttackDamageUnder2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4752114799030272
+    m_Key: CheckUsableSetAttackDamageUnder3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2425401662451712
+    m_Key: AddValueStatusByChangeVisibleSide0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2425450903580672
+    m_Key: AddValueStatusByChangeVisibleSide1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6809327214473216
+    m_Key: GuardToAddConditionTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812085732716544
+    m_Key: UseToAddConditionTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6818623310475264
+    m_Key: GuardToGetCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6819123879686144
+    m_Key: UseToGetCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6820342920589312
+    m_Key: GuardToMultipleCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6820983420170240
+    m_Key: UseToMultipleCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6822057606590464
+    m_Key: UseToEmptyResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6822615017009152
+    m_Key: UseGuardToPushEnemy0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6829380915900416
+    m_Key: UseToDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11128041585979392
+    m_Key: AddValueStatusBySwapSetName0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11128060938498048
+    m_Key: AddValueStatusBySwapSetName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11147986831093760
+    m_Key: AddValueStatusBySwapSetTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11148023422201856
+    m_Key: AddValueStatusBySwapSetTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12566906582544384
+    m_Key: AddConditionToAreaBySet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12607528198680576
+    m_Key: SetToResourceArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18701278197002240
+    m_Key: UseSetToAddValueStatusByPlayerCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18701306328199168
+    m_Key: UseSetToAddValueStatusByPlayerCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18799064531808256
+    m_Key: CallCoinName1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18809891401969664
+    m_Key: GuardToPushEnemy1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18809962000494592
+    m_Key: UseGuardToPushEnemy1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19206341755613184
+    m_Key: AddValueStatusByMoveCoinAny2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19206364299997184
+    m_Key: AddValueStatusByMoveCoinAny3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19206418440073216
+    m_Key: AddValueStatusByMoveCoinName2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19206435905155072
+    m_Key: AddValueStatusByMoveCoinName3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19206484743630848
+    m_Key: AddValueStatusByMoveCoinTag2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19206500405161984
+    m_Key: AddValueStatusByMoveCoinTag3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57879915869450240
+    m_Key: AddConditionToPlayerBySet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58704303393026048
+    m_Key: AppendValueBySameAreaTagExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58704334724476928
+    m_Key: AppendValueBySameAreaTagExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58705227427557376
+    m_Key: AppendValueBySameAreaOver2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58705259656589312
+    m_Key: AppendValueBySameAreaOver3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58705645880684544
+    m_Key: AppendValueBySameAreaNotExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58705669398147072
+    m_Key: AppendValueBySameAreaNotExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58706525141020672
+    m_Key: AppendValueBySameAreaExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58706544975884288
+    m_Key: AppendValueBySameAreaExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58707074045390848
+    m_Key: AppendValueByPutCoinsUnder2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58707093112696832
+    m_Key: AppendValueByPutCoinsUnder3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58708161842327552
+    m_Key: AppendValueByPutCoinsOver2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58708185913438208
+    m_Key: AppendValueByPutCoinsOver3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58708793252851712
+    m_Key: AppendValueByPutCoinsNotExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58708816699011072
+    m_Key: AppendValueByPutCoinsNotExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58709427750383616
+    m_Key: AppendValueByPutCoinsExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58709506502635520
+    m_Key: AppendValueByPutCoinsExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58711593315676160
+    m_Key: AppendValueBySameAreaTagNotExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58711616560508928
+    m_Key: AppendValueBySameAreaTagNotExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59430685769150464
+    m_Key: AppendValueBySameAreaTagOver2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59430708347088896
+    m_Key: AppendValueBySameAreaTagOver3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59431166054707200
+    m_Key: AppendValueBySameAreaTagUnder2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59431188292907008
+    m_Key: AppendValueBySameAreaTagUnder3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59432117691953152
+    m_Key: AppendValueBySameAreaUnder2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59432138118213632
+    m_Key: AppendValueBySameAreaUnder3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59433856566505472
+    m_Key: AppendValuesByPutCoin2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59433888434827264
+    m_Key: AppendValuesByPutCoin3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59435487966212096
+    m_Key: AppendValuesByReverseSetCoin2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59435509034201088
+    m_Key: AppendValuesByReverseSetCoin3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59436315485614080
+    m_Key: AppendValuesBySameArea2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59436343117688832
+    m_Key: AppendValuesBySameArea3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59437908490661888
+    m_Key: AppendValuesBySameAreaTag2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59437929265049600
+    m_Key: AppendValuesBySameAreaTag3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59794799683121152
+    m_Key: CheckUsablePutCoins1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59795253288710144
+    m_Key: CheckUsableReverseSetCoin4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59795272901275648
+    m_Key: CheckUsableReverseSetCoin5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59795289145815040
+    m_Key: CheckUsableReverseSetCoin6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59795304085925888
+    m_Key: CheckUsableReverseSetCoin7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59797538706239488
+    m_Key: CheckUsableSetAttackDamageOver4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59797565365235712
+    m_Key: CheckUsableSetAttackDamageOver5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59797581043544064
+    m_Key: CheckUsableSetAttackDamageOver6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59797596646354944
+    m_Key: CheckUsableSetAttackDamageOver7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60161525243392000
+    m_Key: CheckUsableSetAttackDamageUnder4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60161571938578432
+    m_Key: CheckUsableSetAttackDamageUnder5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60161588946481152
+    m_Key: CheckUsableSetAttackDamageUnder6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60161607594356736
+    m_Key: CheckUsableSetAttackDamageUnder7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60501344372862976
+    m_Key: AppendValueByCoinNameExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60501360856477696
+    m_Key: AppendValueByCoinNameExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60502154817253376
+    m_Key: AppendValueByCoinNameNotExist2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60502171103735808
+    m_Key: AppendValueByCoinNameNotExist3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60524549770784768
+    m_Key: DamageToChangeCondition2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60524569341407232
+    m_Key: DamageToChangeCondition3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60713822314770432
+    m_Key: CheckUsableNeedExtraCostByNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63272649228759040
+    m_Key: AppendValuesByCurrentAreaTag0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63272672817524736
+    m_Key: AppendValuesByCurrentAreaTag1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63272687325622272
+    m_Key: AppendValuesByCurrentAreaTag2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63272700948721664
+    m_Key: AppendValuesByCurrentAreaTag3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112348635828006912
+    m_Key: UseToMoveTagALL1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112696558503800832
+    m_Key: TurnToMove0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112696580830081024
+    m_Key: TurnToMove1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112696595203960832
+    m_Key: TurnToMove3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112699450400911360
+    m_Key: AppendValueByCoinOver2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112699474010648576
+    m_Key: AppendValueByCoinOver3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112706074955952128
+    m_Key: AddValueStatusBySetCoinName2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112706099631042560
+    m_Key: AddValueStatusBySetCoinName3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112707854016131072
+    m_Key: UseToDamage1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112711892396879872
+    m_Key: AddValueStatusByMoveCoinTagTo2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112711915117424640
+    m_Key: AddValueStatusByMoveCoinTagTo3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113666374400159744
+    m_Key: CheckUsableCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113673212751458304
+    m_Key: AppendValuesByCoinTag2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113673236726099968
+    m_Key: AppendValuesByCoinTag3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113674313739481088
+    m_Key: CheckUsableCoinName4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113674337974169600
+    m_Key: CheckUsableCoinName5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113674358316544000
+    m_Key: CheckUsableCoinName6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113674376003923968
+    m_Key: CheckUsableCoinName7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113676331317145600
+    m_Key: CheckUsableCoinTag4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113676350757744640
+    m_Key: CheckUsableCoinTag5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113676367727898624
+    m_Key: CheckUsableCoinTag6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113676386480631808
+    m_Key: CheckUsableCoinTag7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679098685370368
+    m_Key: CheckUsableCoinNameInField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679144386506752
+    m_Key: CheckUsableCoinNameInField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679160442302464
+    m_Key: CheckUsableCoinNameInField2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679178964348928
+    m_Key: CheckUsableCoinNameInField3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679198841155584
+    m_Key: CheckUsableCoinNameInField4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679218860568576
+    m_Key: CheckUsableCoinNameInField5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679236908658688
+    m_Key: CheckUsableCoinNameInField6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113679264662368256
+    m_Key: CheckUsableCoinNameInField7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681694741442560
+    m_Key: CheckUsableCoinTagInField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681733186433024
+    m_Key: CheckUsableCoinTagInField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681749183508480
+    m_Key: CheckUsableCoinTagInField2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681764241059840
+    m_Key: CheckUsableCoinTagInField3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681779269251072
+    m_Key: CheckUsableCoinTagInField4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681795031445504
+    m_Key: CheckUsableCoinTagInField5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681810063831040
+    m_Key: CheckUsableCoinTagInField6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113681824886501376
+    m_Key: CheckUsableCoinTagInField7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113698381385641984
+    m_Key: AddValueStatusByMoveCoinAnyFrom2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113698398376767488
+    m_Key: AddValueStatusByMoveCoinAnyFrom3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113700656078336000
+    m_Key: AppendValuesByCoinTagInField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113700717290008576
+    m_Key: AppendValuesByCoinTagInField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113700731819077632
+    m_Key: AppendValuesByCoinTagInField2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113700745899356160
+    m_Key: AppendValuesByCoinTagInField3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113703246946054144
+    m_Key: LoopTurnToGetCopyInField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113703289199472640
+    m_Key: LoopTurnToGetCopyInField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113705064954540032
+    m_Key: AddValueStatusByMoveCoinNameFrom2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113705090132946944
+    m_Key: AddValueStatusByMoveCoinNameFrom3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113708152436240384
+    m_Key: AppendValueByCoinNameExistInField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113708180353527808
+    m_Key: AppendValueByCoinNameExistInField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113708195054563328
+    m_Key: AppendValueByCoinNameExistInField2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113708210867089408
+    m_Key: AppendValueByCoinNameExistInField3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113709272604815360
+    m_Key: AppendValueByCoinNameOver2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113709338140815360
+    m_Key: AppendValueByCoinNameOver3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113709360555175936
+    m_Key: AppendValueByCoinNameOverInField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113709402615656448
+    m_Key: AppendValueByCoinNameOverInField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113709417174085632
+    m_Key: AppendValueByCoinNameOverInField2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113709430973345792
+    m_Key: AppendValueByCoinNameOverInField3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113722879342227456
+    m_Key: AppendValueByLifeUnder2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113722900984836096
+    m_Key: AppendValueByLifeUnder3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113725930199265280
+    m_Key: TurnToEvolutionInField
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113732539730309120
+    m_Key: AddValueStatusByMoveCoinTagToField0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113732594902183936
+    m_Key: AddValueStatusByMoveCoinTagToField1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113732610584686592
+    m_Key: AddValueStatusByMoveCoinTagToField2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113732625147310080
+    m_Key: AddValueStatusByMoveCoinTagToField3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113733878942216192
+    m_Key: AppendValueByLifeDigit2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113733897799806976
+    m_Key: AppendValueByLifeDigit3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114066670746021888
+    m_Key: AppendValuesByPlayerCondition2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114066691319083008
+    m_Key: AppendValuesByPlayerCondition3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114070900928098304
+    m_Key: AppendValueByCurrentArea2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114070923849969664
+    m_Key: AppendValueByCurrentArea3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116981095471722496
+    m_Key: UseToMoveTagALLToStock0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116981213625266176
+    m_Key: UseToMoveTagALLToStock1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1642936196033

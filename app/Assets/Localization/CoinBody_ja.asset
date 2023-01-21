@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CoinBody_ja
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: c76a4f042ce7369489ecfdf4f081c7a8, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 52060172288
+    m_Localized: "\u3053\u306E\u30B3\u30A4\u30F3\u306F\u4F7F\u7528\u3067\u304D\u306A\u3044\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257255014400
+    m_Localized: "\u30B3\u30A4\u30F3\u4F7F\u7528\u30B9\u30C6\u30C3\u30D7{no}\u3067{directattackcoin}\u304C\u4F7F\u7528\u3067\u304D\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4098548510720
+    m_Localized: "[{name}]\u306B\u3088\u308B\u30C0\u30E1\u30FC\u30B8\u57FA\u6E96\u5024\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4113014665216
+    m_Localized: "[{name}]\u306B\u3088\u308B\u30C0\u30E1\u30FC\u30B8\u57FA\u6E96\u5024\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6074904555520
+    m_Localized: "\u30C0\u30A4\u30B9\u306B\u3088\u308B\u79FB\u52D5\u91CF\u304C{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6135940067328
+    m_Localized: "\u30C0\u30A4\u30B9\u306B\u3088\u308B\u79FB\u52D5\u91CF\u304C{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 9568109670400
+    m_Localized: "\u30A8\u30EA\u30A2\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30A8\u30EA\u30A2\u306E\u30BF\u30A4\u30D7\u3092\u5143\u306B\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9582097674240
+    m_Localized: "\u30A8\u30EA\u30A2\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30A8\u30EA\u30A2\u306E\u30BF\u30A4\u30D7\u3092{areatype}\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 11117410070528
+    m_Localized: "\u5168\u3066\u306E\u30A8\u30EA\u30A2\u306F{status}\u3092\u5168\u3066\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 15580438933504
+    m_Localized: "\u30A8\u30EA\u30A2\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30A8\u30EA\u30A2\u306E{status}\u3092\u5168\u3066\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 16550640168960
+    m_Localized: "\u5168\u3066\u306E{settedcoin}\u304C\u6301\u3064{status}\u3092\u5168\u3066\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 16564137439232
+    m_Localized: "\u5168\u3066\u306E{settedcoin}\u306E{status}[{name}]\u3092\u5168\u3066\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 17341320998912
+    m_Localized: "\u5168\u3066\u306E{settedcoin}"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 180751639719936
+    m_Localized: "\u30D5\u30A3\u30FC\u30EB\u30C9\u4E21\u7AEF\u306B\u30A8\u30EA\u30A2E\u3092\u8FFD\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181301894656000
+    m_Localized: "\u96A3\u63A5\u30A8\u30EA\u30A2\u4E8C\u3064\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u308C\u3089\u306E\u30A8\u30EA\u30A2\u306B\u3042\u308B\u3001\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u3092\u5165\u308C\u66FF\u3048\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182898481639424
+    m_Localized: "\u3042\u306A\u305F\u304C\u6240\u6709\u3059\u308B{settedcoin}\u306E{status}\u3092\u5168\u3066\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 189756684578816
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u30B3\u30A4\u30F3\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u306F{status}\u3092\u5168\u3066\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 192343727091712
+    m_Localized: "\u8907\u88FD\u3067\u3042\u308B\u8A2D\u7F6E\u30B3\u30A4\u30F3\u3092\u5168\u3066{trash}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 192862650576896
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u5168\u3066\u306E\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 195539409252352
+    m_Localized: "\u30A8\u30EA\u30A2\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 197127406301184
+    m_Localized: "\u6307\u5B9A\u3057\u305F\u30A8\u30EA\u30A2\u306E{status}[{name}]\u3092\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 198709925588992
+    m_Localized: "\u5168\u3066\u306E\u30A8\u30EA\u30A2\u304B\u3089{status}[{name}]\u3092\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 199633951731712
+    m_Localized: "\u3042\u306A\u305F\u306F{abnormalstate}\u3092\u5168\u3066\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 200931828772864
+    m_Localized: "\u3042\u306A\u305F\u306E\u624B\u6301\u3061\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 201577655119872
+    m_Localized: "\u3042\u306A\u305F\u306E\u624B\u6301\u3061\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 202203973758976
+    m_Localized: "{player}\u306F[{name}]\u3092\u5168\u3066\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 203130445180928
+    m_Localized: "\u3042\u306A\u305F\u304C\u6240\u6709\u3059\u308B\u3001\u5168\u3066\u306E{settedcoin}\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 203143351054336
+    m_Localized: "\u3042\u306A\u305F\u304C\u6240\u6709\u3059\u308B\u3001\u5168\u3066\u306E{settedcoin}\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 216960072101888
+    m_Localized: "\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u3092{dst}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 220100095848448
+    m_Localized: "\u30A8\u30EA\u30A2\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30A8\u30EA\u30A2\u306B\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 656048029904896
+    m_Localized: "\u3042\u306A\u305F\u306E{src}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u3092{dst}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 360630100373504
+    m_Localized: "{abnormalstate}\u304C\u767A\u52D5\u3059\u308B\u305F\u3081\u306B\u5FC5\u8981\u306A{count}\u3092{value}\u6E1B\u3089\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 360610655580160
+    m_Localized: "{abnormalstate}\u304C\u767A\u52D5\u3059\u308B\u305F\u3081\u306B\u5FC5\u8981\u306A{count}\u3092{value}\u5897\u3084\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 362568602824704
+    m_Localized: "{handcoin}\u306E\u6240\u6301\u30B5\u30A4\u30BA\u4E0A\u9650\u53CA\u3073\u679A\u6570\u4E0A\u9650\u3092{value}\u5897\u3084\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 362591944126464
+    m_Localized: "{handcoin}\u306E\u6240\u6301\u30B5\u30A4\u30BA\u4E0A\u9650\u53CA\u3073\u679A\u6570\u4E0A\u9650\u3092{value}\u6E1B\u3089\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 363689220190208
+    m_Localized: "\u30BF\u30FC\u30F3\u6BCE\u306B\u4F7F\u7528\u3067\u304D\u308B{resource}\u3092{value}\u5897\u3084\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 363710313345024
+    m_Localized: "\u30BF\u30FC\u30F3\u6BCE\u306B\u4F7F\u7528\u3067\u304D\u308B{resource}\u3092{value}\u6E1B\u3089\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 364804225576960
+    m_Localized: "\u3042\u306A\u305F\u306E\u6B21\u306E\u79FB\u52D5\u30DE\u30B9\u6570\u3092{value}\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 365725756108800
+    m_Localized: "\u3042\u306A\u305F\u306F[{name}{value}]\u3092\u5F97\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 365753962803200
+    m_Localized: "\u3042\u306A\u305F\u306F[{name}{value}]\u3092\u5931\u3046\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 367033410072576
+    m_Localized: "\u8A2D\u7F6E\u30B3\u30A4\u30F3\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u306E\u52B9\u679C\u3092{value}\u30BF\u30FC\u30F3\u306E\u9593\u7121\u52B9\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 370415029923840
+    m_Localized: "\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u8907\u88FD\u3092\u53D6\u5F97\u3057\u3066\u3042\u306A\u305F\u306E{coinposition}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 371026072907776
+    m_Localized: "\u4F7F\u7528\u3067\u304D\u308B\u30B3\u30A4\u30F3\u304C\u3042\u308B\u6642\u3001\u4F7F\u7528\u3057\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002
+      (\u540C\u3058\u30EB\u30FC\u30EB\u304C\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u306F\u53CD\u8EE2)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371560179773440
+    m_Localized: "\u3042\u306A\u305F\u306E{src}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u3092\u5168\u3066\u30B9\u30C8\u30C3\u30AF\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 372639550353408
+    m_Localized: "\u3042\u306A\u305F\u306E{src}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u3092{value}\u679A{dst}\u306B\u79FB\u52D5\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 372946011369472
+    m_Localized: "\u3042\u306A\u305F\u306E{src}\u306B\u3042\u308B\u30B3\u30A4\u30F3\u3092\u5168\u3066\u9664\u5916\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 723683773984768
+    m_Localized: "{settedcoin}\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 724240735612928
+    m_Localized: "{settedcoin}\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 727050478891008
+    m_Localized: "\u8A2D\u7F6E\u3055\u308C\u3066\u3044\u308B\u5168\u3066\u306E\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 727526930853888
+    m_Localized: "\u3042\u306A\u305F\u306E\u624B\u6301\u3061\u30B3\u30A4\u30F3\u3092\u30B9\u30C8\u30C3\u30AF\u306B\u623B\u3059\u3002\u305D\u306E\u5F8C\u3001\u5143\u306E\u624B\u6301\u3061\u30B3\u30A4\u30F3\u306E\u5408\u8A08\u30B5\u30A4\u30BA\u3092\u8D85\u3048\u308B\u307E\u3067\u30C9\u30ED\u30FC\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728528127995904
+    m_Localized: "\u8A2D\u7F6E\u6642\u306B{hiddenside}\u306B\u306A\u308A\u3001\u8A73\u7D30\u306F\u6240\u6709\u8005\u3057\u304B\u898B\u308C\u306A\u304F\u306A\u308B\u3002(\u540C\u3058\u30EB\u30FC\u30EB\u304C\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u306F\u53CD\u8EE2)"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 729022384779264
+    m_Localized: "\u30BF\u30FC\u30F3\u7D42\u4E86\u6BCE\u306B\u30B3\u30A4\u30F3\u306B\u52A0\u7B97\u3055\u308C\u308B\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u5897\u52A0\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 730158332325888
+    m_Localized: "\u30BF\u30FC\u30F3\u7D42\u4E86\u6BCE\u306B\u30B3\u30A4\u30F3\u306B\u52A0\u7B97\u3055\u308C\u308B\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u6E1B\u5C11\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 1
+  - m_Id: 2414944406941696
+    m_Localized: "\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u6B21\u306E\u79FB\u52D5\u30DE\u30B9\u6570\u3092{value}\u306B\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 12593966273212416
+    m_Localized: "\u4F7F\u7528\u6761\u4EF6\u3092\u8FFD\u52A0\u3059\u308B\u52B9\u679C\u3092\u7121\u52B9\u306B\u3059\u308B\u3002
+      (\u540C\u3058\u30EB\u30FC\u30EB\u304C\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u306F\u53CD\u8EE2)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12678362510602240
+    m_Localized: "\u3042\u306A\u305F\u306E\u8A2D\u7F6E\u30B3\u30A4\u30F3\u304C{num}\u679A\u4EE5\u4E0A\u3067\u3042\u308B\u306A\u3089\u3001\u3042\u306A\u305F\u306F\u52DD\u5229\u3059\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 14693968718016512
+    m_Localized: "{player}\u304C\u6240\u6709\u3059\u308B\u3001\u5168\u3066\u306E{settedcoin}\u304C\u6301\u3064[{name}]\u3092\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 14695674352709632
+    m_Localized: "{settedcoin}\u3092\u9078\u629E\u3059\u308B\u3002\u305D\u306E\u30B3\u30A4\u30F3\u304C\u6301\u3064[{name}]\u3092\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60771252440608768
+    m_Localized: "\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u6240\u6709\u3059\u308B{settedcoin}\u306E{status}\u3092\u5168\u3066\u6D88\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60772093335646208
+    m_Localized: "\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u6240\u6709\u3059\u308B\u3001\u5168\u3066\u306E{settedcoin}\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60772116429484032
+    m_Localized: "\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u6240\u6709\u3059\u308B\u3001\u5168\u3066\u306E{settedcoin}\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60773314800857088
+    m_Localized: "\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u624B\u6301\u3061\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u9032\u3081\u308B\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60773334799298560
+    m_Localized: "\u4ED6\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u624B\u6301\u3061\u30B3\u30A4\u30F3\u306E\u7D4C\u904E\u30BF\u30FC\u30F3\u6570\u3092{value}\u623B\u3059\u3002"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00300796774201000030c77e5145010000300720784601000030c7cd7d4601000030073088470100003007a78d470100003007bdfd47010000300736f94701000030875cb94901000030c7e4bd4901000030c714c149010000300784c64901000030873fb94a01000030077fc24a01000030c7fec54a0100003007e8ca4a01000030479ac94b01000030c729a04c0100003007bba64c0100003007a0d04d0100003047f8e3500100003047035b51010000308798ee510100003007e8e9520100003087423153010000300754abbe2c00003047c22f9202000030c76fb1920200003007a047940200003007c34c9402000030c732a694020000300794ab940200003087a13f950200003007c684960200003047ac979602000030877e06970200003047c00a9702000030073c139802000030878b5a97020000300751640100000030c7616e0100000030c7485b02000000308763f60200000030c7f58f030000003007a49203000000308744ba0300000030c7a2bd0300000030876c8605000000308701b7080000003047791c0a00000030879a2b0e00000030077f0d0f0000003087a3100f000000304797c50f0000003087c021a400000030075f58a600000030c72b95ac000000308783efae00000030c75568af000000300791d7b100000030074d49b30000003087c2b9b400000030c7e690b5000000304716bfb600000030877455b7000000300748e7b70000003007febeb80000003047ffc1b800000030c7c39fb9000000304726f2b90000003007f452c500000030070c2ec800000030c715ac5402000030870f61940800003087a2940500000030c74de70a2d000030c73116343400003087e67134340000308751a3353400003047d221e7d7000030879be5e7d700003007fceae7d700003087a806e9d7000030870002e9d700
+    - rid: 1
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00300796774201000030c77e5145010000300720784601000030c7cd7d4601000030073088470100003007a78d470100003007bdfd47010000300736f94701000030875cb94901000030c7e4bd4901000030c714c149010000300784c64901000030873fb94a01000030077fc24a01000030c7fec54a0100003007e8ca4a01000030479ac94b01000030c729a04c0100003007bba64c0100003007a0d04d0100003047f8e3500100003047035b5101000030473d7251010000308798ee510100003007e8e952010000308742315301000030c72a289002000030c7d53d910200003047c22f9202000030c76fb1920200003007a047940200003007c34c9402000030c732a694020000300794ab940200003087a13f95020000304790ae950200003007c684960200003047ac979602000030877e06970200003047c00a9702000030073c139802000030878b5a970200

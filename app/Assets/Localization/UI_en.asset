@@ -1,0 +1,1239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 47057c1f446463c458ae6add0f0fa6e5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 17880788992
+    m_Localized: "\u8868\u793A\u8A00\u8A9E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001277304832
+    m_Localized: "\u65E5\u672C\u8A9E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171754790912
+    m_Localized: "\u82F1\u8A9E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17734641856512
+    m_Localized: KoKoCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17830104215552
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17907291992064
+    m_Localized: Start With Mute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18028075364352
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18112083079168
+    m_Localized: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48474477768704
+    m_Localized: Screen Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48626168967168
+    m_Localized: Default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48691973402624
+    m_Localized: RefreshRate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48847863099392
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48911247421440
+    m_Localized: Middle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49008265867264
+    m_Localized: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49084316987392
+    m_Localized: Screen Direct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49194291638272
+    m_Localized: Landscape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49305180647424
+    m_Localized: Portrait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49431852822528
+    m_Localized: Coin Detail Display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49520889507840
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49600665169920
+    m_Localized: Delete All Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49725621874688
+    m_Localized: Player Icon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54101342105600
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54151329820672
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54218115723264
+    m_Localized: Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54306355490816
+    m_Localized: Exit App
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54689006039040
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55225855979520
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55271024439296
+    m_Localized: Sound Effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55366449049600
+    m_Localized: Select BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55446480564224
+    m_Localized: Select Sound Effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55888203689984
+    m_Localized: Use Offline Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56440090210304
+    m_Localized: Check Permission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57602365403136
+    m_Localized: Channel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57690923937792
+    m_Localized: Choose the same connection method as the person you want to play
+      with.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58385844613120
+    m_Localized: Allow Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58613591126016
+    m_Localized: Show Ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58733879570432
+    m_Localized: Display banner-type ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59001983676416
+    m_Localized: Display interstitial-type ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59261212635136
+    m_Localized: Add a button to display ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59581128978432
+    m_Localized: Top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59624552607744
+    m_Localized: Bottom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803850715136
+    m_Localized: Editing finished
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60326649737216
+    m_Localized: When you enter the lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61271001477120
+    m_Localized: at the end of duel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61701274152960
+    m_Localized: other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61836880195584
+    m_Localized: Display interval
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61985576660992
+    m_Localized: min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73991545368576
+    m_Localized: Display setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74567083569152
+    m_Localized: Start Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74644233596928
+    m_Localized: Start Wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74999558254592
+    m_Localized: Players found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75337988255744
+    m_Localized: Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75422356680704
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75481030799360
+    m_Localized: Earnest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77701264650240
+    m_Localized: Custom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77765244563456
+    m_Localized: Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77852695801856
+    m_Localized: Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77900053688320
+    m_Localized: Ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77971667234816
+    m_Localized: vs NPC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78213326254080
+    m_Localized: vs Offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78279948578816
+    m_Localized: vs Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78370147086336
+    m_Localized: Back to title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78466578329600
+    m_Localized: Edit Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78531556487168
+    m_Localized: Coins List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78594030645248
+    m_Localized: Edit Rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83217164480512
+    m_Localized: Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83773383716864
+    m_Localized: Copy rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83856200249344
+    m_Localized: Delete rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84457768300544
+    m_Localized: Copy deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84538508652544
+    m_Localized: Delete deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84601322549248
+    m_Localized: Select Use Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85512690282496
+    m_Localized: Favorite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85685797597184
+    m_Localized: Changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86606380216320
+    m_Localized: Rule Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86841101856768
+    m_Localized: Deck Rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87067069984768
+    m_Localized: coin limit in deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87431445950464
+    m_Localized: lower limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87683833999360
+    m_Localized: upper limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87808375468032
+    m_Localized: Coin Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88340016082944
+    m_Localized: Total coin size in deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88805562855424
+    m_Localized: Number of identical coins that can be included in the deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89277241700352
+    m_Localized: Number of individual coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90022724710400
+    m_Localized: Regist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080157315072
+    m_Localized: Unregist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90592046952448
+    m_Localized: Duel Rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90939532455936
+    m_Localized: Number of Rounds To Win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91361278111744
+    m_Localized: Initial Life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91602790330368
+    m_Localized: Start turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92113199378432
+    m_Localized: When you draw a coin and the stock is empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92251846291456
+    m_Localized: Lose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92622933143552
+    m_Localized: Shuffle trash to stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93168880529408
+    m_Localized: The first player's first turn is not a draw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93538147053568
+    m_Localized: Max Resource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93921271558144
+    m_Localized: Resources replenished each turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94327632506880
+    m_Localized: Remaining resources are carried over to the next turn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95162844262400
+    m_Localized: The amount of resources added to each turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526819502010368
+    m_Localized: Get resources for moving die rolls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527408218714112
+    m_Localized: Consume resources during coin draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527673504247808
+    m_Localized: Size1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527738272690176
+    m_Localized: Size2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527783940272128
+    m_Localized: Size3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528282223587328
+    m_Localized: Maximum number of coins in hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528524532723712
+    m_Localized: Maximum total coin size in hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528941710782464
+    m_Localized: Multiple actions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529271026561024
+    m_Localized: Status Effect Activation Count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529526585503744
+    m_Localized: Damage thresholds for damage-dealing statuses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529837282766848
+    m_Localized: Damage compensation for seted attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530182062944256
+    m_Localized: Damage compensation for direct attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530218586943488
+    m_Localized: Defense correction for guard coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530713581924352
+    m_Localized: Resource consumption of other type coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530685194874880
+    m_Localized: Resource consumption of support coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530647521636352
+    m_Localized: Resource consumption of guard coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530619650486272
+    m_Localized: Resource consumption of direct attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530588021239808
+    m_Localized: Resource consumption of seted attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 531946501779456
+    m_Localized: Dice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532086545395712
+    m_Localized: Area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532326765768704
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532633499414528
+    m_Localized: Player's initial position (0 at the left end of the area, +1 for
+      each step to the right)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532947459846144
+    m_Localized: Player1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532998361919488
+    m_Localized: Player2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533351430041600
+    m_Localized: Disable effects that add conditions of use.(administrators only)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533737444421632
+    m_Localized: Place the coin face down when placing it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534234205204480
+    m_Localized: Coin Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534293391028224
+    m_Localized: Number of coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534380808712192
+    m_Localized: condition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535154422919168
+    m_Localized: Release the number of stock coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535458556096512
+    m_Localized: Displays the direct attack coin used when selecting a defensive
+      coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535743143817216
+    m_Localized: Time limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536097822552064
+    m_Localized: per-operation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536376391446528
+    m_Localized: Total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536461925888000
+    m_Localized: Extension of each operation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536806680899584
+    m_Localized: Number of turns elapsed per turn, added to coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537046146297856
+    m_Localized: When to add a side deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537230322380800
+    m_Localized: Not added
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537270340235264
+    m_Localized: Round two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537306167980032
+    m_Localized: When you are losing in the number of rounds won
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537340439638016
+    m_Localized: Opponent wins in one more round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537390645456896
+    m_Localized: Final Round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538594553311232
+    m_Localized: Use side deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835634184892416
+    m_Localized: Coin details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835749675053056
+    m_Localized: Ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835956231942144
+    m_Localized: How to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836083449376768
+    m_Localized: Licenses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836208548687872
+    m_Localized: Other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836486664597504
+    m_Localized: Auto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836576582086656
+    m_Localized: Rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836865657712640
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836912386453504
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837257778999296
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837371520135168
+    m_Localized: Owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837462825938944
+    m_Localized: Basic Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837755168927744
+    m_Localized: Explain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837947985276928
+    m_Localized: Direct attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838363401728000
+    m_Localized: View
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838750766673920
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1839041121562624
+    m_Localized: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1839650063200256
+    m_Localized: Request a match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840572768137216
+    m_Localized: Allow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840619362660352
+    m_Localized: Deny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840878654533632
+    m_Localized: Abort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841148155342848
+    m_Localized: Target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841484517552128
+    m_Localized: Self-made
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841771194036224
+    m_Localized: Imported from other players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1842030360080384
+    m_Localized: Sort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1843742143623168
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1856614030585856
+    m_Localized: Setted attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857046761123840
+    m_Localized: Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857377486188544
+    m_Localized: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857650325663744
+    m_Localized: Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857877480779776
+    m_Localized: Get by online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857979062628352
+    m_Localized: Get by offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1858730249891840
+    m_Localized: Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865155583881216
+    m_Localized: Total play time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865331375550464
+    m_Localized: Total damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865410756947968
+    m_Localized: Total elapsed turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865528704970752
+    m_Localized: Total number of walks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865628130947072
+    m_Localized: Minimum number of victory turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865875611660288
+    m_Localized: Maximum number of victory turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866008176832512
+    m_Localized: Maximum damage in a single pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866297533476864
+    m_Localized: Number of stops by area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866480900059136
+    m_Localized: The coins you decked out the most
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866796538212352
+    m_Localized: Most used coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867599856480256
+    m_Localized: Number of battles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867761421070336
+    m_Localized: Number of Victories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867901586321408
+    m_Localized: Winning percentage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868805005848576
+    m_Localized: NPC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868943002644480
+    m_Localized: Offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1869011038449664
+    m_Localized: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1881765677838336
+    m_Localized: Deck name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1881866966085632
+    m_Localized: Main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1881919071924224
+    m_Localized: Side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1882675766308864
+    m_Localized: Can be used online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883329360506880
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883600652283904
+    m_Localized: Add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1884175091576832
+    m_Localized: Rule details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1884839024734208
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1884893798150144
+    m_Localized: Close without saving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11668906561712128
+    m_Localized: Number of exchanges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11668972420673536
+    m_Localized: Exchange destination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11669010580451328
+    m_Localized: "1 coin lottery ticket\n\u2192 1 coin (random)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11669059645419520
+    m_Localized: "3 coin lottery tickets\n\u2192 1 exchange coin ticket"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11669170471514112
+    m_Localized: Perform exchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14555938493509632
+    m_Localized: Clear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25451742368313344
+    m_Localized: Coin type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25451579310551040
+    m_Localized: Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19997082727690240
+    m_Localized: Disable additional damage and additional protection.(administrators
+      only)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20009250739138560
+    m_Localized: When there are coins available, you must use them.(administrators
+      only)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24347530855133184
+    m_Localized: Rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24348103537012736
+    m_Localized: Tips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24393905206669312
+    m_Localized: Operating tips are displayed here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24720619543670784
+    m_Localized: Coins to be added compulsorily (administrators only)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24745315614011392
+    m_Localized: Coins available for unclaimed (administrators only)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25420285566464000
+    m_Localized: Lot coin ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25420903509078016
+    m_Localized: Coin exchange ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25422027628687360
+    m_Localized: 'You can get coins when you use it.
+
+      The type is random.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25422262908170240
+    m_Localized: Any coin can be acquired. Select the coin you wish to acquire from
+      the coin list to use it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25422370311712768
+    m_Localized: Required for online competition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25443482139570176
+    m_Localized: Date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444236065714176
+    m_Localized: Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444934698348544
+    m_Localized: Ascending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444996346228736
+    m_Localized: Descending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25449970778189824
+    m_Localized: Value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25450198700863488
+    m_Localized: Acquisition date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25462984516513792
+    m_Localized: Lot coin (online)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25463151974100992
+    m_Localized: Coin exchange ticket (online)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25463795359363072
+    m_Localized: Point (online)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547143989637120
+    m_Localized: 'Coins
+
+      List'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547060824977408
+    m_Localized: 'Edit
+
+      Deck'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547212348403712
+    m_Localized: 'Edit
+
+      Rule'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547907411685376
+    m_Localized: Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29887752690937856
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29887800589889536
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41740550462189568
+    m_Localized: Result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41742022943911936
+    m_Localized: Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58026745227849728
+    m_Localized: 'Your deck has been edited.
+
+      Do you want to save it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58026774978048000
+    m_Localized: 'Your rule has been edited.
+
+      Do you want to save it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60296010349883392
+    m_Localized: Differential damage when the effect of direct attack coins exceeds
+      the effect of defensive coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60296076699578368
+    m_Localized: Differential damage when the effect of defensive coins exceeds the
+      effect of direct attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60539058619101184
+    m_Localized: State
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68273409616195584
+    m_Localized: Get coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68273602772283392
+    m_Localized: Get coin vouchers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68591457120235520
+    m_Localized: Show deprecated items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73365274065580032
+    m_Localized: Replacement source
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73365473764782080
+    m_Localized: Destination of exchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77565614247849984
+    m_Localized: The first player to attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77566419067678720
+    m_Localized: Random
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77566448075485184
+    m_Localized: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77566476315734016
+    m_Localized: Guest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77604595161313280
+    m_Localized: Use the connecting code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77604894135496704
+    m_Localized: Narrowing down the display target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77605512145219584
+    m_Localized: Same rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77605068488519680
+    m_Localized: Can be played with the current deck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77604981834199040
+    m_Localized: Show all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80498455449382912
+    m_Localized: Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80560027437838336
+    m_Localized: Capturing the Rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80560857364770816
+    m_Localized: proceed to the match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83043916211236864
+    m_Localized: Automatic start when an opponent is found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83442937039892480
+    m_Localized: Matching was requested.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91322778275753984
+    m_Localized: Display switching
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91388484774211584
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91416132267225088
+    m_Localized: Date of last use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92851961887928320
+    m_Localized: Details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93555116674068480
+    m_Localized: Report
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93564199787507712
+    m_Localized: Here you can report your last opponent as a cheating player.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93565891887181824
+    m_Localized: Get
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93565939987460096
+    m_Localized: Send
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98297904863064064
+    m_Localized: Coin effect correction (for admin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98586998004461568
+    m_Localized: Special
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98672743876603904
+    m_Localized: Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99096254424231936
+    m_Localized: There is no way to get resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99819265154560000
+    m_Localized: x 1 (Random)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99827957266591744
+    m_Localized: Lot coin (offline)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99828044306788352
+    m_Localized: Coin exchange ticket (offline)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100812716859928576
+    m_Localized: Rule change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100813970214432768
+    m_Localized: Please select the rules for playing against this deck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100824535775260672
+    m_Localized: Number possessed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103307472789778432
+    m_Localized: Switch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103322847732510720
+    m_Localized: 'Copy
+
+      deck'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103322921350934528
+    m_Localized: 'Delete
+
+      deck'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103323017253695488
+    m_Localized: 'Coin
+
+      details'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103323115555598336
+    m_Localized: 'Display
+
+      setting'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103326045243387904
+    m_Localized: 'Copy
+
+      rule'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103326092920041472
+    m_Localized: 'Delete
+
+      rule'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103326136788267008
+    m_Localized: Changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106183362452336640
+    m_Localized: Achievement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106190247964389376
+    m_Localized: Round average damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106713347449630720
+    m_Localized: Notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106714137715224576
+    m_Localized: Items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108430743193464832
+    m_Localized: Additional draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108430836499951616
+    m_Localized: consumed resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108436640728821760
+    m_Localized: consumed resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116074995159347200
+    m_Localized: Publication of coins on hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116344862575898624
+    m_Localized: Check the rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123233475750211584
+    m_Localized: Open store page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123233541101662208
+    m_Localized: Review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129073790516146176
+    m_Localized: Pre-loading
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

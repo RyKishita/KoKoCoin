@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CoinBody Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CoinBody
+  m_TableCollectionNameGuidString: c76a4f042ce7369489ecfdf4f081c7a8
+  m_Entries:
+  - m_Id: 52060172288
+    m_Key: NotUse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257255014400
+    m_Key: AfterShot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4098548510720
+    m_Key: AppendConditionDamage0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4113014665216
+    m_Key: AppendConditionDamage1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6074904555520
+    m_Key: AdjustDice0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135940067328
+    m_Key: AdjustDice1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9568109670400
+    m_Key: ChangeAreaType0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9582097674240
+    m_Key: ChangeAreaType1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11117410070528
+    m_Key: ClearALLAreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15580438933504
+    m_Key: ClearAreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550640168960
+    m_Key: ClearCoinStatusALLSetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16564137439232
+    m_Key: RemoveCoinStatusALLSetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17341320998912
+    m_Key: ALLSetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180751639719936
+    m_Key: ExpandArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181301894656000
+    m_Key: SwapSetBySideArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182898481639424
+    m_Key: ClearCoinStatusALLSetCoinsByPlayer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189756684578816
+    m_Key: ClearCoinStatusSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192343727091712
+    m_Key: DestroyALLCopySetCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 192862650576896
+    m_Key: ProgressTurnALLSetCoins0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195539409252352
+    m_Key: ProgressTurnCoinAreaSetCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 197127406301184
+    m_Key: RemoveAreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198709925588992
+    m_Key: RemoveALLAreaStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199633951731712
+    m_Key: ClearPlayerCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200931828772864
+    m_Key: ProgressTurnHandCoinsByPlayer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201577655119872
+    m_Key: ProgressTurnHandCoinsByPlayer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202203973758976
+    m_Key: RemovePlayerCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203130445180928
+    m_Key: ProgressTurnALLSetCoinsByPlayer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203143351054336
+    m_Key: ProgressTurnALLSetCoinsByPlayer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216960072101888
+    m_Key: ReturnSetToHand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 220100095848448
+    m_Key: ProgressTurnCoinAreaSetCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656048029904896
+    m_Key: ReturnTrashToHand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360610655580160
+    m_Key: ConditionCount0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360630100373504
+    m_Key: ConditionCount1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362568602824704
+    m_Key: ExpandPack0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362591944126464
+    m_Key: ExpandPack1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363689220190208
+    m_Key: ExpandTurnResource0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363710313345024
+    m_Key: ExpandTurnResource1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364804225576960
+    m_Key: FixDice0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365725756108800
+    m_Key: GetCondition0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365753962803200
+    m_Key: GetCondition1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367033410072576
+    m_Key: InvalidEffectSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370415029923840
+    m_Key: MakeCopyOfSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371026072907776
+    m_Key: MustUse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371560179773440
+    m_Key: MyCoinToStock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372639550353408
+    m_Key: MyStockToTrash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372946011369472
+    m_Key: MyTrashToExclusion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 723683773984768
+    m_Key: ProgressTurnSetCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 724240735612928
+    m_Key: ProgressTurnSetCoin1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727050478891008
+    m_Key: ProgressTurnALLSetCoins1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727526930853888
+    m_Key: Redraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728528127995904
+    m_Key: ReverseSet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729022384779264
+    m_Key: TurnAdd0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730158332325888
+    m_Key: TurnAdd1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2414944406941696
+    m_Key: FixDice1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12593966273212416
+    m_Key: NoNeedCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12678362510602240
+    m_Key: Seizure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14693968718016512
+    m_Key: RemoveCoinStatusALLSetCoinsByPlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14695674352709632
+    m_Key: RemoveCoinStatusSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60771252440608768
+    m_Key: ClearCoinStatusALLSetCoinsByPlayer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60772093335646208
+    m_Key: ProgressTurnALLSetCoinsByPlayer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60772116429484032
+    m_Key: ProgressTurnALLSetCoinsByPlayer3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60773314800857088
+    m_Key: ProgressTurnHandCoinsByPlayer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60773334799298560
+    m_Key: ProgressTurnHandCoinsByPlayer3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1642936328386

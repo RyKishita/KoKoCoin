@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CoinBody_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c76a4f042ce7369489ecfdf4f081c7a8, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 52060172288
+    m_Localized: This coin cannot be used.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3257255014400
+    m_Localized: '{directattackcoin} can be used in step {no} of coin use.'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4098548510720
+    m_Localized: The base value of the damage caused by [{name}] is increased by
+      {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 4113014665216
+    m_Localized: The base value of damage caused by [{name}] is reduced by {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6074904555520
+    m_Localized: The amount of movement by dice is increased by {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6135940067328
+    m_Localized: The amount of movement by dice is reduced by {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 9568109670400
+    m_Localized: Restore the selected area type.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9582097674240
+    m_Localized: Set the type of the selected area to {areatype}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 11117410070528
+    m_Localized: All areas lose all {status}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 15580438933504
+    m_Localized: Removes all abnormalities in the selected area.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550640168960
+    m_Localized: Erase all {status} that all {settedcoin} have.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 16564137439232
+    m_Localized: Removes all state abnormalities [{name}] of all installed coins.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 17341320998912
+    m_Localized: all installed coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180751639719936
+    m_Localized: Add area E at both ends of the field.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181301894656000
+    m_Localized: Select two adjacent areas. Swap your installation coins in those
+      areas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182898481639424
+    m_Localized: Erase all {status} of {settedcoin} you own.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 189756684578816
+    m_Localized: Select a coin that is installed. That coin loses all {status}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 192343727091712
+    m_Localized: Move all installation coins that are duplicates to {trash}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 192862650576896
+    m_Localized: Advance {value} the number of elapsed turns of all installed coins.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 195539409252352
+    m_Localized: Select an area. Advance {value} the number of elapsed turns of the
+      coins placed in the area.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 197127406301184
+    m_Localized: Removes the status [{name}] of the selected area.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 198709925588992
+    m_Localized: Remove the status [{name}] from all areas.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 199633951731712
+    m_Localized: You lose all {abnormalstate}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 200931828772864
+    m_Localized: Advance {value} the number of elapsed turns of your coin hand.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 201577655119872
+    m_Localized: Return {value} the number of elapsed turns of the coins you have.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 202203973758976
+    m_Localized: '{player} loses all [{name}].'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 203130445180928
+    m_Localized: Advance {value} the number of turns elapsed for all {settedcoin}
+      you own.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 203143351054336
+    m_Localized: Return {value} the number of turns elapsed for all {settedcoin}
+      you own.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 216960072101888
+    m_Localized: Select your installation coin. Move that coin to {dst}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 220100095848448
+    m_Localized: Select an area. Return {value} the number of turns elapsed for the
+      coins placed in that area.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 656048029904896
+    m_Localized: Select a coin in your {src}. Move that coin to {dst}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 360610655580160
+    m_Localized: Increase {value} by {count} required for {abnormalstate} to trigger.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 360630100373504
+    m_Localized: Reduce {value} by {count} required for {abnormalstate} to trigger.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 362568602824704
+    m_Localized: Increase the maximum size and number of coins in your possession
+      by {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 362591944126464
+    m_Localized: Reduce the maximum size and number of coins in your possession by
+      {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 363689220190208
+    m_Localized: Increase the number of resources available per turn by {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 363710313345024
+    m_Localized: Reduces resources available per turn by {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 364804225576960
+    m_Localized: Set the number of your next move squares to {value}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2414944406941696
+    m_Localized: '{value} the next number of squares to be moved by the other players.'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 365725756108800
+    m_Localized: You get [{name}{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 365753962803200
+    m_Localized: You lose [{name}{value}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 367033410072576
+    m_Localized: Select an installation coin. Disable the effect of that coin for
+      {value} turns.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 370415029923840
+    m_Localized: Select your installation coin. Get its duplicate and move it to
+      your {coinposition}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 371026072907776
+    m_Localized: When there are coins available, you must use them. (Reverse if the
+      same rule is set)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371560179773440
+    m_Localized: Move all coins in your {src} to stock.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 372639550353408
+    m_Localized: Move {value} coins in your {src} to {dst}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 372946011369472
+    m_Localized: Exclude all coins in your {src}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 723683773984768
+    m_Localized: Select {settedcoin}. Advance {value} the number of turns elapsed
+      for that coin.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 724240735612928
+    m_Localized: Select {settedcoin}. Return {value} the number of turns elapsed
+      for that coin.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 727050478891008
+    m_Localized: Return {value} the number of elapsed turns of all installed coins.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 727526930853888
+    m_Localized: Return your hand of coins to your stock. Then draw until the total
+      size of your hand exceeds the total size of your original coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728528127995904
+    m_Localized: It will be {hiddenside} when installed and only the owner will be
+      able to see the details. (reversed if the same rule is set)
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 729022384779264
+    m_Localized: Increases {value} the number of elapsed turns added to the coin
+      at the end of each turn.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 730158332325888
+    m_Localized: Decrease {value} the number of elapsed turns added to the coin at
+      the end of each turn.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 12593966273212416
+    m_Localized: Disable effects that add conditions of use. (Reverse if the same
+      rule is set)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12678362510602240
+    m_Localized: If your installed coins are {num} or more, you win.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 14693968718016512
+    m_Localized: Erase [{name}] of all {settedcoin} owned by {player}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 14695674352709632
+    m_Localized: Select {settedcoin}. Erase the [{name}] owned by that coin.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60771252440608768
+    m_Localized: Erase all {status} of {settedcoin} owned by other players.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60772093335646208
+    m_Localized: Advance {value} the number of turns elapsed for all {settedcoin}
+      owned by other players.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60772116429484032
+    m_Localized: Return {value} the number of turns elapsed for all {settedcoin}
+      owned by other players.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60773314800857088
+    m_Localized: Advance {value} the number of elapsed turns of the other players'
+      coins.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 60773334799298560
+    m_Localized: Return {value} the number of elapsed turns of the other players'
+      coins.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 003007967742010000300751640100000030c7616e01000000308763f60200000030c7f58f030000003007a49203000000308744ba0300000030c7a2bd0300000030876c8605000000308701b70800000030075f58a600000030c72b95ac00000030c75568af000000300791d7b100000030074d49b30000003087c2b9b4000000304716bfb600000030877455b7000000300748e7b70000003007febeb80000003047ffc1b8000000304726f2b900000030070c2ec800000030c77e514501000030c7cd7d4601000030073088470100003007a78d47010000300736f9470100003007bdfd4701000030875cb94901000030c7e4bd4901000030c714c149010000300784c64901000030873fb94a01000030077fc24a01000030c7fec54a0100003007e8ca4a01000030479ac94b01000030870f619408000030c729a04c0100003007a0d04d0100003047f8e3500100003007e8e952010000308798ee510100003047c22f9202000030c76fb1920200003007c34c940200003007a0479402000030c732a694020000300794ab940200003087a13f9502000030877e069702000030878b5a970200003047c00a9702000030073c13980200003087a3100f0000003087a2940500000030c74de70a2d000030c73116343400003087e67134340000308751a33534000030072078460100003007bba64c01000030c715ac540200003007f452c5000000308783efae000000308742315301000030c7e690b500000030077f0d0f0000003047ac97960200003047d221e7d700003007fceae7d7000030879be5e7d7000030870002e9d700003087a806e9d700003047791c0a0000

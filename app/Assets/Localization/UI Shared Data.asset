@@ -1,0 +1,1213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 47057c1f446463c458ae6add0f0fa6e5
+  m_Entries:
+  - m_Id: 17880788992
+    m_Key: SelectLocalizationTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001277304832
+    m_Key: SelectLocalizationJP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1171754790912
+    m_Key: SelectLocalizationEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17734641856512
+    m_Key: Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17830104215552
+    m_Key: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17907291992064
+    m_Key: StartWithMute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18028075364352
+    m_Key: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18112083079168
+    m_Key: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48474477768704
+    m_Key: ScreenSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48626168967168
+    m_Key: Default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48691973402624
+    m_Key: RefreshRate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48847863099392
+    m_Key: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48911247421440
+    m_Key: Middle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49008265867264
+    m_Key: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49084316987392
+    m_Key: ScreenDirect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49194291638272
+    m_Key: Landscape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49305180647424
+    m_Key: Portrait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49431852822528
+    m_Key: ShowCoinName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49520889507840
+    m_Key: FullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49600665169920
+    m_Key: DeleteAllData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49725621874688
+    m_Key: PlayerIconTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54101342105600
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54151329820672
+    m_Key: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54218115723264
+    m_Key: Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54306355490816
+    m_Key: ExitApp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54689006039040
+    m_Key: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55225855979520
+    m_Key: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55271024439296
+    m_Key: SoundEffect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55366449049600
+    m_Key: SelectBGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55446480564224
+    m_Key: SelectSoundEffect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55888203689984
+    m_Key: ConnectOfflineTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56440090210304
+    m_Key: CheckPermission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57602365403136
+    m_Key: Channel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57690923937792
+    m_Key: OfflineConnectComment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58385844613120
+    m_Key: AllowOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58613591126016
+    m_Key: ShowAd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58733879570432
+    m_Key: ShowAdBunner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59001983676416
+    m_Key: ShowAdInterstitial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59261212635136
+    m_Key: ShowAdReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59581128978432
+    m_Key: Top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59624552607744
+    m_Key: Bottom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59803850715136
+    m_Key: ShowAdInterstitialOutEdit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60326649737216
+    m_Key: ShowAdInterstitialInLobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61271001477120
+    m_Key: ShowAdInterstitialOutDuel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61701274152960
+    m_Key: ShowAdInterstitialOther
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61836880195584
+    m_Key: DisplayInterval
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61985576660992
+    m_Key: Minutes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73991545368576
+    m_Key: DisplaySetting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74567083569152
+    m_Key: StartSearch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74644233596928
+    m_Key: StartWait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74999558254592
+    m_Key: SearchResult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75337988255744
+    m_Key: Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75422356680704
+    m_Key: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75481030799360
+    m_Key: Earnest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77701264650240
+    m_Key: Custom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77765244563456
+    m_Key: Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77852695801856
+    m_Key: Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77900053688320
+    m_Key: Ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77971667234816
+    m_Key: VSNPC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78213326254080
+    m_Key: VSOffline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78279948578816
+    m_Key: VSOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78370147086336
+    m_Key: BackToTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78466578329600
+    m_Key: EditDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78531556487168
+    m_Key: CoinsList
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78594030645248
+    m_Key: EditRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83217164480512
+    m_Key: BackToTitleShort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83773383716864
+    m_Key: CopyRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83856200249344
+    m_Key: DeleteRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84457768300544
+    m_Key: CopyDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84538508652544
+    m_Key: DeleteDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84601322549248
+    m_Key: UseDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85512690282496
+    m_Key: Favorite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85685797597184
+    m_Key: Changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86606380216320
+    m_Key: RuleName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86841101856768
+    m_Key: DeckRuleTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87067069984768
+    m_Key: CoinLimitInDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87431445950464
+    m_Key: LowerLimit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87683833999360
+    m_Key: UpperLimit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87808375468032
+    m_Key: CoinVersion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88340016082944
+    m_Key: TotalCoinSizeInDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88805562855424
+    m_Key: LimitationsByCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89277241700352
+    m_Key: NumberOfLimitsByCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90022724710400
+    m_Key: Regist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90080157315072
+    m_Key: UnRegist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90592046952448
+    m_Key: DuelRuleTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90939532455936
+    m_Key: NumberOfRoundsToWin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91361278111744
+    m_Key: InitialLife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91602790330368
+    m_Key: StartTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92113199378432
+    m_Key: EmptyStock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92251846291456
+    m_Key: EmptyStockToLose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92622933143552
+    m_Key: EmptyStockToShuffleTrash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93168880529408
+    m_Key: StartDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93538147053568
+    m_Key: MaxResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93921271558144
+    m_Key: ReplenishResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94327632506880
+    m_Key: SurplusResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95162844262400
+    m_Key: TurnResourceAppend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 526819502010368
+    m_Key: MoveDiceToResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527408218714112
+    m_Key: DrawResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527673504247808
+    m_Key: Size1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527738272690176
+    m_Key: Size2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 527783940272128
+    m_Key: Size3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528282223587328
+    m_Key: HandCoinMax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528524532723712
+    m_Key: HandCoinSizeTotal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 528941710782464
+    m_Key: ManyAction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529271026561024
+    m_Key: StatusCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529526585503744
+    m_Key: StatusBaseDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 529837282766848
+    m_Key: SetAttackAdjust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530182062944256
+    m_Key: DirectAttackAdjust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530218586943488
+    m_Key: GuardAdjust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530588021239808
+    m_Key: SetAttackResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530619650486272
+    m_Key: DirectAttackResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530647521636352
+    m_Key: GuardResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530685194874880
+    m_Key: SupportResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 530713581924352
+    m_Key: OtherResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 531946501779456
+    m_Key: Dice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532086545395712
+    m_Key: Area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532326765768704
+    m_Key: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532633499414528
+    m_Key: PlayerStartPosition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532947459846144
+    m_Key: Player1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 532998361919488
+    m_Key: Player2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533351430041600
+    m_Key: NoNeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533737444421632
+    m_Key: ReverseSet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534234205204480
+    m_Key: ShowHandCoinInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534293391028224
+    m_Key: ShowHandCoinNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534380808712192
+    m_Key: ShowHandCoinStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535154422919168
+    m_Key: ShowStockCoinNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535458556096512
+    m_Key: ShowDirectAttackCoinDetail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535743143817216
+    m_Key: LimitTime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536097822552064
+    m_Key: NumberLimitTimeAction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536376391446528
+    m_Key: NumberLimitTimeTotal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536461925888000
+    m_Key: NumberLimitTimeTotalRecruital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536806680899584
+    m_Key: TurnAdd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537046146297856
+    m_Key: AddSideDeckTimming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537230322380800
+    m_Key: AddSideDeckTimmingNone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537270340235264
+    m_Key: AddSideDeckTimmingSecondRound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537306167980032
+    m_Key: AddSideDeckTimmingLowerRoundCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537340439638016
+    m_Key: AddSideDeckTimmingCheckMate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537390645456896
+    m_Key: AddSideDeckTimmingFinalRound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538594553311232
+    m_Key: SideCoinNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835634184892416
+    m_Key: CoinDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835749675053056
+    m_Key: Ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835956231942144
+    m_Key: HowToPlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836083449376768
+    m_Key: License
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836208548687872
+    m_Key: Other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836486664597504
+    m_Key: Auto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836576582086656
+    m_Key: Rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836865657712640
+    m_Key: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836912386453504
+    m_Key: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837257778999296
+    m_Key: CoinName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837371520135168
+    m_Key: Owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837462825938944
+    m_Key: BasicInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837755168927744
+    m_Key: Explain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1837947985276928
+    m_Key: DirectAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838363401728000
+    m_Key: View
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838750766673920
+    m_Key: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1839041121562624
+    m_Key: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1839650063200256
+    m_Key: DuelRequest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840572768137216
+    m_Key: Allow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840619362660352
+    m_Key: Deny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840878654533632
+    m_Key: Abort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841148155342848
+    m_Key: Target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841484517552128
+    m_Key: SelfMade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841771194036224
+    m_Key: Fetch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1842030360080384
+    m_Key: Sort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1843742143623168
+    m_Key: CloseButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1856614030585856
+    m_Key: SetAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857046761123840
+    m_Key: Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857377486188544
+    m_Key: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857650325663744
+    m_Key: Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857877480779776
+    m_Key: GetOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1857979062628352
+    m_Key: GetOffline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1858730249891840
+    m_Key: Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865155583881216
+    m_Key: TotalPlayTime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865331375550464
+    m_Key: TotalDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865410756947968
+    m_Key: TotalTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865528704970752
+    m_Key: TotalMove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865628130947072
+    m_Key: MinWinTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1865875611660288
+    m_Key: MaxWinTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866008176832512
+    m_Key: MaxDamageInSinglePass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866297533476864
+    m_Key: NumberStopArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866480900059136
+    m_Key: MostCoinInDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1866796538212352
+    m_Key: MostUseCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867599856480256
+    m_Key: NumberVS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867761421070336
+    m_Key: NumberWin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1867901586321408
+    m_Key: WinningPercentage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868805005848576
+    m_Key: NPC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1868943002644480
+    m_Key: Offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1869011038449664
+    m_Key: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1881765677838336
+    m_Key: DeckName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1881866966085632
+    m_Key: Main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1881919071924224
+    m_Key: Side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1882675766308864
+    m_Key: UsableOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883329360506880
+    m_Key: OutDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883600652283904
+    m_Key: InDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1884175091576832
+    m_Key: RuleDetail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1884839024734208
+    m_Key: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1884893798150144
+    m_Key: NoSaveClose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11668906561712128
+    m_Key: ExchangeNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11668972420673536
+    m_Key: ExchangeTarget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11669010580451328
+    m_Key: ExchangeTargetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11669059645419520
+    m_Key: ExchangeTargetExchangeTicket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11669170471514112
+    m_Key: ExecuteExchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14555938493509632
+    m_Key: ClearSearch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19997082727690240
+    m_Key: NoAppendValue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20009250739138560
+    m_Key: MustUse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24347530855133184
+    m_Key: ShowRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24348103537012736
+    m_Key: ShowHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24393905206669312
+    m_Key: HintText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24720619543670784
+    m_Key: ForceAddCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24745315614011392
+    m_Key: UsableCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25420285566464000
+    m_Key: LotCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25420903509078016
+    m_Key: ExchangeTicket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25422027628687360
+    m_Key: LotCoinExplain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25422262908170240
+    m_Key: ExchangeTicketExplain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25422370311712768
+    m_Key: PointExplain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25443482139570176
+    m_Key: RuleDate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444236065714176
+    m_Key: Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444934698348544
+    m_Key: Ascending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25444996346228736
+    m_Key: Descending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25449970778189824
+    m_Key: Value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25450198700863488
+    m_Key: GetCoinDate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25451579310551040
+    m_Key: Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25451742368313344
+    m_Key: CoinType
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25462984516513792
+    m_Key: LotCoinOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25463151974100992
+    m_Key: ExchangeTicketOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25463795359363072
+    m_Key: PointOnline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547060824977408
+    m_Key: EditDeckP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547143989637120
+    m_Key: CoinsListP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547212348403712
+    m_Key: EditRuleP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25547907411685376
+    m_Key: BackToTitleShortP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29887752690937856
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29887800589889536
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41740550462189568
+    m_Key: DuelResult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41742022943911936
+    m_Key: DuelReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58026745227849728
+    m_Key: SaveDeckMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58026774978048000
+    m_Key: SaveRuleMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60296010349883392
+    m_Key: DirectAttackOverGuard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60296076699578368
+    m_Key: GuardOverDirectAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60539058619101184
+    m_Key: State
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68273409616195584
+    m_Key: GetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68273602772283392
+    m_Key: GetExchangeTicket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68591457120235520
+    m_Key: deprecated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73365274065580032
+    m_Key: ReplacementSource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73365473764782080
+    m_Key: DestinationOfExchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77565614247849984
+    m_Key: Round1TurnPlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77566419067678720
+    m_Key: Round1TurnPlayerRandom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77566448075485184
+    m_Key: Round1TurnPlayerHost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77566476315734016
+    m_Key: Round1TurnPlayerGuest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77604595161313280
+    m_Key: LobbySettingMatchConnectCode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77604894135496704
+    m_Key: LobbySettingFilter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77604981834199040
+    m_Key: LobbySettingFilterShowALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77605068488519680
+    m_Key: LobbySettingFilterPlayableRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77605512145219584
+    m_Key: LobbySettingFilterSameRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80498455449382912
+    m_Key: Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80560027437838336
+    m_Key: FetchRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80560857364770816
+    m_Key: StartDuel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83043916211236864
+    m_Key: LobbySettingDuelAutoStart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83442937039892480
+    m_Key: DuelRequested
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91322778275753984
+    m_Key: SwitchDisplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91388484774211584
+    m_Key: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91416132267225088
+    m_Key: DeckLastUseDate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92851961887928320
+    m_Key: Details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93555116674068480
+    m_Key: Report
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93564199787507712
+    m_Key: ReportMessage1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93565891887181824
+    m_Key: ReportGetInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93565939987460096
+    m_Key: SendReport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98297904863064064
+    m_Key: CoinValueTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98586998004461568
+    m_Key: FilterSpecial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98672743876603904
+    m_Key: ShowHandCoinSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99096254424231936
+    m_Key: NoGetResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99819265154560000
+    m_Key: LotCoinToCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99827957266591744
+    m_Key: LotCoinOffline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99828044306788352
+    m_Key: ExchangeTicketOffline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100812716859928576
+    m_Key: ChangeRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100813970214432768
+    m_Key: ExplainSelectRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100824535775260672
+    m_Key: HasCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103307472789778432
+    m_Key: Switch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103322847732510720
+    m_Key: CopyDeckP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103322921350934528
+    m_Key: DeleteDeckP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103323017253695488
+    m_Key: CoinDetailsP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103323115555598336
+    m_Key: DisplaySettingP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103326045243387904
+    m_Key: CopyRuleP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103326092920041472
+    m_Key: DeleteRuleP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103326136788267008
+    m_Key: ChangesP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106183362452336640
+    m_Key: Achievement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106190247964389376
+    m_Key: RoundAverageDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106713347449630720
+    m_Key: Notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106714137715224576
+    m_Key: Items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108430743193464832
+    m_Key: CanAdditionalDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108430836499951616
+    m_Key: AdditionalDrawUseResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108436640728821760
+    m_Key: AdditionalActionUseResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116074995159347200
+    m_Key: ShowHandTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116344862575898624
+    m_Key: CheckRule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123233475750211584
+    m_Key: OpenStorePage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123233541101662208
+    m_Key: ShowReview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129073790516146176
+    m_Key: Preload
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1641773115509

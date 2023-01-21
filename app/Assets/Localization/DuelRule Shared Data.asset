@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DuelRule Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: DuelRule
+  m_TableCollectionNameGuidString: 9d37370ac078e9c4a900a1dac37ae4c1
+  m_Entries:
+  - m_Id: 72201220096
+    m_Key: winNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103192932352
+    m_Key: beginningLife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135291940864
+    m_Key: emptyDeckActionLose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200475619328
+    m_Key: emptyDeckActionRestore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258449289216
+    m_Key: noDrawFirstTurnPlayer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288346288128
+    m_Key: turnResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321418375168
+    m_Key: keepResource0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353978757120
+    m_Key: turnResourceMax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379815669760
+    m_Key: turnResourceAppend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406789238784
+    m_Key: moveDiceToResource0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439483838464
+    m_Key: drawUseResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 469183705088
+    m_Key: handCoinNumMax0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495800758272
+    m_Key: handCoinSizeMax0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522874990592
+    m_Key: manyAction0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 552172204032
+    m_Key: conditionCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579514871808
+    m_Key: conditionBaseDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 610028433408
+    m_Key: setAttackAdjustDamages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639103348736
+    m_Key: directAttackAdjustDamages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669830819840
+    m_Key: guardAdjustValues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 698528247808
+    m_Key: settedUseResources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732091068416
+    m_Key: directAttackUseResources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 761736409088
+    m_Key: guardUseResources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 790748409856
+    m_Key: supportUseResources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 821249388544
+    m_Key: otherUseResources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 851242856448
+    m_Key: diceMin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 877876686848
+    m_Key: diceMax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 906964185088
+    m_Key: areaTypes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 934306852864
+    m_Key: playerStartPosition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 958671564800
+    m_Key: teamStartPosition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 989604556800
+    m_Key: noNeed0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1019761602560
+    m_Key: reverseSet0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1047116853248
+    m_Key: showHandCoinInfo0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1075319353344
+    m_Key: showHandCoinNum0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1129111302144
+    m_Key: showHandCoinStatus0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1155556388864
+    m_Key: showStockCoinNum0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1184283176960
+    m_Key: showDirectAttackCoinDetail0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1211218997248
+    m_Key: limitTimeAction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1240637845504
+    m_Key: limitTimeTotal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1265694617600
+    m_Key: limitTimeTotalRecruital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1297965592576
+    m_Key: turnAdd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1330622443520
+    m_Key: guardOverDirectAttackEven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1358753640448
+    m_Key: directAttackOverGuardEven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1386477989888
+    m_Key: sideDeckAddTimmingNone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1642917736448
+    m_Key: turnMax0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660730945536
+    m_Key: turnMax1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2869709713408
+    m_Key: noDrawFirstTurnPlayer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3788388118528
+    m_Key: keepResource1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5244524638208
+    m_Key: moveDiceToResource1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6051450007552
+    m_Key: handCoinNumMax1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6664351068160
+    m_Key: handCoinSizeMax1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7022813065216
+    m_Key: manyAction1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10905627078656
+    m_Key: noNeed1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11220648669184
+    m_Key: reverseSet1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11390719307776
+    m_Key: showHandCoinInfo1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11660756987904
+    m_Key: showHandCoinNum1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12073094819840
+    m_Key: showHandCoinStatus1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12100487819264
+    m_Key: showStockCoinNum1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12541950898176
+    m_Key: showDirectAttackCoinDetail1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13863089549312
+    m_Key: guardOverDirectAttackOverValueToDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14649882259456
+    m_Key: directAttackOverGuardOverValueToDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15121816956928
+    m_Key: sideDeckAddTimmingSecondRound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15151265165312
+    m_Key: sideDeckAddTimmingLowerRoundCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15162585591808
+    m_Key: sideDeckAddTimmingCheckMate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174472249344
+    m_Key: sideDeckAddTimmingFinalRound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13061906340720640
+    m_Key: noAppendValue0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13072749379923968
+    m_Key: mustUse0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51139471915560960
+    m_Key: turnResourceMax_nolimit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53367722469699584
+    m_Key: noAppendValue1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53368673926590464
+    m_Key: mustUse1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70627949577449472
+    m_Key: round1TurnPlayerRandom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70628045845114880
+    m_Key: round1TurnPlayerHost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70628061888327680
+    m_Key: round1TurnPlayerGuest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91361335665176576
+    m_Key: coinValues0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91361670878146560
+    m_Key: coinValues1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91737045915348992
+    m_Key: showHandCoinSize0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91737097199104000
+    m_Key: showHandCoinSize1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101490188022657024
+    m_Key: canAdditionalDraw0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101490491790929920
+    m_Key: canAdditionalDraw1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101490231865716736
+    m_Key: additionalDrawUseResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101512092955652096
+    m_Key: additionalActionUseResource
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1643426172099

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CoinStatusName_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0d3223b589d2e2b4c9083eb5d8a3659a, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 10175852544
+    m_Localized: +tag[{value}]]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 348827282780160
+    m_Localized: +{value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 348908971044864
+    m_Localized: '{tvalue} turn disable'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 348951547424768
+    m_Localized: After {tvalue} turns {trashcoin}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 353800359981056
+    m_Localized: -{value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 3904443548905472
+    m_Localized: +-value
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 003047b3543d01000030477b4c3d01000030875e020000000030079d5e3d010000304729f8410100003047ae413d01000030c790c7410100

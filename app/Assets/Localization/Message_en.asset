@@ -1,0 +1,778 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Message_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 41dfbe5611f70744e9a9bbe5ee123e6a, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 2857844027392
+    m_Localized: no check
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2906451816448
+    m_Localized: Permission OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2938399830016
+    m_Localized: Permission NG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2104908732379136
+    m_Localized: Can be exchanged when you have {num} or more coins.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2109837031190528
+    m_Localized: fixed {dice}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2108647727902720
+    m_Localized: 'Not
+
+      use'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2110841751547904
+    m_Localized: correction {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2116321622306816
+    m_Localized: Not selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2161069951234048
+    m_Localized: Fetch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2161209818689536
+    m_Localized: Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2176688020992000
+    m_Localized: Your information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2176801908928512
+    m_Localized: System infomation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2176889716682752
+    m_Localized: Application infomation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2177630023921664
+    m_Localized: UserID(Display)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2177669760757760
+    m_Localized: UserID(Full)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2181041666600960
+    m_Localized: Production Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191755902922752
+    m_Localized: 'The saved data has been corrupted.
+
+      Click OK button to close
+      the game.
+
+      If you close the game with "Close", the data will be deleted.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192345240383488
+    m_Localized: Logging in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192615374532608
+    m_Localized: Login failed. Please wait a moment and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193707437076480
+    m_Localized: Check the items you want to use for the connection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194157980823552
+    m_Localized: Required permissions are set to Deny. Please change your application
+      settings.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194518498029568
+    m_Localized: Delete the data. This operation is irreversible. Are you sure you
+      want to do this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194730020974592
+    m_Localized: The data has been deleted. Return to the title scene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195356373168128
+    m_Localized: Player search failed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195714591895552
+    m_Localized: 'Start
+
+      search'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195615841202176
+    m_Localized: Searching
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195789934178304
+    m_Localized: Waiting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2195892895952896
+    m_Localized: 'Start
+
+      wait'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196580627591168
+    m_Localized: Connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2196786261733376
+    m_Localized: Requesting connection information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2197354250186752
+    m_Localized: The deck you use does not match the rules specified by your opponent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2197336369868800
+    m_Localized: The levels do not match.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2197308192534528
+    m_Localized: The application versions do not match.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2197898540822528
+    m_Localized: Wait for your opponent to take control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2198207124156416
+    m_Localized: Rescinded.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2198640299290624
+    m_Localized: Your request has been denied.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2198905882619904
+    m_Localized: Exchanging information.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2199688451665920
+    m_Localized: Go to the Coin List scene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2200104442736640
+    m_Localized: Failed to retrieve.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2200455233351680
+    m_Localized: Converted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2200554701271040
+    m_Localized: Conversion failed. Please give it some time and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2201013344219136
+    m_Localized: 'The information you entered is incorrect.
+
+      Item {invalid}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2201250444029952
+    m_Localized: Failed to save the data. Changes will be discarded.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2202149996408832
+    m_Localized: Do you want this deck to be the deck you use?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2202452321841152
+    m_Localized: This includes coins that exceed the number of coins you have.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2202922687868928
+    m_Localized: Rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2202965016784896
+    m_Localized: Rule conflict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2204469643653120
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2205036633862144
+    m_Localized: 'Repeat
+
+      draw'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2205827218223104
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207155675934720
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2208454211481600
+    m_Localized: "\u30FC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2208436666707968
+    m_Localized: Lose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207463344910336
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2211409509691392
+    m_Localized: '{d:choose(0|1):|{d}day|{d}days}{h:choose(0|1):|{h}hour|{h}hours}{m:choose(0|1):|{m}minute|{m}minutes}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 8602988544
+    m_Localized: '{lotcointickenum} sheets -> {exchangecointickenum} sheets'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2103812085460992
+    m_Localized: I'll use one coin voucher to get [{name}]. Are you sure?
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2105601920806912
+    m_Localized: We need {num} copies of [{name}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2105824386691072
+    m_Localized: You can exchange [{name}] {num} coins to 1 coin voucher. Do you
+      want to get a coin voucher?
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2108197658112000
+    m_Localized: There are coins that have already been placed. Move these to the
+      discarded coins and then place them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2113362515668992
+    m_Localized: This includes coins that have not been acquired by the currently
+      selected deck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2113722261123072
+    m_Localized: The deck you are selecting does not match the rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2113754322382848
+    m_Localized: The connection destination has not been set.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2114602876219392
+    m_Localized: The deck you are selecting contains coins that have not been acquired
+      online.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2114969810710528
+    m_Localized: Insufficient points. You may not be rewarded.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2115201629892608
+    m_Localized: I will remove this deck. Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2115743009681408
+    m_Localized: Delete the rule. Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2115759082254336
+    m_Localized: Remove the import rule. Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2115799339184128
+    m_Localized: Remove the event rule. Are you sure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12421302829133824
+    m_Localized: Not currently available.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13126334742474752
+    m_Localized: The selection rule [{rulename}] has not been tested yet; use it
+      once in an NPC match.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 13864791186026496
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13864826086830080
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13864878775676928
+    m_Localized: Center
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13866744909606912
+    m_Localized: No status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15675699919007744
+    m_Localized: Stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15675753375412224
+    m_Localized: Trash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19564771787878400
+    m_Localized: Press [Next].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19566317770584064
+    m_Localized: No valid coins. Press [Not use].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19567882862538752
+    m_Localized: Select the destination. Select {area} and press [OK].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19571934992216064
+    m_Localized: Select [{coinname}] and press [OK].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19576185785102336
+    m_Localized: Press [OK].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19577414414184448
+    m_Localized: Select [{coinname}] and press [OK].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19603203583062016
+    m_Localized: Select [{coinname}] and press [OK].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 19909433149042688
+    m_Localized: There is no suitable area. Press [Back].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19914032757026816
+    m_Localized: Select {area} and press [OK].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 20736010959138816
+    m_Localized: The deck does not match the rules you have selected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22783113008984064
+    m_Localized: No valid coins. Press [Back].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29084229099270144
+    m_Localized: It can be used without regard to the distance from the opponent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34857623367397376
+    m_Localized: Failed to exchange match data. Could not start the match.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36591810990518272
+    m_Localized: Logging in (Create new)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111549792467234816
+    m_Localized: Reward has been obtained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36635081708089344
+    m_Localized: Available next time {date}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 50747588726960128
+    m_Localized: Time up. The player with the most lives wins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50747636835627008
+    m_Localized: Time up. The team with the highest life total wins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50747675452583936
+    m_Localized: Winning by the effect of [{coinname}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 50747822521659392
+    m_Localized: Lost all life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50747854654222336
+    m_Localized: Defeat by [{curse}].
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 50747885281030144
+    m_Localized: '{stock} being empty'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 50747916478263296
+    m_Localized: Multiple Reasons for Defeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50747946765332480
+    m_Localized: Lost all life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50748004567035904
+    m_Localized: '{stock} being empty'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 52917291067060224
+    m_Localized: '{num} coin{num:choose(0|1):||s}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 52917322734055424
+    m_Localized: Total size {size}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 52936982183489536
+    m_Localized: Custom rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63748799193362432
+    m_Localized: Initial Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63748946337935360
+    m_Localized: New deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63792513013985280
+    m_Localized: Events that are in progress cannot be deleted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68212885314547712
+    m_Localized: Not available because the target is in area [Safe].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72466243416174592
+    m_Localized: Pairing process in progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72466936248086528
+    m_Localized: Initialization failed. Please check connection settings.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72467364708823040
+    m_Localized: Failed to obtain permissions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72467992684212224
+    m_Localized: ALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72468369970245632
+    m_Localized: (+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72468823294816256
+    m_Localized: ???
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72469731885920256
+    m_Localized: Virsus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72470270803652608
+    m_Localized: Hide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72470325950361600
+    m_Localized: Show
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72472169405689856
+    m_Localized: Unknow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75746956819247104
+    m_Localized: Room created.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75747145378377728
+    m_Localized: Room creation failed. Server error. Please wait a moment and try
+      again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75747307240763392
+    m_Localized: We found a room with the same rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75751607543214080
+    m_Localized: The deck you are currently using has standard rules. You cannot
+      create a deck with standard rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75753907171045376
+    m_Localized: Upload of rule data failed. Please try again after some time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75776408353714176
+    m_Localized: The name "{name}" was imported.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 75776435469889536
+    m_Localized: The import failed. Please check if you have the same rule.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75778427172892672
+    m_Localized: You can compete with your current deck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75832749558542336
+    m_Localized: The match could not be started.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78268889397932032
+    m_Localized: Standard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78271842116644864
+    m_Localized: Offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78271898743943168
+    m_Localized: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80890722446159872
+    m_Localized: 'An error has occurred.
+
+      {msg}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 83444208081776640
+    m_Localized: Player {no} wins the match.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 83444226817732608
+    m_Localized: Team {no} wins the match.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 88780200561029120
+    m_Localized: Press the Get button.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88780427116359680
+    m_Localized: Acquisition failed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88798583721504768
+    m_Localized: Date and Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88860966900936704
+    m_Localized: Display name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91266340161531904
+    m_Localized: 'The latest version is available. Please update it.
+
+      Current:
+      {current}
+
+      Latest: {latest}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 91269578390712320
+    m_Localized: 'Please update to start the online match.
+
+      Current: {current}
+
+      Latest:
+      {latest}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 91299851832602624
+    m_Localized: 'Under maintenance.
+
+      Scheduled to resume: {date}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 91299868395909120
+    m_Localized: 'Online Match is under maintenance.
+
+      Scheduled to resume:
+      {date}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 93236845068365824
+    m_Localized: yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93236881361678336
+    m_Localized: no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93236914601537536
+    m_Localized: No1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93236956162895872
+    m_Localized: No2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93237031689728000
+    m_Localized: No3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93237064153640960
+    m_Localized: No4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93786818436608000
+    m_Localized: This coin cannot be exchanged for this coin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217994217402368
+    m_Localized: Other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94282662780809216
+    m_Localized: Could not create NPC deck. Please check the rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95754132837052416
+    m_Localized: Failed to retrieve. Please wait some time and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96125230271377408
+    m_Localized: Room creation failed. The maximum number of rooms that can be created
+      has been reached.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96125268217245696
+    m_Localized: Room creation failed. Unknown error.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96473108403662848
+    m_Localized: '{totalNum}(of witch Online Coin is {onlineNum})'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 97942940303175680
+    m_Localized: Room creation failed. Other processes are in progress.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98548222410567680
+    m_Localized: May I duplicate this deck with the current edits?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98553586854080512
+    m_Localized: May I duplicate this rule with the current edits?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98553674515034112
+    m_Localized: May I duplicate this rule?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98553729003237376
+    m_Localized: May I duplicate this rule?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98856324477431808
+    m_Localized: Login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98856352617017344
+    m_Localized: Logout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98856373009723392
+    m_Localized: You are currently logged in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98856391007481856
+    m_Localized: You are currently logged out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98908804745736192
+    m_Localized: New rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109065006410575872
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111537768634986496
+    m_Localized: Event in progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111539149034958848
+    m_Localized: Only {day} day{day:choose(0|1):||s} left until the end
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 111542285636153344
+    m_Localized: Coming to an end soon
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00304741677a07000030c7a4cc7f07000030c7b6e27e0700003047e643db07000030c70002000000003007ec67790700003087a6087b0700003087723c7b0700003087f754a22e00003007c3e28445000030c738928845000030c7ff8d8d45000030078202a545000030073af8a8450000308710b5bf4600003087a769278200003087f0bd4ab4000030c7a9e74ab400003047cbee4ab400003047910a4bb400003087f0feffbb00003007500600bc000030875acfd10700003047ee3d360d01003007f9ae611f01003047ad107428010030070a15742801003047b9403e44010030c7ae324144010030c71fbf5c440100308744bb5c44010030c7ecc7bd56010030c7dc43448c01

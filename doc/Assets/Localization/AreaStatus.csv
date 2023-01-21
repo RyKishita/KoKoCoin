@@ -1,0 +1,4 @@
+﻿Key,Id,Japanese(ja),English(en)
+"AreaStatusChangeField",19738865664,"エリア{value}に変更する。","Change to Area {value}."
+"AreaStatusAddPlayerCondition",13128969105125376,"状態異常[{condition}]を与える。","Gives an abnormal state [{condition}]."
+"AreaStatusAddResource",13128984418529280,"行動力を与える。","Gives you the power to act."

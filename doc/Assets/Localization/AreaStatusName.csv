@@ -1,0 +1,4 @@
+﻿Key,Id,Japanese(ja),English(en)
+"AreaStatusChangeField",19738865664,"エリアタイプ[{value}]変更","Change Area type [{value}]"
+"AreaStatusAddPlayerCondition",11492196448940032,"状態異常[{condition}]付与","Grant status abnormality [{condition}]"
+"AreaStatusAddResource",11492246361157632,"行動力付与","Grant action power"

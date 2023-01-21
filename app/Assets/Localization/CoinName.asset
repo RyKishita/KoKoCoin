@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: CoinName
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 8e51ee8783a929b45889605b1ff96528, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: f146ffb39b020b34fb0589353f3972eb, type: 2}
+  - {fileID: 11400000, guid: d4f58f78f93298d4e8dce9d5994c3b01, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 1

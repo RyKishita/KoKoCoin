@@ -1,0 +1,397 @@
+﻿Key,Id,Japanese(ja),English(en)
+"v1.ChangeAreaType.Null",2837895917568,"エリアタイプ
+リセット","Reset
+area type"
+"v1.ChangeAreaType.A",3109837811712,"エリア
+チェンジA","Change area
+type A"
+"v1.ChangeAreaType.B",3198392152064,"エリア
+チェンジB","Change area
+type B"
+"v1.ChangeAreaType.C",3223901908992,"エリア
+チェンジC","Change area
+type C"
+"v1.ChangeAreaType.D",3277484142592,"エリア
+チェンジD","Change area
+type D"
+"v1.ClearMyCurse",3505939492864,"解呪","Lifting a spell"
+"v1.ClearMyGravity",3741609046016,"重力補正器","Gravity
+compensator"
+"v1.ClearMyHeat",3819912507392,"消火剤","Fire extinguisher"
+"v1.ClearMyInebriety",3879375155200,"気付け薬","Restorative"
+"v1.ClearMyPoison",3939680858112,"毒消し","Antidote"
+"v1.ClearMyShock",4001110634496,"放電板","Discharge plate"
+"v1.ClearMyVirus",4072631906304,"抗生物質","Antibiotics"
+"v1.ClearMyStatusALL",4121084506112,"万能薬","Cure-all"
+"v1.ClearSetStatus",4225140994048,"イレース","Erase"
+"v1.ClearSetStatusALL",4300651048960,"イレース
+オール","Erase all"
+"v1.ClearAreaStatus",4355017617408,"クリアエリア","Clear area status"
+"v1.ClearALLAreaStatus",4429592342528,"フィールド
+リセット","Reset field"
+"v1.AfterShot",4503672139776,"後打ち法","After shot"
+"v1.ExpandArea",4557946433536,"領土拡大法","Expand area"
+"v1.NoNeedCoin",4611126013952,"要求禁止令","No need"
+"v1.NoAppendValue",4672404795392,"強化禁止令","Reinforcement
+prohibition"
+"v1.ExpandTurnResource",4740100861952,"活動拡大
+許可法","Expansion of activity"
+"v1.ExpandPack",4805389398016,"所持拡大
+許可法","expansion of pack"
+"v1.ProgressTurnALLSetCoins",4895369801728,"設置全加速","Set full
+acceleration"
+"v1.ProgressTurnAreaSetCoins",4948008316928,"指定エリア
+加速","Fast area"
+"v1.ProgressTurnMyHand",5016312557568,"手持ちコイン
+加速","Fast hand coins"
+"v1.ProgressTurnSetCoin",5092007161856,"設置加速","Installation
+acceleration"
+"v1.FixDice.1",5154334519296,"ダイス1","Dice 1"
+"v1.FixDice.2",5163784286208,"ダイス2","Dice 2"
+"v1.FixDice.3",5179701669888,"ダイス3","Dice 3"
+"v1.FixDice.4",5193710645248,"ダイス4","Dice 4"
+"v1.FixDice.5",5207027560448,"ダイス5","Dice 5"
+"v1.FixDice.6",5220776488960,"ダイス6","Dice 6"
+"v1.DecrementDice",5459650490368,"減速法","Deceleration move"
+"v1.IncrementDice",5503644545024,"加速法","Acceleration move"
+"v1.ReverseSet",5576403136512,"隠匿法","Concealment"
+"v1.MakeCopyOfSetCoin",5637195378688,"複製","Copy"
+"v1.AppendConditionDamage.Fire.20",5701607305216,"炎上強化法","Spread of fire"
+"v1.AppendConditionDamage.Poison.20",5762345021440,"毒強化法","Spread of poison"
+"v1.TurnAdd",5826907942912,"ターン加速法","Acceleration turn"
+"v1.MustUse",5879798116352,"コイン強制
+使用令","Forced use"
+"v1.ReturnSetToHand",5932642152448,"回収","Collection"
+"v1.ReturnTrashToHand",5982696976384,"再利用","Reuse"
+"v1.ConditionCount",6024447078400,"異常推進法","Change
+promotion"
+"v1.MyTrashToExclusion",6092579352576,"墓場抹消","Erasure of a grave"
+"v1.InvalidEffectSetCoin",6146056728576,"無効化","Disablement"
+"v1.DestroyALLCopySetCoins",6196463874048,"デストロイ
+コピー","Destroy
+the duplicate"
+"v1.SetBooster",6257646186496,"マイン
+ブースター","Mine booster"
+"v1.ShotBooster",6315032653824,"ショット
+ブースター","Shot booster"
+"v1.GuardBooster",6369717989376,"ガード
+ブースター","Guard booster"
+"v1.SmallPhysicalShield",6431755939840,"鉄の小盾","Small shield
+made of iron"
+"v1.PhysicalShield",6473023696896,"鉄の盾","Shield
+made of iron"
+"v1.LargePhysicalShield",6634852528128,"鉄の大盾","Large shield
+made of iron"
+"v1.SmallMagicShield",6688237629440,"魔法の小盾","Small magic shield"
+"v1.MagicShield",6764263583744,"魔法の盾","Magic shield"
+"v1.LargeMagicShield",6819020222464,"魔法の大盾","Large magic shield"
+"v1.SpikeShield",6972183621632,"スパイク
+シールド","Spike shield"
+"v1.ProtoFullProtectionShield",7041213476864,"絶対防御盾
+試作型","Complete protection
+shield [prototype]"
+"v1.MassProFullProtectionShield",7096548929536,"絶対防御盾","Complete protection
+shield"
+"v1.ProtoFullReflectionShield",7148738654208,"絶対反射盾
+試作型","Complete reflection
+shield [prototype]"
+"v1.MassProFullReflectionShield",7205462421504,"絶対反射盾","Complete reflection
+shield"
+"v1.LastHopeShield",7267634589696,"最後の希望","Last hope"
+"v1.BlessedShield",7322793881600,"恵みの盾","Blessed shield"
+"v1.ConcurrentShield",7371997261824,"重ね盾","Concurrent shield"
+"v1.GrowUpShield",7440976785408,"グロウス
+シールド","Growing shield"
+"v1.ShieldSpirit",7498560385024,"シールド
+スピリット","Shield spirit"
+"v1.GuardFaintness",7551408615424,"脱力の盾","Shield of deactivation"
+"v1.ImpactAbsorbeShield",7615132676096,"衝撃吸収盾","Shock absorption
+shield"
+"v1.ImpactAbsorbeWall",7669516021760,"衝撃吸収壁","Shock absorption
+wall"
+"v1.CuttingRegistShield",7721596694528,"カット
+シールド","Cutting resistance
+shield"
+"v1.ScaleArmor",7783403958272,"スケール
+アーマー","Scale armor"
+"v1.Manifer",7837523062784,"手甲","Manifer"
+"v1.Buckler",7887380754432,"バックラー","Buckler"
+"v1.Camouflage",7936185675776,"カモフラージュ","Camouflage"
+"v1.Invisible",7988614475776,"インビジブル","Invisible"
+"v1.MystBody",8057149403136,"ミストボディ","Myst body"
+"v1.BricksWall",8161440772096,"レンガ壁","Bricks wall"
+"v1.Dodge",8215304024064,"ドッジ","Dodge"
+"v1.SmallShield",8265514037248,"小盾","Small shield"
+"v1.Shield",8315401089024,"盾","Shield"
+"v1.LargeShield",8356551405568,"大盾","Large shield"
+"v1.Decoy",8426394955776,"デコイ","Decoy"
+"v1.NeedleArmor",8475451535360,"ニードル
+アーマー","Needle armor"
+"v1.BlessedArrow",8532120776704,"恵みの矢","Blessed arrow"
+"v1.ConcurrentArrow",8580321718272,"連続矢","Concurrent arrow"
+"v1.InfinityArrow",8626123517952,"インフィニティ
+アロー","Infinity arrow"
+"v1.BloodDagger",8681236672512,"絶命のナイフ","Blood dagger"
+"v1.SlingShot",8731660595200,"スリング
+ショット","Sling shot"
+"v1.DuplicateArrow",8787511947264,"複製矢","Duplicate arrow"
+"v1.HeavyAttack",8834035167232,"重圧撃","Heavy attack"
+"v1.ShotSpirit",8879371399168,"ショット
+スピリット","Shot spirit"
+"v1.IronDagger",8932475482112,"アイアンダガー","Iron dagger"
+"v1.IronSword",8984493240320,"アイアンソード","Iron sword"
+"v1.IronLongSword",9031918235648,"アイアン
+ロングソード","Iron long sword"
+"v1.StoneMissile",9082623176704,"ストーン
+ミサイル","Stone missile"
+"v1.Meteor",9134481551360,"メテオ","Meteor"
+"v1.FairySting",9181021548544,"妖精の針","Fairy needle"
+"v1.CrowdStones",9228572372992,"群衆の
+石礫","Crowd stones"
+"v1.ToyGun",9278501367808,"おもちゃの銃","Toy gun"
+"v1.EarthQuake",9325645344768,"アース
+クェイク","Earth quake"
+"v1.ColdRain",9376937488384,"冷たい雨","Cold rain"
+"v1.CurseSword",9423800446976,"呪刃","Curse sword"
+"v1.GoldenArrow",9470466273280,"金の矢","Golden arrow"
+"v1.RisingStar",9520680480768,"先駆けの勇者","The new brave"
+"v1.RisingStarFan",9573306413056,"勇者の
+追っかけ","Chasing
+the Brave"
+"v1.BlessedTrap",9624640499712,"恵みの罠","Blessed trap"
+"v1.ConcurrentTrap",9668768772096,"地雷塊","Concurrent trap"
+"v1.IncertitudeTrap",9713052233728,"不安定な罠","Incertitude trap"
+"v1.BlastTrap",9759575453696,"爆発罠","Blast trap"
+"v1.Diabrosis",9803309461504,"大地を
+喰らう者","Diabrosis"
+"v1.Scapegoat",9853905350656,"スケープゴート","Scapegoat"
+"v1.FusionBomb",9911107268608,"融合爆弾","Fusion bomb"
+"v1.CowardiceBeetle",9958272217088,"エスケープ
+ビートル","Cowardice beetle"
+"v1.MagicCollector",10009950236672,"マジック
+コレクター","Magic collector"
+"v1.ManEater",10058675466240,"マンイーター","ManEater"
+"v1.GraveKeeper",10106800910336,"墓守り","Grave keeper"
+"v1.PropagateVirus",10152091004928,"増殖ウィルス","Propagate virus"
+"v1.CorpseShoulder",10199763464192,"乗用獣","Corpse shoulder"
+"v1.BeastTamer",10248891346944,"ビースト
+テイマー","Beast tamer"
+"v1.MachineRider",10325391257600,"マシン
+ライダー","Machine rider"
+"v1.GoldenTrap",10388628779008,"金の罠","Golden trap"
+"v1.CoinCollector",10431595229184,"コイン
+コレクター","Coin collector"
+"v1.Fighter",10484858695680,"ファイター","Fighter"
+"v1.Sorcerer",10539619528704,"ソーサラー","Sorcerer"
+"v1.VeteranFighter",10595177279488,"ベテラン
+ファイター","Veteran fighter"
+"v1.MoanBeast",10654224691200,"帰りを待つ獣","Moan beast"
+"v1.BeastPackHead",10712064143360,"群れる獣の長","Chief of the Beasts"
+"v1.TrashWatcher",10760869064704,"清掃業者","Trash watcher"
+"v1.SmallPoisonShield",10808742850560,"毒の小盾","Small poison shield"
+"v1.PoisonShield",10857015095296,"ポイズン
+シールド","Poison shield"
+"v1.CurseSign",10908105912320,"呪いの印","Curse sign"
+"v1.AnesthetizeShield",11006659473408,"麻痺の盾","Anesthetize shield"
+"v1.FireWall",11056018042880,"ファイア
+ウォール","Fire wall"
+"v1.ElectricShield",11103539507200,"電磁シールド","Electric shield"
+"v1.ElectricBarrier",11154680655872,"電磁バリア","Electric barrier"
+"v1.HeavyLargeShield",11211349897216,"重圧盾","Heavy large shield"
+"v1.SkyAbsolver",11258296741888,"大地との絆","Ties to the Earth"
+"v1.Confusion",11309282701312,"見間違い","Mistake
+in vision"
+"v1.BioShield",11408222138368,"バイオ
+シールド","Bio shield"
+"v1.BioWall",11464941711360,"バイオ
+ウォール","Bio wall"
+"v1.CurseBook",11510785454080,"呪いの書","Curse book"
+"v1.CurseGhost",11556272680960,"ゴースト","Curse ghost"
+"v1.CurseMusicBox",11603609595904,"呪いの
+オルゴール","Curse music box"
+"v1.CurseSong",11652146081792,"墓場に
+いざなう歌","Curse song"
+"v1.FlameProjector",11704499384320,"火炎放射器","Flame projector"
+"v1.BottleGrenade",11750154383360,"火炎瓶","Bottle grenade"
+"v1.Cannon",11798267244544,"キャノン砲","Cannon"
+"v1.GravityGun",11846153613312,"重力銃","Gravity gun"
+"v1.BlockLook",11890734870528,"目つぶし","Block look"
+"v1.Qualm",11936360509440,"目まい","Qualm"
+"v1.DimensionSlash",11986222395392,"異次元断","Dimension slash"
+"v1.BioBlaster",12035882954752,"バイオ
+ブラスター","Bio blaster"
+"v1.VirusScatter",12083110817792,"ウィルス
+拡散弾","Virus scatter"
+"v1.VirusGun",12132087705600,"ウィルスガン","Virus gun"
+"v1.DeepSleep",12178845806592,"スリープ","Deep sleep"
+"v1.Slump",12231647899648,"スランプ","Slump"
+"v1.Fireball",12280251494400,"ファイア
+ボール","Fire ball"
+"v1.PoisonArrow",12330830606336,"毒の矢","Poison arrow"
+"v1.PoisonKnife",12377710342144,"ポイズン
+ナイフ","Poison knife"
+"v1.OilBottle",12422643920896,"油壺","Oil bottle"
+"v1.SickRat",12464578572288,"痺れネズミ","Paralysis
+rat"
+"v1.Fairy",12509499568128,"妖精","Fairy"
+"v1.BurningFairy",12556282834944,"炎と踊る妖精","Burning fairy"
+"v1.GravityMaker",12602189492224,"重力発生装置","Gravity maker"
+"v1.DozeFog",12661589225472,"まどろみの霧","Doze fog"
+"v1.SmallPoisonTrap",12712013148160,"毒の罠","Small poison trap"
+"v1.PoisonTrap",12759559778304,"猛毒の罠","Poison trap"
+"v1.PoisonEater",12806238187520,"ポイズン
+イーター","Poison eater"
+"v1.GermHole",12855437373440,"病原菌の苗床","Germ hole"
+"v1.NoTrespassing",12904372318208,"進入禁止","No entry"
+"v1.PushBlower",12949863739392,"向かい風","Head wind"
+"v1.HardPushBlower",13002711969792,"強風","High wind"
+"v1.ReflectionWave",13056147402752,"リフレクション
+ウェーブ","Reflection wave"
+"v1.Redraw",13107397603328,"リドロー","Redraw"
+"v1.MyStockToTrash",13158576500736,"廃棄処分","Disposal"
+"v1.MyTrashToStock",13207758909440,"資源回収","Resource recovery"
+"v1.SwapSetBySideArea",13255028715520,"エリア
+スワップ","Swap area"
+"v1.RevolutionByCrowd",13301493215232,"民衆革命","popular revolution"
+"v1.WinFlag",13349161480192,"勝利の旗","Win flag"
+"v1.Seizure",13396011855872,"領土掌握","Seizure of territory"
+"v1.BattleDoll1th",13454065217536,"バトルドール
+(休眠中)","Battle doll
+[sleep]"
+"v1.BattleDoll2th",13503008550912,"バトルドール
+(始動中)","Battle doll
+[starting]"
+"v1.BattleDoll3th",13529013235712,"バトルドール","Battle doll"
+"v1.ElectricGiant",13802557353984,"雷の巨人","Electric giant"
+"v1.ElectricAutomaton",13877371154432,"電磁人形","Electric automaton"
+"v1.ElectricKing",13925161054208,"雷王","Electric king"
+"v1.ToyPorn",13971470364672,"おもちゃの
+兵士","Toy porn"
+"v1.ToyFighter",14020183011328,"おもちゃの
+戦士","Toy fighter"
+"v1.ToyGiant",14068958572544,"おもちゃの
+巨人","Toy giant"
+"v1.CurseDoll",14121127325696,"呪われた
+人形","Curse doll"
+"v1.ThunderPunch",14176836071424,"電撃掌","Thunder punch"
+"v1.GreatThunder",14238144212992,"巨雷","Great thunder"
+"v1.Thunder",14283593691136,"サンダー","Thunder"
+"v1.ElectricBurst",14338480353280,"エレクトリック
+ブラスト","Electric burst"
+"v1.SelfDynamo",14391148228608,"自家発電機","Private generator"
+"v1.ThunderFairy",14442201296896,"雷と舞う妖精","Thunder fairy"
+"v1.UndeadCurse",14489890533376,"カースアンデッド","Undead curse"
+"v1.VirusCarrier",14540608057344,"始まりの感染者","Undead virus"
+"v1.UndeadSoldier",14591686291456,"アンデッド
+ソルジャー","Undead soldier"
+"v1.UndeadLeader",14639497162752,"アンデッド
+リーダー","Undead leader"
+"v1.UndeadCommander",14695986049024,"アンデッド
+コマンダー","Undead commander"
+"v1.UndeadShoot",14745390755840,"アンデッド軍
+突撃命令","Undead shoot"
+"v1.UndeadGuard",14794673827840,"アンデッド軍
+防衛命令","Undead guard"
+"v1.KingSword",14846049857536,"支配者の剣","Sword of the Ruler"
+"v1.KingArrow",14889813225472,"支配者の矢","Arrow of the Ruler"
+"v1.KingPressure",14936621658112,"支配者
+からの圧力","Pressure from rulers"
+"v1.KingShield",14991143415808,"支配者の盾","Shield of the Ruler"
+"v1.BottleRocket",15041638641664,"ボトルロケット","Bottle rocket"
+"v1.ClubOfPoor",15085674639360,"貧者の棍棒","Club of poor"
+"v1.StoneOfPoor",15136421523456,"貧者の石ころ","Stone of poor"
+"v1.ChopperOfPoor",15198455279616,"貧者の鉈","Chopper of poor"
+"v1.Dragon",15254667341824,"ドラゴン","Dragon"
+"v1.DragonEgg",15303015084032,"ドラゴン
+エッグ","Dragon egg"
+"v1.PhantomSoldier",15352587563008,"よみがえる
+兵士","Phantom soldier"
+"v1.DragonUndead",15416697499648,"ドラゴン
+アンデッド","Dragon undead"
+"v1.FireLizard",15488365572096,"ファイア
+リザード","Fire lizard"
+"v1.Manure",15541276717056,"肥料","Manure"
+"v1.SpikeFlower",15590266187776,"スパイク
+フラワー","Spike flower"
+"v1.PoisonFlower",15640425869312,"ポイズン
+フラワー","Poison flower"
+"v1.GravityFlower",15689977376768,"重化草","Gravity flower"
+"v1.HardTree",15737716944896,"堅牢木","Hard tree"
+"v1.Planter",15782658912256,"農園主","Planter"
+"v1.GiantTree",15828532015104,"ジャイアント
+ツリー","Giant tree"
+"v1.PlantNeedle",15876737150976,"プラント
+ニードル","Plant needle"
+"v1.PlantSpike",15926955552768,"プラント
+スパイク","Plant spike"
+"v1.PlantParty",15975995355136,"プラント
+パーティ","Plant party"
+"v1.BigWorm",16024838025216,"巨大ミミズ","Big worm"
+"v1.ArtfulMagician",16082698448896,"狡猾な魔術師","Artful magician"
+"v1.MagiciansStrawN",16132774244352,"魔術師の幻影","Magician's
+Phantom"
+"v1.MagiciansStrawP",16168065118208,"魔術師の幻影","Magician's
+Phantom"
+"v1.MagiciansStrawA",16231126478848,"魔術師の幻影","Magician's
+Phantom"
+"v1.QueenAnt",16310101028864,"女王アリ","Queen ant"
+"v1.KnightAnt",16364073332736,"騎士アリ","Knight ant"
+"v1.SoldierAnt",16430200729600,"兵隊アリ","Soldier ant"
+"v1.ChildcareAnt",16491940884480,"子育てアリ","Childcare ant"
+"v1.ExplorerAnt",16541429477376,"探索アリ","Explorer ant"
+"v1.FlameAnt",16593778585600,"炎アリ","Flame ant"
+"v1.DaemonHead",16646329020416,"鬼の頭","Daemon
+head"
+"v1.DaemonBody",16696039911424,"鬼の胴","Daemon
+body"
+"v1.DaemonRightArm",16743645261824,"鬼の右腕","Daemon
+right arm"
+"v1.DaemonLeftArm",16792328548352,"鬼の左腕","Daemon
+left arm"
+"v1.DaemonRightLeg",16841045389312,"鬼の右脚","Daemon
+right leg"
+"v1.DaemonLeftLeg",16891167322112,"鬼の左脚","Daemon
+left leg"
+"v1.DimensionBeacon",16941268283392,"次元ビーコン","Dimension beacon"
+"v1.AlianHuman",16995186061312,"異界人","Alian human"
+"v1.AlianMachine",17115143155712,"異界の人形","Alian machine"
+"v1.AlianDragon",17196600733696,"異界竜","Alian doragon"
+"v1.AlianBeast",17242809380864,"異界獣","Alian beast"
+"v1.AlianBoundary",17307070312448,"狭間に
+紛れる者","Alian boundary"
+"v1.AlienFlame",17357557149696,"異界の炎","Alien flame"
+"v1.ShadowDagger",17407066714112,"シャドー
+ダガー","Shadow dagger"
+"v1.ShadowSword",17458816036864,"シャドー
+ソード","Shadow sword"
+"v1.ShadowLongSword",17511987228672,"シャドー
+ロングソード","Shadow long sword"
+"v1.ShadowClaymore",17569914761216,"シャドー
+クレイモア","Shadow claymore"
+"v1.PrototRailgun",17627393503232,"電磁砲試作型","Railgun [prototype]"
+"v1.MassProRailgun",17676873707520,"電磁砲","Railgun"
+"v1.PortableRailgun",17727247298560,"電磁砲携帯型","Railgun [portable]"
+"v1.IcicleSpear",17785741062144,"アイシクル
+スピア","Icicle spear"
+"v1.IciclePic",17839440736256,"アイシクル
+ピック","Icicle pic"
+"v1.IcicleClub",17890045014016,"アイシクル
+クラブ","Icicle club"
+"v1.IceGolem",17941785948160,"アイス
+ゴーレム","Ice golem"
+"v1.IceArmor",18004192997376,"アイス
+アーマー","Ice armor"
+"v1.HeresyIdol",18056827318272,"邪教の像","Heresy idol"
+"v1.HeresyBlowgun",18108408868864,"邪教者の
+ボウガン","Heresy blowgun"
+"v1.HeresyClaw",18163157118976,"邪教者の鉤爪","Heresy claw"
+"v1.HeresyTrident",18217834065920,"邪教者の三つ又","Heresy trident"
+"v1.FirstArrow",18265741406208,"一ノ矢","First arrow"
+"v1.SecondArrow",18315389382656,"二ノ矢","Second arrow"
+"v1.ThirdArrow",18369076473856,"三ノ矢","Third arrow"
+"v1.NinjaSword",18415280926720,"忍び刀","Ninja sword"
+"v1.Ninja",18470079508480,"忍者","Ninja"
+"v1.ChiefNinjaSword",18523678519296,"忍び大刀","Chief ninja sword"
+"v1.ChiefNinja",18574404431872,"上級忍者","Chief ninja"
+"Dust",18623515537408,"ごみ","Dust"
+"v1.HeresyBishop",83706041103495168,"邪教の司祭","Heresy bishop"

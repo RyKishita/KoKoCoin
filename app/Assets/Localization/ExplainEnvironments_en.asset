@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ExplainEnvironments_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 91410ff918a610f49a448063dec74700, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 0
+  m_TableData:
+  - m_Id: 1530367782912
+    m_Localized: Movement dice +{value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 1573598474240
+    m_Localized: Movement dice -{value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 2591086292992
+    m_Localized: Additional coin types used. Step{no} {type}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 3916838678528
+    m_Localized: '[{name}]Damage {value} increase'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 3928352043008
+    m_Localized: '[{name}]Damage {value} reduced'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 180464870961152
+    m_Localized: Add areas at both ends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360125223612416
+    m_Localized: '{abnormalstate}{count}+{value}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 360148694937600
+    m_Localized: '{abnormalstate}{count}-{value}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 362535446851584
+    m_Localized: '{handcoin}+{value}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 362554912616448
+    m_Localized: '{handcoin}-{value}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 363634471940096
+    m_Localized: '{resource}+{value}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 363674191998976
+    m_Localized: '{resource}-{value}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 370926315581440
+    m_Localized: Coin use is optional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 722644719054848
+    m_Localized: Restrictions on use are in effect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728446955630592
+    m_Localized: Front arrangement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729004101808128
+    m_Localized: Increase in the number of additions per turn {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 729365097164800
+    m_Localized: Decrease in the number of additions per turn {value}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 6596172656640
+    m_Localized: Forced use of coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6702972219392
+    m_Localized: Disable usage restrictions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6738363756544
+    m_Localized: Placement in reverse
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00300751640100000030c7616e0100000030c7485b0200000030c7f58f030000003007a4920300000030073088470100003007a78d4701000030875cb94901000030c7e4bd4901000030873fb94a01000030077fc24a01000030877e069702000030878b5a970200

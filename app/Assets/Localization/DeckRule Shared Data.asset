@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DeckRule Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: DeckRule
+  m_TableCollectionNameGuidString: 70b1422085cf79347a2757ac290ddeee
+  m_Entries:
+  - m_Id: 441346109440
+    m_Key: CoinVersionAll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630429528064
+    m_Key: coinVersion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1722412380160
+    m_Key: deckCoinNumMax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1862099480576
+    m_Key: deckCoinNumMin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1888070610944
+    m_Key: deckCoinTotalSizeMax0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913286766592
+    m_Key: coinNumMaxInDeck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2051988205568
+    m_Key: coinLimitNums0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2571482116096
+    m_Key: sideDeckCoinNumMax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2589366628352
+    m_Key: sideDeckCoinNumMin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3082784550912
+    m_Key: deckCoinTotalSizeMax1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4904475635712
+    m_Key: coinLimitNums1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17803498943361024
+    m_Key: forceAddcoins0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17803516886593536
+    m_Key: forceAddcoins1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17836158457688064
+    m_Key: usableCoins0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17836179324350464
+    m_Key: usableCoins1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53267035832397824
+    m_Key: useSideDeck
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1643419946476
