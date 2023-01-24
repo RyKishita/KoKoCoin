@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Assets.Scripts.Duel;
+
+namespace Assets.Scripts.Coin.v1.Body
+{
+    class BioShield : Scripts.Coin.Body.Guard.Core
+    {
+        public BioShield(string coinName)
+            : base(coinName)
+        {
+            Animation = new Scripts.Duel.DuelAnimation.Guard.GuardAnimationShield();
+        }
+
+        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[]
+        {
+            new Effect.GuardToChangeCondition(
+                false,
+                Duel.PlayerCondition.PlayerConditionDetailVirus.CreatePlayerCondition(1),
+                Defines.ParticleType.Virus)
+        };
+    }
+}
