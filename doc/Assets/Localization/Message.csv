@@ -143,8 +143,12 @@ draw"
 "Offline",78271842116644864,"オフライン","Offline"
 "Online",78271898743943168,"オンライン","Online"
 "PlayFabError",80890722446159872,"エラーが発生しました。
-{msg}","An error has occurred.
-{msg}"
+message:{msg}
+type:{type}
+code:{code}","An error has occurred.
+message:{msg}
+type:{type}
+code:{code}"
 "DuelResult_WinnerName_Player",83444208081776640,"プレイヤー{no}が対戦に勝利","Player {no} wins the match."
 "DuelResult_WinnerName_Team",83444226817732608,"チーム{no}が対戦に勝利","Team {no} wins the match."
 "PressGetInfo",88780200561029120,"取得ボタンを押してください。","Press the Get button."
@@ -195,3 +199,9 @@ Scheduled to resume: {date}"
 "EventUntilToEnd",111539149034958848,"終了まであと{day}日","Only {day} day{day:choose(0|1):||s} left until the end"
 "EventComingToAnEndSoon",111542285636153344,"もうすぐ終了","Coming to an end soon"
 "RewardHasBeenBbtained",111549792467234816,"報酬は取得済み","Reward has been obtained"
+"SaveDeckMessage",136980839119925248,"デッキが編集されています。
+保存しますか？","Your deck has been edited.
+Do you want to save it?"
+"SaveRuleMessage",136981942007967744,"ルールが編集されています。
+保存しますか？","Your rule has been edited.
+Do you want to save it?"
