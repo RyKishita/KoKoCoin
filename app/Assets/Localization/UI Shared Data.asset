@@ -1199,6 +1199,10 @@ MonoBehaviour:
     m_Key: Preload
     m_Metadata:
       m_Items: []
+  - m_Id: 141398265421049856
+    m_Key: PointDeficit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -691,6 +691,14 @@ MonoBehaviour:
     m_Key: RewardHasBeenBbtained
     m_Metadata:
       m_Items: []
+  - m_Id: 136980839119925248
+    m_Key: SaveDeckMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136981942007967744
+    m_Key: SaveRuleMessage
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

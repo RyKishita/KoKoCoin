@@ -593,7 +593,11 @@ MonoBehaviour:
   - m_Id: 80890722446159872
     m_Localized: 'An error has occurred.
 
-      {msg}'
+      message:{msg}
+
+      type:{type}
+
+      code:{code}'
     m_Metadata:
       m_Items:
       - rid: 0
@@ -767,6 +771,18 @@ MonoBehaviour:
       - rid: 0
   - m_Id: 111542285636153344
     m_Localized: Coming to an end soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136980839119925248
+    m_Localized: 'Your deck has been edited.
+
+      Do you want to save it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136981942007967744
+    m_Localized: 'Your rule has been edited.
+
+      Do you want to save it?'
     m_Metadata:
       m_Items: []
   references:

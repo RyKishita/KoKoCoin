@@ -1234,6 +1234,10 @@ MonoBehaviour:
     m_Localized: Pre-loading
     m_Metadata:
       m_Items: []
+  - m_Id: 141398265421049856
+    m_Localized: Display insufficient points message
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
