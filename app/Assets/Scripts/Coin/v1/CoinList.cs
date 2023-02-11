@@ -332,7 +332,7 @@ namespace Assets.Scripts.Coin.v1
             Regist<ChiefNinja>();
         }
 
-        protected override string VersionName => "v1";
+        protected override string VersionName => Defines.CoinVersion.v1.ToString();
 
         public static CoinList Instance { get; } = new CoinList();
 
