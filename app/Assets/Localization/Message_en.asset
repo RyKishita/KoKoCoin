@@ -671,19 +671,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 93236914601537536
-    m_Localized: No1
+    m_Localized: 1
     m_Metadata:
       m_Items: []
   - m_Id: 93236956162895872
-    m_Localized: No2
+    m_Localized: 2
     m_Metadata:
       m_Items: []
   - m_Id: 93237031689728000
-    m_Localized: No3
+    m_Localized: 3
     m_Metadata:
       m_Items: []
   - m_Id: 93237064153640960
-    m_Localized: No4
+    m_Localized: 4
     m_Metadata:
       m_Items: []
   - m_Id: 93786818436608000
