@@ -36,7 +36,10 @@ This is a method of playing over the Internet. Decks must be created using only 
 Points are consumed for each match. You can get points by watching advertisements, but you need to set them up. It may take some time to receive points. There is a limit to the number of points you can get per day.
 
 ■ Customize the battle rules.
-You can set the number limit of decks, life values, etc. You can change them when you get used to playing the game. In online matches, there are events where you can play with specified rules, and room functions where you can play with the rules you have created.
+You can set a limit on the number of cards in your deck, life values, etc. You can change them when you get used to the game.
+- Custom: The game is played according to the same procedures as the standard rules. As a limitation, the rules for decks are changed to the same contents as the standard rules.
+- Room: Online play only. The rules are published first, and then you can recruit players to play.
+- Event: Limited time only. Additional rewards will be given for online matches.
 
 ■ Game Tips
 Defensive coins are wasted when your opponent does not put in direct attack coins. Be careful not to insert too many coins.
