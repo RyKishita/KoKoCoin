@@ -527,14 +527,6 @@ MonoBehaviour:
     m_Localized: Virsus
     m_Metadata:
       m_Items: []
-  - m_Id: 72470270803652608
-    m_Localized: Hide
-    m_Metadata:
-      m_Items: []
-  - m_Id: 72470325950361600
-    m_Localized: Show
-    m_Metadata:
-      m_Items: []
   - m_Id: 72472169405689856
     m_Localized: Unknow
     m_Metadata:
