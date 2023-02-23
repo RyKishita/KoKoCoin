@@ -85,6 +85,6 @@ namespace Assets.Scripts.Coin.Body.Guard
             GuardValue = data.value;
         }
 
-        public override int GetValue() => GuardValue;
+        public override int? GetValue() => GuardValue;
     }
 }

@@ -204,6 +204,6 @@ namespace Assets.Scripts.Coin.Body
             CoinTag = data.GetCoinTag();
         }
 
-        public virtual int GetValue() => 0;
+        public virtual int? GetValue() => null;
     }
 }

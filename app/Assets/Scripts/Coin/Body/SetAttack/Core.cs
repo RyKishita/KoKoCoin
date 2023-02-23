@@ -130,6 +130,6 @@ namespace Assets.Scripts.Coin.Body.SetAttack
             SetAttackValue = data.value;
         }
 
-        public override int GetValue() => SetAttackValue;
+        public override int? GetValue() => SetAttackValue;
     }
 }

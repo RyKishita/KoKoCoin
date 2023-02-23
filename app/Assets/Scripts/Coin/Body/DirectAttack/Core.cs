@@ -103,6 +103,6 @@ namespace Assets.Scripts.Coin.Body.DirectAttack
             DirectAttackValue = data.value;
         }
 
-        public override int GetValue() => DirectAttackValue;
+        public override int? GetValue() => DirectAttackValue;
     }
 }
