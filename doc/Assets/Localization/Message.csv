@@ -127,8 +127,6 @@ draw"
 "HasAreaStatus",72468369970245632,"(+)","(+)"
 "HideCoinInfo",72468823294816256,"???","???"
 "Virsus",72469731885920256,"対戦","Virsus"
-"PinSecretON",72470270803652608,"●","Hide"
-"PinSecretOFF",72470325950361600,"○","Show"
 "Unknow",72472169405689856,"不明","Unknow"
 "Success_AddRoom",75746956819247104,"ルームを作成しました。","Room created."
 "Failed_AddRoom_Error",75747145378377728,"ルームの作成に失敗しました。サーバーエラーです。時間をおいてから再度試してください。","Room creation failed. Server error. Please wait a moment and try again."
@@ -155,16 +153,8 @@ code:{code}"
 "FailedGetInfo",88780427116359680,"取得に失敗しました。","Acquisition failed."
 "DateTime",88798583721504768,"日時","Date and Time"
 "DisplayID",88860966900936704,"表示名","Display name"
-"Failed_VersionMust",91266340161531904,"最新のバージョンがあります。更新してください。
-現在：{current}
-最新：{latest}","The latest version is available. Please update it.
-Current: {current}
-Latest: {latest}"
-"Failed_VersionDuel",91269578390712320,"オンライン対戦を開始するには更新してください。
-現在：{current}
-最新：{latest}","Please update to start the online match.
-Current: {current}
-Latest: {latest}"
+"Failed_VersionMust",91266340161531904,"新しいバージョンがあります。アプリを更新してください。","There is a newer version. Please update your application."
+"Failed_VersionDuel",91269578390712320,"オンライン対戦を開始するにはアプリの更新をしてください。","Please update the application to start online competition."
 "Failed_MaintenanceMust",91299851832602624,"メンテナンス中です。
 再開予定：{date}","Under maintenance.
 Scheduled to resume: {date}"
@@ -173,10 +163,10 @@ Scheduled to resume: {date}"
 Scheduled to resume: {date}"
 "yes",93236845068365824,"はい","yes"
 "no",93236881361678336,"いいえ","no"
-"No1",93236914601537536,"No1","No1"
-"No2",93236956162895872,"No2","No2"
-"No3",93237031689728000,"No3","No3"
-"No4",93237064153640960,"No4","No4"
+"No1",93236914601537536,"1","1"
+"No2",93236956162895872,"2","2"
+"No3",93237031689728000,"3","3"
+"No4",93237064153640960,"4","4"
 "NotExchangeCoin",93786818436608000,"このコインとは交換できません。","This coin cannot be exchanged for this coin."
 "About_HowToPlay_Other",94217994217402368,"その他","Other"
 "Failed_CreateNPCDeck",94282662780809216,"NPCのデッキが作成できませんでした。ルールを確認してください。","Could not create NPC deck. Please check the rules."
@@ -205,3 +195,5 @@ Do you want to save it?"
 "SaveRuleMessage",136981942007967744,"ルールが編集されています。
 保存しますか？","Your rule has been edited.
 Do you want to save it?"
+"Failed_Exchange_ShortageLotCoinTicket",143497653480009728,"変換に失敗しました。コインくじが不足しています。","Conversion failed. Insufficient coin raffle."
+"Failed_Exchange_LimitExchangeTicket",143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."

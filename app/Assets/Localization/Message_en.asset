@@ -765,6 +765,14 @@ MonoBehaviour:
       Do you want to save it?'
     m_Metadata:
       m_Items: []
+  - m_Id: 143497653480009728
+    m_Localized: Conversion failed. Insufficient coin raffle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143497693434949632
+    m_Localized: You cannot have any more coin vouchers.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
