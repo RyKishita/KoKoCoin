@@ -98,11 +98,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2192345240383488
-    m_Localized: Logging in
+    m_Localized: Signing in
     m_Metadata:
       m_Items: []
   - m_Id: 2192615374532608
-    m_Localized: Login failed. Please wait a moment and try again.
+    m_Localized: Sign-in failed. Please wait a moment and try again.
     m_Metadata:
       m_Items: []
   - m_Id: 2193707437076480
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 36591810990518272
-    m_Localized: Logging in (Create new)
+    m_Localized: Signing in (Create new)
     m_Metadata:
       m_Items: []
   - m_Id: 111549792467234816
@@ -717,19 +717,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 98856324477431808
-    m_Localized: Login
+    m_Localized: Sign in
     m_Metadata:
       m_Items: []
   - m_Id: 98856352617017344
-    m_Localized: Logout
+    m_Localized: Sign out
     m_Metadata:
       m_Items: []
   - m_Id: 98856373009723392
-    m_Localized: You are currently logged in.
+    m_Localized: You are currently signed in.
     m_Metadata:
       m_Items: []
   - m_Id: 98856391007481856
-    m_Localized: You are currently logged out.
+    m_Localized: You are currently signed out.
     m_Metadata:
       m_Items: []
   - m_Id: 98908804745736192
