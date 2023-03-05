@@ -21,22 +21,19 @@ namespace Assets.Scripts.Duel.PlayerCondition
         public override string MakeExplain()
         {
             return MakeExplain(
-                Defines.GetLocalizedString(Defines.StringEnum.ConditionCount),
                 Defines.GetLocalizedString(Defines.StringEnum.ConditionBaseDamage));
         }
 
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
             return MakeExplain(
-                duelData.GetConditionCount().ToString(),
                 duelData.GetBaseStatusDamage(playerCondition.InnerName).ToString());
         }
 
-        string MakeExplain(string count, string value)
+        string MakeExplain(string value)
         {
             var param = new Dictionary<string, string>
             {
-                { nameof(count), count },
                 { nameof(value), value }
             };
 

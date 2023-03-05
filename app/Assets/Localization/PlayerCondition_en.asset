@@ -38,8 +38,8 @@ MonoBehaviour:
       m_Items:
       - rid: 0
   - m_Id: 334689153024
-    m_Localized: At the end of each turn, you take {count} times {value} damage.
-      The count is then halved. (Round down to the nearest whole number).
+    m_Localized: At the end of each turn, you take count times {value} damage. The
+      count is then halved. (Round down to the nearest whole number).
     m_Metadata:
       m_Items:
       - rid: 0

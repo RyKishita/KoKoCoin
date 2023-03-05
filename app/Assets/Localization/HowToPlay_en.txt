@@ -42,12 +42,12 @@ You can set a limit on the number of cards in your deck, life values, etc. You c
 - Event: Limited time only. Additional rewards will be given for online matches.
 
 ■ Game Tips
-Defensive coins are wasted when your opponent does not put in direct attack coins. Be careful not to insert too many coins.
 Move as close to the center as possible. The closer the square is to the center, the easier it is to step on it, and the more attack coins you can place there, the more effective your move will be. This also has the advantage of giving you more options for where to move next turn.
 The outermost square is a safe square. You cannot place attacking coins in these squares, and they will not be attacked directly by attacking coins. If you are in danger, run for cover. However, the danger increases because you can only move forward in one direction on the next turn.
 Some coins are ineffective or ineffective on their own. Use them only after you have collected the related coins.
+Defensive coins are wasted if your opponent has not put in direct attack coins. Be careful not to put in too many.
 
-■ Other
+■ Notice
 Defect reports and requests are also accepted at Issues at the following URL.
 https://github.com/RyKishita/KoKoCoin
 We especially appreciate your help in improving localization.

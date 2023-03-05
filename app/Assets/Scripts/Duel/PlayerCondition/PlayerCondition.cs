@@ -37,7 +37,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public string MakeNameWithCount()
         {
-            return ZString.Format("{0}{1}", GetDisplayName(), Value);
+            return ZString.Format("{0} [{1}]", GetDisplayName(), Value);
         }
 
         public string MakeExplain(DuelData duelData)
