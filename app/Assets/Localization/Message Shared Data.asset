@@ -144,7 +144,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2192615374532608
-    m_Key: Failed_Login
+    m_Key: Failed_ConnectOnline
     m_Metadata:
       m_Items: []
   - m_Id: 2193707437076480
@@ -644,19 +644,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 98856324477431808
-    m_Key: Login
+    m_Key: ConnectedOnline
     m_Metadata:
       m_Items: []
   - m_Id: 98856352617017344
-    m_Key: Logout
+    m_Key: DisconnectOnline
     m_Metadata:
       m_Items: []
   - m_Id: 98856373009723392
-    m_Key: NowLogin
+    m_Key: NowConnectingOnline
     m_Metadata:
       m_Items: []
   - m_Id: 98856391007481856
-    m_Key: NowLogout
+    m_Key: NowDisconnectOnline
     m_Metadata:
       m_Items: []
   - m_Id: 98908804745736192

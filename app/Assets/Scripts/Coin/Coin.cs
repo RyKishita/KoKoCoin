@@ -45,7 +45,7 @@ namespace Assets.Scripts.Coin
         /// <summary>
         /// コイン実体部
         /// </summary>
-        public virtual Body.Core[] Bodies { get; } = new Body.Core[] { };
+        public abstract Body.Core[] Bodies { get; }
 
         public int SortIndex => Defines.GetSortIndex(CoinType);
 
