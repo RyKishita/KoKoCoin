@@ -17,7 +17,7 @@ namespace Assets.Scripts.Coin.v1.Body
         {
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailCurse.CreatePlayerCondition(3),
+                Duel.PlayerCondition.PlayerConditionDetailCurse.CreatePlayerCondition(2),
                 Defines.ParticleType.Curse)
         };
     }

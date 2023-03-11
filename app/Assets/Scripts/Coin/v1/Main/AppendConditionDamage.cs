@@ -8,10 +8,8 @@ namespace Assets.Scripts.Coin.v1.Main
 {
     class AppendConditionDamage : Coin
     {
-        public AppendConditionDamage(string name, string playerConditionInnerName, int value)
+        public AppendConditionDamage(string name, string playerConditionInnerName, string prefabName, int value)
         {
-            bool bPlus = 0 < value;
-
             using (var sb = ZString.CreateStringBuilder())
             {
                 sb.Append("v1.AppendConditionDamage");
@@ -22,7 +20,7 @@ namespace Assets.Scripts.Coin.v1.Main
                 Name = sb.ToString();
             }
             Bodies = new Assets.Scripts.Coin.Body.Core[] { new Body.AppendConditionDamage(Name, playerConditionInnerName, value) };
-            PrefabName = bPlus ? "AppendConditionDamageP" : "AppendConditionDamageM";
+            PrefabName = prefabName;
         }
 
         public override string Name { get; }

@@ -47,8 +47,8 @@ namespace Assets.Scripts.Coin.v1
             Regist<IncrementDice>();
             Regist<ReverseSet>();
             Regist<MakeCopyOfSetCoin>();
-            Regist(new AppendConditionDamage("Fire", nameof(Duel.PlayerCondition.PlayerConditionDetailFire), 20));
-            Regist(new AppendConditionDamage("Poison", nameof(Duel.PlayerCondition.PlayerConditionDetailPoison), 20));
+            Regist(new AppendConditionDamage("Fire", nameof(Duel.PlayerCondition.PlayerConditionDetailFire), "AppendConditionDamageF", 20));
+            Regist(new AppendConditionDamage("Poison", nameof(Duel.PlayerCondition.PlayerConditionDetailPoison), "AppendConditionDamageP", 20));
             Regist<TurnAdd>();
             Regist<MustUse>();
             Regist<ReturnSetToHand>();

@@ -13,8 +13,8 @@ v1.ColdRain,1,魔法_特殊射程,50
 v1.ConcurrentArrow,2,物理_刺突_中射程_長射程,400
 v1.CrowdStones,1,物理_殴打_中射程,100
 v1.CurseBook,1,魔法_接触_隣接,200
-v1.CurseMusicBox,2,魔法_中射程,100
-v1.CurseSong,3,魔法_中射程_長射程,400
+v1.CurseMusicBox,2,魔法_中射程,300
+v1.CurseSong,3,魔法_中射程_長射程,600
 v1.CurseSword,2,物理_切断_隣接_中射程,200
 v1.DeepSleep,1,魔法_隣接_中射程,100
 v1.DimensionSlash,2,異次元_切断_長射程,600
