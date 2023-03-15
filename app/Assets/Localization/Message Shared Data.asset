@@ -139,10 +139,6 @@ MonoBehaviour:
     m_Key: Confirmation_DamageSave
     m_Metadata:
       m_Items: []
-  - m_Id: 2192345240383488
-    m_Key: Logging
-    m_Metadata:
-      m_Items: []
   - m_Id: 2192615374532608
     m_Key: Failed_ConnectOnline
     m_Metadata:
@@ -376,7 +372,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 36591810990518272
-    m_Key: Logging_NewlyCreated
+    m_Key: NowConnectingOnline_NewlyCreated
     m_Metadata:
       m_Items: []
   - m_Id: 36635081708089344

@@ -97,10 +97,6 @@ MonoBehaviour:
       If you close the game with "Close", the data will be deleted.'
     m_Metadata:
       m_Items: []
-  - m_Id: 2192345240383488
-    m_Localized: Signing in
-    m_Metadata:
-      m_Items: []
   - m_Id: 2192615374532608
     m_Localized: Connection failed. Please wait a moment and try again.
     m_Metadata:
@@ -417,7 +413,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 36591810990518272
-    m_Localized: Signing in (Create new)
+    m_Localized: Connecting (Create new)
     m_Metadata:
       m_Items: []
   - m_Id: 111549792467234816
