@@ -36,7 +36,6 @@ OKボタンでゲームを終了します。
 ×で閉じるとデータが削除されます。","The saved data has been corrupted.
 Click OK button to close the game.
 If you close the game with ""Close"", the data will be deleted."
-"Logging",2192345240383488,"ログイン中","Signing in"
 "Failed_ConnectOnline",2192615374532608,"接続に失敗しました。時間をおいてから再度試してください。","Connection failed. Please wait a moment and try again."
 "Failed_NotSelectConnectionType_check",2193707437076480,"接続に使用する項目にチェックを入れてください。","Check the items you want to use for the connection."
 "Failed_HasNotPermission",2194157980823552,"必要な権限が拒否に設定されています。アプリ設定を変更してください。","Required permissions are set to Deny. Please change your application settings."
@@ -102,7 +101,7 @@ draw"
 "CantSelectableCoins",22783113008984064,"有効なコインがありません。[戻る]を押します。","No valid coins. Press [Back]."
 "RangeALL",29084229099270144,"相手との距離を無視して使用できる。","It can be used without regard to the distance from the opponent."
 "CanceledDuel_BrokenData",34857623367397376,"対戦データの交換に失敗しました。対戦を開始できませんでした。","Failed to exchange match data. Could not start the match."
-"Logging_NewlyCreated",36591810990518272,"ログイン中 (新規作成)","Signing in (Create new)"
+"NowConnectingOnline_NewlyCreated",36591810990518272,"接続中 (新規作成)","Connecting (Create new)"
 "NextEventRewardDate",36635081708089344,"次回取得可能 {date}","Available next time {date}"
 "DuelResult_MostRemainingPlayerLife",50747588726960128,"タイムアップ。ライフが多いプレイヤーの勝利。","Time up. The player with the most lives wins."
 "DuelResult_MostRemainingTeamTotalLife",50747636835627008,"タイムアップ。ライフの合計が多いチームの勝利。","Time up. The team with the highest life total wins."
@@ -196,4 +195,4 @@ Do you want to save it?"
 保存しますか？","Your rule has been edited.
 Do you want to save it?"
 "Failed_Exchange_ShortageLotCoinTicket",143497653480009728,"変換に失敗しました。コインくじが不足しています。","Conversion failed. Insufficient coin raffle."
-"Failed_Exchange_LimitExchangeTicket",143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."ve any more coin vouchers."
+"Failed_Exchange_LimitExchangeTicket",143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."�せん。","You cannot have any more coin vouchers."ve any more coin vouchers."
