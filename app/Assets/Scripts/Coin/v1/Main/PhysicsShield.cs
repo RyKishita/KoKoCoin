@@ -11,7 +11,7 @@ namespace Assets.Scripts.Coin.v1.Main
 
         public override string Name => name;
 
-        public override Scripts.Coin.Body.Core[] Bodies { get; } = new [] { new Body.PhysicsShield(name, 400, string.Empty) };
+        public override Scripts.Coin.Body.Core[] Bodies { get; } = new [] { new Body.PhysicsShield(name, 400) };
 
         public override string PrefabName { get { return "PhysicalShield"; } }
 

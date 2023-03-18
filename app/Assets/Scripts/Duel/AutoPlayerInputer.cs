@@ -369,7 +369,7 @@ namespace Assets.Scripts.Duel
             // 設置を維持すべき設置コインがある場合は、重ね置き可能なものだけ
             if (currentArea.GetCoinsByOwner(player).Any(scd => IsKeepPut(scd.GetCoinBody())))
             {
-                uses = uses.Where(use => use.GetIsAppendPut());
+                uses = uses.Where(use => use.IsAppendPut());
             }
 
             // 現在のエリアのダメージ
@@ -382,7 +382,7 @@ namespace Assets.Scripts.Duel
             var coins = uses.Select(coin =>
                             {
                                 int damage = coin.GetSetAttackDamage(duelData, true);
-                                if (coin.GetIsAppendPut())
+                                if (coin.IsAppendPut())
                                 {
                                     damage += currentAreaTotalDamage;
                                 }
@@ -428,7 +428,7 @@ namespace Assets.Scripts.Duel
                 // コインが設置済みである場合、重ね置き可能なものだけ対象
                 if (duelData.FieldData.AreaDatas[player.CurrentAreaNo].GetCoinsByOwner(player).Any())
                 {
-                    scdSets = scdSets.Where(scd => scd.GetIsAppendPut());
+                    scdSets = scdSets.Where(scd => scd.IsAppendPut());
                 }
 
                 var actionItem = GetUseCoinInfo(player, scdSets);

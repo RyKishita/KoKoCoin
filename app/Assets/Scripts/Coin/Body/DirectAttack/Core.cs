@@ -9,7 +9,7 @@ using Cysharp.Text;
 
 namespace Assets.Scripts.Coin.Body.DirectAttack
 {
-    public class Core : Body.Core
+    public class Core : Body.Core, IHasValue
     {
         public Core(string coinName)
             : base(coinName)
@@ -51,24 +51,17 @@ namespace Assets.Scripts.Coin.Body.DirectAttack
             }
         }
 
-        public override string Summary
+        public override IEnumerable<string> Summaries
         {
             get
             {
-                using (var sb = ZString.CreateStringBuilder())
+                foreach (var summary in base.Summaries)
                 {
-                    sb.Append(base.Summary);
-                    if (0 < DirectAttackValue)
-                    {
-                        sb.Append(' ');
-                        sb.Append(Defines.GetLocalizedString(Defines.StringEnum.Damage));
-                        sb.Append(DirectAttackValue);
-                    }
-                    sb.Append(' ');
-                    sb.Append(Defines.GetLocalizedString(Defines.StringEnum.Range));
-                    sb.Append(Range.RangeText);
-
-                    return sb.ToString();
+                    yield return summary;
+                }
+                if (0 < DirectAttackValue)
+                {
+                    yield return Defines.GetLocalizedString(Defines.StringEnum.Damage) + DirectAttackValue;
                 }
             }
         }
@@ -103,6 +96,6 @@ namespace Assets.Scripts.Coin.Body.DirectAttack
             DirectAttackValue = data.value;
         }
 
-        public override int? GetValue() => DirectAttackValue;
+        public int GetValue() => DirectAttackValue;
     }
 }

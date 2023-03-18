@@ -52,14 +52,14 @@ namespace Assets.Scripts.Coin
             return Coins.Where(coin => coin is T);
         }
 
-#if DEBUG && UNITY_EDITOR
+        [System.Diagnostics.Conditional("DEBUG")]
         public void Check()
         {
             WriteCoinInfos();
             CheckNames();
-            //MakeCoinValues();
         }
 
+        [System.Diagnostics.Conditional("DEBUG")]
         void WriteCoinInfos()
         {
             string makeCoinNum(IEnumerable<Coin> coins, string name)
@@ -151,6 +151,7 @@ namespace Assets.Scripts.Coin
         }
 
         // サーバー登録名とソース上の差異チェック
+        [System.Diagnostics.Conditional("DEBUG")]
         void CheckNames()
         {
             if (!Utility.Functions.IsDisplayLanguageJapanese) return;
@@ -199,61 +200,6 @@ namespace Assets.Scripts.Coin
             }
         }
 
-        //void MakeCoinValues()
-        //{
-        //    var coinTags = Enum.GetValues(typeof(Defines.CoinTag)).Cast<Defines.CoinTag>().Where(ct => ct != Defines.CoinTag.None).ToList();
-        //    Func<Defines.CoinTag, string> makeTagsString = tag => string.Join('_', coinTags.Where(ct => tag.HasFlag(ct)));
-
-        //    Action<Defines.CoinType, string> save = (coinType, text) =>
-        //        UnityEngine.Windows.File.WriteAllBytes(
-        //            System.IO.Path.Combine(UnityEngine.Application.dataPath, "Resources", "CoinValues", $"{VersionName}.{coinType}.csv"),
-        //            Encoding.UTF8.GetBytes(text));
-
-        //    void saveType<T>(Defines.CoinType coinType, Func<T, int> func) where T : Body.Core
-        //    {
-        //        using (var zs = ZString.CreateStringBuilder())
-        //        {
-        //            zs.Append(nameof(Body.CSVImport.name));
-        //            zs.Append(',');
-        //            zs.Append(nameof(Body.CSVImport.size));
-        //            zs.Append(',');
-        //            zs.Append(nameof(Body.CSVImport.tag));
-        //            zs.Append(',');
-        //            zs.Append(nameof(Body.CSVImport.value));
-        //            zs.AppendLine();
-
-        //            bool bExist = false;
-        //            foreach (var coin in Coins)
-        //            {
-        //                foreach (var body in coin.Bodies.Where(b => b.CoinType == coinType).Where(b => b is T).Cast<T>())
-        //                {
-        //                    zs.Append(coin.Name);
-        //                    zs.Append(',');
-        //                    zs.Append(coin.Size);
-        //                    zs.Append(',');
-        //                    zs.Append(makeTagsString(body.CoinTag));
-        //                    zs.Append(',');
-        //                    zs.Append(func(body));
-        //                    zs.AppendLine();
-        //                    bExist = true;
-        //                }
-        //            }
-        //            if (bExist)
-        //            {
-        //                save(coinType, zs.ToString());
-        //            }
-        //        }
-        //    };
-
-        //    saveType<Body.Set.Core>(Defines.CoinType.Set, _ => 0);
-        //    saveType<Body.SetAttack.Core>(Defines.CoinType.SetAttack, body => body.SetAttackValue);
-        //    saveType<Body.DirectAttack.Core>(Defines.CoinType.DirectAttack, body => body.DirectAttackValue);
-        //    saveType<Body.Guard.Core>(Defines.CoinType.Guard, body => body.GuardValue);
-        //    saveType<Body.Support.Core>(Defines.CoinType.Support, _ => 0);
-        //    saveType<Body.Core>(Defines.CoinType.None, _ => 0);
-        //}
-
-#endif
         public abstract bool IsMatch(Defines.CoinVersion coinVersion);
 
         [System.Diagnostics.Conditional("DEBUG")]

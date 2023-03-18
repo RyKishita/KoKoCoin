@@ -99,13 +99,13 @@ namespace Assets.Scripts.Coin
             return coinNames.Where(cn => IsExist(cn.name)).SelectMany(cn => Enumerable.Repeat(cn.name, cn.count));
         }
 
-#if DEBUG && UNITY_EDITOR
+        [System.Diagnostics.Conditional("DEBUG")]
         public void Check()
         {
             v1.CoinList.Instance.Check();
             CommonCoinList.Instance.Check();
         }
-#endif
+
         public static IEnumerable<UniTask> LoadTasks(System.Threading.CancellationToken cancellationToken)
         {
             if (Instance != null) return Enumerable.Empty<UniTask>();

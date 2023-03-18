@@ -10,7 +10,7 @@ using Cysharp.Text;
 
 namespace Assets.Scripts.Coin.Body.Guard
 {
-    public class Core : Body.Core
+    public class Core : Body.Core, IHasValue
     {
         public Core(string coinName)
             : base(coinName)
@@ -24,21 +24,18 @@ namespace Assets.Scripts.Coin.Body.Guard
 
         public Duel.DuelAnimation.Guard.GuardAnimation Animation { get; protected set; }
 
-        public override string Summary
+        public override IEnumerable<string> Summaries
         {
             get
             {
-                using (var sb = ZString.CreateStringBuilder())
+                foreach (var summary in base.Summaries)
                 {
-                    sb.Append(base.Summary);
-                    if (0 < GuardValue)
-                    {
-                        sb.Append(' ');
-                        sb.Append(Defines.GetLocalizedString(Defines.StringEnum.Protection));
-                        sb.Append(GuardValue);
-                    }
+                    yield return summary;
+                }
 
-                    return sb.ToString();
+                if (0 < GuardValue)
+                {
+                    yield return Defines.GetLocalizedString(Defines.StringEnum.Protection) + GuardValue;
                 }
             }
         }
@@ -85,6 +82,6 @@ namespace Assets.Scripts.Coin.Body.Guard
             GuardValue = data.value;
         }
 
-        public override int? GetValue() => GuardValue;
+        public int GetValue() => GuardValue;
     }
 }

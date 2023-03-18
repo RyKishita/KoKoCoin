@@ -8,7 +8,7 @@ using Cysharp.Text;
 
 namespace Assets.Scripts.Coin.Body.SetAttack
 {
-    public class Core : Set.Core
+    public class Core : Set.Core, IHasValue
     {
         public Core(string coinName)
             : base(coinName)
@@ -18,24 +18,21 @@ namespace Assets.Scripts.Coin.Body.SetAttack
 
         public override Defines.CoinType CoinType { get; } = Defines.CoinType.SetAttack;
 
-        public override string Summary
+        public override IEnumerable<string> Summaries
         {
             get
             {
-                using (var sb = ZString.CreateStringBuilder())
+                foreach (var summary in base.Summaries)
                 {
-                    sb.Append(base.Summary);
-                    if (0 < SetAttackValue)
-                    {
-                        sb.Append(' ');
-                        sb.Append(Defines.GetLocalizedString(Defines.StringEnum.Damage));
-                        sb.Append(SetAttackValue);
-                    }
-                    return sb.ToString();
+                    yield return summary;
+                }
+
+                if (0 < SetAttackValue)
+                {
+                    yield return Defines.GetLocalizedString(Defines.StringEnum.Damage) + SetAttackValue;
                 }
             }
         }
-
 
         public int SetAttackValue { get; private set; }
 
@@ -130,6 +127,6 @@ namespace Assets.Scripts.Coin.Body.SetAttack
             SetAttackValue = data.value;
         }
 
-        public override int? GetValue() => SetAttackValue;
+        public int GetValue() => SetAttackValue;
     }
 }

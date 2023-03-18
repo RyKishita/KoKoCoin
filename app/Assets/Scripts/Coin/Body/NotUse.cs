@@ -16,7 +16,18 @@ namespace Assets.Scripts.Coin.Body
 
         public override Defines.CoinType CoinType => Defines.CoinType.None;
 
-        public override string Summary => Defines.GetLocalizedString(Defines.StringEnum.Special);
+        public override IEnumerable<string> Summaries
+        {
+            get
+            {
+                foreach (var summary in base.Summaries)
+                {
+                    yield return summary;
+                }
+
+                yield return Defines.GetLocalizedString(Defines.StringEnum.Special);
+            }
+        }
 
         protected override IEnumerable<string> Explains
         {

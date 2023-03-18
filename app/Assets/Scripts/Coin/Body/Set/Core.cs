@@ -31,21 +31,18 @@ namespace Assets.Scripts.Coin.Body.Set
             return true;
         }
 
-        public override string Summary
+        public override IEnumerable<string> Summaries
         {
             get
             {
-                using (var sb = ZString.CreateStringBuilder())
+                foreach(var summary in base.Summaries)
                 {
-                    sb.Append(base.Summary);
-                    if (IsAppendPut)
-                    {
-                        sb.Append("(");
-                        sb.Append(Defines.GetLocalizedString(Defines.StringEnum.Stackable));
-                        sb.Append(")");
-                    }
+                    yield return summary;
+                }
 
-                    return sb.ToString();
+                if (IsAppendPut)
+                {
+                    yield return Defines.GetLocalizedString(Defines.StringEnum.Stackable);
                 }
             }
         }
@@ -87,5 +84,7 @@ namespace Assets.Scripts.Coin.Body.Set
                 duelManager.DuelData.GetOtherTeamPlayerNos(selectedCoinData.CoinData.OwnerPlayerNo).Contains(afterMovePlayer.PlayerNo) &&
                 duelManager.DuelData.FieldData.GetContainCoinAreaNo(selectedCoinData) == afterMovePlayer.AreaNo;
         }
+
+        public virtual bool IsAppendPut => false;
     }
 }

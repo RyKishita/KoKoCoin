@@ -20,20 +20,15 @@ namespace Assets.Scripts.Coin.Body
 
         protected readonly string coinName;
 
-        public virtual string Summary
+        public virtual IEnumerable<string> Summaries
         {
             get
             {
-                using (var sb = ZString.CreateStringBuilder())
+                yield return $"[{Defines.GetLocalizedString(CoinType)}]";
+
+                if (CoinTag != Defines.CoinTag.None)
                 {
-                    sb.Append(Defines.GetLocalizedString(CoinType));
-                    if (CoinTag != Defines.CoinTag.None)
-                    {
-                        sb.Append("(");
-                        sb.Append(Defines.GetLocalizedString(CoinTag));
-                        sb.Append(")");
-                    }
-                    return sb.ToString();
+                    yield return $"[{Defines.GetLocalizedString(CoinTag)}]";
                 }
             }
         }
@@ -42,25 +37,12 @@ namespace Assets.Scripts.Coin.Body
 
         public Defines.CoinTag CoinTag { get; private set; }
 
-        /// <summary>
-        /// 説明文
-        /// </summary>
-        public string GetExplain(string separator)
+        public IEnumerable<string> GetExplains()
         {
-            using (var sb = ZString.CreateStringBuilder())
+            var explains = Explains.ToArray();
+            foreach (int index in Enumerable.Range(0, explains.Length))
             {
-                var explains = Explains.ToArray();
-                foreach (int index in Enumerable.Range(0, explains.Length))
-                {
-                    if (0 < index)
-                    {
-                        sb.Append(separator);
-                    }
-                    sb.Append(Defines.GetNoText(index));
-                    sb.Append(explains[index]);
-                }
-
-                return sb.ToString();
+                yield return Defines.GetNoText(index) + explains[index];
             }
         }
 
@@ -166,7 +148,10 @@ namespace Assets.Scripts.Coin.Body
 
         public IEnumerable<string> GetSearchTexts()
         {
-            yield return Summary;
+            foreach (var summary in Summaries)
+            {
+                yield return summary;
+            }
             foreach (var explain in Explains)
             {
                 yield return explain;
@@ -197,13 +182,9 @@ namespace Assets.Scripts.Coin.Body
             return null;
         }
 
-        public virtual bool IsAppendPut => false;
-
         public virtual void SetData(CSVImport data)
         {
             CoinTag = data.GetCoinTag();
         }
-
-        public virtual int? GetValue() => null;
     }
 }

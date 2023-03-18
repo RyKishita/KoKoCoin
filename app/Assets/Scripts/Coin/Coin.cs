@@ -79,11 +79,6 @@ namespace Assets.Scripts.Coin
         }
 
         /// <summary>
-        /// 要約(Body以外)
-        /// </summary>
-        public string Summary => ZString.Join(" ", Summaries.ToList());
-
-        /// <summary>
         /// プレファブ名
         /// </summary>
         public abstract string PrefabName { get; }

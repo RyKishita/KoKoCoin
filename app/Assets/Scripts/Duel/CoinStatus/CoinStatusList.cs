@@ -86,8 +86,6 @@ namespace Assets.Scripts.Duel.CoinStatus
             }
         }
 
-        public string GetExplain() => ZString.Join(" ", GetExplains().ToList());
-
         public IEnumerable<string> GetNames()
         {
             foreach (var item in Items)
