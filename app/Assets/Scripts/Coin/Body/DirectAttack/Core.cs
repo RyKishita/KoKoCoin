@@ -59,10 +59,13 @@ namespace Assets.Scripts.Coin.Body.DirectAttack
                 {
                     yield return summary;
                 }
+
                 if (0 < DirectAttackValue)
                 {
                     yield return Defines.GetLocalizedString(Defines.StringEnum.Damage) + DirectAttackValue;
                 }
+
+                yield return Defines.GetLocalizedString(Defines.StringEnum.Range) + Range.RangeText;
             }
         }
 

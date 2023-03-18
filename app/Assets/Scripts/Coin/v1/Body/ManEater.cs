@@ -14,7 +14,7 @@ namespace Assets.Scripts.Coin.v1.Body
         }
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] {
-            new Effect.AddValueStatusBySwapSetTag(600, Defines.CoinTag.人間)
+            new Effect.AddValueStatusBySwapSetTag(1000, Defines.CoinTag.人間)
         };
     }
 }
