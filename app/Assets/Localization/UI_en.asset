@@ -634,7 +634,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1838363401728000
-    m_Localized: View
+    m_Localized: 'Check
+
+      details'
     m_Metadata:
       m_Items: []
   - m_Id: 1838750766673920

@@ -15,10 +15,6 @@ MonoBehaviour:
   m_TableCollectionName: Message
   m_TableCollectionNameGuidString: 41dfbe5611f70744e9a9bbe5ee123e6a
   m_Entries:
-  - m_Id: 8602988544
-    m_Key: LotCoinTicketToExchangeCoinTicket
-    m_Metadata:
-      m_Items: []
   - m_Id: 2857844027392
     m_Key: NotCheckPermission
     m_Metadata:
@@ -37,10 +33,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2104908732379136
     m_Key: Failed_CanExchangeTotal
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2105601920806912
-    m_Key: Failed_CanExchangeSameCoins
     m_Metadata:
       m_Items: []
   - m_Id: 2105824386691072
@@ -95,10 +87,6 @@ MonoBehaviour:
     m_Key: Confirmation_RemoveRuleFetch
     m_Metadata:
       m_Items: []
-  - m_Id: 2115799339184128
-    m_Key: Confirmation_RemoveRuleEvent
-    m_Metadata:
-      m_Items: []
   - m_Id: 2116321622306816
     m_Key: NotSelected
     m_Metadata:
@@ -107,16 +95,8 @@ MonoBehaviour:
     m_Key: Fetch
     m_Metadata:
       m_Items: []
-  - m_Id: 2161209818689536
-    m_Key: Event
-    m_Metadata:
-      m_Items: []
   - m_Id: 2176688020992000
     m_Key: YouInfo
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2176801908928512
-    m_Key: SystemInfo
     m_Metadata:
       m_Items: []
   - m_Id: 2176889716682752
@@ -195,10 +175,6 @@ MonoBehaviour:
     m_Key: Failed_MissmatchLevel
     m_Metadata:
       m_Items: []
-  - m_Id: 2197354250186752
-    m_Key: Failed_MissmatchRule
-    m_Metadata:
-      m_Items: []
   - m_Id: 2197898540822528
     m_Key: WaitInputOpponent
     m_Metadata:
@@ -243,16 +219,8 @@ MonoBehaviour:
     m_Key: Confirmation_UseDeck
     m_Metadata:
       m_Items: []
-  - m_Id: 2202452321841152
-    m_Key: Failed_HasNotCoinNum
-    m_Metadata:
-      m_Items: []
   - m_Id: 2202922687868928
     m_Key: Rule
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2202965016784896
-    m_Key: MissmatchRule
     m_Metadata:
       m_Items: []
   - m_Id: 2204469643653120
@@ -309,14 +277,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 13866744909606912
     m_Key: NoStatus
-    m_Metadata:
-      m_Items: []
-  - m_Id: 15675699919007744
-    m_Key: Stock
-    m_Metadata:
-      m_Items: []
-  - m_Id: 15675753375412224
-    m_Key: Trash
     m_Metadata:
       m_Items: []
   - m_Id: 19564771787878400
@@ -415,14 +375,6 @@ MonoBehaviour:
     m_Key: DuelResult_EmptyStock_Short
     m_Metadata:
       m_Items: []
-  - m_Id: 52917291067060224
-    m_Key: DeckInfo_Num
-    m_Metadata:
-      m_Items: []
-  - m_Id: 52917322734055424
-    m_Key: DeckInfo_Size
-    m_Metadata:
-      m_Items: []
   - m_Id: 52936982183489536
     m_Key: SelectCustomRule
     m_Metadata:
@@ -433,10 +385,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 63748946337935360
     m_Key: NewDeck
-    m_Metadata:
-      m_Items: []
-  - m_Id: 63792513013985280
-    m_Key: Failed_CurrentEvent
     m_Metadata:
       m_Items: []
   - m_Id: 68212885314547712
@@ -467,10 +415,6 @@ MonoBehaviour:
     m_Key: HideCoinInfo
     m_Metadata:
       m_Items: []
-  - m_Id: 72469731885920256
-    m_Key: Virsus
-    m_Metadata:
-      m_Items: []
   - m_Id: 72472169405689856
     m_Key: Unknow
     m_Metadata:
@@ -481,10 +425,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 75747145378377728
     m_Key: Failed_AddRoom_Error
-    m_Metadata:
-      m_Items: []
-  - m_Id: 75747307240763392
-    m_Key: FoundRoomSameRule
     m_Metadata:
       m_Items: []
   - m_Id: 75751607543214080

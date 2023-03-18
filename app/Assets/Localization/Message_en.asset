@@ -60,16 +60,8 @@ MonoBehaviour:
     m_Localized: Fetch
     m_Metadata:
       m_Items: []
-  - m_Id: 2161209818689536
-    m_Localized: Event
-    m_Metadata:
-      m_Items: []
   - m_Id: 2176688020992000
     m_Localized: Your information
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2176801908928512
-    m_Localized: System infomation
     m_Metadata:
       m_Items: []
   - m_Id: 2176889716682752
@@ -151,10 +143,6 @@ MonoBehaviour:
     m_Localized: Requesting connection information
     m_Metadata:
       m_Items: []
-  - m_Id: 2197354250186752
-    m_Localized: The deck you use does not match the rules specified by your opponent.
-    m_Metadata:
-      m_Items: []
   - m_Id: 2197336369868800
     m_Localized: The levels do not match.
     m_Metadata:
@@ -210,16 +198,8 @@ MonoBehaviour:
     m_Localized: Do you want this deck to be the deck you use?
     m_Metadata:
       m_Items: []
-  - m_Id: 2202452321841152
-    m_Localized: This includes coins that exceed the number of coins you have.
-    m_Metadata:
-      m_Items: []
   - m_Id: 2202922687868928
     m_Localized: Rule
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2202965016784896
-    m_Localized: Rule conflict
     m_Metadata:
       m_Items: []
   - m_Id: 2204469643653120
@@ -257,18 +237,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
-  - m_Id: 8602988544
-    m_Localized: '{lotcointickenum} sheets -> {exchangecointickenum} sheets'
-    m_Metadata:
-      m_Items:
-      - rid: 0
   - m_Id: 2103812085460992
     m_Localized: I'll use one coin voucher to get [{name}]. Are you sure?
-    m_Metadata:
-      m_Items:
-      - rid: 0
-  - m_Id: 2105601920806912
-    m_Localized: We need {num} copies of [{name}].
     m_Metadata:
       m_Items:
       - rid: 0
@@ -317,10 +287,6 @@ MonoBehaviour:
     m_Localized: Remove the import rule. Are you sure?
     m_Metadata:
       m_Items: []
-  - m_Id: 2115799339184128
-    m_Localized: Remove the event rule. Are you sure?
-    m_Metadata:
-      m_Items: []
   - m_Id: 12421302829133824
     m_Localized: Not currently available.
     m_Metadata:
@@ -345,14 +311,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 13866744909606912
     m_Localized: No status
-    m_Metadata:
-      m_Items: []
-  - m_Id: 15675699919007744
-    m_Localized: Stock
-    m_Metadata:
-      m_Items: []
-  - m_Id: 15675753375412224
-    m_Localized: Trash
     m_Metadata:
       m_Items: []
   - m_Id: 19564771787878400
@@ -465,16 +423,6 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
-  - m_Id: 52917291067060224
-    m_Localized: '{num} coin{num:choose(0|1):||s}'
-    m_Metadata:
-      m_Items:
-      - rid: 0
-  - m_Id: 52917322734055424
-    m_Localized: Total size {size}
-    m_Metadata:
-      m_Items:
-      - rid: 0
   - m_Id: 52936982183489536
     m_Localized: Custom rule
     m_Metadata:
@@ -485,10 +433,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 63748946337935360
     m_Localized: New deck
-    m_Metadata:
-      m_Items: []
-  - m_Id: 63792513013985280
-    m_Localized: Events that are in progress cannot be deleted.
     m_Metadata:
       m_Items: []
   - m_Id: 68212885314547712
@@ -519,10 +463,6 @@ MonoBehaviour:
     m_Localized: ???
     m_Metadata:
       m_Items: []
-  - m_Id: 72469731885920256
-    m_Localized: Virsus
-    m_Metadata:
-      m_Items: []
   - m_Id: 72472169405689856
     m_Localized: Unknow
     m_Metadata:
@@ -534,10 +474,6 @@ MonoBehaviour:
   - m_Id: 75747145378377728
     m_Localized: Room creation failed. Server error. Please wait a moment and try
       again.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 75747307240763392
-    m_Localized: We found a room with the same rules.
     m_Metadata:
       m_Items: []
   - m_Id: 75751607543214080
