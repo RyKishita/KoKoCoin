@@ -10,7 +10,7 @@
 "PlayerConditionDetailAppendSetAttack",455304753152,"設置攻撃強化","Enhanced installation attack"
 "PlayerConditionDetailAppendDirectAttack",476355964928,"直接攻撃強化","Enhanced direct attack"
 "PlayerConditionDetailAppendGuard",497432342528,"防御強化","defensive enhancement"
-"PlayerConditionDetailSkipSupport",519167225856,"補助禁止","Support prohibition"
+"PlayerConditionDetailSkipSupport",519167225856,"サポート禁止","Support prohibition"
 "PlayerConditionDetailSkipDirectAttack",540881137664,"直接攻撃禁止","No direct attack"
 "PlayerConditionDetailSkipGuard",561764577280,"防御禁止","No Defenses"
 "PlayerConditionDetailSkipMove",583306522624,"荷重","heavy burden"

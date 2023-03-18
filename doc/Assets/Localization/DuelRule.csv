@@ -21,7 +21,7 @@
 "settedUseResources",698528247808,"設置コイン使用に必要な行動力[{value}]","Resources required to use the installation coin[{value}]."
 "directAttackUseResources",732091068416,"直接攻撃コイン使用に必要な行動力[{value}]","Resources required to use direct attack coins[{value}]."
 "guardUseResources",761736409088,"防御コイン使用に必要な行動力[{value}]","Resources required to use defense coins[{value}]."
-"supportUseResources",790748409856,"補助コイン使用に必要な行動力[{value}]","Resources required to use auxiliary coins[{value}]."
+"supportUseResources",790748409856,"サポートコイン使用に必要な行動力[{value}]","Resources required to use support coins[{value}]."
 "otherUseResources",821249388544,"その他コイン使用に必要な行動力[{value}]","Resources required to use other type coins[{value}]."
 "diceMin",851242856448,"ダイス下限{value}","Lower dice limit {value}"
 "diceMax",877876686848,"ダイス上限{value}","Dice limit {value}"

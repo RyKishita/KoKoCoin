@@ -22,7 +22,7 @@ namespace Assets.Scripts.Duel
         {
             WriteLog(nameof(SelectSupport));
 
-            // 補助コイン毎の使用優先順位。現状は先頭から使えるものを使っている
+            // サポートコイン毎の使用優先順位。現状は先頭から使えるものを使っている
             foreach (var useItem in uses.Where(item => item.IsUsable(duelData)))
             {
                 var actionItem = SelectSupport(useItem, handCoinDatas, false);
@@ -251,7 +251,7 @@ namespace Assets.Scripts.Duel
             }
             #endregion
 
-            #region 補助コインが複数枚あるならいずれかから
+            #region サポートコインが複数枚あるならいずれかから
             {
                 var coins = ccs.Where(cc => cc.GetCoin().Bodies.Where(body => body is Coin.Body.Support.Core).Any()).ToList();
                 if (2 <= coins.Count)

@@ -122,7 +122,7 @@ MonoBehaviour:
       m_Items:
       - rid: 0
   - m_Id: 790748409856
-    m_Localized: "\u88DC\u52A9\u30B3\u30A4\u30F3\u4F7F\u7528\u306B\u5FC5\u8981\u306A\u884C\u52D5\u529B[{value}]"
+    m_Localized: "\u30B5\u30DD\u30FC\u30C8\u30B3\u30A4\u30F3\u4F7F\u7528\u306B\u5FC5\u8981\u306A\u884C\u52D5\u529B[{value}]"
     m_Metadata:
       m_Items:
       - rid: 0

@@ -10,7 +10,7 @@ namespace Assets.Scripts.Coin.v1
     {
         private CoinList()
         {
-            // 補助と環境
+            // サポートと環境
             Regist(new ChangeAreaType(Defines.AreaType.Null));
             Regist(new ChangeAreaType(Defines.AreaType.A));
             Regist(new ChangeAreaType(Defines.AreaType.B));

@@ -122,7 +122,7 @@ MonoBehaviour:
       m_Items:
       - rid: 0
   - m_Id: 790748409856
-    m_Localized: Resources required to use auxiliary coins[{value}].
+    m_Localized: Resources required to use support coins[{value}].
     m_Metadata:
       m_Items:
       - rid: 0
