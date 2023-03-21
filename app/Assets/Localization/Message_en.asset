@@ -705,6 +705,14 @@ MonoBehaviour:
     m_Localized: You cannot have any more coin vouchers.
     m_Metadata:
       m_Items: []
+  - m_Id: 152982044971315200
+    m_Localized: ': pass'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152982087031795712
+    m_Localized: ': fail'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
