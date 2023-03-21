@@ -144,7 +144,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2197336369868800
-    m_Localized: The levels do not match.
+    m_Localized: The match format does not match.
     m_Metadata:
       m_Items: []
   - m_Id: 2197308192534528
