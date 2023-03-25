@@ -35,7 +35,7 @@ namespace Assets.Scripts.Coin.v1.Body
             }
         }
 
-        readonly Duel.CoinStatus.CoinStatusInvalidEffectByTurn status = new Duel.CoinStatus.CoinStatusInvalidEffectByTurn() { Turn = 5 };
+        readonly Duel.CoinStatus.CoinStatusInvalidEffectByTurn status = new Duel.CoinStatus.CoinStatusInvalidEffectByTurn() { Turn = 3 };
 
         public override bool IsUsable(DuelData duelData, SelectedCoinData selectedCoinData)
         {
@@ -81,7 +81,8 @@ namespace Assets.Scripts.Coin.v1.Body
 
             var playerNo = actionItem.GetPlayerNo();
 
-            //自分のコインなら、不利な効果打消し。他人のコインなら有利な効果打消し
+            //自分のコインなら、不利な効果打消し
+            //他人のコインなら有利な効果打消し。TODO 踏んだら負ける設置攻撃コインのダメージ無効化にも使えるが対応していない
             var coins = targetAreaNo.HasValue
                 ? duelData.FieldData.AreaDatas[targetAreaNo.Value].Coins
                 : duelData.FieldData.GetAllAreaCoinsOrderCenter().ToList();

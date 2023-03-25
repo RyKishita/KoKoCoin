@@ -1,4 +1,4 @@
-■ Brief Description.
+■ Brief Description
 This is a competitive game. The closest game genre is the trading card game (TCG), but it uses coins instead of cards. The more powerful coins are larger in size, which has the disadvantage of squeezing your hand.
 Another feature of this game is that you move squares by rolling dice.
 
@@ -35,7 +35,7 @@ The communication method must be the same. If you are not sure which one to use,
 This is a method of playing over the Internet. Decks must be created using only the coins earned from online matches.
 Points are consumed for each match. You can get points by watching advertisements, but you need to set them up. It may take some time to receive points. There is a limit to the number of points you can get per day.
 
-■ Customize the battle rules.
+■ Customize the battle rules
 You can set a limit on the number of cards in your deck, life values, etc. You can change them when you get used to the game.
 - Custom: The game is played according to the same procedures as the standard rules. As a limitation, the rules for decks are changed to the same contents as the standard rules.
 - Room: Online play only. The rules are published first, and then you can recruit players to play.

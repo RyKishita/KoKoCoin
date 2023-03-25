@@ -30,7 +30,7 @@ v1.MakeCopyOfSetCoin,3,,0
 v1.ReturnSetToHand,1,,0
 v1.ReturnTrashToHand,1,,0
 v1.MyTrashToExclusion,1,,0
-v1.InvalidEffectSetCoin,2,,0
+v1.InvalidEffectSetCoin,3,,0
 v1.DestroyALLCopySetCoins,2,,0
 v1.Redraw,2,,0
 v1.MyStockToTrash,1,,0
