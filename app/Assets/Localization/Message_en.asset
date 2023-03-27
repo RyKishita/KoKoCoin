@@ -713,6 +713,14 @@ MonoBehaviour:
     m_Localized: ': fail'
     m_Metadata:
       m_Items: []
+  - m_Id: 154766128622022656
+    m_Localized: Failed to create QR Code.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154770884052594688
+    m_Localized: Camera failed to start, please check your Android settings.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

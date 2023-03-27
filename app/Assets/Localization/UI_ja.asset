@@ -1215,6 +1215,22 @@ MonoBehaviour:
     m_Localized: "\u8DDD\u96E2"
     m_Metadata:
       m_Items: []
+  - m_Id: 159524334246244352
+    m_Localized: "QR\u30B3\u30FC\u30C9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159526127583834112
+    m_Localized: "QR\n\u30B3\u30FC\u30C9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159570491618045952
+    m_Localized: "QR\u30B3\u30FC\u30C9\u304B\u3089\u30EB\u30FC\u30EB\u3092\u8AAD\u307F\u8FBC\u307F\u307E\u3059\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159581838988750848
+    m_Localized: "\u3053\u306EQR\u30B3\u30FC\u30C9\u306B\u306F\u30EB\u30FC\u30EB\u304C\u542B\u307E\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

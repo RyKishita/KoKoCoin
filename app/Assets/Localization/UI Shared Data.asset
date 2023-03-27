@@ -1211,6 +1211,22 @@ MonoBehaviour:
     m_Key: Distance
     m_Metadata:
       m_Items: []
+  - m_Id: 159524334246244352
+    m_Key: QRCodeL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159526127583834112
+    m_Key: QRCodeP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159570491618045952
+    m_Key: ReadRuleFromQRCode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159581838988750848
+    m_Key: Failed_NotQRCode
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

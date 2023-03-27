@@ -1248,6 +1248,24 @@ MonoBehaviour:
     m_Localized: Distance
     m_Metadata:
       m_Items: []
+  - m_Id: 159524334246244352
+    m_Localized: QR code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159526127583834112
+    m_Localized: 'QR
+
+      code'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159570491618045952
+    m_Localized: Read the rules from the QR code.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159581838988750848
+    m_Localized: This QR code does not contain any rules.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
