@@ -233,7 +233,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2211409509691392
-    m_Localized: '{d:choose(0|1):|{d}day|{d}days}{h:choose(0|1):|{h}hour|{h}hours}{m:choose(0|1):|{m}minute|{m}minutes}'
+    m_Localized: '{h:choose(0|1):|{h}hour|{h}hours}{m:choose(0|1):|{m}minute|{m}minutes}'
     m_Metadata:
       m_Items:
       - rid: 0

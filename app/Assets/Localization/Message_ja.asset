@@ -263,7 +263,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2211409509691392
-    m_Localized: "{d:choose(0):|{d}\u65E5}{h:choose(0):|{h}\u6642\u9593}{m:choose(0):|{m}\u5206}"
+    m_Localized: "{h:choose(0):|{h}\u6642\u9593}{m:choose(0):|{m}\u5206}"
     m_Metadata:
       m_Items:
       - rid: 0
