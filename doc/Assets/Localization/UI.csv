@@ -333,9 +333,9 @@ rule"
 "PointDeficit",141398265421049856,"ポイント不足メッセージを表示","Display insufficient points message"
 "ParsonalizedAds",142573306468839424,"パーソナライズド広告","Personalized ads"
 "Distance",148227247898570752,"距離","Distance"
-"QRCodeL",159524334246244352,"QRコード","QR code"
+"QRCodeL",159524334246244352,"QRコード","QR Code"
 "QRCodeP",159526127583834112,"QR
 コード","QR
-code"
+Code"
 "ReadRuleFromQRCode",159570491618045952,"QRコードからルールを読み込みます。","Read the rules from the QR code."
 "Failed_NotQRCode",159581838988750848,"このQRコードにはルールが含まれていません。","This QR code does not contain any rules."
