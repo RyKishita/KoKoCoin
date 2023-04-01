@@ -651,6 +651,18 @@ MonoBehaviour:
     m_Key: Failed_CameraPermissionDontAskAgain
     m_Metadata:
       m_Items: []
+  - m_Id: 156649480559996928
+    m_Key: Failed_IsNotRuleQRCode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156810151461335040
+    m_Key: QRCode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156810242083467264
+    m_Key: QRCode_license
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -721,6 +721,18 @@ MonoBehaviour:
     m_Localized: Camera failed to start, please check your Android settings.
     m_Metadata:
       m_Items: []
+  - m_Id: 156649480559996928
+    m_Localized: No rules are included in this QR code.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156810151461335040
+    m_Localized: QR Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156810242083467264
+    m_Localized: "\u201CQR Code\u201D is a registered trademark of DENSO WAVE INCORPORATED. "
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
