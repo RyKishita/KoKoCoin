@@ -1188,6 +1188,12 @@ MonoBehaviour:
     m_Localized: Heresy bishop
     m_Metadata:
       m_Items: []
+  - m_Id: 157199979403227136
+    m_Localized: 'Survival
+
+      instinct'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

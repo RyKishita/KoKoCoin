@@ -223,15 +223,15 @@ namespace Assets.Scripts.Duel.PlayerCondition
                         { nameof(PlayerConditionDetailFixDice), new PlayerConditionDetailFixDice() },
                         { nameof(PlayerConditionDetailPoison), new PlayerConditionDetailPoison() },
                         { nameof(PlayerConditionDetailSkipMove), new PlayerConditionDetailSkipMove() },
-                        { nameof(PlayerConditionDetailSkipDraw), new PlayerConditionDetailSkipDraw() },
+                        { nameof(PlayerConditionDetailSkipGuard), new PlayerConditionDetailSkipGuard() },
                         { nameof(PlayerConditionDetailVirus), new PlayerConditionDetailVirus() },
 
                         // 与えるコインが無い
                         //{ nameof(PlayerConditionDetailStop), new PlayerConditionDetailStop() },
                         //{ nameof(PlayerConditionDetailSkipSupport), new PlayerConditionDetailSkipSupport() },
                         //{ nameof(PlayerConditionDetailSkipDirectAttack), new PlayerConditionDetailSkipDirectAttack() },
-                        //{ nameof(PlayerConditionDetailSkipGuard), new PlayerConditionDetailSkipGuard() },
                         //{ nameof(PlayerConditionDetailSkipSet), new PlayerConditionDetailSkipSet() },
+                        //{ nameof(PlayerConditionDetailSkipDraw), new PlayerConditionDetailSkipDraw() },
                     };
                 }
                 return details;

@@ -10,6 +10,7 @@ v1.ClearMyHeat,1,,0
 v1.ClearMyInebriety,1,,0
 v1.ClearMyPoison,1,,0
 v1.ClearMyShock,1,,0
+v1.ClearMySkipGuard,1,,0
 v1.ClearMyVirus,1,,0
 v1.ClearMyStatusALL,3,,0
 v1.ClearSetStatus,2,,0

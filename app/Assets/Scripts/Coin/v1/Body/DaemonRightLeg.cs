@@ -18,7 +18,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.CallCoinName(Defines.CoinPosition.Stock, Main.DaemonBody.name, false),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipDraw.CreatePlayerCondition(2),
+                Duel.PlayerCondition.PlayerConditionDetailSkipGuard.CreatePlayerCondition(2),
                 Defines.ParticleType.Anesthetize)
         };
 

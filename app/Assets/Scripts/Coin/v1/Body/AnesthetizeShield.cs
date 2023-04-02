@@ -18,7 +18,7 @@ namespace Assets.Scripts.Coin.v1.Body
         {
             new Effect.GuardToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipDraw.CreatePlayerCondition(4),
+                Duel.PlayerCondition.PlayerConditionDetailSkipGuard.CreatePlayerCondition(4),
                 Defines.ParticleType.Anesthetize)
         };
     }

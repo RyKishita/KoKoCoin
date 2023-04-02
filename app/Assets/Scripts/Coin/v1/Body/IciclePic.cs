@@ -18,7 +18,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.TurnToMove(Defines.CoinPosition.Hand, 5, Defines.CoinPosition.Trash),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipDraw.CreatePlayerCondition(2),
+                Duel.PlayerCondition.PlayerConditionDetailSkipGuard.CreatePlayerCondition(2),
                 Defines.ParticleType.Anesthetize)
         };
     }

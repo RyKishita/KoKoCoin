@@ -17,7 +17,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.AddValueStatusBySwapSetName(300, Main.Manure.name),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipDraw.CreatePlayerCondition(2),
+                Duel.PlayerCondition.PlayerConditionDetailSkipGuard.CreatePlayerCondition(2),
                 Defines.ParticleType.Anesthetize)
         };
     }

@@ -19,19 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 165176356864
-    m_Localized: confusion
+    m_Localized: Confusion
     m_Metadata:
       m_Items: []
   - m_Id: 283359260672
-    m_Localized: curse
+    m_Localized: Curse
     m_Metadata:
       m_Items: []
   - m_Id: 304209145856
-    m_Localized: electrification
+    m_Localized: Electrification
     m_Metadata:
       m_Items: []
   - m_Id: 334689153024
-    m_Localized: blazing up
+    m_Localized: Blazing up
     m_Metadata:
       m_Items: []
   - m_Id: 361314594816
@@ -43,47 +43,47 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 409268072448
-    m_Localized: poison
+    m_Localized: Poison
     m_Metadata:
       m_Items: []
   - m_Id: 432080891904
-    m_Localized: infection
+    m_Localized: Infection
     m_Metadata:
       m_Items: []
   - m_Id: 455304753152
-    m_Localized: Enhanced installation attack
+    m_Localized: Enhanced installation attack coin
     m_Metadata:
       m_Items: []
   - m_Id: 476355964928
-    m_Localized: Enhanced direct attack
+    m_Localized: Enhanced direct attack coin
     m_Metadata:
       m_Items: []
   - m_Id: 497432342528
-    m_Localized: defensive enhancement
+    m_Localized: Enhanced guard coin
     m_Metadata:
       m_Items: []
   - m_Id: 519167225856
-    m_Localized: Support prohibition
+    m_Localized: Support coin prohibited
     m_Metadata:
       m_Items: []
   - m_Id: 540881137664
-    m_Localized: No direct attack
+    m_Localized: Direct attack coin prohibited
     m_Metadata:
       m_Items: []
   - m_Id: 561764577280
-    m_Localized: No Defenses
+    m_Localized: Guard coin prohibited
     m_Metadata:
       m_Items: []
   - m_Id: 583306522624
-    m_Localized: heavy burden
+    m_Localized: Prohibits movement
     m_Metadata:
       m_Items: []
   - m_Id: 604554866688
-    m_Localized: Installation prohibited
+    m_Localized: Installation coin prohibited
     m_Metadata:
       m_Items: []
   - m_Id: 118026118271283200
-    m_Localized: paralysis
+    m_Localized: Prohibits the acquisition of coins
     m_Metadata:
       m_Items: []
   references:

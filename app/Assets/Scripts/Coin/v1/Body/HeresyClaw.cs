@@ -19,7 +19,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.CheckUsableCoinNameInField(true, Main.HeresyIdol.name, 1),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipDraw.CreatePlayerCondition(2),
+                Duel.PlayerCondition.PlayerConditionDetailSkipGuard.CreatePlayerCondition(2),
                 Defines.ParticleType.Anesthetize)
         };
     }

@@ -22,6 +22,7 @@ namespace Assets.Scripts.Coin.v1
             Regist<ClearMyInebriety>();
             Regist<ClearMyPoison>();
             Regist<ClearMyShock>();
+            Regist<ClearMySkipGuard>();
             Regist<ClearMyVirus>();
             Regist<ClearMyStatusALL>();
             Regist<ClearSetStatus>();

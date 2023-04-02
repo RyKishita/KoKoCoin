@@ -18,7 +18,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.SubstitutionMoveCoinName(Main.ArtfulMagician.name),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipDraw.CreatePlayerCondition(3),
+                Duel.PlayerCondition.PlayerConditionDetailSkipGuard.CreatePlayerCondition(3),
                 Defines.ParticleType.Anesthetize)
         };
     }
