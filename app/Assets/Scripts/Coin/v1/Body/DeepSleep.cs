@@ -17,7 +17,7 @@ namespace Assets.Scripts.Coin.v1.Body
         {
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipMove.CreatePlayerCondition(2),
+                Duel.PlayerCondition.PlayerConditionDetailGravity.CreatePlayerCondition(2),
                 Defines.ParticleType.Gravity)
         };
     }

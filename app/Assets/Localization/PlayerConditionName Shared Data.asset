@@ -83,6 +83,10 @@ MonoBehaviour:
     m_Key: PlayerConditionDetailSkipDraw
     m_Metadata:
       m_Items: []
+  - m_Id: 158159452649238528
+    m_Key: PlayerConditionDetailGravity
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

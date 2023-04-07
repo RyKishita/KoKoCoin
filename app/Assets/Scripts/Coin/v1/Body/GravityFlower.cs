@@ -17,7 +17,7 @@ namespace Assets.Scripts.Coin.v1.Body
         {
             new Effect.AddValueStatusBySwapSetName(400, Main.Manure.name),
             new Effect.DamageToAddConditionTurn(
-                nameof(Duel.PlayerCondition.PlayerConditionDetailSkipMove),
+                nameof(Duel.PlayerCondition.PlayerConditionDetailGravity),
                 3,
                 Defines.ParticleType.Gravity)
         };

@@ -15,7 +15,7 @@ namespace Assets.Scripts.Coin.v1.Body
         }
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects => new [] {
-            new Effect.AppendValuesByPlayerCondition(true, nameof(Assets.Scripts.Duel.PlayerCondition.PlayerConditionDetailSkipMove), 100)
+            new Effect.AppendValuesByPlayerCondition(null, nameof(Assets.Scripts.Duel.PlayerCondition.PlayerConditionDetailGravity), 100)
         };
     }
 }

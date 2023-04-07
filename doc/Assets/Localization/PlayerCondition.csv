@@ -22,3 +22,4 @@
 "PlayerConditionDetailAppendSetAttack0",30415556734038016,"所有する{settedattackcoin}がダメージを与える時、一度のみダメージが{value}増加する。","When the {settedattackcoin} you own deals damage, the damage is increased by {value} only once."
 "PlayerConditionDetailAppendSetAttack1",30415584278032384,"所有する{settedattackcoin}がダメージを与える時、一度のみダメージが{value}減少する。","When the {settedattackcoin} you own deals damage, the damage is reduced by {value} only once."
 "PlayerConditionDetailSkipDraw",118022203609919488,"次のドローフェイズで、カウントが{count}以上ならドローできない。その後カウントは0になる。","In the next draw phase, if the count is {count} or more, you cannot draw. After that, the count becomes 0."
+"PlayerConditionDetailGravity",158155508560637952,"{count}毎に移動ダイス目を-1する。","Move dice roll -1 for every {count}."

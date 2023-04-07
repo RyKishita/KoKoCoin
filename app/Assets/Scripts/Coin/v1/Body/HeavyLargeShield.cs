@@ -14,7 +14,7 @@ namespace Assets.Scripts.Coin.v1.Body
             Animation = new Scripts.Duel.DuelAnimation.Guard.GuardAnimationShield();
         }
 
-        static readonly Duel.PlayerCondition.PlayerCondition playerCondition = Duel.PlayerCondition.PlayerConditionDetailSkipMove.CreatePlayerCondition(2);
+        static readonly Duel.PlayerCondition.PlayerCondition playerCondition = Duel.PlayerCondition.PlayerConditionDetailGravity.CreatePlayerCondition(2);
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[]
         {

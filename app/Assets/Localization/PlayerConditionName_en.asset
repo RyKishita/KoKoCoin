@@ -86,6 +86,10 @@ MonoBehaviour:
     m_Localized: Prohibits the acquisition of coins
     m_Metadata:
       m_Items: []
+  - m_Id: 158159452649238528
+    m_Localized: Gravity
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

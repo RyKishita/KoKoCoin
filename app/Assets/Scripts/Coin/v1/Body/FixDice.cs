@@ -50,7 +50,7 @@ namespace Assets.Scripts.Coin.v1.Body
             var targetPlayer = duelData.Players[selectedCoinData.CoinData.OwnerPlayerNo];
             return (!targetPlayer.ConditionList.Has<Duel.PlayerCondition.PlayerConditionDetailFixDice>() ||
                     targetPlayer.ConditionList.GetItem<Duel.PlayerCondition.PlayerConditionDetailFixDice>().Value != PlayerCondition.Value)
-                    && duelData.GetMovableAreaNos(targetPlayer.CurrentAreaNo, PlayerCondition.Value).Any();
+                    && duelData.GetMovableAreaNos(targetPlayer, PlayerCondition.Value).Any();
         }
 
         public override UniTask ExecuteAsync(DuelManager duelManager, ActionItem actionItem)
@@ -83,11 +83,12 @@ namespace Assets.Scripts.Coin.v1.Body
             if (bUseForce) return true;
 
             // 基本としてはダメージを避ける為の思考とした。積極的に設置をする思考もありうる
+            // TODO ダメージを受けないなら使用、としているが、ダメージを減らす場合でも使用させたい
             var playerNo = actionItem.GetPlayerNo();
             var player = duelData.Players[playerNo];
 
             Func<int, bool> isSafe = dice => duelData
-                    .GetMovableAreaNos(player.CurrentAreaNo, dice)
+                    .GetMovableAreaNos(player, dice)
                     .Any(areaNo => 0 == duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, areaNo));
 
             // 既に同じ状態異常を持っている場合
@@ -102,9 +103,9 @@ namespace Assets.Scripts.Coin.v1.Body
             }
 
             // ダイス目によってはダメージを受ける可能性がある場合
-            if (duelData.QueryDices()
+            if (duelData.QueryDices(playerNo)
                     .Any(dice => duelData
-                        .GetMovableAreaNos(player.CurrentAreaNo, dice)
+                        .GetMovableAreaNos(player, dice)
                         .All(areaNo => 0 < duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, areaNo))))
             {
                 // 移動先でダメージを受けないなら使用

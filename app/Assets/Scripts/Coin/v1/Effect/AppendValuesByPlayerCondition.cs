@@ -9,7 +9,7 @@ namespace Assets.Scripts.Coin.v1.Effect
 {
     class AppendValuesByPlayerCondition : AppendValuesByCount
     {
-        public AppendValuesByPlayerCondition(bool bCoinOwner, string playerConditionInnerName, int value)
+        public AppendValuesByPlayerCondition(bool? bCoinOwner, string playerConditionInnerName, int value)
             : base(value)
         {
             this.bCoinOwner = bCoinOwner;
@@ -21,9 +21,16 @@ namespace Assets.Scripts.Coin.v1.Effect
             get
             {
                 int format = (0 < Value) ? 0 : 1;
-                if (!bCoinOwner)
+                if (bCoinOwner.HasValue)
                 {
-                    format += 2;
+                    if (bCoinOwner.Value)
+                    {
+                        format += 2;
+                    }
+                }
+                else
+                {
+                    format += 4;
                 }
                 string conditionname = Duel.PlayerCondition.PlayerConditionDetail.GetLocalizedStringName(playerConditionInnerName);
 
@@ -37,14 +44,16 @@ namespace Assets.Scripts.Coin.v1.Effect
             }
         }
 
-        readonly bool bCoinOwner;
+        readonly bool? bCoinOwner;
         readonly string playerConditionInnerName;
 
         protected override int GetCount(DuelData duelData, SelectedCoinData selectedCoinData, int baseValue)
         {
-            var playerNos = bCoinOwner
-                            ? new List<int>() { selectedCoinData.CoinData.OwnerPlayerNo }
-                            : duelData.GetOtherTeamPlayerNos(selectedCoinData.CoinData.OwnerPlayerNo).ToList();
+            var playerNos = bCoinOwner.HasValue
+                                ? bCoinOwner.Value
+                                    ? new List<int>() { selectedCoinData.CoinData.OwnerPlayerNo }
+                                    : duelData.GetOtherTeamPlayerNos(selectedCoinData.CoinData.OwnerPlayerNo).ToList()
+                                : duelData.GetPlayerNos();
             return playerNos.Max(playerNo =>
             {
                 var hasStatus = duelData.Players[playerNo].ConditionList.GetItem(playerConditionInnerName);

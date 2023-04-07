@@ -16,3 +16,4 @@
 "PlayerConditionDetailSkipMove",583306522624,"移動禁止","Prohibits movement"
 "PlayerConditionDetailSkipSet",604554866688,"設置禁止","Installation coin prohibited"
 "PlayerConditionDetailSkipDraw",118026118271283200,"ドロー禁止","Prohibits the acquisition of coins"
+"PlayerConditionDetailGravity",158159452649238528,"荷重","Gravity"

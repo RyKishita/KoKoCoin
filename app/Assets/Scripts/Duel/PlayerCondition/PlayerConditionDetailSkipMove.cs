@@ -13,7 +13,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public override bool IsGood(PlayerCondition playerCondition) => false;
 
-        public override Defines.ParticleType GetParticleType(PlayerCondition playerCondition) => Defines.ParticleType.Gravity;
+        public override Defines.ParticleType GetParticleType(PlayerCondition playerCondition) => Defines.ParticleType.SkipDuelStep;
 
         readonly Defines.DuelPhase playerTurnStep = Defines.DuelPhase.移動;
 

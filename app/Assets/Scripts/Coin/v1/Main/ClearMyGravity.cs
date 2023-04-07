@@ -13,7 +13,7 @@ namespace Assets.Scripts.Coin.v1.Main
 
         public override Scripts.Coin.Body.Core[] Bodies { get; } = new []
         {
-            new Body.RemovePlayerCondition(name, true, Duel.PlayerCondition.PlayerConditionDetailSkipMove.CreatePlayerCondition(1))
+            new Body.RemovePlayerCondition(name, true, Duel.PlayerCondition.PlayerConditionDetailGravity.CreatePlayerCondition(1))
         };
 
         public override string PrefabName { get { return "ClearMyGravity"; } }

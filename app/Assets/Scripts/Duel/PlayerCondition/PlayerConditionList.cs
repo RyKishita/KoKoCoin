@@ -221,8 +221,8 @@ namespace Assets.Scripts.Duel.PlayerCondition
                         { nameof(PlayerConditionDetailElectric), new PlayerConditionDetailElectric() },
                         { nameof(PlayerConditionDetailFire), new PlayerConditionDetailFire() },
                         { nameof(PlayerConditionDetailFixDice), new PlayerConditionDetailFixDice() },
+                        { nameof(PlayerConditionDetailGravity), new PlayerConditionDetailGravity() },
                         { nameof(PlayerConditionDetailPoison), new PlayerConditionDetailPoison() },
-                        { nameof(PlayerConditionDetailSkipMove), new PlayerConditionDetailSkipMove() },
                         { nameof(PlayerConditionDetailSkipGuard), new PlayerConditionDetailSkipGuard() },
                         { nameof(PlayerConditionDetailVirus), new PlayerConditionDetailVirus() },
 
@@ -230,6 +230,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
                         //{ nameof(PlayerConditionDetailStop), new PlayerConditionDetailStop() },
                         //{ nameof(PlayerConditionDetailSkipSupport), new PlayerConditionDetailSkipSupport() },
                         //{ nameof(PlayerConditionDetailSkipDirectAttack), new PlayerConditionDetailSkipDirectAttack() },
+                        //{ nameof(PlayerConditionDetailSkipMove), new PlayerConditionDetailSkipMove() },
                         //{ nameof(PlayerConditionDetailSkipSet), new PlayerConditionDetailSkipSet() },
                         //{ nameof(PlayerConditionDetailSkipDraw), new PlayerConditionDetailSkipDraw() },
                     };
@@ -254,5 +255,10 @@ namespace Assets.Scripts.Duel.PlayerCondition
                     return sb.ToString();
                 }
             });
+
+        public int GetChangeDice(DuelData duelData)
+        {
+            return Items.Sum(item => (item.GetDetail() as IPlayerConditionChangeDice)?.GetChangeDice(duelData, item) ?? 0);
+        }
     }
 }

@@ -21,7 +21,7 @@ namespace Assets.Scripts.Coin.v1.Body
                 Defines.ParticleType.ConfusionMove),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipMove.CreatePlayerCondition(1),
+                Duel.PlayerCondition.PlayerConditionDetailGravity.CreatePlayerCondition(1),
                 Defines.ParticleType.Gravity)
         };
     }

@@ -20,7 +20,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.DamageToPushEnemy(2),
             new Effect.DamageToChangeCondition(
                 false,
-                Duel.PlayerCondition.PlayerConditionDetailSkipMove.CreatePlayerCondition(5),
+                Duel.PlayerCondition.PlayerConditionDetailGravity.CreatePlayerCondition(5),
                 Defines.ParticleType.Gravity)
         };
     }

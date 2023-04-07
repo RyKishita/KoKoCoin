@@ -173,10 +173,10 @@ namespace Assets.Scripts.Duel
                         result = movableAreaNos.OrderBy(p => Math.Abs(p - centerNo)).First();
                         int damage = duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, result);
 
-                        int getSafeDiceCount(int playerCurrentAreaNo)
+                        int getSafeDiceCount(int checkAreaNo)
                         {
-                            return duelData.GetMovableAreaNos(playerCurrentAreaNo)
-                                    .GroupBy(areaNo => Math.Abs(areaNo - playerCurrentAreaNo))
+                            return duelData.GetPlayerMovableAllAreaNos(playerNo, checkAreaNo)
+                                    .GroupBy(areaNo => Math.Abs(areaNo - checkAreaNo))
                                     .Count(g => g.Any(areaNo => 0 == duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, areaNo)));
                         }
 
@@ -456,9 +456,9 @@ namespace Assets.Scripts.Duel
             return null;
         }
 
-        public int ThrowDice()
+        public int ThrowDice(int playerNo)
         {
-            return duelData.QueryDice();
+            return duelData.QueryDice(playerNo);
         }
 
         [System.Diagnostics.Conditional("DEBUG")]
