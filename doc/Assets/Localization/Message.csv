@@ -187,11 +187,8 @@ Do you want to save it?"
 "Failed_CameraPermissionDontAskAgain",154770884052594688,"カメラの起動に失敗しました。Androidの設定を確認してください。","Camera failed to start, please check your Android settings."
 "Failed_IsNotRuleQRCode",156649480559996928,"このQRコードにルールは含まれていません。","No rules are included in this QR code."
 "QRCode",156810151461335040,"QRコード","QR Code"
-"QRCode_license",156810242083467264,"「QRコード」は株式会社デンソーウェーブの登録商標です。","“QR Code” is a registered trademark of DENSO WAVE INCORPORATED. "eDeckMessage",136980839119925248,"デッキが編集されています。
-保存しますか？","Your deck has been edited.
-Do you want to save it?"
-"SaveRuleMessage",136981942007967744,"ルールが編集されています。
-保存しますか？","Your rule has been edited.
-Do you want to save it?"
-"Failed_Exchange_ShortageLotCoinTicket",143497653480009728,"変換に失敗しました。コインくじが不足しています。","Conversion failed. Insufficient coin raffle."
-"Failed_Exchange_LimitExchangeTicket",143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."itExchangeTicket",143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."�せん。","You cannot have any more coin vouchers."ve any more coin vouchers."
+"QRCode_license",156810242083467264,"「QRコード」は株式会社デンソーウェーブの登録商標です。","“QR Code” is a registered trademark of DENSO WAVE INCORPORATED. "
+"MaintenanceMust",159391789848408064,"全体メンテナンス:{startdate}～{enddate}","Overall Maintenance:{startdate}～{enddate}"
+"MaintenanceDuel",159391835532767232,"対戦メンテナンス:{startdate}～{enddate}","Duel Maintenance:{startdate}～{enddate}"
+"MaintenanceMust_None",159392035030642688,"全体メンテナンスは予定されていません。","No overall maintenance is planned."
+"MaintenanceDuel_None",159392062629163008,"対戦のメンテナンスは予定されていません。","No duel maintenance is scheduled."コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."itExchangeTicket",143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."�せん。","You cannot have any more coin vouchers."ve any more coin vouchers."
