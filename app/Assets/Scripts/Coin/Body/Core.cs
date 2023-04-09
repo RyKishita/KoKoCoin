@@ -24,18 +24,22 @@ namespace Assets.Scripts.Coin.Body
         {
             get
             {
-                yield return $"[{Defines.GetLocalizedString(CoinType)}]";
+                yield return $"[{CoinTypeDisplayString}]";
 
                 if (CoinTag != Defines.CoinTag.None)
                 {
-                    yield return $"[{Defines.GetLocalizedString(CoinTag)}]";
+                    yield return $"[{CoinTagDisplayString}]";
                 }
             }
         }
 
         public abstract Defines.CoinType CoinType { get; }
 
+        public string CoinTypeDisplayString => Defines.GetLocalizedString(CoinType);
+
         public Defines.CoinTag CoinTag { get; private set; }
+
+        public string CoinTagDisplayString => Defines.GetLocalizedString(CoinTag);
 
         public IEnumerable<string> GetExplains()
         {

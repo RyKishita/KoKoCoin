@@ -751,6 +751,14 @@ MonoBehaviour:
     m_Localized: No overall maintenance is planned.
     m_Metadata:
       m_Items: []
+  - m_Id: 159732587907461120
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159732717297545216
+    m_Localized: Reduction
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

@@ -15,7 +15,7 @@ namespace Assets.Scripts.Coin.v1.Body
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[]
         {
-            new Effect.AppendValueByCurrentArea(true, Defines.AreaType.Safe, 200)
+            new Effect.AppendValueByCurrentArea(true, Defines.AreaType.Safe, 500)
         };
     }
 }
