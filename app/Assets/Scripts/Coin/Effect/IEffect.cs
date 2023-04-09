@@ -26,10 +26,10 @@ namespace Assets.Scripts.Coin.Effect
         bool? IsAdvantageProgressedTurn(Duel.DuelData duelData);
 
         /// <summary>
-        /// エリア上にある場合に発揮する効果
+        /// フィールドに配置されている時に発揮する効果
         /// </summary>
         /// <returns></returns>
-        bool IsProcessedOnArea();
+        bool IsOnAreaEffect();
 
         /// <summary>
         /// 有利な効果

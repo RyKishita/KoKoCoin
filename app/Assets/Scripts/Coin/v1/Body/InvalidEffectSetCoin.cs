@@ -91,7 +91,7 @@ namespace Assets.Scripts.Coin.v1.Body
                 .Where(scd => scd.GetCoinBody().Effects.Any())
                 .Where(scd =>
                     scd.CoinData.OwnerPlayerNo == playerNo
-                        ? scd.GetCoinBody().Effects.All(effect => !effect.IsProcessedOnArea() && !effect.IsAdvantage(duelData))
+                        ? scd.GetCoinBody().Effects.All(effect => !effect.IsOnAreaEffect() && !effect.IsAdvantage(duelData))
                         : scd.GetCoinBody().Effects.Any(effect => effect.IsAdvantage(duelData)))
                 .FirstOrDefault();
             if (result != null)

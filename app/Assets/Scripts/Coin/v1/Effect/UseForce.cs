@@ -14,7 +14,7 @@ namespace Assets.Scripts.Coin.v1.Effect
 
         public override string Explain => GetEffectLocalizedString(nameof(UseForce));
 
-        public override bool IsProcessedOnArea()
+        public override bool IsOnAreaEffect()
         {
             return false;
         }

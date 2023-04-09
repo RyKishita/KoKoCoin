@@ -83,7 +83,7 @@ namespace Assets.Scripts.Coin.v1.Effect
             return UniTask.CompletedTask;
         }
 
-        public override bool IsProcessedOnArea()
+        public override bool IsOnAreaEffect()
         {
             return false;
         }

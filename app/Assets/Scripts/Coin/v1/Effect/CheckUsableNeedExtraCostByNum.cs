@@ -49,7 +49,7 @@ namespace Assets.Scripts.Coin.v1.Effect
             return Value <= coinDatas.Count;
         }
 
-        public override bool IsProcessedOnArea()
+        public override bool IsOnAreaEffect()
         {
             return false;
         }

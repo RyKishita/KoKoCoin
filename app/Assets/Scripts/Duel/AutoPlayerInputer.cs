@@ -18,19 +18,19 @@ namespace Assets.Scripts.Duel
 
         DuelData duelData => duelDataManager.DuelData;
 
-        ActionItem SelectSupport(List<CoinData> handCoinDatas, IEnumerable<SelectedCoinData> uses, int actionCount)
+        ActionItem SelectSupport(List<CoinData> handCoinDatas, IEnumerable<SelectedCoinData> uses)
         {
             WriteLog(nameof(SelectSupport));
 
             // サポートコイン毎の使用優先順位。現状は先頭から使えるものを使っている
-            foreach (var useItem in uses.Where(item => item.IsUsable(duelData, actionCount)))
+            foreach (var useItem in uses.Where(item => item.IsUsable(duelData)))
             {
                 var actionItem = SelectSupport(useItem, handCoinDatas, false);
                 if (actionItem != null) return actionItem;
             }
             if (duelData.IsMustUse())
             {
-                foreach (var useItem in uses.Where(item => item.IsUsable(duelData, actionCount)))
+                foreach (var useItem in uses.Where(item => item.IsUsable(duelData)))
                 {
                     var actionItem = SelectSupport(useItem, handCoinDatas, true);
                     if (actionItem != null) return actionItem;
@@ -110,7 +110,7 @@ namespace Assets.Scripts.Duel
             var usableGuardCoins = targetPlayer.Hand
                                 .GetSeparateItems()
                                 .Where(scc => scc.GetCoinBody().IsCoinType(Defines.CoinType.Guard))
-                                .Where(scc => scc.IsUsable(duelData, 0));
+                                .Where(scc => scc.IsUsable(duelData));
             if (!duelData.IsMustUse())
             {
                 var mustUseCoins = usableGuardCoins.Where(scd => scd.IsUseForce()).ToList();
@@ -395,12 +395,12 @@ namespace Assets.Scripts.Duel
             return GetUseCoinInfo(player, coins);
         }
 
-        public ActionItem SelectCoin(Player player, Defines.CoinType selectCoinType, int actionCount)
+        public ActionItem SelectCoin(Player player, Defines.CoinType selectCoinType)
         {
             var usableCoins = player.Hand
                                 .GetSeparateItems()
                                 .Where(scd => scd.GetCoinBody().IsCoinType(selectCoinType))
-                                .Where(scd => scd.IsUsable(duelData, actionCount))
+                                .Where(scd => scd.IsUsable(duelData))
                                 .ToList();
             if (!duelData.IsMustUse())
             {
@@ -449,7 +449,7 @@ namespace Assets.Scripts.Duel
                 var supports = usableCoins.Where(scc => scc.GetCoinBody().IsCoinType(Defines.CoinType.Support)).ToList();
                 if (0 < supports.Count)
                 {
-                    var actionItem = SelectSupport(player.Hand.Items, supports, actionCount);
+                    var actionItem = SelectSupport(player.Hand.Items, supports);
                     if (actionItem != null) return actionItem;
                 }
             }

@@ -113,7 +113,7 @@ namespace Assets.Scripts.Coin.v1.Effect
             return true;
         }
 
-        public override bool IsProcessedOnArea()
+        public override bool IsOnAreaEffect()
         {
             return false;
         }

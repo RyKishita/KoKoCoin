@@ -44,7 +44,7 @@ namespace Assets.Scripts.Coin.Effect
             return null;
         }
 
-        public virtual bool IsProcessedOnArea()
+        public virtual bool IsOnAreaEffect()
         {
             return true;
         }
