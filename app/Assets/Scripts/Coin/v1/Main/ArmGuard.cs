@@ -5,15 +5,15 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Main
 {
-    class Manifer : Coin
+    class ArmGuard : Coin
     {
-        public const string name = "v1.Manifer";
+        public const string name = "v1.ArmGuard";
 
         public override string Name => name;
 
-        public override Scripts.Coin.Body.Core[] Bodies { get; } = new[] { new Body.Manifer(name) };
+        public override Scripts.Coin.Body.Core[] Bodies { get; } = new[] { new Body.ArmGuard(name) };
 
-        public override string PrefabName { get { return "Manifer"; } }
+        public override string PrefabName { get { return "ArmGuard"; } }
 
         public override float PositionY => 0.1f;
         public override float RotateY { get; } = 210f;

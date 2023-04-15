@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Body
 {
-    class Manifer : Scripts.Coin.Body.Guard.Core
+    class ArmGuard : Scripts.Coin.Body.Guard.Core
     {
-        public Manifer(string coinName)
+        public ArmGuard(string coinName)
             : base(coinName)
         {
             Animation = new Scripts.Duel.DuelAnimation.Guard.GuardAnimationShield();

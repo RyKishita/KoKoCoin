@@ -84,7 +84,7 @@ namespace Assets.Scripts.Coin.v1
             Regist<ImpactAbsorbeWall>();
             Regist<CuttingRegistShield>();
             Regist<ScaleArmor>();
-            Regist<Manifer>();
+            Regist<ArmGuard>();
             Regist<Buckler>();
             Regist<Camouflage>();
             Regist<Invisible>();

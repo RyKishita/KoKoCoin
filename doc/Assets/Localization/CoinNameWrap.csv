@@ -114,7 +114,7 @@ wall"
 shield"
 "v1.ScaleArmor",7783403958272,"スケール
 アーマー","Scale armor"
-"v1.Manifer",7837523062784,"手甲","Manifer"
+"v1.ArmGuard",7837523062784,"手甲","Arm guard"
 "v1.Buckler",7887380754432,"バックラー","Buckler"
 "v1.Camouflage",7936185675776,"カモフラージュ","Camouflage"
 "v1.Invisible",7988614475776,"インビジブル","Invisible"
@@ -396,4 +396,5 @@ left leg"
 "Dust",18623515537408,"ごみ","Dust"
 "v1.HeresyBishop",83706041103495168,"邪教の司祭","Heresy bishop"
 "v1.ClearMySkipGuard",157199979403227136,"生存本能","Survival
+instinct"生存本能","Survival
 instinct"
