@@ -14,6 +14,6 @@ namespace Assets.Scripts.Coin.v1.Body
             Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("StingA", Defines.SoundEffect.DirectAttackBow);
         }
 
-        public override bool IsAppendPut => true;
+        public override bool IsCoexistence => true;
     }
 }

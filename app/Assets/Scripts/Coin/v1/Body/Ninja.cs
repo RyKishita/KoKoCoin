@@ -21,6 +21,6 @@ namespace Assets.Scripts.Coin.v1.Body
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; }
 
-        public override bool IsAppendPut => true;
+        public override bool IsCoexistence => true;
     }
 }

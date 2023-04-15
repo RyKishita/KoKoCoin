@@ -22,6 +22,6 @@ namespace Assets.Scripts.Coin.v1.Body
                 Defines.ParticleType.Fire)
         };
 
-        public override bool IsAppendPut => true;
+        public override bool IsCoexistence => true;
     }
 }

@@ -18,6 +18,6 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.AddValueStatusByMoveCoinNameFrom(-200, true, Defines.CoinPosition.Field, Main.QueenAnt.name)
         };
 
-        public override bool IsAppendPut => true;
+        public override bool IsCoexistence => true;
     }
 }

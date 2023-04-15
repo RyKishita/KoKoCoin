@@ -40,9 +40,9 @@ namespace Assets.Scripts.Coin.Body.Set
                     yield return summary;
                 }
 
-                if (IsAppendPut)
+                if (IsCoexistence)
                 {
-                    yield return Defines.GetLocalizedString(Defines.StringEnum.Stackable);
+                    yield return Defines.GetLocalizedString(Defines.StringEnum.Coexistence);
                 }
             }
         }
@@ -85,6 +85,6 @@ namespace Assets.Scripts.Coin.Body.Set
                 duelManager.DuelData.FieldData.GetContainCoinAreaNo(selectedCoinData) == afterMovePlayer.AreaNo;
         }
 
-        public virtual bool IsAppendPut => false;
+        public virtual bool IsCoexistence => false;
     }
 }

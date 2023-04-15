@@ -18,6 +18,6 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.UseSetToFusion(150)
         };
 
-        public override bool IsAppendPut => true;
+        public override bool IsCoexistence => true;
     }
 }
