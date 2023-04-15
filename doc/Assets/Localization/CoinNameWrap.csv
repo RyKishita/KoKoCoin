@@ -87,12 +87,12 @@ made of iron"
 "v1.LargeMagicShield",6819020222464,"魔法の大盾","Large magic shield"
 "v1.SpikeShield",6972183621632,"スパイク
 シールド","Spike shield"
-"v1.ProtoFullProtectionShield",7041213476864,"絶対防御盾
+"v1.PrototypeFullProtectionShield",7041213476864,"絶対防御盾
 試作型","Complete protection
 shield [prototype]"
 "v1.MassProFullProtectionShield",7096548929536,"絶対防御盾","Complete protection
 shield"
-"v1.ProtoFullReflectionShield",7148738654208,"絶対反射盾
+"v1.PrototypeFullReflectionShield",7148738654208,"絶対反射盾
 試作型","Complete reflection
 shield [prototype]"
 "v1.MassProFullReflectionShield",7205462421504,"絶対反射盾","Complete reflection
@@ -358,7 +358,7 @@ left leg"
 "v1.AlienDragon",17196600733696,"異界竜","Alien dragon"
 "v1.AlienBeast",17242809380864,"異界獣","Alien beast"
 "v1.AlienBoundary",17307070312448,"狭間に
-紛れる者","Alian boundary"
+紛れる者","Alien boundary"
 "v1.AlienFlame",17357557149696,"異界の炎","Alien flame"
 "v1.ShadowDagger",17407066714112,"シャドー
 ダガー","Shadow dagger"
@@ -368,7 +368,7 @@ left leg"
 ロングソード","Shadow long sword"
 "v1.ShadowClaymore",17569914761216,"シャドー
 クレイモア","Shadow claymore"
-"v1.PrototRailgun",17627393503232,"電磁砲試作型","Railgun [prototype]"
+"v1.PrototypeRailgun",17627393503232,"電磁砲試作型","Railgun [prototype]"
 "v1.MassProRailgun",17676873707520,"電磁砲","Railgun"
 "v1.PortableRailgun",17727247298560,"電磁砲携帯型","Railgun [portable]"
 "v1.IcicleSpear",17785741062144,"アイシクル
@@ -396,5 +396,5 @@ left leg"
 "Dust",18623515537408,"ごみ","Dust"
 "v1.HeresyBishop",83706041103495168,"邪教の司祭","Heresy bishop"
 "v1.ClearMySkipGuard",157199979403227136,"生存本能","Survival
-instinct"��本能","Survival
+instinct"Survival
 instinct"
