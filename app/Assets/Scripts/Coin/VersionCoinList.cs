@@ -17,7 +17,7 @@ namespace Assets.Scripts.Coin
         {
             if (coinTable.ContainsKey(coin.Name))
             {
-                Utility.Functions.WriteLog(UnityEngine.LogType.Warning, "重複登録", coin.Name);
+                WriteLogWarning($"重複登録 {coin.Name}");
                 return;
             }
             coinTable[coin.Name] = coin;
@@ -148,6 +148,11 @@ namespace Assets.Scripts.Coin
                 }
                 WriteLog(sb.ToString());
             }
+
+            foreach (var coin in Coins.Where(coin=>coin.Size == 0))
+            {
+                WriteLogWarning($"コインサイズが0 {coin.Name}");
+            }
         }
 
         // サーバー登録名とソース上の差異チェック
@@ -175,19 +180,19 @@ namespace Assets.Scripts.Coin
                 {
                     if (coin.DisplayName != serverCoins[coin.Name])
                     {
-                        Utility.Functions.WriteLog(UnityEngine.LogType.Warning, "表示名の不一致", coin.Name, coin.DisplayName, serverCoins[coin.Name]);
+                        WriteLogWarning($"表示名の不一致 {coin.Name} {coin.DisplayName} {serverCoins[coin.Name]}");
                     }
                 }
                 else
                 {
-                    Utility.Functions.WriteLog(UnityEngine.LogType.Warning, "名前がサーバー上で見つからない", coin.Name);
+                    WriteLogWarning($"名前がサーバー上で見つからない {coin.Name}");
                 }
             }
             foreach (var serverCoin in serverCoins)
             {
                 if (Coins.All(coin => coin.Name != serverCoin.Key))
                 {
-                    Utility.Functions.WriteLog(UnityEngine.LogType.Warning, "名前がクライアント上で見つからない", serverCoin.Key);
+                    WriteLogWarning($"名前がクライアント上で見つからない {serverCoin.Key}");
                 }
             }
             foreach (var coin in Coins.Where(coin => !(coin is IExtraCoin)))
@@ -195,7 +200,7 @@ namespace Assets.Scripts.Coin
                 var wrap = coin.DisplayNameWrap.Replace("\r", "").Replace("\n", "");
                 if (coin.DisplayName != wrap)
                 {
-                    Utility.Functions.WriteLog(UnityEngine.LogType.Warning, "表示名と折り返し名が一致していない", coin.Name, coin.DisplayName, wrap);
+                    WriteLogWarning($"表示名と折り返し名が一致していない {coin.Name} {coin.DisplayName} {wrap}");
                 }
             }
         }
@@ -206,6 +211,12 @@ namespace Assets.Scripts.Coin
         static void WriteLog(string message)
         {
             Utility.Functions.WriteLog(message);
+        }
+
+        [System.Diagnostics.Conditional("DEBUG")]
+        static void WriteLogWarning(string message)
+        {
+            Utility.Functions.WriteLog(UnityEngine.LogType.Warning, message);
         }
 
         static readonly object lockLoad = new object();

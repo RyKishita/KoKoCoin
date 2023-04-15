@@ -70,9 +70,9 @@ namespace Assets.Scripts.Coin.v1
             Regist<MagicShield>();
             Regist<LargeMagicShield>();
             Regist<SpikeShield>();
-            Regist<ProtoFullProtectionShield>();
+            Regist<PrototypeFullProtectionShield>();
             Regist<MassProFullProtectionShield>();
-            Regist<ProtoFullReflectionShield>();
+            Regist<PrototypeFullReflectionShield>();
             Regist<MassProFullReflectionShield>();
             Regist<LastHopeShield>();
             Regist<BlessedShield>();
@@ -303,7 +303,7 @@ namespace Assets.Scripts.Coin.v1
             Regist<ShadowClaymore>();
 
             // テーマ：レールガン。超射程のみかつ帯電が必要で使いづらいが威力は高い
-            Regist<PrototRailgun>();
+            Regist<PrototypeRailgun>();
             Regist<MassProRailgun>();
             Regist<PortableRailgun>();
 

@@ -244,7 +244,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7041213476864
-    m_Key: v1.ProtoFullProtectionShield
+    m_Key: v1.PrototypeFullProtectionShield
     m_Metadata:
       m_Items: []
   - m_Id: 7096548929536
@@ -252,7 +252,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7148738654208
-    m_Key: v1.ProtoFullReflectionShield
+    m_Key: v1.PrototypeFullReflectionShield
     m_Metadata:
       m_Items: []
   - m_Id: 7205462421504
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 17627393503232
-    m_Key: v1.PrototRailgun
+    m_Key: v1.PrototypeRailgun
     m_Metadata:
       m_Items: []
   - m_Id: 17676873707520

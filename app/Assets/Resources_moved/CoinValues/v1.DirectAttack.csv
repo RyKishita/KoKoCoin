@@ -52,7 +52,7 @@ v1.PlantParty,3,物理_特殊射程,0
 v1.PoisonArrow,2,物理_刺突_長射程,400
 v1.PoisonKnife,1,物理_切断_接触_隣接,100
 v1.PortableRailgun,1,物理_特殊射程,500
-v1.PrototRailgun,3,物理_特殊射程,1400
+v1.PrototypeRailgun,3,物理_特殊射程,1400
 v1.PushBlower,1,物理_殴打_隣接_中射程,100
 v1.Qualm,2,魔法_特殊射程,100
 v1.SecondArrow,2,物理_刺突_中射程,200
