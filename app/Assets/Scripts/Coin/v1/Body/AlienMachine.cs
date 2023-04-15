@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Body
 {
-    class AlianHuman : Scripts.Coin.Body.SetAttack.Core
+    class AlienMachine : Scripts.Coin.Body.SetAttack.Core
     {
-        public AlianHuman(string coinName)
+        public AlienMachine(string coinName)
             : base(coinName)
         {
             Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationTackle(Defines.SoundEffect.SetAttackTackle);

@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Body
 {
-    class AlianBoundary : Scripts.Coin.Body.SetAttack.Core
+    class AlienBoundary : Scripts.Coin.Body.SetAttack.Core
     {
-        public AlianBoundary(string coinName)
+        public AlienBoundary(string coinName)
             : base(coinName)
         {
             Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("ConfusionMoveA", Defines.SoundEffect.DirectAttackThrowMagic);

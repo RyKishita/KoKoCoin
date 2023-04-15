@@ -992,23 +992,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16995186061312
-    m_Key: v1.AlianHuman
+    m_Key: v1.AlienHuman
     m_Metadata:
       m_Items: []
   - m_Id: 17115143155712
-    m_Key: v1.AlianMachine
+    m_Key: v1.AlienMachine
     m_Metadata:
       m_Items: []
   - m_Id: 17196600733696
-    m_Key: v1.AlianDragon
+    m_Key: v1.AlienDragon
     m_Metadata:
       m_Items: []
   - m_Id: 17242809380864
-    m_Key: v1.AlianBeast
+    m_Key: v1.AlienBeast
     m_Metadata:
       m_Items: []
   - m_Id: 17307070312448
-    m_Key: v1.AlianBoundary
+    m_Key: v1.AlienBoundary
     m_Metadata:
       m_Items: []
   - m_Id: 17357557149696

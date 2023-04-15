@@ -6,12 +6,12 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Body
 {
-    class AlianDragon : Scripts.Coin.Body.SetAttack.Core
+    class AlienDragon : Scripts.Coin.Body.SetAttack.Core
     {
-        public AlianDragon(string coinName)
+        public AlienDragon(string coinName)
             : base(coinName)
         {
-            Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("AlianDragonA", Defines.SoundEffect.DirectAttackThrowWind);
+            Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("AlienDragonA", Defines.SoundEffect.DirectAttackThrowWind);
         }
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] {

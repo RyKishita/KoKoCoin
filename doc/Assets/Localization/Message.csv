@@ -22,7 +22,7 @@ use"
 "NotSelected",2116321622306816,"未選択","Not selected"
 "Fetch",2161069951234048,"取り込み","Fetch"
 "YouInfo",2176688020992000,"あなたの情報","Your information"
-"AppInfo",2176889716682752,"アプリの情報","Application infomation"
+"AppInfo",2176889716682752,"アプリの情報","Application information"
 "YouInfo_DisplayUserID",2177630023921664,"ユーザーID(表示)","UserID(Display)"
 "YouInfo_FullUserID",2177669760757760,"ユーザーID(フル)","UserID(Full)"
 "Copyright",2181041666600960,"制作著作","Production Credits"
@@ -112,7 +112,7 @@ draw"
 "RangeALL_short",72467992684212224,"全て","ALL"
 "HasAreaStatus",72468369970245632,"(+)","(+)"
 "HideCoinInfo",72468823294816256,"???","???"
-"Unknow",72472169405689856,"不明","Unknow"
+"Unknow",72472169405689856,"不明","Unknown"
 "Success_AddRoom",75746956819247104,"ルームを作成しました。","Room created."
 "Failed_AddRoom_Error",75747145378377728,"ルームの作成に失敗しました。サーバーエラーです。時間をおいてから再度試してください。","Room creation failed. Server error. Please wait a moment and try again."
 "Failed_NotSelectRule",75751607543214080,"現在使用しているデッキには標準ルールが設定されています。標準ルールでは作成できません。","The deck you are currently using has standard rules. You cannot create a deck with standard rules."
@@ -174,7 +174,8 @@ Scheduled to resume: {date}"
 "EventComingToAnEndSoon",111542285636153344,"もうすぐ終了","Coming to an end soon"
 "RewardHasBeenBbtained",111549792467234816,"報酬は取得済み","Reward has been obtained"
 "SaveDeckMessage",136980839119925248,"デッキが編集されています。
-保存しますか？","Your deck has been edited.
+保存しますか？
+","Your deck has been edited.
 Do you want to save it?"
 "SaveRuleMessage",136981942007967744,"ルールが編集されています。
 保存しますか？","Your rule has been edited.
@@ -193,4 +194,4 @@ Do you want to save it?"
 "MaintenanceMust_None",159392035030642688,"全体メンテナンスは予定されていません。","No overall maintenance is planned."
 "MaintenanceDuel_None",159392062629163008,"対戦のメンテナンスは予定されていません。","No duel maintenance is scheduled."
 "DamageValue",159732587907461120,"ダメージ","Damage"
-"GuardValue",159732717297545216,"軽減","Reduction"143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."�せん。","You cannot have any more coin vouchers."ve any more coin vouchers."
+"GuardValue",159732717297545216,"軽減","Reduction"143497693434949632,"コイン引換券はこれ以上持てません。","You cannot have any more coin vouchers."�せん。","You cannot have any more coin vouchers."ve any more coin vouchers."

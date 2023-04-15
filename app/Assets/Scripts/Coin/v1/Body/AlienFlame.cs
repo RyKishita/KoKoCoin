@@ -11,7 +11,7 @@ namespace Assets.Scripts.Coin.v1.Body
         public AlienFlame(string coinName)
             : base(coinName)
         {
-            Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("AlianDragonA", Defines.SoundEffect.DamageFire);
+            Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("AlienFlameA", Defines.SoundEffect.DamageFire);
         }
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[]

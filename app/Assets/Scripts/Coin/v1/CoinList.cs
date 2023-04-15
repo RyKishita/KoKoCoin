@@ -289,11 +289,11 @@ namespace Assets.Scripts.Coin.v1
 
             // テーマ：決められたコインの所持が使用条件のコインを主体にする
             Regist<DimensionBeacon>();
-            Regist<AlianHuman>();
-            Regist<AlianMachine>();
-            Regist<AlianDragon>();
-            Regist<AlianBeast>();
-            Regist<AlianBoundary>();
+            Regist<AlienHuman>();
+            Regist<AlienMachine>();
+            Regist<AlienDragon>();
+            Regist<AlienBeast>();
+            Regist<AlienBoundary>();
             Regist<AlienFlame>();
 
             // テーマ：時間と共に上位武器になるがトークンとして取得するので再度進化はしない。最上位は取得不可
