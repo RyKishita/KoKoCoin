@@ -168,7 +168,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1265694617600
-    m_Key: limitTimeTotalRecruital
+    m_Key: limitTimeTotalExtension
     m_Metadata:
       m_Items: []
   - m_Id: 1297965592576
@@ -184,7 +184,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1386477989888
-    m_Key: sideDeckAddTimmingNone
+    m_Key: sideDeckAddTimingNone
     m_Metadata:
       m_Items: []
   - m_Id: 1642917736448
@@ -256,19 +256,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15121816956928
-    m_Key: sideDeckAddTimmingSecondRound
+    m_Key: sideDeckAddTimingSecondRound
     m_Metadata:
       m_Items: []
   - m_Id: 15151265165312
-    m_Key: sideDeckAddTimmingLowerRoundCount
+    m_Key: sideDeckAddTimingLowerRoundCount
     m_Metadata:
       m_Items: []
   - m_Id: 15162585591808
-    m_Key: sideDeckAddTimmingCheckMate
+    m_Key: sideDeckAddTimingCheckMate
     m_Metadata:
       m_Items: []
   - m_Id: 15174472249344
-    m_Key: sideDeckAddTimmingFinalRound
+    m_Key: sideDeckAddTimingFinalRound
     m_Metadata:
       m_Items: []
   - m_Id: 13061906340720640

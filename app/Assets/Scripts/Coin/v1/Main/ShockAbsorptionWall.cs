@@ -5,15 +5,15 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Main
 {
-    class ImpactAbsorbeWall : Coin
+    class ShockAbsorptionWall : Coin
     {
-        public const string name = "v1.ImpactAbsorbeWall";
+        public const string name = "v1.ShockAbsorptionWall";
 
         public override string Name => name;
 
-        public override Scripts.Coin.Body.Core[] Bodies { get; } = new[] { new Body.ImpactAbsorbeWall(name) };
+        public override Scripts.Coin.Body.Core[] Bodies { get; } = new[] { new Body.ShockAbsorptionWall(name) };
 
-        public override string PrefabName { get { return "ImpactAbsorbeWall"; } }
+        public override string PrefabName { get { return "ShockAbsorptionWall"; } }
 
         public override float PositionY => -.4f;
         public override float ScaleCoinValue => .8f;

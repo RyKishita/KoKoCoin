@@ -80,8 +80,8 @@ namespace Assets.Scripts.Coin.v1
             Regist<GrowUpShield>();
             Regist<ShieldSpirit>();
             Regist<GuardFaintness>();
-            Regist<ImpactAbsorbeShield>();
-            Regist<ImpactAbsorbeWall>();
+            Regist<ShockAbsorptionShield>();
+            Regist<ShockAbsorptionWall>();
             Regist<CuttingRegistShield>();
             Regist<ScaleArmor>();
             Regist<ArmGuard>();

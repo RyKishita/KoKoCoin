@@ -284,11 +284,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7615132676096
-    m_Key: v1.ImpactAbsorbeShield
+    m_Key: v1.ShockAbsorptionShield
     m_Metadata:
       m_Items: []
   - m_Id: 7669516021760
-    m_Key: v1.ImpactAbsorbeWall
+    m_Key: v1.ShockAbsorptionWall
     m_Metadata:
       m_Items: []
   - m_Id: 7721596694528

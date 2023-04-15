@@ -168,11 +168,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2197308192534528
-    m_Key: Failed_MissmatchAppVersion
+    m_Key: Failed_MismatchAppVersion
     m_Metadata:
       m_Items: []
   - m_Id: 2197336369868800
-    m_Key: Failed_MissmatchLevel
+    m_Key: Failed_MismatchLevel
     m_Metadata:
       m_Items: []
   - m_Id: 2197898540822528
@@ -316,7 +316,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20736010959138816
-    m_Key: Failed_MissmatchRuleEdit
+    m_Key: Failed_MismatchRuleEdit
     m_Metadata:
       m_Items: []
   - m_Id: 22783113008984064
@@ -416,7 +416,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 72472169405689856
-    m_Key: Unknow
+    m_Key: Unknown
     m_Metadata:
       m_Items: []
   - m_Id: 75746956819247104
@@ -436,11 +436,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 75776408353714176
-    m_Key: Success_RegistFetchRule
+    m_Key: Success_RegistrationFetchRule
     m_Metadata:
       m_Items: []
   - m_Id: 75776435469889536
-    m_Key: Failed_RegistFetchRule
+    m_Key: Failed_RegistrationFetchRule
     m_Metadata:
       m_Items: []
   - m_Id: 75778427172892672
@@ -616,7 +616,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 111549792467234816
-    m_Key: RewardHasBeenBbtained
+    m_Key: RewardHasBeenObtained
     m_Metadata:
       m_Items: []
   - m_Id: 136980839119925248
