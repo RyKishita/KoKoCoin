@@ -105,9 +105,9 @@ shield"
 "v1.ShieldSpirit",7498560385024,"シールド
 スピリット","Shield spirit"
 "v1.GuardFaintness",7551408615424,"脱力の盾","Shield of deactivation"
-"v1.ImpactAbsorbeShield",7615132676096,"衝撃吸収盾","Shock absorption
+"v1.ShockAbsorptionShield",7615132676096,"衝撃吸収盾","Shock absorption
 shield"
-"v1.ImpactAbsorbeWall",7669516021760,"衝撃吸収壁","Shock absorption
+"v1.ShockAbsorptionWall",7669516021760,"衝撃吸収壁","Shock absorption
 wall"
 "v1.CuttingRegistShield",7721596694528,"カット
 シールド","Cutting resistance
@@ -396,5 +396,5 @@ left leg"
 "Dust",18623515537408,"ごみ","Dust"
 "v1.HeresyBishop",83706041103495168,"邪教の司祭","Heresy bishop"
 "v1.ClearMySkipGuard",157199979403227136,"生存本能","Survival
-instinct"生存本能","Survival
+instinct"��本能","Survival
 instinct"
