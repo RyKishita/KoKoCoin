@@ -44,6 +44,11 @@ namespace Assets.Scripts.Coin.Body.Set
                 {
                     yield return Defines.GetLocalizedString(Defines.StringEnum.Coexistence);
                 }
+
+                if (IsNoReverseSet)
+                {
+                    yield return Defines.GetLocalizedString(Defines.StringEnum.NoReverseSet);
+                }
             }
         }
 
@@ -86,5 +91,7 @@ namespace Assets.Scripts.Coin.Body.Set
         }
 
         public virtual bool IsCoexistence => false;
+
+        public virtual bool IsNoReverseSet => false;
     }
 }

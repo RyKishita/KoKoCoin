@@ -17,5 +17,7 @@ namespace Assets.Scripts.Coin.v1.Body
             new Effect.DontStop(),
             new Effect.TurnToMove(Defines.CoinPosition.Field, 10, Defines.CoinPosition.Trash),
         };
+
+        public override bool IsNoReverseSet => true;
     }
 }

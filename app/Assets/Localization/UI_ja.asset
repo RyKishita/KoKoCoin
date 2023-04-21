@@ -224,15 +224,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 75337988255744
-    m_Localized: "\u30AB\u30B8\u30E5\u30A2\u30EB"
+    m_Localized: "\u304A\u8A66\u3057"
     m_Metadata:
       m_Items: []
   - m_Id: 75422356680704
-    m_Localized: "\u30CE\u30FC\u30DE\u30EB"
+    m_Localized: "\u7C21\u6613"
     m_Metadata:
       m_Items: []
   - m_Id: 75481030799360
-    m_Localized: "\u30AC\u30C1"
+    m_Localized: "\u6A19\u6E96"
     m_Metadata:
       m_Items: []
   - m_Id: 77701264650240

@@ -224,15 +224,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 75337988255744
-    m_Localized: Casual
+    m_Localized: Trial
     m_Metadata:
       m_Items: []
   - m_Id: 75422356680704
-    m_Localized: Normal
+    m_Localized: Simple
     m_Metadata:
       m_Items: []
   - m_Id: 75481030799360
-    m_Localized: Earnest
+    m_Localized: Standard
     m_Metadata:
       m_Items: []
   - m_Id: 77701264650240

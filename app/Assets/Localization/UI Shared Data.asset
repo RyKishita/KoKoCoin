@@ -220,15 +220,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 75337988255744
-    m_Key: Casual
+    m_Key: Trial
     m_Metadata:
       m_Items: []
   - m_Id: 75422356680704
-    m_Key: Normal
+    m_Key: Simple
     m_Metadata:
       m_Items: []
   - m_Id: 75481030799360
-    m_Key: Earnest
+    m_Key: Standard
     m_Metadata:
       m_Items: []
   - m_Id: 77701264650240

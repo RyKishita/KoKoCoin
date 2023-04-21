@@ -45,5 +45,7 @@ namespace Assets.Scripts.Coin.v1.Body
         public string PlayerConditionInnerName { get; }
 
         public int EnvironmentValue { get; }
+
+        public override bool IsNoReverseSet => true;
     }
 }

@@ -39,5 +39,7 @@ namespace Assets.Scripts.Coin.v1.Body
                 }
             }
         }
+
+        public override bool IsNoReverseSet => true;
     }
 }

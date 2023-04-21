@@ -18,5 +18,7 @@ namespace Assets.Scripts.Coin.v1.Body
         public override Scripts.Coin.Effect.IEffect[] Effects { get; }
 
         readonly PlayerCondition usePlayerCondition;
+
+        public override bool IsNoReverseSet => true;
     }
 }

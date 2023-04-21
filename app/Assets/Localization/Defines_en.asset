@@ -319,15 +319,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10473682091061248
-    m_Localized: Casual
+    m_Localized: Trial
     m_Metadata:
       m_Items: []
   - m_Id: 10474005434150912
-    m_Localized: Normal
+    m_Localized: Simple
     m_Metadata:
       m_Items: []
   - m_Id: 10474068780724224
-    m_Localized: Earnest
+    m_Localized: Standard
     m_Metadata:
       m_Items: []
   - m_Id: 10474129455525888
@@ -360,6 +360,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 63705024714715136
     m_Localized: Attacker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165196979398717440
+    m_Localized: not turned inside out
     m_Metadata:
       m_Items: []
   references:
