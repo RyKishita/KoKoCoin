@@ -170,9 +170,14 @@ namespace Assets.Scripts.Coin.Body
             return trueNum < falseNum;
         }
 
-        public IEnumerable<IEffectInterceptDuelAction> GetInterceptDuelAction(DuelData duelData, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction) =>
-            GetCoinEffects<IEffectInterceptDuelAction>()
-            .Where(effect => effect.IsInterceptDuelAction(duelData, selectedCoinData, duelEventAction));
+        public bool InterceptDuelAction(DuelManager duelManager, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction)
+        {
+            foreach (var effect in GetCoinEffects<IEffectInterceptDuelAction>())
+            {
+                if (effect.InterceptDuelAction(duelManager, selectedCoinData, duelEventAction)) return true;
+            }
+            return false;
+        }
 
         public CoinEffectReferenceItem GetCoinEffectReferenceItem(IEffect effect)
         {

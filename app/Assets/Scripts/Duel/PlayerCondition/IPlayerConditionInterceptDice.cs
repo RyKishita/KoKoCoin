@@ -8,8 +8,6 @@ namespace Assets.Scripts.Duel.PlayerCondition
 {
     public interface IPlayerConditionInterceptDice
     {
-        bool IsInterceptDice(DuelData duelData, int targetPlayerNo, Player player);
-
-        UniTask<int> InterceptDice(DuelManager duelManager, Player player);
+        int? InterceptDice(DuelManager duelManager, int targetPlayerNo, Player player);
     }
 }

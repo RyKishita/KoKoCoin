@@ -11,7 +11,7 @@ namespace Assets.Scripts.Coin.v1.Body
         public Fairy(string coinName)
             : base(coinName)
         {
-            Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("StingA", Defines.SoundEffect.DirectAttackBow);
+            Animation = new Scripts.Duel.DuelAnimation.SetAttack.SetAttackAnimationThrow("FairyA", Defines.SoundEffect.DirectAttackBow);
         }
 
         public override bool IsCoexistence => true;

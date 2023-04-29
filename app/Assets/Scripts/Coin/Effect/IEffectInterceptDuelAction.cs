@@ -9,8 +9,6 @@ namespace Assets.Scripts.Coin.Effect
 {
     public interface IEffectInterceptDuelAction : IEffect
     {
-        bool IsInterceptDuelAction(DuelData duelData, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction);
-
-        UniTask InterceptDuelAction(DuelManager duelManager, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction);
+        bool InterceptDuelAction(DuelManager duelManager, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction);
     }
 }

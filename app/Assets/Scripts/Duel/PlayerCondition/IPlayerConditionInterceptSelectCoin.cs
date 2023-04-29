@@ -8,8 +8,6 @@ namespace Assets.Scripts.Duel.PlayerCondition
 {
     public interface IPlayerConditionInterceptSelectCoin
     {
-        bool IsInvalidSelectCoinType(DuelData duelData, int targetPlayerNo, Player player, Defines.CoinType selectCoinType);
-
-        UniTask InterceptSelectCoin(DuelManager duelManager, Player player);
+        bool InterceptSelectCoin(DuelManager duelManager, int targetPlayerNo, Defines.CoinType selectCoinType, Player player);
     }
 }

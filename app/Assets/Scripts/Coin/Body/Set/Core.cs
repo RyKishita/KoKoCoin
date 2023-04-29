@@ -31,15 +31,10 @@ namespace Assets.Scripts.Coin.Body.Set
             return true;
         }
 
-        public override IEnumerable<string> Summaries
+        protected override IEnumerable<string> Explains
         {
             get
             {
-                foreach(var summary in base.Summaries)
-                {
-                    yield return summary;
-                }
-
                 if (IsCoexistence)
                 {
                     yield return Defines.GetLocalizedString(Defines.StringEnum.Coexistence);
@@ -48,6 +43,11 @@ namespace Assets.Scripts.Coin.Body.Set
                 if (IsNoReverseSet)
                 {
                     yield return Defines.GetLocalizedString(Defines.StringEnum.NoReverseSet);
+                }
+
+                foreach (var explain in base.Explains)
+                {
+                    yield return explain;
                 }
             }
         }

@@ -38,15 +38,12 @@ namespace Assets.Scripts.Duel.PlayerCondition
             });
         }
 
-        public bool IsInvalidSelectCoinType(DuelData duelData, int targetPlayerNo, Player player, Defines.CoinType selectCoinType)
+        public bool InterceptSelectCoin(DuelManager duelManager, int targetPlayerNo, Defines.CoinType selectCoinType, Player player)
         {
-            return selectCoinType.HasFlag(coinType) &&
-                targetPlayerNo == player.PlayerNo &&
-                player.ConditionList.IsEffectStatus<PlayerConditionDetailSkipDirectAttack>(duelData);
-        }
+            if (!selectCoinType.HasFlag(coinType)) return false;
+            if (targetPlayerNo != player.PlayerNo) return false;
+            if (!player.ConditionList.IsEffectStatus<PlayerConditionDetailSkipDirectAttack>(duelManager.DuelData)) return false;
 
-        public UniTask InterceptSelectCoin(DuelManager duelManager, Player player)
-        {
             duelManager.RegistDuelEventAction(new ActionEffectPlayer()
             {
                 PlayerNo = player.PlayerNo,
@@ -59,7 +56,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
                 PlayerConditionName = nameof(PlayerConditionDetailSkipDirectAttack)
             });
 
-            return UniTask.CompletedTask;
+            return true;
         }
 
         public static PlayerCondition CreatePlayerCondition(int value)

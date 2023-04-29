@@ -36,15 +36,12 @@ namespace Assets.Scripts.Duel.PlayerCondition
             });
         }
 
-        public bool IsInterceptDuelStep(DuelData duelData, int targetPlayerNo, Player player, Defines.DuelPhase gamePhase)
+        public bool InterceptDuelStep(DuelManager duelManager, int targetPlayerNo, Defines.DuelPhase gamePhase, Player player)
         {
-            return playerTurnStep == gamePhase &&
-                    targetPlayerNo == player.PlayerNo &&
-                    player.ConditionList.IsEffectStatus<PlayerConditionDetailSkipDraw>(duelData);
-        }
+            if (playerTurnStep != gamePhase) return false;
+            if (targetPlayerNo != player.PlayerNo) return false;
+            if (!player.ConditionList.IsEffectStatus<PlayerConditionDetailSkipDraw>(duelManager.DuelData)) return false;
 
-        public UniTask InterceptDuelStep(DuelManager duelManager, Player player)
-        {
             duelManager.RegistDuelEventAction(new ActionEffectPlayer()
             {
                 PlayerNo = player.PlayerNo,
@@ -57,7 +54,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
                 PlayerConditionName = nameof(PlayerConditionDetailSkipDraw)
             });
 
-            return UniTask.CompletedTask;
+            return true;
         }
 
         public static PlayerCondition CreatePlayerCondition(int value)

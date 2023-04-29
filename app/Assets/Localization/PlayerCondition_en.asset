@@ -20,9 +20,9 @@ MonoBehaviour:
     - rid: 0
   m_TableData:
   - m_Id: 165176356864
-    m_Localized: In the next movement phase after the count is greater than or equal
-      to {count}, if it advances in more than one direction, it will be selected
-      at random. The count then becomes zero.
+    m_Localized: If the direction can be selected in the movement phase, the direction
+      with worse results is automatically selected if the count is {count} or more.
+      The count then becomes zero.
     m_Metadata:
       m_Items:
       - rid: 0

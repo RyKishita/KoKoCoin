@@ -219,7 +219,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3336498326220800
-    m_Localized: coexistence
+    m_Localized: Coexistence (when this coin is installed, other installed coins
+      are not moved to the discard site)
     m_Metadata:
       m_Items: []
   - m_Id: 3339545194475520
@@ -363,7 +364,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 165196979398717440
-    m_Localized: not turned inside out
+    m_Localized: This coin will not be flipped.
     m_Metadata:
       m_Items: []
   references:

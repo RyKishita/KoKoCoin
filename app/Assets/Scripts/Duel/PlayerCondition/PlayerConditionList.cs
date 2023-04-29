@@ -32,41 +32,72 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         IEnumerable<IPlayerConditionTriggerEvent> GetTriggerEventItems() => GetDetailItems().Where(item => item is IPlayerConditionTriggerEvent).Cast<IPlayerConditionTriggerEvent>();
 
-        public IEnumerable<IPlayerConditionInterceptDice> GetInterceptDiceItems(DuelData duelData, int targetPlayerNo, Player player) =>
-            GetDetailItems()
+        public int? InterceptDice(DuelManager duelManager, int targetPlayerNo, Player player)
+        {
+            foreach(var item in GetDetailItems()
             .Where(item => item is IPlayerConditionInterceptDice)
-            .Cast<IPlayerConditionInterceptDice>()
-            .Where(item => item.IsInterceptDice(duelData, targetPlayerNo, player));
+            .Cast<IPlayerConditionInterceptDice>())
+            {
+                var result = item.InterceptDice(duelManager, targetPlayerNo, player);
+                if (result.HasValue) return result;
+            }
+            return null;
+        }
 
-        public IEnumerable<IPlayerConditionInterceptDuelAction> GetInterceptDuelActionItems(DuelData duelData, Player player, DuelEvent.Action duelEventAction) =>
-            GetDetailItems()
+        public bool InterceptDuelAction(DuelManager duelManager, Player player, DuelEvent.Action duelEventAction)
+        {
+            foreach(var item in GetDetailItems()
             .Where(item => item is IPlayerConditionInterceptDuelAction)
-            .Cast<IPlayerConditionInterceptDuelAction>()
-            .Where(item => item.IsInterceptDuelAction(duelData, player, duelEventAction));
+            .Cast<IPlayerConditionInterceptDuelAction>())
+            {
+                if (item.InterceptDuelAction(duelManager, player, duelEventAction)) return true;                
+            }
+            return false;
+        }
 
-        public IEnumerable<IPlayerConditionInterceptDuelStep> GetInterceptDuelStepItems(DuelData duelData, int targetPlayerNo, Player player, Defines.DuelPhase gamePhase) =>
-            GetDetailItems()
-            .Where(item => item is IPlayerConditionInterceptDuelStep)
-            .Cast<IPlayerConditionInterceptDuelStep>()
-            .Where(item => item.IsInterceptDuelStep(duelData, targetPlayerNo, player, gamePhase));
+        public bool InterceptDuelStep(DuelManager duelManager, int targetPlayerNo, Defines.DuelPhase gamePhase, Player player)
+        {
+            foreach(var item in GetDetailItems()
+                                .Where(item => item is IPlayerConditionInterceptDuelStep)
+                                .Cast<IPlayerConditionInterceptDuelStep>())
+            {
+                if (item.InterceptDuelStep(duelManager, targetPlayerNo, gamePhase, player)) return true;
+            }
+            return false;
+        }
 
-        public IEnumerable<IPlayerConditionInterceptSelectCoin> GetInterceptSelectCoinItems(DuelData duelData, int targetPlayerNo, Player player, Defines.CoinType selectCoinType) =>
-            GetDetailItems()
-            .Where(item => item is IPlayerConditionInterceptSelectCoin)
-            .Cast<IPlayerConditionInterceptSelectCoin>()
-            .Where(item => item.IsInvalidSelectCoinType(duelData, targetPlayerNo, player, selectCoinType));
+        public bool InterceptSelectCoin(DuelManager duelManager, int targetPlayerNo, Defines.CoinType selectCoinType, Player player)
+        {
+            foreach (var item in GetDetailItems()
+                .Where(item => item is IPlayerConditionInterceptSelectCoin)
+                .Cast<IPlayerConditionInterceptSelectCoin>())
+            {
+                if (item.InterceptSelectCoin(duelManager, targetPlayerNo, selectCoinType, player)) return true;
+            }
+            return false;
+        }
 
-        public IEnumerable<IPlayerConditionInterceptMoveAuto> GetInterceptMoveAutoItems(DuelData duelData, int targetPlayerNo, Player player) =>
-            GetDetailItems()
-            .Where(item => item is IPlayerConditionInterceptMoveAuto)
-            .Cast<IPlayerConditionInterceptMoveAuto>()
-            .Where(item => item.IsInterceptMoveAuto(duelData, targetPlayerNo, player));
+        public bool InterceptMoveAuto(DuelManager duelManager, int targetPlayerNo, Player player)
+        {
+            foreach(var item in GetDetailItems()
+                .Where(item => item is IPlayerConditionInterceptMoveAuto)
+                .Cast<IPlayerConditionInterceptMoveAuto>())
+            {
+                if (item.InterceptMoveAuto(duelManager, targetPlayerNo, player)) return true;
+            }
+            return false;
+        }
 
-        public IEnumerable<IPlayerConditionInterceptMoveWorst> GetInterceptMoveWorstItems(DuelData duelData, int targetPlayerNo, Player player) =>
-            GetDetailItems()
-            .Where(item => item is IPlayerConditionInterceptMoveWorst)
-            .Cast<IPlayerConditionInterceptMoveWorst>()
-            .Where(item => item.IsInterceptMoveWorst(duelData, targetPlayerNo, player));
+        public bool InterceptMoveWorst(DuelManager duelManager, int targetPlayerNo, Player player)
+        {
+            foreach (var item in GetDetailItems()
+                .Where(item => item is IPlayerConditionInterceptMoveWorst)
+                .Cast<IPlayerConditionInterceptMoveWorst>())
+            {
+                if (item.InterceptMoveWorst(duelManager, targetPlayerNo, player)) return true;
+            }
+            return false;
+        }
 
         public void Regist(PlayerCondition status)
         {

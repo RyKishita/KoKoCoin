@@ -34,14 +34,11 @@ namespace Assets.Scripts.Duel.PlayerCondition
             });
         }
 
-        public bool IsInterceptMoveWorst(DuelData duelData, int targetPlayerNo, Player player)
+        public bool InterceptMoveWorst(DuelManager duelManager, int targetPlayerNo, Player player)
         {
-            return targetPlayerNo == player.PlayerNo &&
-                player.ConditionList.IsEffectStatus<PlayerConditionDetailConfusionMove>(duelData);
-        }
+            if (targetPlayerNo != player.PlayerNo) return false;
+            if (!player.ConditionList.IsEffectStatus<PlayerConditionDetailConfusionMove>(duelManager.DuelData)) return false;
 
-        public UniTask InterceptMoveWorst(DuelManager duelManager, Player player)
-        {
             duelManager.RegistDuelEventAction(new ActionEffectPlayer()
             {
                 PlayerNo = player.PlayerNo,
@@ -54,7 +51,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
                 PlayerConditionName = nameof(PlayerConditionDetailConfusionMove)
             });
 
-            return UniTask.CompletedTask;
+            return true;
         }
 
         public static PlayerCondition CreatePlayerCondition(int value)

@@ -32,22 +32,20 @@ namespace Assets.Scripts.Duel.PlayerCondition
             });
         }
 
-        public bool IsInterceptDice(DuelData duelData, int targetPlayerNo, Player player)
+        public int? InterceptDice(DuelManager duelManager, int targetPlayerNo, Player player)
         {
-            return targetPlayerNo == player.PlayerNo &&
-                    player.ConditionList.Has<PlayerConditionDetailFixDice>();
-        }
+            if (targetPlayerNo != player.PlayerNo) return null;
 
-        public UniTask<int> InterceptDice(DuelManager duelManager, Player player)
-        {
+            var pc = player.ConditionList.GetItem<PlayerConditionDetailFixDice>();
+            if (pc == null) return null;
+
             duelManager.RegistDuelEventAction(new DuelEvent.ActionRemovePlayerCondition()
             {
                 PlayerNo = player.PlayerNo,
                 PlayerConditionName = nameof(PlayerConditionDetailFixDice)
             });
 
-            var pc = player.ConditionList.GetItem<PlayerConditionDetailFixDice>();
-            return UniTask.FromResult(pc.Value);
+            return pc.Value;
         }
 
         public static PlayerCondition CreatePlayerCondition(int value)

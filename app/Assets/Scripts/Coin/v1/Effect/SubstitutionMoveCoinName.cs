@@ -90,14 +90,12 @@ namespace Assets.Scripts.Coin.v1.Effect
             return coinIDs;
         }
 
-        public bool IsInterceptDuelAction(DuelData duelData, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction)
+        public bool InterceptDuelAction(DuelManager duelManager, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction)
         {
-            return duelData.IsMatchPosition(selectedCoinData, coinPosition) &&
-                    GetTargetCoinIDs(duelData, selectedCoinData, duelEventAction).Any();
-        }
+            if (!duelManager.DuelData.IsMatchPosition(selectedCoinData, coinPosition)) return false;
 
-        public UniTask InterceptDuelAction(DuelManager duelManager, SelectedCoinData selectedCoinData, Duel.DuelEvent.Action duelEventAction)
-        {
+            if (!GetTargetCoinIDs(duelManager.DuelData, selectedCoinData, duelEventAction).Any()) return false;
+
             if (dstCoinPosition == Defines.CoinPosition.Field)
             {
                 var actionMoveCoinsToSet = duelEventAction as ActionMoveCoinsToSet;
@@ -121,7 +119,7 @@ namespace Assets.Scripts.Coin.v1.Effect
                 });
             }
 
-            return UniTask.CompletedTask;
+            return true;
         }
     }
 }

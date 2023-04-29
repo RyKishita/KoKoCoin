@@ -1,5 +1,5 @@
 ﻿Key,Id,Japanese(ja),English(en)
-"PlayerConditionDetailConfusionMove",165176356864,"移動フェイズで複数の方向に進める場合、カウントが{count}以上ならランダムに選択される。その後カウントは0になる。","In the next movement phase after the count is greater than or equal to {count}, if it advances in more than one direction, it will be selected at random. The count then becomes zero."
+"PlayerConditionDetailConfusionMove",165176356864,"移動フェイズで方向が選択できる場合、カウントが{count}以上ならより悪い結果となる方向へ自動的に選択される。その後カウントは0になる。","If the direction can be selected in the movement phase, the direction with worse results is automatically selected if the count is {count} or more. The count then becomes zero."
 "PlayerConditionDetailCurse",283359260672,"カウントが{count}以上になった時、敗北する。","When the count reaches {count} or more, you are defeated."
 "PlayerConditionDetailElectric",304209145856,"ターン終了時、カウントが{count}以上なら{value}ダメージを受ける。その後カウントは0になる。","At the end of the turn after the count becomes {count} or more, it takes {value} damage. The count then becomes 0."
 "PlayerConditionDetailFire",334689153024,"ターン終了時、カウント×{value}ダメージを受ける。その後カウントが半減する。(端数切り捨て)","At the end of each turn, you take count times {value} damage. The count is then halved. (Round down to the nearest whole number)."

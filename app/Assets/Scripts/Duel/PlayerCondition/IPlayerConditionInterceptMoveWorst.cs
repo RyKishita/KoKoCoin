@@ -9,8 +9,6 @@ namespace Assets.Scripts.Duel.PlayerCondition
 {
     public interface IPlayerConditionInterceptMoveWorst
     {
-        bool IsInterceptMoveWorst(DuelData duelData, int targetPlayerNo, Player player);
-
-        UniTask InterceptMoveWorst(DuelManager duelManager, Player player);
+        bool InterceptMoveWorst(DuelManager duelManager, int targetPlayerNo, Player player);
     }
 }

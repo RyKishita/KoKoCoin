@@ -8,8 +8,6 @@ namespace Assets.Scripts.Duel.PlayerCondition
 {
     public interface IPlayerConditionInterceptMoveAuto
     {
-        bool IsInterceptMoveAuto(DuelData duelData, int targetPlayerNo, Player player);
-
-        UniTask InterceptMoveAuto(DuelManager duelManager, Player player);
+        bool InterceptMoveAuto(DuelManager duelManager, int targetPlayerNo, Player player);
     }
 }
