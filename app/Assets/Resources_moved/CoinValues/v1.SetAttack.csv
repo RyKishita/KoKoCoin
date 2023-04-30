@@ -36,7 +36,7 @@ v1.ElectricAutomaton,1,機械,500
 v1.ElectricGiant,2,機械,900
 v1.ElectricKing,3,,1500
 v1.ExplorerAnt,1,,300
-v1.Fairy,1,魔法,50
+v1.WindFairy,1,魔法,50
 v1.Fighter,1,人間,400
 v1.FireLizard,2,,200
 v1.FlameAnt,1,,100

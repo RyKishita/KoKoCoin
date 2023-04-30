@@ -13,6 +13,6 @@ namespace Assets.Scripts.Coin.v1.Body
             Animation = new Scripts.Duel.DuelAnimation.DirectAttack.DirectAttackAnimationFarThrowsRandom("StoneOfPoorA", 10, 5f);
         }
 
-        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] { new Effect.AppendValueByCurrentArea(true, Defines.AreaType.D, 200) };
+        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] { new Effect.AppendValueByCurrentArea(true, Defines.AreaType.D, 400) };
     }
 }

@@ -180,7 +180,7 @@ namespace Assets.Scripts.Coin.v1
             Regist<OilBottle>();
 
             Regist<SickRat>();
-            Regist<Fairy>();
+            Regist<WindFairy>();
             Regist<BurningFairy>();
             Regist<GravityMaker>();
             Regist<DozeFog>();

@@ -9,6 +9,12 @@ namespace Assets.Scripts.Coin.v1.Effect
 {
     class AppendValuesByTurn : AppendValuesByCount
     {
+        public AppendValuesByTurn(Defines.CoinPosition coinPosition, int value)
+            : this(coinPosition, value, 0)
+        {
+
+        }
+
         public AppendValuesByTurn(Defines.CoinPosition coinPosition, int value, int maxCount)
             : base(value)
         {
@@ -22,11 +28,13 @@ namespace Assets.Scripts.Coin.v1.Effect
             get
             {
                 int format = (0 < Value) ? 0 : 1;
-                string coinposition = Defines.GetLocalizedString(coinPosition);
+                if (0 < maxCount)
+                {
+                    format += 2;
+                }
 
                 var param = new Dictionary<string, string>()
                 {
-                    { nameof(coinposition), coinposition },
                     { "value", Math.Abs(Value).ToString() },
                     { nameof(maxCount), maxCount.ToString() },
                 };
@@ -40,6 +48,7 @@ namespace Assets.Scripts.Coin.v1.Effect
 
         protected override int GetCount(DuelData duelData, SelectedCoinData selectedCoinData, int baseValue)
         {
+            if (maxCount <= 0) return selectedCoinData.CoinData.Turn;
             return Math.Min(maxCount, selectedCoinData.CoinData.Turn);
         }
 
