@@ -1040,7 +1040,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 83043916211236864
-    m_Key: LobbySettingDuelAutoStart
+    m_Key: LobbySettingDuelConfirm
     m_Metadata:
       m_Items: []
   - m_Id: 83442937039892480

@@ -1065,7 +1065,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 83043916211236864
-    m_Localized: Automatic start when an opponent is found
+    m_Localized: Confirm opponent
     m_Metadata:
       m_Items: []
   - m_Id: 83442937039892480
