@@ -22,5 +22,7 @@ namespace Assets.Scripts.Coin.v1.Main
         public override float RotateX => 45f;
 
         public override float RotateY => 270f;
+
+        public bool IsShowList => true;
     }
 }

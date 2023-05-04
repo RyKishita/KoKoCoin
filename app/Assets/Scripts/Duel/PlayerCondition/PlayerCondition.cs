@@ -37,7 +37,14 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public string MakeNameWithCount()
         {
-            return ZString.Format("{0} [{1}]", GetDisplayName(), Value);
+            using(var zs = ZString.CreateStringBuilder())
+            {
+                zs.Append(GetDisplayName());
+                zs.Append('[');
+                zs.Append(Value);
+                zs.Append(']');
+                return zs.ToString();
+            }
         }
 
         public string MakeExplain(DuelData duelData)
@@ -47,13 +54,16 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public void Marge(PlayerCondition other)
         {
-            if (other.GetDetail() is PlayerConditionDetailFixDice)
+            switch(other.GetDetail().ValueType)
             {
-                Value = other.Value;
-            }
-            else
-            {
-                Value += other.Value;
+                case PlayerConditionDetail.ValueTypeEnum.Override:
+                    Value = other.Value;
+                    break;
+                case PlayerConditionDetail.ValueTypeEnum.Marge:
+                    Value = Math.Max(0, Value + other.Value);
+                    break;
+                default:
+                    throw new NotImplementedException();
             }
         }
 

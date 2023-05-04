@@ -8,7 +8,9 @@ namespace Assets.Scripts.Duel.PlayerCondition
 {
     class PlayerConditionDetailFixDice : PlayerConditionDetail, IPlayerConditionInterceptDice
     {
-        public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailFixDice));
+        static readonly string name = nameof(PlayerConditionDetailFixDice);
+
+        public override string DisplayName => GetLocalizedStringName(name);
 
         public override bool IsGood(PlayerCondition playerCondition) => true;
 
@@ -26,7 +28,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         string MakeExplain(string value)
         {
-            return GetLocalizedString(nameof(PlayerConditionDetailFixDice), new Dictionary<string, string>
+            return GetLocalizedString(name, new Dictionary<string, string>
             {
                 { nameof(value), value }
             });
@@ -42,7 +44,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
             duelManager.RegistDuelEventAction(new DuelEvent.ActionRemovePlayerCondition()
             {
                 PlayerNo = player.PlayerNo,
-                PlayerConditionName = nameof(PlayerConditionDetailFixDice)
+                PlayerConditionName = name
             });
 
             return pc.Value;
@@ -50,7 +52,9 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public static PlayerCondition CreatePlayerCondition(int value)
         {
-            return new PlayerCondition(nameof(PlayerConditionDetailFixDice), value);
+            return new PlayerCondition(name, value);
         }
+
+        public override ValueTypeEnum ValueType => ValueTypeEnum.Override;
     }
 }

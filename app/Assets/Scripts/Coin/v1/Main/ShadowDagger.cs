@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assets.Scripts.Coin.v1.Main
 {
-    class ShadowDagger : Coin
+    class ShadowDagger : Coin, IAdditionalShow
     {
         public const string name = "v1.ShadowDagger";
 
@@ -20,5 +20,7 @@ namespace Assets.Scripts.Coin.v1.Main
         public override float RotateX => 45f;
 
         public override float RotateY => 270f;
+
+        public string[] AdditionalShowCoinNames => new[] { ShadowSword.name, ShadowLongSword.name, ShadowClaymore.name };
     }
 }

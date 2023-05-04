@@ -47,5 +47,13 @@ namespace Assets.Scripts.Duel.PlayerCondition
         {
             return GetLocalizedStringName(ZString.Format("{0}{1}", name, format));
         }
+
+        public enum ValueTypeEnum
+        {
+            Override,
+            Marge,
+        }
+
+        public virtual ValueTypeEnum ValueType => ValueTypeEnum.Marge;
     }
 }

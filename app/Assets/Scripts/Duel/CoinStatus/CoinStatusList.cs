@@ -165,10 +165,12 @@ namespace Assets.Scripts.Duel.CoinStatus
                 {
                     details = new Dictionary<string, ICoinStatus>()
                     {
-                        { nameof(CoinStatusAppendTag), new CoinStatusAppendTag() },
                         { nameof(CoinStatusAppendValue), new CoinStatusAppendValue() },
                         { nameof(CoinStatusInvalidEffectByTurn), new CoinStatusInvalidEffectByTurn() },
-                        { nameof(CoinStatusTurnToTrash), new CoinStatusTurnToTrash() },
+
+                        // 与えるコインが無い
+                        //{ nameof(CoinStatusAppendTag), new CoinStatusAppendTag() },
+                        //{ nameof(CoinStatusTurnToTrash), new CoinStatusTurnToTrash() },
                     };
                 }
                 return details;

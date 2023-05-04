@@ -10,5 +10,6 @@ namespace Assets.Scripts.Coin
     /// </summary>
     interface IExtraCoin
     {
+        bool IsShowList { get; }
     }
 }

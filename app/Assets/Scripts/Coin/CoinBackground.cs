@@ -15,5 +15,7 @@ namespace Assets.Scripts.Coin
         public override Scripts.Coin.Body.Core[] Bodies { get; } = new[] { new Body.NotUse(name) };
 
         public override string PrefabName => "Coin";
+
+        public bool IsShowList => false;
     }
 }
