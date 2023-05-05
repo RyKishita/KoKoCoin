@@ -15,7 +15,7 @@ namespace Assets.Scripts.Coin.v1.Body
 
         public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[]
         {
-            new Effect.AddValueStatusBySwapSetName(300, Main.Manure.name),
+            new Effect.AddValueStatusBySwapSetName(500, Main.Manure.name),
             new Effect.DamageToAddConditionTurn(
                 nameof(Duel.PlayerCondition.PlayerConditionDetailPoison),
                 3,

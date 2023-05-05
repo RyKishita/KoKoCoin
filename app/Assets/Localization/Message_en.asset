@@ -98,8 +98,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2194157980823552
-    m_Localized: Required permissions are set to Deny. Please change your application
-      settings.
+    m_Localized: The necessary permissions are set to Deny, please go to Android
+      Settings, open the app settings and change them.
     m_Metadata:
       m_Items: []
   - m_Id: 2194518498029568
@@ -148,7 +148,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2197308192534528
-    m_Localized: The application versions do not match.
+    m_Localized: The application version does not match that of my opponent. Please
+      bring your application up to date.
     m_Metadata:
       m_Items: []
   - m_Id: 2197898540822528
@@ -267,8 +268,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2114602876219392
-    m_Localized: The deck you are selecting contains coins that have not been acquired
-      online.
+    m_Localized: 'The currently selected deck will contain coins that have not been
+      acquired online. Tip: When editing a deck, check the "Get by online" checkbox
+      in the Display Settings to see which coins can be included.'
     m_Metadata:
       m_Items: []
   - m_Id: 2114969810710528
@@ -292,8 +294,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 13126334742474752
-    m_Localized: The selection rule [{rulename}] has not been tested yet; use it
-      once in an NPC match.
+    m_Localized: The selection rule [{rulename}] has not been checked yet. Please
+      complete the game once in [Custom]-[NPC match].
     m_Metadata:
       m_Items:
       - rid: 0

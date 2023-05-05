@@ -372,7 +372,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 92113199378432
-    m_Localized: When you draw a coin and the stock is empty
+    m_Localized: When the stock is empty when drawing a coin
     m_Metadata:
       m_Items: []
   - m_Id: 92251846291456
@@ -380,7 +380,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 92622933143552
-    m_Localized: Shuffle trash to stock
+    m_Localized: Return discarded coins to stock
     m_Metadata:
       m_Items: []
   - m_Id: 93168880529408
@@ -521,7 +521,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 535154422919168
-    m_Localized: Release the number of stock coins
+    m_Localized: The number of coins in the stock is disclosed.
     m_Metadata:
       m_Items: []
   - m_Id: 535458556096512
