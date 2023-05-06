@@ -48,6 +48,7 @@ namespace Assets.Scripts.Coin.v1.Effect
 
         protected override int GetCount(DuelData duelData, SelectedCoinData selectedCoinData, int baseValue)
         {
+            if (duelData.GetCoinPosition(selectedCoinData) != coinPosition) return 0;
             if (maxCount <= 0) return selectedCoinData.CoinData.Turn;
             return Math.Min(maxCount, selectedCoinData.CoinData.Turn);
         }

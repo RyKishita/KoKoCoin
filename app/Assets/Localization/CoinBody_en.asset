@@ -19,10 +19,6 @@ MonoBehaviour:
     m_Items:
     - rid: 0
   m_TableData:
-  - m_Id: 52060172288
-    m_Localized: This coin cannot be used.
-    m_Metadata:
-      m_Items: []
   - m_Id: 3257255014400
     m_Localized: '{directattackcoin} can be used in step {no} of coin use.'
     m_Metadata:

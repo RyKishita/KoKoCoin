@@ -2737,6 +2737,18 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
+  - m_Id: 169498957356412928
+    m_Localized: This coin cannot be used.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169499044111396864
+    m_Localized: This coin is referenced as a condition for the use of some coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169500980541861888
+    m_Localized: This coin is referenced as a condition for the use of some coins.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

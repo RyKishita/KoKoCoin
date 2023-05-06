@@ -44,9 +44,13 @@ namespace Assets.Scripts.Coin.Body
         public IEnumerable<string> GetExplains()
         {
             var explains = Explains.ToArray();
-            foreach (int index in Enumerable.Range(0, explains.Length))
+            if (explains.Length == 1)
             {
-                yield return Defines.GetNoText(index) + explains[index];
+                return new List<string>() { explains[0] };
+            }
+            else
+            {
+                return Enumerable.Range(0, explains.Length).Select(index => Defines.GetNoText(index) + explains[index]);
             }
         }
 

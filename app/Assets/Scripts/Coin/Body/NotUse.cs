@@ -11,8 +11,10 @@ namespace Assets.Scripts.Coin.Body
         public NotUse(string coinName)
             : base(coinName)
         {
-
+            Effects = new[] { new Effect.NotUse() };
         }
+
+        public override Effect.IEffect[] Effects { get; }
 
         public override Defines.CoinType CoinType => Defines.CoinType.None;
 
@@ -26,19 +28,6 @@ namespace Assets.Scripts.Coin.Body
                 }
 
                 yield return Defines.GetLocalizedString(Defines.StringEnum.Special);
-            }
-        }
-
-        protected override IEnumerable<string> Explains
-        {
-            get
-            {
-                yield return GetLocalizedString(nameof(NotUse));
-
-                foreach (string explain in base.Explains)
-                {
-                    yield return explain;
-                }
             }
         }
 

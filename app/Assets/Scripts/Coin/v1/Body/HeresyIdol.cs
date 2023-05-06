@@ -10,8 +10,9 @@ namespace Assets.Scripts.Coin.v1.Body
         public HeresyIdol(string coinName)
             : base(coinName)
         {
-
+            Effects = new[] { new Effect.HeresyIdol() };
         }
-        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] { };
+
+        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; }
     }
 }

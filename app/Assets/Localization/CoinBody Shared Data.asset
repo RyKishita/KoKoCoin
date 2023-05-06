@@ -15,10 +15,6 @@ MonoBehaviour:
   m_TableCollectionName: CoinBody
   m_TableCollectionNameGuidString: c76a4f042ce7369489ecfdf4f081c7a8
   m_Entries:
-  - m_Id: 52060172288
-    m_Key: NotUse
-    m_Metadata:
-      m_Items: []
   - m_Id: 3257255014400
     m_Key: AfterShot
     m_Metadata:
