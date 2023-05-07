@@ -338,4 +338,6 @@ rule"
 コード","QR
 Code"
 "ReadRuleFromQRCode",159570491618045952,"QRコードからルールを読み込みます。","Read the rules from the QR code."
-"Failed_NotQRCode",159581838988750848,"このQRコードにはルールが含まれていません。","This QR code does not contain any rules."tain any rules." any rules."
+"Failed_NotQRCode",159581838988750848,"このQRコードにはルールが含まれていません。","This QR code does not contain any rules."
+"TurnFirstAddResourceBySetCoinNum",174768168785883136,"ターンの開始時、設置コイン数に応じた行動力を得る","At the beginning of each turn, the number of coins installed is used to gain the power of action."
+"TurnFirstAddResourceBySetAreaNum",174768212972875776,"ターンの開始時、設置コインがあるエリア数に応じた行動力を得る","At the beginning of the turn, the number of areas with installed coins is the number of actions"
