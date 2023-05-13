@@ -374,6 +374,26 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
+  - m_Id: 167832216687554560
+    m_Localized: At the beginning of each turn, the number of coins installed is
+      used to gain the power of action.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167832235675168768
+    m_Localized: At the beginning of the turn, the number of coins installed does
+      not give you the ability to act on the number of coins installed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167832279539200000
+    m_Localized: At the beginning of the turn, the number of areas with installed
+      coins is the number of actions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167832301538324480
+    m_Localized: At the beginning of the turn, you do not get the power of action
+      based on the number of areas with installed coins.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

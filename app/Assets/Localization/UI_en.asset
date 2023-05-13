@@ -1266,6 +1266,20 @@ MonoBehaviour:
     m_Localized: This QR code does not contain any rules.
     m_Metadata:
       m_Items: []
+  - m_Id: 174768168785883136
+    m_Localized: At the beginning of each turn, the number of coins installed is
+      used to gain the power of action.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174768212972875776
+    m_Localized: At the beginning of the turn, the number of areas with installed
+      coins is the number of actions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176893375197687808
+    m_Localized: Set the same code as the person you want to play with.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

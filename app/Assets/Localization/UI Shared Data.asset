@@ -1227,6 +1227,18 @@ MonoBehaviour:
     m_Key: Failed_NotQRCode
     m_Metadata:
       m_Items: []
+  - m_Id: 174768168785883136
+    m_Key: TurnFirstAddResourceBySetCoinNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174768212972875776
+    m_Key: TurnFirstAddResourceBySetAreaNum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176893375197687808
+    m_Key: PlayWithCode
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
