@@ -8,7 +8,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
     /// <summary>
     /// 規定値を超えると一回やすみとなり、カウントはゼロに
     /// </summary>
-    class PlayerConditionDetailStop : PlayerConditionDetail, IPlayerConditionInterceptDuelStep
+    class PlayerConditionDetailStop : PlayerConditionDetail, IPlayerConditionInterceptDuelStep, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailStop));
 
@@ -25,7 +25,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
-            return MakeExplain(duelData.GetConditionCount().ToString());
+            return MakeExplain(duelData.GetConditionCount(playerCondition.InnerName).ToString());
         }
 
         string MakeExplain(string count)

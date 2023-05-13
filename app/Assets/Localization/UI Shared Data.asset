@@ -432,7 +432,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 529271026561024
-    m_Key: StatusCount
+    m_Key: ConditionCountDefault
     m_Metadata:
       m_Items: []
   - m_Id: 529526585503744
@@ -1237,6 +1237,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 176893375197687808
     m_Key: PlayWithCode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176918463615807488
+    m_Key: OverHandTrashToResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176944362016944128
+    m_Key: ConditionCounts
     m_Metadata:
       m_Items: []
   m_Metadata:

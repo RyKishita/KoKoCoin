@@ -62,7 +62,7 @@ namespace Assets.Scripts.Coin.v1.Body
             // ここに来るのはSelfDynamo(自家発電)
             // 帯電が10以上になるなら使わない
             var pc = duelData.Players[playerNo].ConditionList.GetItem(PlayerCondition.InnerName);
-            if (pc != null && duelData.GetConditionCount() <= pc.Value + PlayerCondition.Value) return false;
+            if (pc != null && duelData.GetConditionCount(PlayerCondition.InnerName) <= pc.Value + PlayerCondition.Value) return false;
 
             return true;
         }

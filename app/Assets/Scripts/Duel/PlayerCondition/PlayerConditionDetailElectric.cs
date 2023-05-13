@@ -10,7 +10,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
     /// 自身にも同数を付与。ダメージは無し
     /// 貯めすぎると小ダメージを受けてカウント0になる
     /// </summary>
-    class PlayerConditionDetailElectric : PlayerConditionDetail, IPlayerConditionTriggerEvent
+    class PlayerConditionDetailElectric : PlayerConditionDetail, IPlayerConditionTriggerEvent, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailElectric));
 
@@ -28,7 +28,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
             return MakeExplain(
-                duelData.GetConditionCount().ToString(),
+                duelData.GetConditionCount(playerCondition.InnerName).ToString(),
                 duelData.GetBaseStatusDamage(playerCondition.InnerName).ToString());
         }
 

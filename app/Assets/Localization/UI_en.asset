@@ -436,7 +436,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 529271026561024
-    m_Localized: Status Effect Activation Count
+    m_Localized: State Trigger Count
     m_Metadata:
       m_Items: []
   - m_Id: 529526585503744
@@ -1278,6 +1278,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 176893375197687808
     m_Localized: Set the same code as the person you want to play with.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176918463615807488
+    m_Localized: If a coin is discarded due to the maximum handhold limit, it gains
+      a power of action equal to its size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176944362016944128
+    m_Localized: Individual condition activation counts
     m_Metadata:
       m_Items: []
   references:

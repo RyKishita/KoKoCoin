@@ -8,7 +8,7 @@ using Cysharp.Threading.Tasks;
 
 namespace Assets.Scripts.Duel.PlayerCondition
 {
-    class PlayerConditionDetailSkipDraw : PlayerConditionDetail, IPlayerConditionInterceptDuelStep
+    class PlayerConditionDetailSkipDraw : PlayerConditionDetail, IPlayerConditionInterceptDuelStep, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailSkipDraw));
 
@@ -25,7 +25,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
-            return MakeExplain(duelData.GetConditionCount().ToString());
+            return MakeExplain(duelData.GetConditionCount(playerCondition.InnerName).ToString());
         }
 
         string MakeExplain(string count)

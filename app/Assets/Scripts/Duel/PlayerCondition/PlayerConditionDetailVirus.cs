@@ -9,7 +9,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
     /// <summary>
     /// 規定値を超えると所持コインを全て捨て、カウントはゼロに
     /// </summary>
-    class PlayerConditionDetailVirus : PlayerConditionDetail, IPlayerConditionTriggerEvent
+    class PlayerConditionDetailVirus : PlayerConditionDetail, IPlayerConditionTriggerEvent, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailVirus));
 

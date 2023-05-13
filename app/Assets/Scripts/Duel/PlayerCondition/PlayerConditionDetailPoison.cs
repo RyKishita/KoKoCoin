@@ -11,7 +11,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
     /// ターン毎カウント 1減少
     /// 既定カウント以上ならダメージとカウント減少をまとめて処理
     /// </summary>
-    class PlayerConditionDetailPoison : PlayerConditionDetail, IPlayerConditionTriggerEvent
+    class PlayerConditionDetailPoison : PlayerConditionDetail, IPlayerConditionTriggerEvent, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailPoison));
 
@@ -29,7 +29,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
             return MakeExplain(
-                duelData.GetConditionCount().ToString(),
+                duelData.GetConditionCount(playerCondition.InnerName).ToString(),
                 duelData.GetBaseStatusDamage(playerCondition.InnerName).ToString());
         }
 

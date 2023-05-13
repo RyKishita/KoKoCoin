@@ -72,7 +72,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 552172204032
-    m_Key: conditionCount
+    m_Key: conditionCountDefault
     m_Metadata:
       m_Items: []
   - m_Id: 579514871808
@@ -349,6 +349,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 167832301538324480
     m_Key: turnFirstAddResourceBySetAreaNum1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169982484120285184
+    m_Key: overHandTrashToResource0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169982543234805760
+    m_Key: overHandTrashToResource1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170000828215013376
+    m_Key: conditionCounts
     m_Metadata:
       m_Items: []
   m_Metadata:

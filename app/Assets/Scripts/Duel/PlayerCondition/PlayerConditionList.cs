@@ -169,11 +169,11 @@ namespace Assets.Scripts.Duel.PlayerCondition
             return Items.Any(item => item.InnerName == playerConditionInnerName);
         }
 
-        public bool IsEffectStatus<T>(DuelData duelData) where T : PlayerConditionDetail
+        public bool IsEffectStatus<T>(DuelData duelData) where T : PlayerConditionDetail, IPlayerCondtionCount
         {
             var hasStatus = GetItem<T>();
             if (hasStatus == null) return false;
-            return duelData.GetConditionCount() <= hasStatus.Value;
+            return duelData.GetConditionCount(hasStatus.InnerName) <= hasStatus.Value;
         }
 
         public IEnumerable<string> MakeNameWithCounts() => Items.Select(item => item.MakeNameWithCount());

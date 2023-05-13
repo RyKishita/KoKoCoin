@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Assets.Scripts.Duel.PlayerCondition
 {
-    class PlayerConditionDetailSkipSet : PlayerConditionDetail, IPlayerConditionInterceptSelectCoin
+    class PlayerConditionDetailSkipSet : PlayerConditionDetail, IPlayerConditionInterceptSelectCoin, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailSkipSet));
 
@@ -24,7 +24,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
-            return MakeExplain(duelData.GetConditionCount().ToString());
+            return MakeExplain(duelData.GetConditionCount(playerCondition.InnerName).ToString());
         }
 
         string MakeExplain(string count)

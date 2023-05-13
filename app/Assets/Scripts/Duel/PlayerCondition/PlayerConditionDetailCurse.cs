@@ -9,7 +9,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
     /// <summary>
     /// 規定値を超えると敗北
     /// </summary>
-    class PlayerConditionDetailCurse : PlayerConditionDetail, IPlayerConditionTriggerEvent
+    class PlayerConditionDetailCurse : PlayerConditionDetail, IPlayerConditionTriggerEvent, IPlayerCondtionCount
     {
         public override string DisplayName => GetLocalizedStringName(nameof(PlayerConditionDetailCurse));
 
@@ -24,7 +24,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
-            return MakeExplain(duelData.GetConditionCount().ToString());
+            return MakeExplain(duelData.GetConditionCount(playerCondition.InnerName).ToString());
         }
 
         string MakeExplain(string count)

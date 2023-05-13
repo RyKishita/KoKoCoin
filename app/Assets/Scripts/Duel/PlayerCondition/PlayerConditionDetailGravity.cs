@@ -21,7 +21,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public override string MakeExplain(DuelData duelData, PlayerCondition playerCondition)
         {
-            return MakeExplain(duelData.GetConditionCount().ToString());
+            return MakeExplain(duelData.GetConditionCount(playerCondition.InnerName).ToString());
         }
 
         string MakeExplain(string count)
@@ -39,7 +39,7 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
         public int GetChangeDice(DuelData duelData, PlayerCondition playerCondition)
         {
-            return (playerCondition.Value / duelData.GetConditionCount()) * -1;
+            return (playerCondition.Value / duelData.GetConditionCount(playerCondition.InnerName)) * -1;
         }
     }
 }
