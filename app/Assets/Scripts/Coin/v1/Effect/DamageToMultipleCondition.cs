@@ -46,12 +46,12 @@ namespace Assets.Scripts.Coin.v1.Effect
         {
             return base.IsReceiveEvent(duelData, selectedCoinData, duelEvent) &&
                     duelEvent is AfterDamageCoin duelEventAfterDamage &&
-                    duelData.Players[duelEventAfterDamage.DiffencePlayerNo].ConditionList.Has(playerConditionInnerName);
+                    duelData.Players[duelEventAfterDamage.TakePlayerNo].ConditionList.Has(playerConditionInnerName);
         }
 
         public override UniTask ReceiveEventAsync(DuelManager duelManager, SelectedCoinData selectedCoinData, AfterDamageCoin afterDamageCoin)
         {
-            var playerNo = afterDamageCoin.DiffencePlayerNo;
+            var playerNo = afterDamageCoin.TakePlayerNo;
             var pc = duelManager.DuelData.Players[playerNo].ConditionList.GetItem(playerConditionInnerName);
             if (pc != null)
             {

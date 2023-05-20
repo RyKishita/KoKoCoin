@@ -49,7 +49,7 @@ namespace Assets.Scripts.Coin.v1.Effect
         {
             var playerNo = bCoinOwner
                                 ? selectedCoinData.CoinData.OwnerPlayerNo
-                                : afterDamageCoin.DiffencePlayerNo;
+                                : afterDamageCoin.TakePlayerNo;
 
             duelManager.RegistDuelEventAction(new ActionEffectPlayer()
             {

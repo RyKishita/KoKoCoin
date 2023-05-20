@@ -68,7 +68,7 @@ namespace Assets.Scripts.Coin.v1.Body
 
             duelManager.RegistDuelEventAction(new ActionAddTurn()
             {
-                TargetCoinDataIDs = new List<int>() { coinID.Value },
+                TargetCoinIDs = new List<int>() { coinID.Value },
                 Turn = ProgressTurnValue,
                 Reason = Defines.AddTurnReasonEnum.Effect
             });

@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DuelEventAction Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: DuelEventAction
+  m_TableCollectionNameGuidString: 74b42987d8301dc478017576bfd13758
+  m_Entries:
+  - m_Id: 201243176960
+    m_Key: ActionAddCoinStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288727969792
+    m_Key: ActionAddConditionToArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423700672512
+    m_Key: ActionAddCopyToPlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500653568000
+    m_Key: ActionAddCopyToSet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563895283712
+    m_Key: ActionAddPlayerCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633638170624
+    m_Key: ActionAddResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699216113664
+    m_Key: ActionAddTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 866770169856
+    m_Key: ActionAreaExpand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 967781593088
+    m_Key: ActionAreaShrink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1047309791232
+    m_Key: ActionChangeAreaType
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1130780635136
+    m_Key: ActionChangeResource
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1310716276736
+    m_Key: ActionClearPlayerCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1379725160448
+    m_Key: ActionDamageCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1450298519552
+    m_Key: ActionDamageStatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1894236237824
+    m_Key: ActionMoveCoinsToExclusion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1950590906368
+    m_Key: ActionMoveCoinsToPlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2003304919040
+    m_Key: ActionMoveCoinsToSet0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2103422078103552
+    m_Key: ActionMoveCoinsToSet1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2062356525056
+    m_Key: ActionMovePlayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2208813232128
+    m_Key: ActionRemovePlayerCondition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2267168583680
+    m_Key: ActionSetAppendResourceToArea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2350077390848
+    m_Key: ActionSetTurn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2405152796672
+    m_Key: ActionSetTurnAreaCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2461792677888
+    m_Key: ActionShuffleStock
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8827078681978994696
+  references:
+    version: 2
+    RefIds:
+    - rid: 8827078681978994696
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1684058984618

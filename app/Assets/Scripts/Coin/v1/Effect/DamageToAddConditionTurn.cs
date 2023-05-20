@@ -43,7 +43,7 @@ namespace Assets.Scripts.Coin.v1.Effect
         {
             if (0 < selectedCoinData.CoinData.Turn)
             {
-                var playerNo = afterDamageCoin.DiffencePlayerNo;
+                var playerNo = afterDamageCoin.TakePlayerNo;
                 var pc = new Duel.PlayerCondition.PlayerCondition(playerConditionInnerName, Math.Min(selectedCoinData.CoinData.Turn, maxCount));
 
                 duelManager.RegistDuelEventAction(new ActionEffectPlayer()

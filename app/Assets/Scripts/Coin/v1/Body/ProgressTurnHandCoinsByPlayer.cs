@@ -76,7 +76,7 @@ namespace Assets.Scripts.Coin.v1.Body
 
             duelManager.RegistDuelEventAction(new ActionAddTurn()
             {
-                TargetCoinDataIDs = targetCoins.Select(cc => cc.ID).ToList(),
+                TargetCoinIDs = targetCoins.Select(cc => cc.ID).ToList(),
                 Turn = ProgressTurnValue,
                 Reason = Defines.AddTurnReasonEnum.Effect
             });

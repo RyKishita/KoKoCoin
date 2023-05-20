@@ -75,7 +75,7 @@ namespace Assets.Scripts.Coin.v1.Effect
                     .Select(other => new ActionDamageCoin()
                     {
                         ReasonPlayerNo = selectedCoinData.CoinData.OwnerPlayerNo,
-                        DiffencePlayerNo = other.PlayerNo,
+                        TakePlayerNo = other.PlayerNo,
                         DamageSource = selectedCoinData,
                         Damage = damage
                     }));

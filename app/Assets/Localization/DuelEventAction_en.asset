@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DuelEventAction_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 74b42987d8301dc478017576bfd13758, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 8827078815128485899
+  m_TableData:
+  - m_Id: 201243176960
+    m_Localized: Coin [{name}] with status [{status}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 288727969792
+    m_Localized: Abnormal status [{status}] is given to area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 423700672512
+    m_Localized: Create a duplicate of coin [{name}] at [{coinposition}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 500653568000
+    m_Localized: Coin [{name}] duplicate in area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 563895283712
+    m_Localized: Coin [{name}] duplicate in area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 633638170624
+    m_Localized: Action power [{value}] to player {playerno}
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 699216113664
+    m_Localized: Elapsed turns of coins {count} increased by [{value}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 866770169856
+    m_Localized: Extended area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 967781593088
+    m_Localized: Reduced area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1047309791232
+    m_Localized: Changed area [{area}] type to [{areatype}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 1130780635136
+    m_Localized: Changed player {playerno}'s action power to [{value}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 1310716276736
+    m_Localized: Player {playerno} loses all status changes
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 1379725160448
+    m_Localized: Player {playerno} is damaged by coin [{coinname}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 1450298519552
+    m_Localized: Player {playerno} takes damage {damage} from [{status}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 1894236237824
+    m_Localized: Exclude {count} coins
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 1950590906368
+    m_Localized: Move {count} coins to [{coinposition}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2003304919040
+    m_Localized: Coin [{name}] is placed in area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2062356525056
+    m_Localized: Player {playerno} moves to area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2208813232128
+    m_Localized: Player {playerno} loses status [{status}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2267168583680
+    m_Localized: Grant additional action [{value}] to area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2350077390848
+    m_Localized: Changed the number of turns elapsed for coins [{name}] to [{value}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2405152796672
+    m_Localized: Changed the number of turns elapsed for coins [{name}] to [{value}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2461792677888
+    m_Localized: Shuffle player {playerno}'s stock
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  - m_Id: 2103422078103552
+    m_Localized: Place {count} coins in area [{area}]
+    m_Metadata:
+      m_Items:
+      - rid: 8827078815128485899
+  references:
+    version: 2
+    RefIds:
+    - rid: 8827078815128485899
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 003007db2e0000000030873943000000003087a66200000000304791740000000030c74a830000000030c78793000000003087cca2000000003087d8f30000000030c747070100000030c72c310100000030073e41010000003087ac5101000000304709b901000000304728c60100000030476ed20100000030c71d0d7907000030072ee001000000308747020200000030c7dd0f0200000030872b23020000003047fe2f0200000030472e3d020000

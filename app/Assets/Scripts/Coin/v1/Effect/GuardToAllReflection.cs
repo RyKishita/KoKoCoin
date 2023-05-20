@@ -39,7 +39,7 @@ namespace Assets.Scripts.Coin.v1.Effect
                 Damage = afterGuardNoDamage.DirectAttackDamage,
                 DamageSource = selectedCoinData,
                 ReasonPlayerNo = afterGuardNoDamage.Guard.CoinData.OwnerPlayerNo,
-                DiffencePlayerNo = afterGuardNoDamage.DirectAttack.CoinData.OwnerPlayerNo
+                TakePlayerNo = afterGuardNoDamage.DirectAttack.CoinData.OwnerPlayerNo
             });
 
             return UniTask.CompletedTask;

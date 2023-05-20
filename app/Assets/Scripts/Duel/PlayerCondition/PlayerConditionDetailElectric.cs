@@ -60,8 +60,9 @@ namespace Assets.Scripts.Duel.PlayerCondition
 
                 duelManager.RegistDuelEventAction(new ActionDamageStatus()
                 {
-                    DiffencePlayerNo = player.PlayerNo,
+                    TakePlayerNo = player.PlayerNo,
                     Damage = baseDamage,
+                    PlayerConditionName = nameof(PlayerConditionDetailElectric),
                     ParticleType = Defines.ParticleType.Electric,
                 });
 

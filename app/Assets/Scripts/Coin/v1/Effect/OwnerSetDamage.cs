@@ -56,7 +56,7 @@ namespace Assets.Scripts.Coin.v1.Effect
                 duelManager.RegistDuelEventAction(new ActionDamageCoin()
                 {
                     ReasonPlayerNo = -1,
-                    DiffencePlayerNo = selectedCoinData.CoinData.OwnerPlayerNo,
+                    TakePlayerNo = selectedCoinData.CoinData.OwnerPlayerNo,
                     DamageSource = selectedCoinData,
                     Damage = selectedCoinData.GetSetAttackDamage(duelManager.DuelData)
                 });

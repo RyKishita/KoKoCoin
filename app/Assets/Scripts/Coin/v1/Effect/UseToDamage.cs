@@ -42,7 +42,7 @@ namespace Assets.Scripts.Coin.v1.Effect
                 Damage = damage,
                 DamageSource = selectedCoinData,
                 ReasonPlayerNo = reasonPlayerNo,
-                DiffencePlayerNo = sustainPlayerNo
+                TakePlayerNo = sustainPlayerNo
             });
         }
 

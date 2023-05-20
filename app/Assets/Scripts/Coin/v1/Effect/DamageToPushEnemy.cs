@@ -34,7 +34,7 @@ namespace Assets.Scripts.Coin.v1.Effect
         {
             var playerNo = selectedCoinData.CoinData.OwnerPlayerNo;
             var ownerPlayer = duelManager.DuelData.Players[playerNo];
-            var damagedPlayerNo = afterDamageCoin.DiffencePlayerNo;
+            var damagedPlayerNo = afterDamageCoin.TakePlayerNo;
             var damagedPlayer = duelManager.DuelData.Players[damagedPlayerNo];
 
             bool bDirectMove;

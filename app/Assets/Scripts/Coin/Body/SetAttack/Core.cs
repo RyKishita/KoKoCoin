@@ -109,7 +109,7 @@ namespace Assets.Scripts.Coin.Body.SetAttack
                 duelManager.RegistDuelEventAction(new Duel.DuelEvent.ActionDamageCoin()
                 {
                     ReasonPlayerNo = selectedCoinData.CoinData.OwnerPlayerNo,
-                    DiffencePlayerNo = afterMovePlayer.PlayerNo,
+                    TakePlayerNo = afterMovePlayer.PlayerNo,
                     DamageSource = selectedCoinData,
                     Damage = damage
                 });
