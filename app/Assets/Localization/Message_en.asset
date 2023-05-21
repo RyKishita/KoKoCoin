@@ -765,6 +765,22 @@ MonoBehaviour:
     m_Localized: Login required.
     m_Metadata:
       m_Items: []
+  - m_Id: 174704680117940224
+    m_Localized: Area type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174705071551361024
+    m_Localized: Number of steps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174705133807415296
+    m_Localized: Damage to self
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174705168255234048
+    m_Localized: Damage to others
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

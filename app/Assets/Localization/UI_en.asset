@@ -1289,6 +1289,10 @@ MonoBehaviour:
     m_Localized: Individual condition activation counts
     m_Metadata:
       m_Items: []
+  - m_Id: 179493085527879680
+    m_Localized: Log
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

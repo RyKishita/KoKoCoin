@@ -691,6 +691,22 @@ MonoBehaviour:
     m_Key: Require_Login
     m_Metadata:
       m_Items: []
+  - m_Id: 174704680117940224
+    m_Key: DisplayAreaType
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174705071551361024
+    m_Key: DisplayNumberOfSteps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174705133807415296
+    m_Key: DisplayDamageMe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174705168255234048
+    m_Key: DisplayDamageOther
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
