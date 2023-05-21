@@ -24,8 +24,9 @@ Coin Lottery: Randomly awarded coins. There are two types: offline-only and onli
 Coin Voucher: You will get the specified coin. There are offline-only and online-only coin vouchers.
 
 ■ Play against other players
-To play against other players, you can either "start connecting (looking for other players)" or "start waiting (waiting for other players)".
-The rules for the match are the same as those of the player who "Start Waiting".
+To play against a player, press either the "Start Search" button (to search for other players) or the "Start Waiting" button (to wait for other players).
+The rules for the match will be the rules of the player who has "Start Waiting".
+In online matches with fixed rules, you can use the "Start Search" button.
 
 ■ Offline Game
 This is a method of playing face-to-face with other players.
