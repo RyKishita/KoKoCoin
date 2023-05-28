@@ -1251,6 +1251,26 @@ MonoBehaviour:
     m_Key: Log
     m_Metadata:
       m_Items: []
+  - m_Id: 182369904505597952
+    m_Key: UseLimitSetAttackCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370078397247488
+    m_Key: UseLimitDirectAttackCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370161016647680
+    m_Key: UseLimitGuardCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370226414235648
+    m_Key: UseLimitSupportCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370293745397760
+    m_Key: UseLimitOtherCoin
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

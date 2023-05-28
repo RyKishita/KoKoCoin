@@ -93,10 +93,55 @@ MonoBehaviour:
     m_Localized: Use side deck
     m_Metadata:
       m_Items: []
+  - m_Id: 175448420465979392
+    m_Localized: Limit the number of installed attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448461670821888
+    m_Localized: Limit on the number of installed attack coins [{num}]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448500275195904
+    m_Localized: Limit the number of direct attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448525889810432
+    m_Localized: Limit on number of direct attack coins [{num}]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448567191121920
+    m_Localized: Limit the number of defensive coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448602553298944
+    m_Localized: Limit on number of defensive coins [{num}]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448634157379584
+    m_Localized: Limit the number of support coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448666705178624
+    m_Localized: Limit on number of support coins [{num}]
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448704600715264
+    m_Localized: Limit the number of other coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448737056239616
+    m_Localized: Limit on number of other coins [{num}]
+    m_Metadata:
+      m_Items:
+      - rid: 0
   references:
     version: 2
     RefIds:
     - rid: 0
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 003087c8920000000030c707910100000030c78db10100000030c778bd010000003047b856020000003047e25a020000003047c4cd020000003087e9750400000030c74b34403f000030c71ce95d3f00
+        m_Entries: 003087c8920000000030c707910100000030c78db10100000030c778bd010000003047b856020000003047e25a020000003047c4cd020000003087e9750400000030c74b34403f000030c71ce95d3f000030474272516f020030073681516f020030870f93516f02003047ffa1516f0200308760b2516f02

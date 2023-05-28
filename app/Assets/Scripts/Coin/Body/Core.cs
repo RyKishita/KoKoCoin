@@ -122,6 +122,14 @@ namespace Assets.Scripts.Coin.Body
             return selectCoinType.HasFlag(CoinType);
         }
 
+        public bool IsCoinTypeOther()
+        {
+            return CoinType != Defines.CoinType.SetAttack &&
+                    CoinType != Defines.CoinType.DirectAttack &&
+                    CoinType != Defines.CoinType.Support &&
+                    CoinType != Defines.CoinType.Guard;
+        }
+
         public bool IsUseForce => Effects.Any(effect => effect is IEffectUseForce);
 
         public virtual IEnumerable<string> GetPrefabNames()

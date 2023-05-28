@@ -1293,6 +1293,26 @@ MonoBehaviour:
     m_Localized: Log
     m_Metadata:
       m_Items: []
+  - m_Id: 182369904505597952
+    m_Localized: Limit on the number of installed attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370078397247488
+    m_Localized: Limit on the number of direct attack coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370161016647680
+    m_Localized: Limit on the number of defensive coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370226414235648
+    m_Localized: Limit on number of support coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182370293745397760
+    m_Localized: Limitations on the number of other coins
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

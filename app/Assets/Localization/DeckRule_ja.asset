@@ -93,10 +93,55 @@ MonoBehaviour:
     m_Localized: "\u30B5\u30A4\u30C9\u30C7\u30C3\u30AD\u3092\u4F7F\u7528\u3059\u308B"
     m_Metadata:
       m_Items: []
+  - m_Id: 175448420465979392
+    m_Localized: "\u8A2D\u7F6E\u653B\u6483\u30B3\u30A4\u30F3\u306E\u679A\u6570\u3092\u5236\u9650"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448461670821888
+    m_Localized: "\u8A2D\u7F6E\u653B\u6483\u30B3\u30A4\u30F3\u306E\u679A\u6570\u5236\u9650[{num}]"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448525889810432
+    m_Localized: "\u76F4\u63A5\u653B\u6483\u30B3\u30A4\u30F3\u306E\u679A\u6570\u5236\u9650[{num}]"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448500275195904
+    m_Localized: "\u76F4\u63A5\u653B\u6483\u30B3\u30A4\u30F3\u306E\u679A\u6570\u3092\u5236\u9650"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448567191121920
+    m_Localized: "\u9632\u5FA1\u30B3\u30A4\u30F3\u306E\u679A\u6570\u3092\u5236\u9650"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448602553298944
+    m_Localized: "\u9632\u5FA1\u30B3\u30A4\u30F3\u306E\u679A\u6570\u5236\u9650[{num}]"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448634157379584
+    m_Localized: "\u30B5\u30DD\u30FC\u30C8\u30B3\u30A4\u30F3\u306E\u679A\u6570\u3092\u5236\u9650"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448666705178624
+    m_Localized: "\u30B5\u30DD\u30FC\u30C8\u30B3\u30A4\u30F3\u306E\u679A\u6570\u5236\u9650[{num}]"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 175448704600715264
+    m_Localized: "\u305D\u306E\u4ED6\u30B3\u30A4\u30F3\u306E\u679A\u6570\u3092\u5236\u9650"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175448737056239616
+    m_Localized: "\u305D\u306E\u4ED6\u30B3\u30A4\u30F3\u306E\u679A\u6570\u5236\u9650[{num}]"
+    m_Metadata:
+      m_Items:
+      - rid: 0
   references:
     version: 2
     RefIds:
     - rid: 0
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 003087c8920000000030c70791010000003047c4cd0200000030c778bd010000003087e9750400000030c78db1010000003047b856020000003047e25a0200000030c74b34403f000030c71ce95d3f00
+        m_Entries: 003087c8920000000030c70791010000003047c4cd0200000030c778bd010000003087e9750400000030c78db1010000003047b856020000003047e25a0200000030c74b34403f000030c71ce95d3f000030474272516f020030073681516f020030870f93516f02003047ffa1516f0200308760b2516f02
