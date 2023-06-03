@@ -1867,6 +1867,22 @@ MonoBehaviour:
     m_Key: HeresyIdol
     m_Metadata:
       m_Items: []
+  - m_Id: 179372976138301440
+    m_Key: AppendValueByDyingLife0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179373001559977984
+    m_Key: AppendValueByDyingLife1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179373017359921152
+    m_Key: AppendValueByDyingLife2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179373032954343424
+    m_Key: AppendValueByDyingLife3
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

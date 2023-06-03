@@ -462,3 +462,7 @@
 "NotUse",169498957356412928,"このコインは使用できない。","This coin cannot be used."
 "DimensionBeacon",169499044111396864,"このコインは一部コインの使用条件として参照される。","This coin is referenced as a condition for the use of some coins."
 "HeresyIdol",169500980541861888,"このコインは一部コインの使用条件として参照される。","This coin is referenced as a condition for the use of some coins."
+"AppendValueByDyingLife0",179372976138301440,"あなたの状態が瀕死である時、ダメージが{value}増加する。","When you are dying, damage is increased by {value}."
+"AppendValueByDyingLife1",179373001559977984,"あなたの状態が瀕死である時、ダメージが{value}減少する。","When you are dying, damage is reduced by {value}."
+"AppendValueByDyingLife2",179373017359921152,"対戦相手の状態が瀕死である時、ダメージが{value}増加する。","When the opponent is dying, damage is increased by {value}."
+"AppendValueByDyingLife3",179373032954343424,"対戦相手の状態が瀕死である時、ダメージが{value}減少する。","When the opponent is dying, damage is reduced by {value}."

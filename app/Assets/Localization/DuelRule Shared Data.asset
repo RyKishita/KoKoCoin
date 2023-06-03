@@ -363,6 +363,14 @@ MonoBehaviour:
     m_Key: conditionCounts
     m_Metadata:
       m_Items: []
+  - m_Id: 177312728296665088
+    m_Key: dyingLife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177548609167241216
+    m_Key: appendDamageByDying
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

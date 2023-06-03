@@ -1275,6 +1275,14 @@ MonoBehaviour:
     m_Localized: "\u305D\u306E\u4ED6\u30B3\u30A4\u30F3\u306E\u679A\u6570\u5236\u9650"
     m_Metadata:
       m_Items: []
+  - m_Id: 184247794419576832
+    m_Localized: "\u7015\u6B7B\u72B6\u614B\u306B\u306A\u308B\u30E9\u30A4\u30D5\u91CF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184486330527854592
+    m_Localized: "\u7015\u6B7B\u72B6\u614B\u3067\u3042\u308B\u5834\u5408\u306B\u30C0\u30E1\u30FC\u30B8\u5897\u52A0"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

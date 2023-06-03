@@ -488,7 +488,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 75776408353714176
-    m_Localized: The name "{name}" was imported.
+    m_Localized: The name [{name}] was imported.
     m_Metadata:
       m_Items:
       - rid: 0
@@ -732,7 +732,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 156810242083467264
-    m_Localized: "\u201CQR Code\u201D is a registered trademark of DENSO WAVE INCORPORATED. "
+    m_Localized: 'QR Code is a registered trademark of DENSO WAVE INCORPORATED. '
     m_Metadata:
       m_Items: []
   - m_Id: 159391789848408064

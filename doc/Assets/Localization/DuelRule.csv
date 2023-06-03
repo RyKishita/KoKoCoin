@@ -86,3 +86,5 @@
 "overHandTrashToResource0",169982484120285184,"手持ち上限によりコインを捨てた場合、そのサイズと同じ行動力を得る","If a coin is discarded due to the maximum handhold limit, it gains a power of action equal to its size."
 "overHandTrashToResource1",169982543234805760,"手持ち上限によりコインを捨てても行動力は得られない","No action is gained by discarding coins due to the upper limit of handholding."
 "conditionCounts",170000828215013376,"個別の状態異常発動カウント {value}","Individual condition activation counts, {value}"
+"dyingLife",177312728296665088,"瀕死状態になるライフ量 {life}","Dying life amount {life}"
+"appendDamageByDying",177548609167241216,"瀕死状態である場合にダメージ増加 {value}","Increased damage when dying {value}"

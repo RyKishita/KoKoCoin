@@ -13,6 +13,6 @@ namespace Assets.Scripts.Coin.v1.Body
             Animation = new Scripts.Duel.DuelAnimation.DirectAttack.DirectAttackAnimationNearStab(Defines.SoundEffect.DirectAttackStab);
         }
 
-        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] { new Effect.AppendValueByLifeUnder(false, 500, 1000) };
+        public override Assets.Scripts.Coin.Effect.IEffect[] Effects { get; } = new Assets.Scripts.Coin.Effect.IEffect[] { new Effect.AppendValueByDyingLife(false, 1000) };
     }
 }

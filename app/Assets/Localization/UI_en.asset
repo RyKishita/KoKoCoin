@@ -1313,6 +1313,14 @@ MonoBehaviour:
     m_Localized: Limitations on the number of other coins
     m_Metadata:
       m_Items: []
+  - m_Id: 184247794419576832
+    m_Localized: Dying life amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184486330527854592
+    m_Localized: Increased damage when dying
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
