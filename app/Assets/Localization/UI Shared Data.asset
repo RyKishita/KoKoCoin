@@ -1279,6 +1279,10 @@ MonoBehaviour:
     m_Key: AppendDamageByDying
     m_Metadata:
       m_Items: []
+  - m_Id: 187452396124188672
+    m_Key: AbortDuel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

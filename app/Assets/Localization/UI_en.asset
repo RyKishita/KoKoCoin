@@ -1321,6 +1321,10 @@ MonoBehaviour:
     m_Localized: Increased damage when dying
     m_Metadata:
       m_Items: []
+  - m_Id: 187452396124188672
+    m_Localized: Abort the duel
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
