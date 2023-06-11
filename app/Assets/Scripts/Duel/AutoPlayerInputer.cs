@@ -168,38 +168,47 @@ namespace Assets.Scripts.Duel
                     break;
                 default:
                     {
-                        // 初期値として、一番中央に近い場所
-                        int centerNo = duelData.FieldData.AreaCenterNo;
-                        result = movableAreaNos.OrderBy(p => Math.Abs(p - centerNo)).First();
+                        // より有利なところを探す
+
+                        // 初期値として中央に近い場所
+                        int centerAreaNo = duelData.FieldData.AreaCenterNo;
+                        result = movableAreaNos.OrderBy(p => Math.Abs(p - centerAreaNo)).First();
+
+                        int life = duelData.Players[playerNo].Life;
+
+                        bool checkAdvantageAreaNo(int checkAreaNo)
+                        {
+                            // より安全なエリアを選択
+                            // 現在のライフより小さいダメージなら安全とする
+                            int getSafeAreaCount(int areaNo) => duelData.GetPlayerMovableAllAreaNos(playerNo, areaNo)
+                                        .GroupBy(no => Math.Abs(no - areaNo))
+                                        .Count(g => g.Any(no => duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, no) < life));
+
+                            int countCheck = getSafeAreaCount(checkAreaNo);
+                            int countBase = getSafeAreaCount(result);
+                            if (countCheck != countBase) return countBase < countCheck;
+
+                            // どちらも同等に安全な場合
+                            // 空き地である方を選択
+                            bool isEmptyArea(int areaNo) => duelData.FieldData.AreaDatas[areaNo].GetCoinsByOwner(playerNo).Count == 0;
+
+                            bool bEmptyCheck = isEmptyArea(checkAreaNo);
+                            bool bEmptyBase = isEmptyArea(result);
+                            if (bEmptyCheck != bEmptyBase) return bEmptyCheck;
+
+                            // どちらも空き地またはどちらも空き地ではない場合
+                            // 中央に近い順でチェックしているので元の方が優勢
+                            return false;
+                        }
+
                         int damage = duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, result);
-
-                        int getSafeDiceCount(int checkAreaNo)
-                        {
-                            return duelData.GetPlayerMovableAllAreaNos(playerNo, checkAreaNo)
-                                    .GroupBy(areaNo => Math.Abs(areaNo - checkAreaNo))
-                                    .Count(g => g.Any(areaNo => 0 == duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, areaNo)));
-                        }
-
-                        bool checkAdvantageAreaNo(int checkAreaNo, int currentAreaNo)
-                        {
-                            int checkAreaCount = getSafeDiceCount(checkAreaNo);
-                            int currentAreaCount = getSafeDiceCount(currentAreaNo);
-
-                            return checkAreaCount == currentAreaCount
-                                ? Math.Abs(checkAreaNo - centerNo) < Math.Abs(currentAreaNo - centerNo)
-                                : currentAreaCount < checkAreaCount;
-                        }
-
-                        // それ以外の場所でより有利なところを探す
-                        // ダメージが少ない、もしくはダメージが同じならその後が有利な方
                         foreach (int areaNo in movableAreaNos.Where(no => no != result).ToList())
                         {
                             int d = duelData.CalcSetAttackTotalDamageByOtherTeams(playerNo, areaNo);
 
-                            WriteLog(nameof(SelectMoveArea), result, damage, areaNo, d);
-
+                            // ダメージが少ない、もしくはダメージが同じならその後が有利な方
                             if (d < damage ||
-                                d == damage && checkAdvantageAreaNo(areaNo, result))
+                                d == damage && checkAdvantageAreaNo(areaNo))
                             {
                                 result = areaNo;
                                 damage = d;
@@ -375,27 +384,40 @@ namespace Assets.Scripts.Duel
             // 現在のエリアのダメージ
             int currentAreaTotalDamage = currentArea.GetCoinsByOwner(player.PlayerNo).Sum(item => item.GetSetAttackDamage(duelData));
 
-            // 敵対プレイヤー全員のライフ全てを奪えるダメージ量が既にあるなら、置き換えはしない
-            if (duelData.GetOtherTeamPlayers(player.PlayerNo).All(player => player.Life <= currentAreaTotalDamage)) return null;
+            List<SelectedCoinData> coins;
+            if (0 < currentAreaTotalDamage)
+            {
+                // 敵対プレイヤー全員のライフ全てを奪えるダメージ量が既にあるなら、置き換えはしない
+                if (duelData.GetOtherTeamPlayers(player.PlayerNo).All(player => player.Life <= currentAreaTotalDamage)) return null;
 
-            // 今よりダメージが多くなる場合に配置
-            var coins = uses.Select(coin =>
-                            {
-                                int damage = coin.GetSetAttackDamage(duelData, true);
-                                if (coin.IsCoexistence())
+                // 今よりダメージが多くなる場合に配置
+                coins = uses.Select(coin =>
                                 {
-                                    damage += currentAreaTotalDamage;
-                                }
-                                return new { Coin = coin, Damage = damage };
-                            })
-                            .Where(item => currentAreaTotalDamage < item.Damage)
-                            .OrderByDescending(item => item.Damage)
-                            .Select(item => item.Coin);
+                                    int damage = coin.GetSetAttackDamage(duelData, true);
+                                    if (coin.IsCoexistence())
+                                    {
+                                        damage += currentAreaTotalDamage;
+                                    }
+                                    return new { Coin = coin, Damage = damage };
+                                })
+                                .Where(item => currentAreaTotalDamage < item.Damage)
+                                .OrderByDescending(item => item.Damage)
+                                .Select(item => item.Coin)
+                                .ToList();
+            }
+            else
+            {
+                // 配置されているのにダメージがゼロなら特殊な効果を持つもの。そのままにしておく
+                if (currentArea.GetCoinsByOwner(player).Any()) return null;
+
+                // 何もないならどれでもいいので配置
+                coins = uses.ToList();
+            }
 
             return GetUseCoinInfo(player, coins);
         }
 
-        public ActionItem SelectCoin(Player player, Defines.CoinType selectCoinType)
+        public ActionItem SelectCoin(Player player, Defines.CoinType selectCoinType, int actionCount)
         {
             var usableCoins = player.Hand
                                 .GetSeparateItems()
@@ -414,6 +436,13 @@ namespace Assets.Scripts.Duel
             if (selectCoinType.HasFlag(Defines.CoinType.SetAttack))
             {
                 var traps = usableCoins.Where(scc => scc.GetCoinBody().IsCoinType(Defines.CoinType.SetAttack)).ToList();
+
+                // 同ステップ内の二回目は配置済みとなるため、重ね置き可能なもののみ対象
+                if (0 < actionCount)
+                {
+                    traps = traps.Where(scd => scd.IsCoexistence()).ToList();
+                }
+
                 if (0 < traps.Count)
                 {
                     var actionItem = SelectSetAttack(player, traps);
