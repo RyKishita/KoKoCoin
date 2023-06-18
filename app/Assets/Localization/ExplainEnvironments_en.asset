@@ -29,11 +29,6 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
-  - m_Id: 2591086292992
-    m_Localized: Additional coin types used. Step{no} {type}
-    m_Metadata:
-      m_Items:
-      - rid: 0
   - m_Id: 3916838678528
     m_Localized: '[{name}]Damage {value} increase'
     m_Metadata:

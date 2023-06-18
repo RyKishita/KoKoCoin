@@ -29,7 +29,6 @@ compensator"
 "v1.ClearAreaStatus",4355017617408,"クリアエリア","Clear area status"
 "v1.ClearALLAreaStatus",4429592342528,"フィールド
 リセット","Reset field"
-"v1.AfterShot",4503672139776,"後打ち法","After shot"
 "v1.ExpandArea",4557946433536,"領土拡大法","Expand area"
 "v1.NoNeedCoin",4611126013952,"要求禁止令","No need"
 "v1.NoAppendValue",4672404795392,"強化禁止令","Reinforcement
@@ -396,4 +395,5 @@ left leg"
 "Dust",18623515537408,"ごみ","Dust"
 "v1.HeresyBishop",83706041103495168,"邪教の司祭","Heresy bishop"
 "v1.ClearMySkipGuard",157199979403227136,"生存本能","Survival
+instinct"ard",157199979403227136,"生存本能","Survival
 instinct"

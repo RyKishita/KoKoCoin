@@ -29,7 +29,6 @@ namespace Assets.Scripts.Coin.v1
             Regist<ClearSetStatusALL>();
             Regist<ClearAreaStatus>();
             Regist<ClearALLAreaStatus>();
-            Regist<AfterShot>();
             Regist<ExpandArea>();
             Regist<NoNeedCoin>();
             Regist<ExpandTurnResource>();

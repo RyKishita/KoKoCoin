@@ -19,11 +19,6 @@ MonoBehaviour:
     m_Items:
     - rid: 0
   m_TableData:
-  - m_Id: 3257255014400
-    m_Localized: '{directattackcoin} can be used in step {no} of coin use.'
-    m_Metadata:
-      m_Items:
-      - rid: 0
   - m_Id: 4098548510720
     m_Localized: The base value of the damage caused by [{name}] is increased by
       {value}.

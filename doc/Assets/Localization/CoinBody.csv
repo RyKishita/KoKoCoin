@@ -1,5 +1,4 @@
 ﻿Key,Id,Japanese(ja),English(en)
-"AfterShot",3257255014400,"コイン使用ステップ{no}で{directattackcoin}が使用できる。","{directattackcoin} can be used in step {no} of coin use."
 "AppendConditionDamage0",4098548510720,"[{name}]によるダメージ基準値が{value}増加する。","The base value of the damage caused by [{name}] is increased by {value}."
 "AppendConditionDamage1",4113014665216,"[{name}]によるダメージ基準値が{value}減少する。","The base value of damage caused by [{name}] is reduced by {value}."
 "AdjustDice0",6074904555520,"ダイスによる移動量が{value}増加する。","The amount of movement by dice is increased by {value}."
@@ -60,4 +59,4 @@
 "ProgressTurnALLSetCoinsByPlayer2",60772093335646208,"他のプレイヤーが所有する、全ての{settedcoin}の経過ターン数を{value}進める。","Advance {value} the number of turns elapsed for all {settedcoin} owned by other players."
 "ProgressTurnALLSetCoinsByPlayer3",60772116429484032,"他のプレイヤーが所有する、全ての{settedcoin}の経過ターン数を{value}戻す。","Return {value} the number of turns elapsed for all {settedcoin} owned by other players."
 "ProgressTurnHandCoinsByPlayer2",60773314800857088,"他のプレイヤーの手持ちコインの経過ターン数を{value}進める。","Advance {value} the number of elapsed turns of the other players' coins."
-"ProgressTurnHandCoinsByPlayer3",60773334799298560,"他のプレイヤーの手持ちコインの経過ターン数を{value}戻す。","Return {value} the number of elapsed turns of the other players' coins."�{value}戻す。","Return {value} the number of elapsed turns of the other players' coins."
+"ProgressTurnHandCoinsByPlayer3",60773334799298560,"他のプレイヤーの手持ちコインの経過ターン数を{value}戻す。","Return {value} the number of elapsed turns of the other players' coins."560,"他のプレイヤーの手持ちコインの経過ターン数を{value}戻す。","Return {value} the number of elapsed turns of the other players' coins."�{value}戻す。","Return {value} the number of elapsed turns of the other players' coins."

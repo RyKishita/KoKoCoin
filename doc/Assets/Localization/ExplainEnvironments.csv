@@ -1,7 +1,6 @@
 ﻿Key,Id,Japanese(ja),English(en)
 "IEnvironmentChangeDice0",1530367782912,"移動時ダイス目+{value}","Movement dice +{value}"
 "IEnvironmentChangeDice1",1573598474240,"移動時ダイス目-{value}","Movement dice -{value}"
-"IEnvironmentAddUsableCoinType",2591086292992,"使用コイン種類追加 ステップ{no} {type}","Additional coin types used. Step{no} {type}"
 "IEnvironmentAppendConditionDamage0",3916838678528,"[{name}]ダメージ {value}増加","[{name}]Damage {value} increase"
 "IEnvironmentAppendConditionDamage1",3928352043008,"[{name}]ダメージ {value}減少","[{name}]Damage {value} reduced"
 "IEnvironmentExpandArea",180464870961152,"両端にエリア追加","Add areas at both ends"
@@ -18,4 +17,5 @@
 "IEnvironmentTurnAdd1",729365097164800,"ターン毎の加算数{value}減少","Decrease in the number of additions per turn {value}"
 "IEnvironmentMustUse1",6596172656640,"コイン使用強制","Forced use of coins"
 "IEnvironmentNoNeed1",6702972219392,"使用制限無効化","Disable usage restrictions"
+"IEnvironmentReverseSet1",6738363756544,"裏向き配置","Placement in reverse"702972219392,"使用制限無効化","Disable usage restrictions"
 "IEnvironmentReverseSet1",6738363756544,"裏向き配置","Placement in reverse"

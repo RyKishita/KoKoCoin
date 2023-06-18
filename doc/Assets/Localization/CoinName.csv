@@ -16,7 +16,6 @@
 "v1.ClearSetStatusALL",4300651048960,"イレースオール","Erase all"
 "v1.ClearAreaStatus",4355017617408,"クリアエリア","Clear area status"
 "v1.ClearALLAreaStatus",4429592342528,"フィールドリセット","Reset field "
-"v1.AfterShot",4503672139776,"後打ち法","After shot"
 "v1.ExpandArea",4557946433536,"領土拡大法","Expand area"
 "v1.NoNeedCoin",4611126013952,"要求禁止令","No need"
 "v1.NoAppendValue",4672404795392,"強化禁止令","Reinforcement prohibition"
@@ -274,4 +273,4 @@
 "v1.ChiefNinja",18574404431872,"上級忍者","Chief ninja"
 "Dust",18623515537408,"ごみ","Dust"
 "v1.HeresyBishop",83706537503567872,"邪教の司祭","Heresy bishop"
-"v1.ClearMySkipGuard",157200387567726592,"生存本能","Survival instinct"
+"v1.ClearMySkipGuard",157200387567726592,"生存本能","Survival instinct"ard",157200387567726592,"生存本能","Survival instinct"

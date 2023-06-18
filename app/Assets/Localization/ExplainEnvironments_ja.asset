@@ -29,12 +29,6 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
-  - m_Id: 2591086292992
-    m_Localized: "\u4F7F\u7528\u30B3\u30A4\u30F3\u7A2E\u985E\u8FFD\u52A0 \u30B9\u30C6\u30C3\u30D7{no}
-      {type}"
-    m_Metadata:
-      m_Items:
-      - rid: 0
   - m_Id: 3916838678528
     m_Localized: "[{name}]\u30C0\u30E1\u30FC\u30B8 {value}\u5897\u52A0"
     m_Metadata:

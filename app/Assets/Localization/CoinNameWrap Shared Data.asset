@@ -83,10 +83,6 @@ MonoBehaviour:
     m_Key: v1.ClearALLAreaStatus
     m_Metadata:
       m_Items: []
-  - m_Id: 4503672139776
-    m_Key: v1.AfterShot
-    m_Metadata:
-      m_Items: []
   - m_Id: 4557946433536
     m_Key: v1.ExpandArea
     m_Metadata:

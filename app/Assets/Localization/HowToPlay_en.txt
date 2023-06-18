@@ -14,9 +14,9 @@ Other Coins: These coins have special effects not found in other coins. Most of 
 
 ■ How to proceed in a battle
 1. Draw Step: Gain 1 coin.
-2. Coin Use Step 1: Direct attack coins or support coins can be used.
+2. Coin Use Step 1: Any coin can be used.
 3. Move Step: Roll the dice to move. If there are multiple destinations, select one.
-4. Coin Use Step 2: Installed attack coins are used.
+4. Coin Use Step 2: Any coin can be used.
 5. Pass the turn to the opponent.
 
 ■ Rewards after the game

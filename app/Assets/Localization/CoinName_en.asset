@@ -86,10 +86,6 @@ MonoBehaviour:
     m_Localized: 'Reset field '
     m_Metadata:
       m_Items: []
-  - m_Id: 4503672139776
-    m_Localized: After shot
-    m_Metadata:
-      m_Items: []
   - m_Id: 4557946433536
     m_Localized: Expand area
     m_Metadata:
