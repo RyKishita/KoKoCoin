@@ -353,3 +353,8 @@ Code"
 "DyingLife",184247794419576832,"瀕死状態になるライフ量","Dying life amount"
 "AppendDamageByDying",184486330527854592,"瀕死状態である場合にダメージ増加","Increased damage when dying"
 "AbortDuel",187452396124188672,"デュエル中止","Abort the duel"
+"UsableSetCoin",190040322691510272,"設置・設置攻撃","Installation and installation attack"
+"UsableDirectAttackCoin",190040376294715392,"直接攻撃","Direct attack"
+"UsableSupportCoin",190040414580322304,"サポート","Support"
+"UsableCoinStep1",190040596508258304,"コイン使用ステップ1で使用可能なコイン種類","a"
+"UsableCoinStep2",190040694151655424,"コイン使用ステップ2で使用可能なコイン種類",

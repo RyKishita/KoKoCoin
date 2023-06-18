@@ -419,6 +419,58 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 0
+  - m_Id: 183100095309754368
+    m_Localized: Installation coins or installation attack coins can be used in Step
+      1 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100132752306176
+    m_Localized: Direct attack coins can be used in step 1 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100164025036800
+    m_Localized: Support coins can be used in step 1 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100196753190912
+    m_Localized: Installation coins or installation attack coins can be used in Step
+      2 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100224905359360
+    m_Localized: Direct attack coins can be used in step 2 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100254257098752
+    m_Localized: Support coins can be used in step 2 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101295400792064
+    m_Localized: Installation coins and installation attack coins cannot be used
+      in Step 1 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101367484100608
+    m_Localized: Cannot use direct attack coins in step 1 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101401936113664
+    m_Localized: Cannot use support coins in step 1 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101702768373760
+    m_Localized: Cannot use support coins in step 2 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101578306596864
+    m_Localized: Cannot use direct attack coins in step 2 of coin use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101440611790848
+    m_Localized: Installation coins and installation attack coins cannot be used
+      in Step 2 of coin use.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

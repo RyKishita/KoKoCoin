@@ -1325,6 +1325,22 @@ MonoBehaviour:
     m_Localized: Abort the duel
     m_Metadata:
       m_Items: []
+  - m_Id: 190040322691510272
+    m_Localized: Installation and installation attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040376294715392
+    m_Localized: Direct attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040414580322304
+    m_Localized: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040596508258304
+    m_Localized: a
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

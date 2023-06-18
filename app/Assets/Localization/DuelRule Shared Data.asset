@@ -371,6 +371,54 @@ MonoBehaviour:
     m_Key: appendDamageByDying
     m_Metadata:
       m_Items: []
+  - m_Id: 183100095309754368
+    m_Key: usableSetCoinByUseCoinStep1_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100132752306176
+    m_Key: usableDirectAttackCoinByUseCoinStep1_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100164025036800
+    m_Key: usableSupportCoinByUseCoinStep1_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100196753190912
+    m_Key: usableSetCoinByUseCoinStep2_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100224905359360
+    m_Key: usableDirectAttackCoinByUseCoinStep2_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183100254257098752
+    m_Key: usableSupportCoinByUseCoinStep2_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101295400792064
+    m_Key: usableSetCoinByUseCoinStep1_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101367484100608
+    m_Key: usableDirectAttackCoinByUseCoinStep1_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101401936113664
+    m_Key: usableSupportCoinByUseCoinStep1_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101440611790848
+    m_Key: usableSetCoinByUseCoinStep2_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101578306596864
+    m_Key: usableDirectAttackCoinByUseCoinStep2_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183101702768373760
+    m_Key: usableSupportCoinByUseCoinStep2_1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

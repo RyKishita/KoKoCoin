@@ -1283,6 +1283,26 @@ MonoBehaviour:
     m_Key: AbortDuel
     m_Metadata:
       m_Items: []
+  - m_Id: 190040322691510272
+    m_Key: UsableSetCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040376294715392
+    m_Key: UsableDirectAttackCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040414580322304
+    m_Key: UsableSupportCoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040596508258304
+    m_Key: UsableCoinStep1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190040694151655424
+    m_Key: UsableCoinStep2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
