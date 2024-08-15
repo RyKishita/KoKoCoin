@@ -1,4 +1,4 @@
-﻿Key,Id,Japanese(ja),English(en)
+Key,Id,Japanese(ja),English(en)
 "winNum",72201220096,"{value}本先取","{value} This first takes"
 "beginningLife",103192932352,"初期ライフ{value}","Initial life {value}"
 "emptyDeckActionLose",135291940864,"ストックからドローできなかったら敗北","If you fail to draw from the stock, you lose."
@@ -37,7 +37,7 @@
 "showDirectAttackCoinDetail0",1184283176960,"対戦相手が直接攻撃コインを使用した時、詳細を表示する","When an opponent uses a direct attack coin, show the details."
 "limitTimeAction",1211218997248,"一操作ごとの制限時間{value}秒","Time limit per operation {value} seconds"
 "limitTimeTotal",1240637845504,"一対戦毎の制限時間{value}秒","Time limit per match {value} seconds"
-"limitTimeTotalExtension",1265694617600,"一操作終了ごとに延長する制限時間{value}秒","Time limit to be extended for each completed operation {value} seconds"
+"limitTimeTotalRecruital",1265694617600,"一操作終了ごとに延長する制限時間{value}秒","Time limit to be extended for each completed operation {value} seconds"
 "turnAdd",1297965592576,"1ターン毎の経過ターン数{value}","Number of turns elapsed per turn {value}"
 "guardOverDirectAttackEven",1330622443520,"防御コインの効果が直接攻撃コインのダメージを上回った時、直接攻撃コイン使用者はダメージを受けない","When the effect of a defensive coin exceeds the damage of a direct attack coin, the user of the direct attack coin takes no damage."
 "directAttackOverGuardEven",1358753640448,"直接攻撃コインのダメージが防御コインの効果を上回った時、防御コイン使用者はダメージを受けない","When the damage of a direct attack coin exceeds the effect of a defensive coin, the user of the defensive coin takes no damage."
